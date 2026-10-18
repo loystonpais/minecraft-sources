@@ -1,0 +1,79 @@
+{
+  "1.21": {
+    "build": 615,
+    "time": "2026-06-16T15:33:05.430Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/5eda8bfd0691e5088701f87020c68964299586df0faba289a634122d282d598c/waterfall-1.21-615.jar",
+    "sha256": "5eda8bfd0691e5088701f87020c68964299586df0faba289a634122d282d598c"
+  },
+  "1.20": {
+    "build": 578,
+    "time": "2024-05-27T15:24:33.353Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/a6786337d4d41e19b5d0f771027b01956e6fb11a62244e762f5dae2e76c34644/waterfall-1.20-578.jar",
+    "sha256": "a6786337d4d41e19b5d0f771027b01956e6fb11a62244e762f5dae2e76c34644"
+  },
+  "1.19": {
+    "build": 535,
+    "time": "2023-06-07T21:12:43.522Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/0af08aa26cb46a1a524bbb79d23dffed434689599d04dd0f95ff50f84338f542/waterfall-1.19-535.jar",
+    "sha256": "0af08aa26cb46a1a524bbb79d23dffed434689599d04dd0f95ff50f84338f542"
+  },
+  "1.18": {
+    "build": 488,
+    "time": "2022-05-30T11:18:46.424Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/55a77b6355d200913fc5fa8715142d22b46abd416fe64e7902726ce4a53f21df/waterfall-1.18-488.jar",
+    "sha256": "55a77b6355d200913fc5fa8715142d22b46abd416fe64e7902726ce4a53f21df"
+  },
+  "1.17": {
+    "build": 454,
+    "time": "2021-11-16T22:53:17.527Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/abc6e7d456c80b9b602ad5c3f7045100f668e1179c1b9eb1fbd521775082b2ef/waterfall-1.17-454.jar",
+    "sha256": "abc6e7d456c80b9b602ad5c3f7045100f668e1179c1b9eb1fbd521775082b2ef"
+  },
+  "1.16": {
+    "build": 431,
+    "time": "2021-06-07T07:47:42.901Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/1b693eccdaba55236e93121c3e194f2ef5e55584a798156a17aed4e48c574879/waterfall-1.16-431.jar",
+    "sha256": "1b693eccdaba55236e93121c3e194f2ef5e55584a798156a17aed4e48c574879"
+  },
+  "1.15": {
+    "build": 350,
+    "time": "2020-06-23T17:40:07.066Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/4f5dfd27f9041a3a4a0a35745f168b674f48ef4019886d2acfd56d014fcb5448/waterfall-1.15-350.jar",
+    "sha256": "4f5dfd27f9041a3a4a0a35745f168b674f48ef4019886d2acfd56d014fcb5448"
+  },
+  "1.14": {
+    "build": 301,
+    "time": "2019-12-10T19:58:46.185Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/1915a52f45281630238b4b6e20b29e60539a177a63d694c6bc8b61f7a57ce3a1/waterfall-1.14-301.jar",
+    "sha256": "1915a52f45281630238b4b6e20b29e60539a177a63d694c6bc8b61f7a57ce3a1"
+  },
+  "1.13": {
+    "build": 276,
+    "time": "2019-04-22T19:59:05.831Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/978b0593d87676f52ae932fa69c1db52bc1ff1304eda12ab5e59f2bd982fcb10/waterfall-1.13-276.jar",
+    "sha256": "978b0593d87676f52ae932fa69c1db52bc1ff1304eda12ab5e59f2bd982fcb10"
+  },
+  "1.12": {
+    "build": 185,
+    "time": "2018-07-12T23:15:09.684Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/6032f30e9f57ce943d40e130b6112a2ee2fc8a9264fb1547db59443155684ef8/waterfall-1.12-185.jar",
+    "sha256": "6032f30e9f57ce943d40e130b6112a2ee2fc8a9264fb1547db59443155684ef8"
+  },
+  "1.11": {
+    "build": 108,
+    "time": "2017-04-28T20:25:10.039Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/a660a20dddfe0c3d86a011789ccda6d7401bd67a87c6e4f9dd3b13f0fa6afc2f/waterfall-1.11-108.jar",
+    "sha256": "a660a20dddfe0c3d86a011789ccda6d7401bd67a87c6e4f9dd3b13f0fa6afc2f"
+  }
+}

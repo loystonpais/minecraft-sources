@@ -1,0 +1,248 @@
+{
+  "26.3": {
+    "build": 2652,
+    "time": 1792207977287,
+    "md5": "bbf5d8703bc8ee5aa6c5251e1bbcaa78",
+    "url": "https://api.purpurmc.org/v2/purpur/26.3/2652/download"
+  },
+  "26.2": {
+    "build": 2633,
+    "time": 1789180874846,
+    "md5": "3f3c933f2d518af98571c7461fa42278",
+    "url": "https://api.purpurmc.org/v2/purpur/26.2/2633/download"
+  },
+  "26.1.2": {
+    "build": 2592,
+    "time": 1781553371655,
+    "md5": "0d01a9bcabd5e32b1e5e5d48901f1f17",
+    "url": "https://api.purpurmc.org/v2/purpur/26.1.2/2592/download"
+  },
+  "1.21.11": {
+    "build": 2568,
+    "time": 1775341335566,
+    "md5": "b8d5402ef8e38bf60cabc6eeddb3fa18",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21.11/2568/download"
+  },
+  "1.21.10": {
+    "build": 2535,
+    "time": 1765420672026,
+    "md5": "d48ae0c35eee5dca1e476dd5dc2ce2ea",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21.10/2535/download"
+  },
+  "1.21.9": {
+    "build": 2505,
+    "time": 1759812124754,
+    "md5": "4e7f78d84d62f99ea9613be33d6297c9",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21.9/2505/download"
+  },
+  "1.21.8": {
+    "build": 2497,
+    "time": 1758246365352,
+    "md5": "b8b2802525f5b85f986af49ac4b095aa",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21.8/2497/download"
+  },
+  "1.21.7": {
+    "build": 2477,
+    "time": 1752807771285,
+    "md5": "366994c6203cf00936255a2f3ddaafa4",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21.7/2477/download"
+  },
+  "1.21.6": {
+    "build": 2465,
+    "time": 1751309951429,
+    "md5": "41fbebfa73bb588d909d9829fcfea01a",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21.6/2465/download"
+  },
+  "1.21.5": {
+    "build": 2450,
+    "time": 1750136773989,
+    "md5": "93e0769dedf68e16c291dbe1d0cf177d",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21.5/2450/download"
+  },
+  "1.21.4": {
+    "build": 2416,
+    "time": 1744500645780,
+    "md5": "e3832b46efa4a2a56d31bc7ce26df6f0",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21.4/2416/download"
+  },
+  "1.21.3": {
+    "build": 2358,
+    "time": 1733316876194,
+    "md5": "7212e71081f6e1560d9b09a2aa316a4f",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21.3/2358/download"
+  },
+  "1.21.1": {
+    "build": 2329,
+    "time": 1730406106810,
+    "md5": "dc0026462cac76c869335feb43388a76",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21.1/2329/download"
+  },
+  "1.21": {
+    "build": 2284,
+    "time": 1723311202625,
+    "md5": "adb0fe06e26f7eaefb1359b2942245be",
+    "url": "https://api.purpurmc.org/v2/purpur/1.21/2284/download"
+  },
+  "1.20.6": {
+    "build": 2233,
+    "time": 1718683050390,
+    "md5": "d4ef6834b254dac98f7ad8b3b10bda54",
+    "url": "https://api.purpurmc.org/v2/purpur/1.20.6/2233/download"
+  },
+  "1.20.4": {
+    "build": 2176,
+    "time": 1713939818972,
+    "md5": "c753922385b06885306c0b36a689c97f",
+    "url": "https://api.purpurmc.org/v2/purpur/1.20.4/2176/download"
+  },
+  "1.20.2": {
+    "build": 2095,
+    "time": 1701908332854,
+    "md5": "6166a82fe6ab77479a7ea9192fbba85d",
+    "url": "https://api.purpurmc.org/v2/purpur/1.20.2/2095/download"
+  },
+  "1.20.1": {
+    "build": 2062,
+    "time": 1695437226456,
+    "md5": "59bbff70cc394c053a71baccc428063b",
+    "url": "https://api.purpurmc.org/v2/purpur/1.20.1/2062/download"
+  },
+  "1.20": {
+    "build": 1990,
+    "time": 1686535535799,
+    "md5": "6681fb59d88f5ff684969034e3522d2c",
+    "url": "https://api.purpurmc.org/v2/purpur/1.20/1990/download"
+  },
+  "1.19.4": {
+    "build": 1985,
+    "time": 1686252621435,
+    "md5": "9fc17be9cd5eeb4146d1d065d615a7ec",
+    "url": "https://api.purpurmc.org/v2/purpur/1.19.4/1985/download"
+  },
+  "1.19.3": {
+    "build": 1933,
+    "time": 1678853679241,
+    "md5": "d8a34ca5dc7eb86f2730d12567a46881",
+    "url": "https://api.purpurmc.org/v2/purpur/1.19.3/1933/download"
+  },
+  "1.19.2": {
+    "build": 1858,
+    "time": 1670432777708,
+    "md5": "86a9ab22bb0fe445761eb16aab8cf30a",
+    "url": "https://api.purpurmc.org/v2/purpur/1.19.2/1858/download"
+  },
+  "1.19.1": {
+    "build": 1751,
+    "time": 1659731442220,
+    "md5": "b2d2306346f234c21780542c3679fe73",
+    "url": "https://api.purpurmc.org/v2/purpur/1.19.1/1751/download"
+  },
+  "1.19": {
+    "build": 1735,
+    "time": 1658910194443,
+    "md5": "411f504d4acf4855b2c1bfa9f527adb7",
+    "url": "https://api.purpurmc.org/v2/purpur/1.19/1735/download"
+  },
+  "1.18.2": {
+    "build": 1632,
+    "time": 1654621809889,
+    "md5": "652a529d06ad6c4334f5a446c9eee4e6",
+    "url": "https://api.purpurmc.org/v2/purpur/1.18.2/1632/download"
+  },
+  "1.18.1": {
+    "build": 1566,
+    "time": 1646117235396,
+    "md5": "fcda4de026443dbb72924333c4ffe2f6",
+    "url": "https://api.purpurmc.org/v2/purpur/1.18.1/1566/download"
+  },
+  "1.18": {
+    "build": 1433,
+    "time": 1639107992377,
+    "md5": "12c29f9ae72726f08dd3132fce4e24b3",
+    "url": "https://api.purpurmc.org/v2/purpur/1.18/1433/download"
+  },
+  "1.17.1": {
+    "build": 1428,
+    "time": 1637673315051,
+    "md5": "c02ed1be905a0fd60b4ab4cd09f09967",
+    "url": "https://api.purpurmc.org/v2/purpur/1.17.1/1428/download"
+  },
+  "1.17": {
+    "build": 1255,
+    "time": 1625551299970,
+    "md5": "e73fb5348826c47c267c9588bd5a804d",
+    "url": "https://api.purpurmc.org/v2/purpur/1.17/1255/download"
+  },
+  "1.16.5": {
+    "build": 1171,
+    "time": 1623976042813,
+    "md5": "525c7aa92e6cef820c308a60f54a43ca",
+    "url": "https://api.purpurmc.org/v2/purpur/1.16.5/1171/download"
+  },
+  "1.16.4": {
+    "build": 956,
+    "time": 1610728031513,
+    "md5": "f6969ccbb0df490a9d1eeff1d7bb9507",
+    "url": "https://api.purpurmc.org/v2/purpur/1.16.4/956/download"
+  },
+  "1.16.3": {
+    "build": 808,
+    "time": 1604265186635,
+    "md5": "744618efe4d47bfcf5c7771f2fca9102",
+    "url": "https://api.purpurmc.org/v2/purpur/1.16.3/808/download"
+  },
+  "1.16.2": {
+    "build": 750,
+    "time": 1599693156829,
+    "md5": "a05fc7dae7eaf1c39e5046b3352f10e5",
+    "url": "https://api.purpurmc.org/v2/purpur/1.16.2/750/download"
+  },
+  "1.16.1": {
+    "build": 710,
+    "time": 1597470687521,
+    "md5": "7338d696bdf6d2c04fab0c3a68d9ad6a",
+    "url": "https://api.purpurmc.org/v2/purpur/1.16.1/710/download"
+  },
+  "1.15.2": {
+    "build": 606,
+    "time": 1593097494476,
+    "md5": "08a2688a1125df57e33191657cc88666",
+    "url": "https://api.purpurmc.org/v2/purpur/1.15.2/606/download"
+  },
+  "1.15.1": {
+    "build": 397,
+    "time": 1579370130786,
+    "md5": "71e72a2bc303c05b6b4c29c11777c980",
+    "url": "https://api.purpurmc.org/v2/purpur/1.15.1/397/download"
+  },
+  "1.15": {
+    "build": 346,
+    "time": 1576545896041,
+    "md5": "3a063fb1271fbb9b02a40f5cb2d5defc",
+    "url": "https://api.purpurmc.org/v2/purpur/1.15/346/download"
+  },
+  "1.14.4": {
+    "build": 337,
+    "time": 1576263135535,
+    "md5": "af5d07c76205e2442205860c3087fe68",
+    "url": "https://api.purpurmc.org/v2/purpur/1.14.4/337/download"
+  },
+  "1.14.3": {
+    "build": 202,
+    "time": 1563502646407,
+    "md5": "3d0a0f20512b0a7e7ecee1339979f49e",
+    "url": "https://api.purpurmc.org/v2/purpur/1.14.3/202/download"
+  },
+  "1.14.2": {
+    "build": 126,
+    "time": 1561346326986,
+    "md5": "7ab4a3b9ae737ea86f0c3cf358584203",
+    "url": "https://api.purpurmc.org/v2/purpur/1.14.2/126/download"
+  },
+  "1.14.1": {
+    "build": 63,
+    "time": 1558975626426,
+    "md5": "fe7f77052f2e7b6d396e2721c021932b",
+    "url": "https://api.purpurmc.org/v2/purpur/1.14.1/63/download"
+  }
+}
