@@ -230,6 +230,7 @@ def build_servers() -> None:
 
         for ver, info in raw_builds.items():
             entry = dict(info)
+            entry.pop("time", None)
             if "hash" not in entry:
                 if "sha256" in entry:
                     entry["hash"] = hex_to_sri(entry.pop("sha256"), "sha256")
