@@ -1,10 +1,11 @@
+from collections import defaultdict
 from updater.modloaders.base import BaseModloader
 from updater.config import PRISM_META_BASE, save_json, load_json, logger
 from updater.fetch import fetch_json
 
 
 class ForgeModloader(BaseModloader):
-    """Minecraft Forge raw data updater."""
+    """Minecraft Forge updater."""
 
     @property
     def name(self) -> str:
@@ -19,7 +20,7 @@ class ForgeModloader(BaseModloader):
         logger.info(f"Saved {len(loader_data.get('versions', []))} Forge versions to {self.raw_dir / 'manifest.json'}")
 
     def normalize(self) -> None:
-        """Generates forge/versions.json and forge/versions-list.json."""
+        """Generates forge/versions.json, forge/versions-list.json, forge/loaders.json, and forge/libraries.json."""
         manifest_file = self.raw_dir / "manifest.json"
         manifest_data = load_json(manifest_file)
         if not manifest_data:
@@ -30,8 +31,8 @@ class ForgeModloader(BaseModloader):
         save_json(self.output_dir / "versions-list.json", versions_list)
         logger.info(f"Saved {len(versions_list)} Forge versions to {self.output_dir / 'versions-list.json'}")
 
-        # Index by Minecraft version -> list of compatible forge builds
-        by_game_version: dict[str, list[dict]] = {}
+        # 1. Index by Minecraft version
+        by_game_version: dict[str, list[dict]] = defaultdict(list)
         for v in raw_versions:
             forge_ver = v.get("version")
             requires = v.get("requires", [])
@@ -44,9 +45,6 @@ class ForgeModloader(BaseModloader):
             if not mc_ver:
                 continue
 
-            if mc_ver not in by_game_version:
-                by_game_version[mc_ver] = []
-
             by_game_version[mc_ver].append({
                 "version": forge_ver,
                 "releaseTime": v.get("releaseTime"),
@@ -54,6 +52,73 @@ class ForgeModloader(BaseModloader):
                 "sha256": v.get("sha256"),
             })
 
-        save_json(self.output_dir / "versions.json", by_game_version)
+        save_json(self.output_dir / "versions.json", dict(by_game_version))
         logger.info(f"Saved Forge versions for {len(by_game_version)} MC versions to {self.output_dir / 'versions.json'}")
 
+        # 2. Pick recommended build (or latest if no recommended) per MC version
+        selected_versions: list[str] = []
+        for mc_ver, v_list in by_game_version.items():
+            rec = next((v for v in v_list if v.get("recommended")), None)
+            selected = rec if rec else v_list[0]
+            selected_versions.append(selected["version"])
+
+        # 3. Load existing caches
+        loaders_file = self.output_dir / "loaders.json"
+        existing_loaders = load_json(loaders_file) or {}
+        loaders: dict[str, dict] = dict(existing_loaders)
+
+        libraries_file = self.output_dir / "libraries.json"
+        existing_libraries = load_json(libraries_file) or {}
+        libraries: dict[str, dict] = dict(existing_libraries)
+
+        # 4. Fetch component spec for selected builds
+        logger.info(f"Fetching Forge loader specs for {len(selected_versions)} recommended/latest builds...")
+        for idx, ver in enumerate(selected_versions, 1):
+            if ver in loaders and loaders[ver].get("dependencies"):
+                continue
+
+            try:
+                comp_url = f"{PRISM_META_BASE}/net.minecraftforge/{ver}.json"
+                spec = fetch_json(comp_url, delay=0.02)
+                raw_libs = spec.get("libraries", [])
+
+                dep_names = []
+                for lib_entry in raw_libs:
+                    name = lib_entry.get("name")
+                    if not name:
+                        continue
+                    dep_names.append(name)
+
+                    # Extract download URL and hashes
+                    dl = lib_entry.get("downloads", {}).get("artifact", {})
+                    url = dl.get("url")
+                    if not url and "url" in lib_entry:
+                        url = lib_entry["url"]
+
+                    sha1 = dl.get("sha1") or lib_entry.get("sha1")
+                    sha256 = dl.get("sha256") or lib_entry.get("sha256")
+
+                    if url and (sha1 or sha256):
+                        entry = {"url": url}
+                        if sha256:
+                            entry["sha256"] = sha256
+                        if sha1:
+                            entry["sha1"] = sha1
+                        libraries[name] = entry
+
+                loaders[ver] = {
+                    "version": ver,
+                    "dependencies": dep_names,
+                    "mainClass": spec.get("mainClass"),
+                    "minecraftArguments": spec.get("minecraftArguments"),
+                }
+                if idx % 20 == 0:
+                    logger.info(f"  [{idx}/{len(selected_versions)}] Processed Forge build {ver}...")
+            except Exception as e:
+                logger.warning(f"Could not fetch Forge spec for {ver}: {e}")
+
+        save_json(loaders_file, loaders)
+        logger.info(f"Saved {len(loaders)} loader versions to {loaders_file}")
+
+        save_json(libraries_file, libraries)
+        logger.info(f"Saved {len(libraries)} libraries to {libraries_file}")
