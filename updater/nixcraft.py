@@ -84,10 +84,23 @@ def build_mojang() -> None:
     versions_list = load_json(REPO_ROOT / "mojang" / "versions-list.json") or []
     data_versions = load_json(REPO_ROOT / "mojang" / "data-versions.json") or {}
 
+    raw_versions = versions_data.get("versions", {})
+    clean_versions: dict[str, dict[str, Any]] = {}
+    for v_id, v_info in raw_versions.items():
+        entry: dict[str, Any] = {
+            "type": v_info.get("type"),
+            "url": v_info.get("url"),
+        }
+        if "hash" in v_info:
+            entry["hash"] = v_info["hash"]
+        elif "sha1" in v_info:
+            entry["hash"] = hex_to_sri(v_info["sha1"], "sha1")
+        clean_versions[v_id] = entry
+
     mojang_consolidated = {
         "latest": versions_data.get("latest", {}),
         "versions_list": versions_list,
-        "versions": versions_data.get("versions", {}),
+        "versions": clean_versions,
         "data_versions": data_versions,
     }
 
@@ -133,17 +146,40 @@ def build_fabric_and_quilt() -> None:
 
 
 def build_forge_and_neoforge() -> None:
-    """Consolidates forge.json and neoforge.json (versions, game_versions, loaders)."""
+    """Consolidates forge.json and neoforge.json with optimized game_versions and loaders."""
     for loader in ["forge", "neoforge"]:
         logger.info(f"==> Building nixcraft/{loader}.json...")
-        versions_list = load_json(REPO_ROOT / loader / "versions-list.json") or []
         by_game_version = load_json(REPO_ROOT / loader / "versions.json") or {}
         loaders_data = load_json(REPO_ROOT / loader / "loaders.json") or {}
 
+        # 1. Clean game_versions: directly map mc_version -> recommended/pinned loader version
+        clean_game_versions: dict[str, str] = {}
+        for gv, items in by_game_version.items():
+            if isinstance(items, list):
+                rec_list = [it["version"] for it in items if isinstance(it, dict) and it.get("recommended")]
+                all_v = [it["version"] if isinstance(it, dict) else it for it in items]
+                rec = rec_list[0] if rec_list else (all_v[0] if all_v else None)
+                if rec:
+                    clean_game_versions[gv] = rec
+            elif isinstance(items, dict):
+                rec = items.get("recommended") or (items.get("versions", [None])[0])
+                if rec:
+                    clean_game_versions[gv] = rec
+            elif isinstance(items, str):
+                clean_game_versions[gv] = items
+
+        # 2. Clean loaders: strip redundant 'version' key inside the object
+        clean_loaders: dict[str, dict[str, Any]] = {}
+        for l_ver, l_info in loaders_data.items():
+            if isinstance(l_info, dict):
+                clean_loaders[l_ver] = {k: v for k, v in l_info.items() if k != "version"}
+            else:
+                clean_loaders[l_ver] = l_info
+
         consolidated = {
-            "versions": versions_list,
-            "game_versions": by_game_version,
-            "loaders": loaders_data,
+            "versions": list(clean_loaders.keys()),
+            "game_versions": clean_game_versions,
+            "loaders": clean_loaders,
         }
 
         dest = NIXCRAFT_DIR / f"{loader}.json"
@@ -152,14 +188,26 @@ def build_forge_and_neoforge() -> None:
 
 
 def build_lwjgl() -> None:
-    """Consolidates lwjgl.json (versions, components)."""
+    """Consolidates lwjgl.json (clean versions and stripped library components)."""
     logger.info("==> Building nixcraft/lwjgl.json...")
     versions_list = load_json(REPO_ROOT / "lwjgl" / "versions-list.json") or []
     components_data = load_json(REPO_ROOT / "lwjgl" / "versions.json") or {}
 
+    clean_components: dict[str, list[dict[str, Any]]] = {}
+    for ver, comp in components_data.items():
+        clean_libs: list[dict[str, Any]] = []
+        for lib in comp.get("libraries", []):
+            entry: dict[str, Any] = {"name": lib["name"]}
+            if "rules" in lib and lib["rules"]:
+                entry["rules"] = lib["rules"]
+            if "natives" in lib and lib["natives"]:
+                entry["natives"] = lib["natives"]
+            clean_libs.append(entry)
+        clean_components[ver] = clean_libs
+
     consolidated = {
         "versions": versions_list,
-        "components": components_data,
+        "components": clean_components,
     }
 
     dest = NIXCRAFT_DIR / "lwjgl.json"
@@ -168,13 +216,16 @@ def build_lwjgl() -> None:
 
 
 def build_servers() -> None:
-    """Normalizes and exports server software builds with SRI hashes."""
+    """Normalizes and exports server software with versions list and builds map (with SRI hashes)."""
     for s_name in SERVER_PROJECTS:
-        src = REPO_ROOT / s_name / "builds.json"
-        if not src.exists():
+        builds_src = REPO_ROOT / s_name / "builds.json"
+        if not builds_src.exists():
             continue
 
-        raw_builds = load_json(src) or {}
+        versions_src = REPO_ROOT / s_name / "versions-list.json"
+        versions_list = load_json(versions_src) if versions_src.exists() else None
+
+        raw_builds = load_json(builds_src) or {}
         sri_builds: dict[str, dict[str, Any]] = {}
 
         for ver, info in raw_builds.items():
@@ -188,8 +239,17 @@ def build_servers() -> None:
                     entry["hash"] = hex_to_sri(entry.pop("sha1"), "sha1")
             sri_builds[ver] = entry
 
+        # Fall back to builds keys if versions-list.json is missing
+        if versions_list is None:
+            versions_list = list(sri_builds.keys())
+
+        consolidated = {
+            "versions": versions_list,
+            "builds": sri_builds,
+        }
+
         dest = NIXCRAFT_DIR / f"{s_name}.json"
-        save_json(dest, sri_builds)
+        save_json(dest, consolidated)
         logger.info(f"Saved {dest} ({len(sri_builds)} versions)")
 
 
