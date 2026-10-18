@@ -1,0 +1,4012 @@
+[
+  {
+    "maven": "org.quiltmc:hashed:24w05a",
+    "version": "24w05a",
+    "file_size": 866716,
+    "hashes": {
+      "sha1": "d3330b5cf5f1e5f88fe1acda7db3b5522faa1b34",
+      "sha256": "fd246baf61fb050b55e965a3544d8541910e560a9b61d50fd552fb0b04e12523",
+      "sha512": "34f33505c49866a7b07c3fd49941047356719fad9d27ed50f77f036851774f3d5103fa7e467268b2d02e7a898337009ec2e8ca20ec78fc4cdd7b97aae2b014b1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w44a",
+    "version": "22w44a",
+    "file_size": 741871,
+    "hashes": {
+      "sha1": "8386ce3295af4e9ccf2ea49532baa37dc508c7df",
+      "sha256": "c7f29192c3fab3ac0e52429357775fc48c2e8cfc0f37ca215e196feacfb23c82",
+      "sha512": "696c3adb9c5c2463c23c9308541fed1eed068b2bb3cd0487a9d84acbeb9e475d6ab7376b5bc9fdbb438801fa58301ecb1c82c6ef3af753f22186608661748a30"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w05b",
+    "version": "24w05b",
+    "file_size": 866779,
+    "hashes": {
+      "sha1": "8e48aed8da8bcb0b186f11f7c4e002a5e63c52a7",
+      "sha256": "feb05094a4d75ed590ae4d669b359419239ec8dac50457868419dcbbf8a68be6",
+      "sha512": "94dbad37c7f531a39528488b154e668d2c18369cfa330a963d2af086ea07b0e9ce0f14bb6734f768a7779a35d203ded6177d3f355dcc60be7c5c0785cca1fd5e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w09a",
+    "version": "25w09a",
+    "file_size": 1002756,
+    "hashes": {
+      "sha1": "96290cf65f98601e9219b0e483538a8de204338e",
+      "sha256": "7ffd55d985845ca06c09bfec55da4a351a751df21686b36a7ff1699a30444cd0",
+      "sha512": "96a73edeb438645f424fbcf4fe46c03f6b9b3255a57ea5733d3ac070e166815aa505b1af81d1d0eb941eb03e165b48ea98487d498acde427d7c6f4b816946cd0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w09b",
+    "version": "25w09b",
+    "file_size": 1002876,
+    "hashes": {
+      "sha1": "1a7a2c8c32d451543069da357c1c8c1f41c4bb08",
+      "sha256": "7fe1187ffa186ed56813479a4fbf8f29e96e7459f5a70a9eb53061a1238f8c62",
+      "sha512": "29bfc3a7ed2b49abdd2055c3dc141836a394ece695ab3c78d596930507a2f403d0b92a210e538896e8196806683c2a6bb35757841d8edafa98f24f5d0e2451cf"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.3-rc1",
+    "version": "1.20.3-rc1",
+    "file_size": 847209,
+    "hashes": {
+      "sha1": "71f12f5e39df5df130e7ea0359258451e4dd7a79",
+      "sha256": "e5e6403e9bb3f33aa8a36eaa29ff26bf433a2d04d4fe02a3edd7d400cdbc1f0f",
+      "sha512": "ff31b273882d1f35781a2200bc9e42aec0022aa3d94937105b98e5683269ae0c2fff2463318e4eb3c1f7ddb8abfd463e6cabaa809c1fc53bff75c6c57205ec39"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.5-rc1",
+    "version": "1.16.5-rc1",
+    "file_size": 543337,
+    "hashes": {
+      "sha1": "6b7357e9bc5111fd0df764ae5b51cdb38ffe6df6",
+      "sha256": "61537377aed7adb71b8143e36d08d365ec9250940d8fabe6ca749237a14f3f9e",
+      "sha512": "9b38acbc4703b89262028ebf135f6c1cf3e5fcebc39e398a1bc8da3bed5d3c67fd8d6bd6c8691be4d64292bd23ac7f7fd6de2aef80814aff31cb0c01c55605cb"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w12a",
+    "version": "23w12a",
+    "file_size": 784630,
+    "hashes": {
+      "sha1": "93e62cd6abdb964390eb824e2c455795620b045d",
+      "sha256": "6ad1c5ee89290a6e8d72c9f64af70e98a18e021306ed7b35d58e4e2b64c0fd52",
+      "sha512": "be1da6575dbf67156c178d7515efbebb04e6dcd585fb1d82e756b1553e233b44587aeaba4c773b1ae869ec753e49ac565fe82dbd1f5f6c3df67bfab949aa0be2"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w45a",
+    "version": "22w45a",
+    "file_size": 745771,
+    "hashes": {
+      "sha1": "6724807d69657fc0e756a6faa02f2e7c956ce8e6",
+      "sha256": "fcf2ae8e50b4ab73a1de7cc23859b713d53889f87ed8a85a0f5af8c2cc2cbb5f",
+      "sha512": "27c7919f1b288cfe61b321ea6063522e385ad13c29c0d9fbc18606a2e682f020deeb9819aa2a97e29ba6487042ce048f9ec2acbce5d27967e260fe43a5927d01"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18_experimental-snapshot-7",
+    "version": "1.18_experimental-snapshot-7",
+    "file_size": 647131,
+    "hashes": {
+      "sha1": "e9ca50bb8ae083ee709750e3574429b0bc685bfc",
+      "sha256": "9b32ff598884a56986f1540bd10c20e95197db3773ff9bf79e35264bc6655a60",
+      "sha512": "f6f4c90e1aefd79df1634044113f18cee4ea2c82e1a9cdccf65deb8ed9284d678158b1c44ab2bf608cb0b3c02e85217e63bcf38e659e867513d26c2c9a66b33f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18_experimental-snapshot-1",
+    "version": "1.18_experimental-snapshot-1",
+    "file_size": 645602,
+    "hashes": {
+      "sha1": "042ffa1db1b285165db2833e4c454932701dec6d",
+      "sha256": "1cb2c24d72c6802fa95726bfd9a5d294b67aca3fcead1556d24644ddb17ca9ee",
+      "sha512": "172ae80679bfbfff2ebb6b3623af846ee02820a11ff93e08556f8397d5c6a197a31d8ff52715dfe2165ff71d45ea03ca6e862fdb4e67b71ff2972b5a10107f98"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18_experimental-snapshot-2",
+    "version": "1.18_experimental-snapshot-2",
+    "file_size": 645719,
+    "hashes": {
+      "sha1": "3e2e4cb47046b5d084184325008c6aedaa1615f4",
+      "sha256": "10b39a685a295cef56b65ca81cf9316e6afef7702a88bff40d850900f0aaaf3d",
+      "sha512": "1e45f3a53fb4b10ed360ea9a3716b96d57c0d0f087b660fbd1faff515e787d6beb92e6be58c066e6d44f9472d4ee76e1428c62ef4fabde4bccccc969732d533c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18_experimental-snapshot-5",
+    "version": "1.18_experimental-snapshot-5",
+    "file_size": 646669,
+    "hashes": {
+      "sha1": "7143500133b3efe5233e7943277c4f71bcf3c77e",
+      "sha256": "51eca44daccadcd4364a4f47fa619ab4b649ad439080950d005f30b34c481a68",
+      "sha512": "683b816306ed6907b30567e3ad76795fff95f065629c0424dbffc0774d9ec53205d0915321e8e96b077c77d2c5306f9d33afeb69a62bffb5362f490c03f880ed"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w04a",
+    "version": "24w04a",
+    "file_size": 861989,
+    "hashes": {
+      "sha1": "6e6dbeb71326debefdc88c34af65458bba5ff597",
+      "sha256": "f7e631ae71e8cfc62a6bfcdd42fb9cde3cccf8cd413f9ef1e7791d1a1777f090",
+      "sha512": "a8900603980d69bc85b6b6db7b82329622dd7c220d65585314042783a027a33ab0bb47319dd6c4a4f84d4fd95ad32c2ea92dce758ce3f72584f1c01a2b9e25fe"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18_experimental-snapshot-6",
+    "version": "1.18_experimental-snapshot-6",
+    "file_size": 647139,
+    "hashes": {
+      "sha1": "132767c9b5a365363e7b24e4c5f9bc6c89e62d3c",
+      "sha256": "e65fd611ffdadb85d13dd941f3f4e411c06383b2bc1da00bc378c8b77887c542",
+      "sha512": "3b968fe4d5075c4046f83bf6e67f4ebf82dbf732cbe5c54533ec1186195b41a2532e4ff64ce4adca8ac4d45598329c269754e4cfeb02a8a1b2b1c48701cb749b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18_experimental-snapshot-3",
+    "version": "1.18_experimental-snapshot-3",
+    "file_size": 646262,
+    "hashes": {
+      "sha1": "15a5196e0e179f69fd8f8765a40cdcb95478d6b9",
+      "sha256": "58a7d2ee8d1a1c84034bdbdc738494ab70cbb6a4de1f9bf1927011091826e243",
+      "sha512": "90f771c51c45b160e48f09ecbabb2816e2777047cc856460811a6ceef979e2be9462d63b1c3c637abc23550906d7a8885020bd1ef4d2334ed7e8c75de595cfc0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18_experimental-snapshot-4",
+    "version": "1.18_experimental-snapshot-4",
+    "file_size": 646610,
+    "hashes": {
+      "sha1": "ee8858ef01e7c1ac60e89ddde1a4a31968858995",
+      "sha256": "720c4f1207d2bb4a951c3cdf30d19a52e594ae5b0bf25aff79cb1b7d1d7e46d0",
+      "sha512": "40112b16685fdc1538a52ccb2128dd9e5e7fdef0e963e42bef1b135a889c5a153ecbfa9c6871f42bd152726cff47881c22c0b110353a0817463a3978c8202a41"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.11-rc1",
+    "version": "1.21.11-rc1",
+    "file_size": 1103607,
+    "hashes": {
+      "sha1": "a228ad7f3347cee422db355fe5b8e7a6210649cd",
+      "sha256": "8a82102539a997ea7f25dae449132294db0bb7bbbb9507cd6dc64740dad849c8",
+      "sha512": "b40d3c6583d5ec6c87c444a49e1b4366100df3fca4e18a603da9b86e094e40ca72bfb17dacbe6a0b0fcfa7f7f60296348ee7ad24541b0627b65e9b98dc00aae3"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w08a",
+    "version": "25w08a",
+    "file_size": 990460,
+    "hashes": {
+      "sha1": "6105502eba9ec38a80f855934639701ac5a45b01",
+      "sha256": "677b9a8ed8023fe290393695219869869d45c3088baaa6cc1142f1d12ec99f43",
+      "sha512": "5fdfbc011811137baf1fe5b988ed34a03bd6c864573c2bbc85d0129c1af61f4138c6da4c4d3b70d6ed0cd43f13e4ae95b24fea9419f7d9802ffc7ab6a1302ddf"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.11-rc2",
+    "version": "1.21.11-rc2",
+    "file_size": 1103668,
+    "hashes": {
+      "sha1": "d3fb2b86da6dbd44b1538a11f38a7a1d5c0a38ef",
+      "sha256": "1ced799693d83f15a1ca5bbd9396d9f10fb09655583ea9cf2086776a6df7ab8b",
+      "sha512": "093ed32f722e592c49b781563a51427e728f5220d62f7f2ee9d7733e596ce80727152fcd099564a51f8f02fcdf39ebd2f9891a2441fcca4c1dc7ef5e63157c76"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.11-rc3",
+    "version": "1.21.11-rc3",
+    "file_size": 1103658,
+    "hashes": {
+      "sha1": "1f611a0dae1ea0f55741bd1e2b7efecd72ba6167",
+      "sha256": "674f88cab2c2787d1b4eba8f1030dde48c7251976a12371c67860aca4f809331",
+      "sha512": "c8ef82571531ad743181b5d2de7261c30f8e172e79582bfa81777e6b7628bd86a5ab7fde1828af4d8a6bed36115a09105b11cf147562e24844bce4c63b2da552"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.7-rc1",
+    "version": "1.21.7-rc1",
+    "file_size": 1032949,
+    "hashes": {
+      "sha1": "bcdf88ec895817c46597a578dbf632545b442055",
+      "sha256": "81d8fb479278814ba76582c0e854efba9cdd0468a8f56cfe8f2dcf06b6607c97",
+      "sha512": "c0fc7a68901e22a924be08dcc5957cb74436954f30321e13b67f31bf85a35b8093b961a6fbf4c70dc57ab3210e1cb538926ce2775bc4ea72dafb607e8a00bf51"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17.1",
+    "version": "1.17.1",
+    "file_size": 642450,
+    "hashes": {
+      "sha1": "3ab12badb3a4fcfaeb87ce301b37b87179aa7e00",
+      "sha256": "a97671a2cd5d129a43fa5cd54468d1a4c738913016d42f0ccc73de6c3d4317b7",
+      "sha512": "769404545b8816db393e9b44f0d5f1c071adc0dd496ac819e8758933d50499afcfd1db35a190475e6615e7742d0b29a83a9191990ce7b5b4d14706abbfa84c0b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.7-rc2",
+    "version": "1.21.7-rc2",
+    "file_size": 1032960,
+    "hashes": {
+      "sha1": "5a8fd02ff5c89acf02d1192fff3703cb503e381c",
+      "sha256": "cc6c806e428a41bbfc247e3fe97b8079d84eceb55d64edb0e1ad922862e717ee",
+      "sha512": "c21e09e1c66c8081725cb7fddfa37bf6522bf11a174615755cbb2eea422802126238b20da3de29ed263ecb21fe60c77b1a2ffc18a357c978d41b275a085f49b4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w13a",
+    "version": "23w13a",
+    "file_size": 784804,
+    "hashes": {
+      "sha1": "f2b0bbf8e581881171610ac43e7674209b4e835a",
+      "sha256": "da8e6fd1538be17b278f18ece44a28e9f8b82f5c0e679361288421fd1d733759",
+      "sha512": "6e2fd157309d3f282257e1700e69b580aac62b309747c3915d440f7ea3ca73a78885a9b584f6e021cf5de468a7890464416219ab91b7e74b697802589cebac72"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w39a",
+    "version": "24w39a",
+    "file_size": 952628,
+    "hashes": {
+      "sha1": "974454d55c76d9cd72cab51c3dacfbc39e0be5f1",
+      "sha256": "6f4ab58b04cb2181ff90018205dd9269adf4621e5c440963fcef80e5949cd63a",
+      "sha512": "ce0e4f44ab3e1ac9178a452c1e28514f673c226022e792103540ab8a1cf80b4b94fd384ca29602164e3b5d5fd9995804caa70e915c805e419f0a6a42bac761de"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.3-rc3",
+    "version": "1.19.3-rc3",
+    "file_size": 754142,
+    "hashes": {
+      "sha1": "1a860c69854eee7bc94a158269e543425180537f",
+      "sha256": "7ca0bb95da22e61d03320e43460ce4352ae9765a09ccf430cd5ccd5612f50f72",
+      "sha512": "74523504dd3911b5f91d9964f5ae9c394d45d7b2ef9e1367dc4d9a7bf95e205aa6b05e8c242923630d8836818b3cc5664c9054675218ae4cacd1030759b126f7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.3-rc2",
+    "version": "1.19.3-rc2",
+    "file_size": 754018,
+    "hashes": {
+      "sha1": "c061d9bb924d6cf6b1d0c25e6dd802dd0afbdb87",
+      "sha256": "e2d6ad835c0133e84e0dbc38a07c916024fe27d1832b52af0e1da0ffec3b02a3",
+      "sha512": "b93e8f74d58a59a6c7563bbc219abc789203cc73322acf807055df6b4b5631715a612afe209b68e561488b2b21cc27cafb178589f07ea5fc0a6edf727892781d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w42a",
+    "version": "22w42a",
+    "file_size": 736852,
+    "hashes": {
+      "sha1": "d9ef520c7ba82e3dbadeb0680fcddd1776a69b45",
+      "sha256": "03a9770fafb6cd40a15c1f0290381ed35a29b87c8373d916199f5888bf53a504",
+      "sha512": "8b3a00e9ba3fd55043f2f38e566675689ae63d4ec8a92a281b202a52bf0fd7073e95d8aee63a25f45499c3f6c44fd2d9ab942f9384d424e4865b0d6ed639e8b8"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.3-rc1",
+    "version": "1.19.3-rc1",
+    "file_size": 754024,
+    "hashes": {
+      "sha1": "c458a31083b68c0269e1f056beb57d01da5b3d0b",
+      "sha256": "5cd881f8edcc8324d3e7569fd1a7ebb225e15bcc76bfd091726c6662614a64b3",
+      "sha512": "666229dbab384bbac97c75093d5ef0243379b7bb54ad9d95b079a6c2080322ecbcbfef18af9fd95c9f19a5f6be5df6731caa1f57c3403a97836872fc77a3fbf0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w03a",
+    "version": "24w03a",
+    "file_size": 860689,
+    "hashes": {
+      "sha1": "cc0f4ce433c3ffe114b47a85a760c282c336c5c0",
+      "sha256": "3908fbfe7a2d67ecc3e4ac3f4aae0e2141ee6912e1f47e71386dddcf06c63e58",
+      "sha512": "cd54f3499dbad89367e54f64e073c35a08a1b172feba36f5a7a17fa21640117fcd63aaaced8d90e0d801bf12506c8e62b61732af71e90da697cc0cffaa78f704"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w03b",
+    "version": "24w03b",
+    "file_size": 860622,
+    "hashes": {
+      "sha1": "69155a26913f4c75ab7489f12568bd26b1268694",
+      "sha256": "3f69b37fc77488b9b7846d043e8e3d897334a0a0242a4fbf4eb715815fd92472",
+      "sha512": "ebf443dd0240158117b93fd528a4b62823ad33ca8ea41b2b948e7715c22d242a68dbb7b8714feeb3e36968691d83faf76ca5f7eb1e3e89421d203eec957691fa"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17-pre2",
+    "version": "1.17-pre2",
+    "file_size": 641100,
+    "hashes": {
+      "sha1": "e55886e8b42c9a61d7d9f050c5535fb89450216d",
+      "sha256": "7f252842abff91e8e8b49f004d39908a8e31f16c26cb0b9e85cd1663f4c65476",
+      "sha512": "0efdc56d6fe76cae07f1fde31ab1f6c054c25825795c6594d2e3b3c8c6d76f0b32004a73f0004b43408e7b51cc1254fadde5877bd2272cc559fe993ef1bb9a0a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w19a",
+    "version": "25w19a",
+    "file_size": 1023623,
+    "hashes": {
+      "sha1": "142449fcb6e92285239215a80dfc3e3347e1b2e5",
+      "sha256": "fd2d32af9148c08cbae3cc1379e28741c33c61d4404cb023943edcd5b4b6e99c",
+      "sha512": "c50cc2e66793002cbf933d688455531c413a35775143e084de9f26cab05688087a696f0cf6f2d3fb3b389d9314988a94445cad8f07ac58dcd13fd636e75146cd"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17-pre1",
+    "version": "1.17-pre1",
+    "file_size": 640853,
+    "hashes": {
+      "sha1": "6b854e9640e2257db175371a0431b2af696b85f2",
+      "sha256": "df7e04bd5ca0937d4ae6fd3a37138d4aaed896f558e1a7997029df603c27fb9c",
+      "sha512": "8e7792577d00b60b3c6a433ff575b2f935525c0fd3b9e07b021f208a89f0ce8067c24e1a7d5d1c9e3f8e5e15cfaa2c926d1d830deb1c3d0f4ff2d262eb140bb0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w07a",
+    "version": "25w07a",
+    "file_size": 989509,
+    "hashes": {
+      "sha1": "281db4081ba0430510601cd32f12892b5a47f687",
+      "sha256": "55c3c837a7bc5ea9cdc530974e3d227ea09abdd8e45d484e0190d2b4a6599537",
+      "sha512": "d2c91782a3c675fb99debd3575c0699a70ca0a0a8f5a399602732f4273725b50b654084d717a197955c99326433da53c565f1ad25ff918c7693699d9330e2a57"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17-pre4",
+    "version": "1.17-pre4",
+    "file_size": 641389,
+    "hashes": {
+      "sha1": "5aacf7a0112edb22ecd517670e503861f0b7ff90",
+      "sha256": "19c901e8f3e469ce73c5b381f024477dff0ce235c8fb74275761ba84f05a7827",
+      "sha512": "3ae0a8d7b8fb82966acabb25612e19cd4c1dbc6ef995f55ce18e717a9b5e930d2c3f4f585364ccabdf203fba2144d14284d7042dd177b3653585116d0a542004"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17-pre3",
+    "version": "1.17-pre3",
+    "file_size": 641341,
+    "hashes": {
+      "sha1": "3b09bae2bc88efe9db309874b07b8cb47a67d799",
+      "sha256": "bbecdb50200c8f07a185c351be16d7315636c86f4beab754ce124c8f90bbe6b6",
+      "sha512": "a863e6f51eb7af0bd5c4134b08b2b4f8c566968acb9d7898aa3947e6b3e0225af8f6abfd68bfc36242c029c410e818e911f0285d764c9fc36109371f56747274"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17-pre5",
+    "version": "1.17-pre5",
+    "file_size": 641716,
+    "hashes": {
+      "sha1": "3876b932119d2db983741eb653b9918fcce327bf",
+      "sha256": "6d9773586f0237c9723c1ded5a9ca1bf3d878db94b6bd0eb44c28a8e146ce4ee",
+      "sha512": "5dfcc6dd79c1e2e37384a8b327370ac46808cf004641080c4f9530a69b95189767f2f5ddfee9e224b0b32a5d82d4def23ad43004e5001ade46089c478d522099"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w41a",
+    "version": "21w41a",
+    "file_size": 654535,
+    "hashes": {
+      "sha1": "1ad577f7cd7dedf41c0ab2aed7b019e64c1d4c81",
+      "sha256": "59f21286c09e6193eb337202bbca2b9e45388a1477ac2809d827653a490ac484",
+      "sha512": "6309247dc23a43c9f37d24574d203314404dab93ce7d24bc3a5c1f624ebd578694199868862ed6a0f3ff24a62ffa2f5f50d67954e379e05eed99dc468a36b34c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w46a",
+    "version": "23w46a",
+    "file_size": 843567,
+    "hashes": {
+      "sha1": "71087684c313287a265986909c031927930261e8",
+      "sha256": "ff84862c49e856cc7e16a2ed3f960d71b8c0e10914cb7deb03041a83b22cb6f0",
+      "sha512": "4787e8cb8055039eba055ae6a9e0ec4836ac3eb633c467dbea28ceaa8145e01b828c8f9facb258beeb08d25a489f826a4b19fa7667615365c7dfc6cb31b1bdce"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w38a",
+    "version": "24w38a",
+    "file_size": 951381,
+    "hashes": {
+      "sha1": "bc8e517adf744a7e16a5586e57e9b8320483e62d",
+      "sha256": "793c234cd760f850c89da993e6da986c1654d5b8a9804f3fa7cc9be23dc0911b",
+      "sha512": "6cf3089f2b3e9b0019f0bd832331bad4468e5e746399b1b2717b8f66632e678a8934c88afa059eb0c4012f1982ef7bcbc8af52f9bbc1fb28c78aada2f99f17cd"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w43a",
+    "version": "22w43a",
+    "file_size": 739677,
+    "hashes": {
+      "sha1": "af1d870297aa56e62c769e0e9b6cf629025daffb",
+      "sha256": "b98e725c52bc2dbf7ac4a81d0d6fef8ae8c59257576bee385e2679dd957910d4",
+      "sha512": "78cfbc5414c0d5e336e165201e9d70f501e5cac8e3fb849d927e54443f73c4f43935b2d5e8d18ef2c6f34bfbf6a349917edac8ff2e5f9a2b7ba9abba5fb7fd6b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w14a",
+    "version": "24w14a",
+    "file_size": 891826,
+    "hashes": {
+      "sha1": "73c9d40ead71af550f5a30af7e556aa0102729ca",
+      "sha256": "4bc04c80d0f1190e473ee226fd90ffff8088aedc2836aa68dda0b3d2328bc319",
+      "sha512": "e8f0d6867b4e0062bb7fb7e971b3a0545dc561c133eac4ab518a44ddcb69e1139f8026f831818e5014237c671b692f36caf789d17d6bf4cefd71b0034b5f92be"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w18a",
+    "version": "25w18a",
+    "file_size": 1022486,
+    "hashes": {
+      "sha1": "747fe524d928ac420b45adb93b82504f6382e35f",
+      "sha256": "e9b82d0b087d69898b9f4a35411c2557c5390d0baa56a0b5785a68cffcb75640",
+      "sha512": "ccf71c691183acf1b2537bb115a43cc163ad5d6b57ded26c03e59a5e0e3af5c1db341917fd8dd58f05895f1449e0e81bfb99baacc3649a47d60ba038c0fd6ca0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w06a",
+    "version": "25w06a",
+    "file_size": 986466,
+    "hashes": {
+      "sha1": "d67406495305e72814f334e748dbd5cbe2d09bbf",
+      "sha256": "4882fb3fb28f1dfc93d268f367c2b769498ec46ee52f4d91f8f5277b1a750450",
+      "sha512": "533d16de1d3ce878a1b3042999835903bda2185798c47a75b9aaf7b150c1f57cb1e02ff209da9230ecde8a65817631e36518f6b083eae58264698d781a7c5e33"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.4",
+    "version": "1.16.4",
+    "file_size": 543322,
+    "hashes": {
+      "sha1": "f8a1fcc07040892aa1650c298e63cedf7d1d0db1",
+      "sha256": "62a7c3655bdf94d6fefe48297cc180703198376fc724e7027551beadbb724a31",
+      "sha512": "f81854158883dc2a8b7d684744923fc5a926355bb5b5880e048a4f2a2515a872ebf8982fb95594aca9acffb631ddc41f113ad44d5f91ed91d9dcd2a34a8ef915"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.5",
+    "version": "1.16.5",
+    "file_size": 543337,
+    "hashes": {
+      "sha1": "d5073ce886051290251d0575a3d57174ff32308f",
+      "sha256": "719a277057ff6aeb0115f9840076980a981671b05ed58c40a0d471dcdedbc058",
+      "sha512": "27e1a1a2cfe8386c3531bbd248687b798aa1c637f357da7070b4b757e37b91c5602d767ce06852109e91a09eac77886bfba5b8a49b4b8db810730ab28622f29a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w40a",
+    "version": "21w40a",
+    "file_size": 653220,
+    "hashes": {
+      "sha1": "bca25cb2f0fdb4976e9f3a6fdf741d07a887ffef",
+      "sha256": "b763d313665ac91788acfa203510e797b8bbdc1ad993a15ecda82fbd230ea451",
+      "sha512": "f8d355ce6393abc1c24328690899f23083ac6c3d89c9de93b35d5ff3bc29f085fc6a45cb35d98d6271970711e1428794246cec641c8c1879462e5b769d2d2dc6"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.1",
+    "version": "1.16.1",
+    "file_size": 530075,
+    "hashes": {
+      "sha1": "6dd27cc9f0e124e64cad9e778755993be2497dcb",
+      "sha256": "4e418d5a1e66be0916f9b5ecb1dcfed9ed1e8e6d87346173274306b46fff020c",
+      "sha512": "4237f740cde828501be613aaa07d64dd134410c1be642b2059e7df235a2ba70c0182638e675a6b2a36f761f4261e8ff38956a5f7b6f738d88da421c4262dddb9"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.2",
+    "version": "1.16.2",
+    "file_size": 540667,
+    "hashes": {
+      "sha1": "967734e1db0b7d11199de393f777c88c28e2361b",
+      "sha256": "9c1d4b7f5645691f7037e892d1cc0777303457380fb9f22821e7ab0b555f5978",
+      "sha512": "26431015849c13e8d48ad3411178ee9037b60b8f38f1819dff8c78b552e71c8e6be5b3b6d8f2dcae013629218bc5ff477f5b9ef98041d1f3aa2529ebe8d140d0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.3",
+    "version": "1.16.3",
+    "file_size": 540699,
+    "hashes": {
+      "sha1": "2bbabb15b918daf429682469910242f4822c1eda",
+      "sha256": "5583f09533ca6634b3c1c35c9331642a843348916e60bf7b47a64812803c8736",
+      "sha512": "304d37db7558f73e805c7dc6bea82d0ce4276346a2269d45657fb9aaec5338df14134cd8509a1ad617a345c9dc201034a332835dc248dbcbfd6a8119653bd70f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21-rc1",
+    "version": "1.21-rc1",
+    "file_size": 913192,
+    "hashes": {
+      "sha1": "9bbe664447fa0702ee064f51aed1547cf8f0c5f1",
+      "sha256": "482e36cee4e2e8cd7c24cab5b688a23901d82d1c904c81288e84170a42e41b38",
+      "sha512": "0978b2fa919a787987dc57fa8f992498fa69ed7aaccfdd2f3503d6ad90486ea57a076a8aa853db54e1b5c2cb80ab0c2cdf971f2c3b4f0485a2871d52e80e9f55"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w35a",
+    "version": "23w35a",
+    "file_size": 816292,
+    "hashes": {
+      "sha1": "316dc2a89a2fdbde55d49ae572892d15a052f09f",
+      "sha256": "767cb1d4e051ce7d9ad5c47968d22b47252367c79ca6b8dca8ce527ea50c43d8",
+      "sha512": "cf09f4feb64959b45513f083a7ea54821e0ca6d8c2da14589e1e87741fef6c0fa8cbbd2a5318d5d25ed559425ee2a0b4b600e7af593df23817b32534fdb3495e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w12a",
+    "version": "22w12a",
+    "file_size": 694457,
+    "hashes": {
+      "sha1": "6b1677b9575112647bec6cca26bfb73a38bb0abd",
+      "sha256": "0f2383e74818c83a285fd22d5f39bca1150637968ce7249a1bde4c10d4e57924",
+      "sha512": "0703de2ec1d5cdd592847365db076ee6517f8c244a269944bc7135ec3be43efb91087bb7b76fd0ec1d0ae4489dec769be9d8f7c2cb3ea13de94b3be05741c384"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w24a",
+    "version": "22w24a",
+    "file_size": 719255,
+    "hashes": {
+      "sha1": "38c462f8907ffe10121bcae42aebe89550a57c24",
+      "sha256": "dac2c94b90f6964ef07749e0a3c8b7360d3e65db0c7aa242f3172205d3a80571",
+      "sha512": "631f41c2fd0d7a115f409c173d641bd45220a5ded4dd1f79287078e372eb63af8d7d166798d15d3af9fb4defc5350233868d5501e921a549668c9d0102a68ed3"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w51a",
+    "version": "20w51a",
+    "file_size": 572282,
+    "hashes": {
+      "sha1": "09b4464cb4ec73371f86e4a9b7ad4c0c3d6e8a76",
+      "sha256": "cc3319e50aa17cbedd388877baaed4db991d2ffda50c9b20553cd34c615e52a2",
+      "sha512": "aa812ae0c2d9cd7ba8082f33a50727449b64d16e12497b9f137c5fe14c46f38cb4b8a4b9e5dd20be5337950675929a07d7c97b36305734b1c82a94a64112d44f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w09a",
+    "version": "24w09a",
+    "file_size": 882284,
+    "hashes": {
+      "sha1": "b7fc38be970abdddd351337d392283345996dd48",
+      "sha256": "8be361e89f0e0f90dae401c0b3d2c40d9cec22acf440427df23cfba6c45b7f8f",
+      "sha512": "b8a929f6a0ecad199cbcf8710a7d60068f797fe4ea9f0cf5bd25e2f08d8a93bb8f2fd21e97dcae7d444cbdb83cf5cd40345712b1204cd745509fc36175be1381"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.4-rc1",
+    "version": "1.20.4-rc1",
+    "file_size": 847209,
+    "hashes": {
+      "sha1": "9724111c55cc12c00844c6abf3dc586fafc7b0f5",
+      "sha256": "d65702f88f017f72241a228e0b06f1395f88cfe02bc63a5b790f8e7b05e77c80",
+      "sha512": "f1e17b813f16a714fd4119ea4dd9379d5842d9838eb85363fcd5c4635eb669259af5a8cde48572fa77681f76299553465df1631e6fc9725de734f463d8ed384e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w14infinite",
+    "version": "20w14infinite",
+    "file_size": 501042,
+    "hashes": {
+      "sha1": "7cffc826a56190bf890d977d4ea01eb569d910d7",
+      "sha256": "a43b59626b22c8ba99c76ef62b7f1633785d2a4ae91a7b5358e979e641852c24",
+      "sha512": "e860c430453ed4fe2bef5f61397f64d4ec44728ae51f5041d3a4aadd947b7e2fb8eeb55ccf9c150ed32f60e737c2e0a98d802ef4f3e2485ee2c599d98acb50bf"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w04a",
+    "version": "23w04a",
+    "file_size": 762654,
+    "hashes": {
+      "sha1": "9a812d6352b8dbd0ddd9fc8e9a872d606ae8542a",
+      "sha256": "9da109bb0e4ff6f28cc4b4d28cbafe6eb2b74e8fb29525315ab1853541f9f311",
+      "sha512": "fd484f63ad81527e3daf57a5a8f8a6a112b1e66e9eb04ce33f17fdaf483413f33cd01c0623b2e3c1ff4782980531e619e5340bba1d334a793721072ac2a9eb7c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w16a",
+    "version": "23w16a",
+    "file_size": 787380,
+    "hashes": {
+      "sha1": "c229e76d028f7d721fc0e334c8bb9cd4406761d2",
+      "sha256": "88bd9eaae83e5df8dd753d9862ad863866825ad242ed01e0e7d460cb9499e529",
+      "sha512": "31f55dbdc041cbc13f2992e5aefb623fbd0ff5b55e4a06ddadde16f04b3fa15c953e0cfa8df08c551ba1eaf5dc1013d605a43f8df66582e1aee8fd73c88f1f08"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w43a",
+    "version": "21w43a",
+    "file_size": 657764,
+    "hashes": {
+      "sha1": "35740b2f32f108351ca180eacbca6546d0cde979",
+      "sha256": "acddb229beb011407b6aee80f60f523b109ff5ca66d18706a0c4b0d72b406d6a",
+      "sha512": "d81297fd3f5182200e79ed62746e83bfdc89d954bedd89ef8678f1d3a93d49dabe126e30850cb5deb164c6ea42c162ea0fbc5eb65374d2fbe388637150206cd4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.1-rc1",
+    "version": "1.21.1-rc1",
+    "file_size": 913310,
+    "hashes": {
+      "sha1": "84140069a78e8064af9db3dd34c982367ab2b3af",
+      "sha256": "ce42860d8e3ba475508adefe9e2563768fb2609dad1be0fe5f0883893e197dd8",
+      "sha512": "810fa0dc5ac665bdacfffe5096040275a036bffd0222cd063c5b6c9c68c3a1a04bd8be78e2bfb92e4599c546b5edfe33e5705724024721a05879c736e51c708e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w13a",
+    "version": "22w13a",
+    "file_size": 695927,
+    "hashes": {
+      "sha1": "952f4e0495d69e0aa7f3c8915f6c9673b7a284d3",
+      "sha256": "5b5ae2a647e6736f59dca729abb19b3422738a0a7d45f768a946b8ac35cbc916",
+      "sha512": "60207539c31bfdf24483b37353a3a091f4ad48b8f6d8b429580b608b2ff86ca3d86a3c00eac06a5ab369be126eeccaf58016584748546ab5bdd08ad7de35a9bd"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.10-rc1",
+    "version": "1.21.10-rc1",
+    "file_size": 1076960,
+    "hashes": {
+      "sha1": "b36abf3275755fd0635cf24ff9dfed7f4864db3a",
+      "sha256": "7e061d4689d1b590ad2d08f7a4524c17331d2418ad637d58a52e5296def432a5",
+      "sha512": "5656a72aeaad3735fa289ce7ef628e663e845c79bc9279c3d89c4e14aa917a17b3d3cc362a6990d89d43588ee946b9f49f7c5acc54d75edb82aec12b95c2aac3"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w42a",
+    "version": "21w42a",
+    "file_size": 655008,
+    "hashes": {
+      "sha1": "8c12b2f40d0b3d7aa232c61ea25d84a50d951195",
+      "sha256": "c86c84b22c223e8470b9967372f316e74035b62f8acd896eddc8aa6addb43978",
+      "sha512": "cb98b37d7dc0756ebda52d327c21d32d03944e29573e8233256200885bfca17794f5fe339904e4d0133f560889b3ed1894c3ec4f14a44422f883a2e333c555dc"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w05a",
+    "version": "23w05a",
+    "file_size": 764833,
+    "hashes": {
+      "sha1": "8c1d44ad342c674c2a7710552929f3bf326bb835",
+      "sha256": "7503855678b6c21ab7ef6cfa2c9d8ce3d496f1b0d39f0b447eb1ed3944d88deb",
+      "sha512": "f5cd534fc2c2d46a08b03a4369b312d2709f67732c796024cb57dfe86951e8f9387df55b3146e76bd8b0fc959a941f2cd2225f4cf93a2f748b8afb165dea5fe4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w17a",
+    "version": "23w17a",
+    "file_size": 790304,
+    "hashes": {
+      "sha1": "53ae8b1d595281c17c98f4bafaa597f52b41b3b7",
+      "sha256": "fa9ca1dbe5b1f5b4b7f7968eb4992247de9762678b00126f28e2720d0cb9d27a",
+      "sha512": "3bcd4ec738f8694b218ccd70b7a1ffeb0b22160e593be4cc0cd17839e4d8db29caad69702e777a0e0a3c1a7f0fb6a25dd3158a7fd7a675d7a40bc1f989b72c42"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15.1",
+    "version": "1.15.1",
+    "file_size": 462519,
+    "hashes": {
+      "sha1": "4e83ea4e2b0589b792fd6b5f36154dd2e7b5bd25",
+      "sha256": "7dacb98a86b8996ef90d4420e1621b0a11cf2f58c1d85e1c3578c46d87813b99",
+      "sha512": "c63701dc3a25ed1cd7f2e3b1518a5f4d48b4f516422475814c2a96d11e5dba0839f798c657b75bc85582e5350844322cfce01d17ca84f3e510206f57832706bf"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15.2",
+    "version": "1.15.2",
+    "file_size": 463555,
+    "hashes": {
+      "sha1": "a899f8ff429b7c54413dd579577abe1549d42685",
+      "sha256": "8809e102895d8411cb1632e4902adbbe962636431f8a6d6e278dd7ddef98cb49",
+      "sha512": "8afa84b056e75704ceefad96dd38e3113bd9f61c22b28a81e97e58e28b3a693b376518b819f51632814eb008e923e36ebff6f7ea74735b539738d82625e14a49"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w19b",
+    "version": "24w19b",
+    "file_size": 906378,
+    "hashes": {
+      "sha1": "e826f5c2ffde9d4f769334268020d8de9cdaae2f",
+      "sha256": "e2c955d526a1c8ec5070c599991dad05892639d40a16ca47d6041ed75bc003ba",
+      "sha512": "a075a38137c7875327b58ff30c9e2ee477a4b7c699ac98746690ceb33b2108383b33b44e657d37996aec9d02f72390ee96dcfa4fddd8938ec2c3b69abe1595bc"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w07a",
+    "version": "24w07a",
+    "file_size": 870540,
+    "hashes": {
+      "sha1": "5e58b5882ef2ce46dcb99ec1e7b9a91a7019c0ae",
+      "sha256": "41309709df887de9e039c4f0dac4175267a2ef2d0111dbeb54324295599bcb7f",
+      "sha512": "edaedc1e5b1a8acdbf7ea941ccb814a99e6dcba9875fcd21b99c5d686db9829ff31f67f3cf1feba4ec8968ff2eecf7baabbe9e19ccb443f70d605fc48481e68d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-pre8",
+    "version": "1.18-pre8",
+    "file_size": 664204,
+    "hashes": {
+      "sha1": "471367ea21d5c49dc9069cf101dffedf8ed54774",
+      "sha256": "999ae9259446afc298197b8c70220f0f9153df57498d861ac24059ad06f8cc7a",
+      "sha512": "cebef3fc6c8a1d7507843c614b95b6fabfded671b565856737513f86d9e8a617d34d3fb36c1620d70ca185a7c192b31198e6b9ec92e02ec2420fcdd8f76b6a3c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w19a",
+    "version": "24w19a",
+    "file_size": 906378,
+    "hashes": {
+      "sha1": "b70225aa09ff90f20160a26f007eb13e56e4608d",
+      "sha256": "8b964276258b3cf64add9a5ec1870717e234599ba4a0ba5bfdda16de8febed36",
+      "sha512": "04e92bd865f3f142beb541d4aa94604df9b5db03dd62fcaaaf19bc91a79153ff72d45cb075ee62330bf9c0f3f7e315a6b01a328671d30578f51eac8457c4c4a5"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w46a",
+    "version": "22w46a",
+    "file_size": 751510,
+    "hashes": {
+      "sha1": "4d48fdfdf20c0104a693689b45a82b90005ab2fb",
+      "sha256": "77460072bfed5301b0bd3aa2466a25692b424508a2f39bcb832e2ef3f3ecc7db",
+      "sha512": "1fb1fd2f9d1d3464f9a924530e9dae4541264eb5f552bb6d8824b4268fbee7c4c3516410b8e386c5bdd9d36e9675f21e2943034fe7f78f8d2973243bb9b39115"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-pre6",
+    "version": "1.18-pre6",
+    "file_size": 663781,
+    "hashes": {
+      "sha1": "46d61bbb5e661fd7750da723b82206b5086eeccf",
+      "sha256": "be35c3a0fb854d5e85b42390933a2f23d397056a5a5eb9cb63827b223786b42e",
+      "sha512": "0d3ad42655d2859f5513519e10298fa8fbba252cff795a4342565b34bfaaa92deeccee58856e96095d703190235bf6a24ae4850e004a624a01e59b6b81c53781"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-pre7",
+    "version": "1.18-pre7",
+    "file_size": 663859,
+    "hashes": {
+      "sha1": "111ab76b14ce20159f441fb23753ad8663c09189",
+      "sha256": "e238923ecdf4340abcccc8c996bc230a8fc7829af504ca648c93911c1900c7a8",
+      "sha512": "e5c09a6dc795123e5deae9aca4b0f1d40a4659ce877e786e289a7b70c3cab607d430d576e2f55ac7146fae36715c5bf31a4b38d5027c37d145b8c733419cdf5d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-pre4",
+    "version": "1.18-pre4",
+    "file_size": 663310,
+    "hashes": {
+      "sha1": "06f6a74faf66f7fe8cacc4a691afc11b58292820",
+      "sha256": "9181c02360140462d96e24c369ce27455edb70157ff140836b322bb172c1a398",
+      "sha512": "fe36df6615830d4c397054a35d531cf29255b518dc7384e989d2fcb512851817cb291974d4b9a56e673c0c4ed198d47dde1448071bce57c4a6ec2cff0fefb3df"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-pre5",
+    "version": "1.18-pre5",
+    "file_size": 663801,
+    "hashes": {
+      "sha1": "0fc80503dd1a21a2ee4a5137257a0a516feaed07",
+      "sha256": "9e1dabccf051498306f4f3a7363a4892b7a3274e76d82e60ebe0160b3da6dd69",
+      "sha512": "278e81c1c570b6d782fb8413b6d060d3f84625e4e9396488a40508593299a14dfa01a4c3fca51142093fc6715e1b6b37626645307d0d751d6bf492cef8a06585"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-pre2",
+    "version": "1.18-pre2",
+    "file_size": 661166,
+    "hashes": {
+      "sha1": "24ae48f6b865faeaa79815ce8bf9811dde04f92e",
+      "sha256": "7bcd3b0c971d179bb82caef22e310efd5f9cd2c4e5f2ea929720d2f2ee298565",
+      "sha512": "c34a840e4da990df7412a650b02968c8cbaafc8613f0f81fc3e11ceee0b560964f16763dcf928ce50096932926bb8d7272d023d106b4bf7b0c07abc87dce3c82"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-pre3",
+    "version": "1.18-pre3",
+    "file_size": 663304,
+    "hashes": {
+      "sha1": "3416a63ba5e5f260c30e77ca795d84967fbcbdda",
+      "sha256": "a26863d9537c42f6f19c17c841510dc1ab15e8c5821d34ef217e3b973748263c",
+      "sha512": "2f02da62207f815aee058cbee1b422e44b5fc2353d378e79fd441cbeac1f593aa3ca73fae6cc07fb549e6b6009ea0c50e7767e4c9a18c827b40146b86f38262e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-pre1",
+    "version": "1.18-pre1",
+    "file_size": 660730,
+    "hashes": {
+      "sha1": "9fd9d1cb117b7d193e58f1c0b9113b8f1c5da31f",
+      "sha256": "e7c6e1c97a8dfa9aa2cab763807ee78a46beb6d7f75cb8ac75a9fbbe2d4d88df",
+      "sha512": "ebb273fabef55c238ed58bec8cf1bae7b2bd37b4c4eaa5a97d3afe4b2d35472c989d9cc0e4ea3a4c62c902b797b84b52e58f7c292da470c21884cbea3b011f7a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18.1-pre1",
+    "version": "1.18.1-pre1",
+    "file_size": 664363,
+    "hashes": {
+      "sha1": "e499522fcdb2a1333906dfa0cbacbb91a5ac0107",
+      "sha256": "76824ab30b758e932b82dae267ae6977b79969e775eeffeeac53a008096c63d1",
+      "sha512": "9445099f014180f7120676303cabe0b08761f2b6abc497562befa30a87a958d0650e1ae6da161a07181319cd9ed82a9dc0da6925f17e3f051ee1a0a788b4a8e0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w14potato",
+    "version": "24w14potato",
+    "file_size": 911189,
+    "hashes": {
+      "sha1": "dac19d2ef213e51b24f73f877b168eeb6547ea1c",
+      "sha256": "3599bc62247edb0ff9792f21932fad4a453650cbe82c2c926d5f4377b5879b5a",
+      "sha512": "fcc5d5008e996fae7155fc8a738f4a26b81b0406342e4026130ef2ca713e7b9d78b6b25f5d1592b6aba37bf33d4aa6fafec95faeeb62561ccd98a728fcdb1abb"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15.1-pre1",
+    "version": "1.15.1-pre1",
+    "file_size": 462519,
+    "hashes": {
+      "sha1": "6d9d62fa12b229656648c68a6f5d099e61fe1f24",
+      "sha256": "b0a95cdaee7f3b57bebe33f5e3fa8e51a4ae8902730f1c6306251be9a6464340",
+      "sha512": "a62042b775f464986603e6b3876e6cdcdf5cb2bdc6029ac36b47dbf3f5ed17318c0d2ad34e0a26b186b3f02da778f3021ca0047090b3334b6b0dce2bd02d2303"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.2-rc2",
+    "version": "1.19.2-rc2",
+    "file_size": 725834,
+    "hashes": {
+      "sha1": "c361021137307081e1267ae4d11e7cd964cc88ab",
+      "sha256": "8a723dde8749a79122618a28efcc73f27fb04818aed6a7625f7e662704165008",
+      "sha512": "929d7e935bd36e671c9d925957a8dab02aa417a9f4688575e165c4658f99f8f547456b1d8aa953b18a802f5424f7b3854d5a9567aaf38ebd8d159dc490e2e47e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.2-rc1",
+    "version": "1.19.2-rc1",
+    "file_size": 725790,
+    "hashes": {
+      "sha1": "7ebbcd329f413e5ee619a68f9abfc62bc34cc1e9",
+      "sha256": "5f85c99535e3e97241db075f78f60df83f5f34a3f6d924fecea34ecb245cf59f",
+      "sha512": "375c281546f0e9895d24513b4bf8a37c5ff495f561fef239b3b68034a842c1f771ad98a7de6624052a91ac11fabd0d058dac76f801247704f2ebee96e9c4542f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.3-pre1",
+    "version": "1.20.3-pre1",
+    "file_size": 846247,
+    "hashes": {
+      "sha1": "d6baa4b279dab4c04524b853e453ab7e60213786",
+      "sha256": "7294c37495457ea5891d97c5c89deaa6bf20e759c9d7b3975db5f732f726acd4",
+      "sha512": "fc62de66d9101a7da08780e6e02c8e982dcc6b903be7e007c8f5390bf3a3af19dcbdb3e4053065a190abed71d9f2ff235293fab02fb81c934db1edc5ba42a52d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.3-pre4",
+    "version": "1.20.3-pre4",
+    "file_size": 847199,
+    "hashes": {
+      "sha1": "0d709b399b05e0eb75a75a50020be0b35e5b30ef",
+      "sha256": "90c2e77e5d077cd45062802038644bf7f1e1bec7c10e0963ddbe95a5084e48d2",
+      "sha512": "6e71e97075935d8b16f1d4c69d391a12c8a5c5db551273ad575f3d5261b977806d4f51a98c9d718beb14247fb504bae598c142f1e7cff9957d123f535815a53c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19_deep_dark_experimental_snapshot-1",
+    "version": "1.19_deep_dark_experimental_snapshot-1",
+    "file_size": 673502,
+    "hashes": {
+      "sha1": "bee8105f6360a2c98bfeafadf2a09829257eb8f9",
+      "sha256": "b4ff23f31dc1ad59f98233f2c53fffd8cd6a56ed16b344e4b608effd46954b8b",
+      "sha512": "799df9a05e00643dfe6568bb3e1cf8cb4513ecde480604dc488dcdeb426cc2d6b42d729da278065393af7d8a84a7892aef91776bc9e0269f6be35104e381b553"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.3-pre3",
+    "version": "1.20.3-pre3",
+    "file_size": 847189,
+    "hashes": {
+      "sha1": "f397ab1167444ae1a468168e844cce29459755d7",
+      "sha256": "d52b37aae01e016aff583814a40323800874ac1a12757d254234bf969888ad17",
+      "sha512": "3673b2d868ea88d5c9c1577ecd8ad10abe9665861dfed1040c237af9c78f9eedfe03a467f6f36ca92cdb8e88d8d3eeb3767a922382520600cd367efc2d9dc22b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.3-pre2",
+    "version": "1.20.3-pre2",
+    "file_size": 846408,
+    "hashes": {
+      "sha1": "7bae8a2072494cda9b6e4be052772952e9008460",
+      "sha256": "2ad1ba230aeff3e2dc46c7c8bd91a37797af09b66c5c779e147a502bc3b7a219",
+      "sha512": "e30e45cd8eaa8b5085a6d2a3e02df1a9c1290824a23870dc77bcebd586f8301a7ae041e7c3ac7724ec6a5b694a766a46d021c22e58556e04489c432201f2f325"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w14a",
+    "version": "23w14a",
+    "file_size": 786108,
+    "hashes": {
+      "sha1": "58a89309f093b04e66d91fcf6d91b5b0edc718c4",
+      "sha256": "0262965d8175629ef90b8ffe2dbe92d2d4303f6eb37ef2292bd2d870361c2b11",
+      "sha512": "a7637a6bf2b5709134fdaf54fd43ced0e0aeb50b808582dcac7bf6325057b5959f2d69668f0bd929f954d9168194c0734b92fb64ee7e764869d9f6633d7229d3"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w18a",
+    "version": "24w18a",
+    "file_size": 905117,
+    "hashes": {
+      "sha1": "9e9d6a56162dd734c6a7f41c93bf0111e0defbb0",
+      "sha256": "6d893fb2dc80d52dd17bce02a50a1282082a1a7b4fd8e917d74be8a45f8fd07d",
+      "sha512": "af0195ae74728eb8bc8078d257775536ffa0eb6bf765c9310965d6772ba6161b6aed6380ba853578f4a0f18ee0c21180db95c00c3b361497b97efdd3168e7491"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w06a",
+    "version": "24w06a",
+    "file_size": 869938,
+    "hashes": {
+      "sha1": "2513d64f6974affc5348451a6a20805516c9ca8c",
+      "sha256": "67c8ec54802ed36bb3cb54c6669de2f98fa7c721e038f97f8f1b1337c5658dea",
+      "sha512": "0854fc27fe1a94fabbcee06413bdb3172d4de8fe699c74844b080a5be7e8e7e3a74610eb27b8d54f047acf59005930da96543342ab996f489db86f30f58c00e7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w11a",
+    "version": "22w11a",
+    "file_size": 689074,
+    "hashes": {
+      "sha1": "c1e6ec97c3b3f1c277c7a5344b31a1b4d478c775",
+      "sha256": "ee60dc6d49a2f794f795999f207e8d1da778474fb5249516bfcb496da849aec4",
+      "sha512": "db6dcd0a5fa113dbe1397faf33e80139c3e5c1fe77b37ef72cec5d7eaabe4f63ff1344e7b335e0e87c58ea7c898252893718bb8cee0113ad3e468a0be31e717d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17.1-rc2",
+    "version": "1.17.1-rc2",
+    "file_size": 642450,
+    "hashes": {
+      "sha1": "b73fc7e7fc8b49a58473a503e22fe44cdbd81186",
+      "sha256": "c4ad74193899b2dbcc362a0435f8b3a493acaa422009c1008ebb344843811d7e",
+      "sha512": "562985cf67acfd0edd2095a77c5694061b083aeb2ca6f696a929e01f72a72d4b462fb3afe9f264b37f3e8842c82eea89cf457662469d305a66f886d6427f3f9a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17.1-rc1",
+    "version": "1.17.1-rc1",
+    "file_size": 642408,
+    "hashes": {
+      "sha1": "2359dffe9a2a66ac14d6878adf8cc3e206aa2407",
+      "sha256": "9ca2092adb0048aaadebbe02fceaa5b84b41d89d9da506d9ee93f0ae64af192c",
+      "sha512": "7ca8a19cb60321c4fa868b0e5f205628d28a7030825f48c50b62d6bc94d2b9a154a3c0ecb93d7b28ac89a8b8f58794d668cff30f1b917b0ec8f0982cd1ce47ac"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.11-pre5",
+    "version": "1.21.11-pre5",
+    "file_size": 1103607,
+    "hashes": {
+      "sha1": "f60a33270bf9c3e0d2e562128ee8776b03ee7b77",
+      "sha256": "35413b642ab1ae01f80e2c99251c3b0950dacbee7107de3a319046fad0424ca9",
+      "sha512": "6f2511b7fdb24eb200d6798d4fc4bda1bea7bfe2d3730aab965ef909551c8cc1853f6cdb9fc04dd2777cbaaf8bf2456ed1df94a1609d32dc873322bb082266d7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w20a",
+    "version": "21w20a",
+    "file_size": 637305,
+    "hashes": {
+      "sha1": "eb81b814f056699134afc93c08b9e36e4bde6749",
+      "sha256": "6866ad910b817f18d03fd8b4819d0a21baf8e9c44e14f84f25b02896b25dbc42",
+      "sha512": "141af6a23c15ca38dfd840afb7f5297ab0d9bad699a486e4ff862e373329cfd85c34847721dfaea5c0577baf5265cc8847ae568683eb5c2776d6a13eb3b50618"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.11-pre4",
+    "version": "1.21.11-pre4",
+    "file_size": 1103600,
+    "hashes": {
+      "sha1": "d08452f9bbee9b836ed5c228db8ae9289ba807e5",
+      "sha256": "fef3080fd0e1f43a0deae1eee5759920596a81deb5acffa605bce80e2e50ddb1",
+      "sha512": "ab609821c28cab19c08798c20870588084a638532ae2f8aa7325864654b61bcb13e8369d03857a067645f14cb41a145b7d835137984e5c12b254d2078d3274d0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w44a",
+    "version": "21w44a",
+    "file_size": 658385,
+    "hashes": {
+      "sha1": "9aa85b2107f3c497284cee97ac3956ee5b6d74b1",
+      "sha256": "764355c189e51b927e5ec2ae937360347301ebe0a299ee258cff369744acd4c0",
+      "sha512": "7e48807ca33c6c7c926fa52d8e97e8dd1c82038b4d24c9da4ff09de96fbfa68944313a1fbae510615a40371755348753b08a37f4b221c8659c83e7eb17d3a617"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.11-pre1",
+    "version": "1.21.11-pre1",
+    "file_size": 1103359,
+    "hashes": {
+      "sha1": "360da5d631674fa249fa4a9272f45c931dc9e239",
+      "sha256": "b9f71282fbabafda4386418922ce71f8e6eb96f1ad3ad30e0087625d93185756",
+      "sha512": "4475a09708dbe2a912ea334039574daba46bda5f1241e304d63a91d653c12161f7bce4f4537db9b078b972dc97d5a59e6df1909f96068c5d3f8929d70de474be"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.11-pre3",
+    "version": "1.21.11-pre3",
+    "file_size": 1103483,
+    "hashes": {
+      "sha1": "2ee882bbdf505ef7c5a6d52f9413818b134f4206",
+      "sha256": "6cbd96ed56b1abe1e1f2069eba9d86535b877f4e92eb196c7966289545ede315",
+      "sha512": "557e8533b76d1ba67f2c732ac0403e4b1d1febb35695fb709213a30cbee5e4a30f400814f01be7b95efc22a0d46d44135d063f22a448ac38c31d959d65188a8c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.11-pre2",
+    "version": "1.21.11-pre2",
+    "file_size": 1103397,
+    "hashes": {
+      "sha1": "5d646f12aa48ee9768c5149ae7f6c8a5fb483180",
+      "sha256": "4bb09b95db0f2ae233b816488c10eaba858eb72a55de004a84ee1feda5cc4596",
+      "sha512": "8c21d1d92c5bead1ce14dc1b74040651b01355c0efd345d7baf54163879dde38a879ea4fb9a674240d7d6adf2ae591cf0aad83b6a9ac02e741c137dcae6e40ee"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.14.4",
+    "version": "1.14.4",
+    "file_size": 438242,
+    "hashes": {
+      "sha1": "f2c4b5fddac955e7f47aa057928d351a2f0ac522",
+      "sha256": "0d5ee3eb0115e8189f7e757fb752ac5e19de9f434bffb2c18e8daf0cb6514278",
+      "sha512": "b9ea70023183ef4b569288bda6f9a4aef6b10c1c76748bf094ebe2d14e4d39e044e367088712777617e8caa1b9e7b007466bfc3f6f006a494d20e8a668a023ab"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w03a",
+    "version": "23w03a",
+    "file_size": 757514,
+    "hashes": {
+      "sha1": "5dea1200bafd5ac098dbc3036b2ea38c18ddffec",
+      "sha256": "5ba9c2e7735aa734b73a07dff5036c22a6a9e5b65eaacc36899e1586f9f75f3a",
+      "sha512": "64033c6d9f43beea18b31d702b0589cc32b12e08a114fda71da89ceeacee7c16b6d200fdcda295203366d82e5d51db14a2f664b93470cd3d794c7dfdbf8154b4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w42a",
+    "version": "19w42a",
+    "file_size": 456266,
+    "hashes": {
+      "sha1": "e27db6b9953c79dc5b27d7bbaebb96b55072c075",
+      "sha256": "27391a4f41ff51fc91dd590370a57ee02c89580d7cb51932a34c831fb1b23a12",
+      "sha512": "a85742e0f5277007c59252d5172e2e5fc4ec2e1dddd86dce75a0fe61b04ae354d2c53986411a4987da0b42073c7ef695606ec2f6aed8c4422067af4297bae6c4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.2-rc2",
+    "version": "1.21.2-rc2",
+    "file_size": 962123,
+    "hashes": {
+      "sha1": "a6a9d4e199b4d1be70cce17b627a0b29b14a5c7c",
+      "sha256": "4c5809bc3b3c2cfa41a648ff484b4e104c8763dcbb0c44b6d095e802dbb6d522",
+      "sha512": "a3979930fd17890eeba03f5ba24dd195a71ab64c7dc8961e6bc6a1dc409290713ce01dbcd4034986b5d08cfcbb27e40aa70cd5e690bd097aa77eade3329433a0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21",
+    "version": "1.21",
+    "file_size": 913192,
+    "hashes": {
+      "sha1": "39001a8874c0b7659c1dc43aa1c702a5af4520da",
+      "sha256": "7f445b6a5a1a36d6b55438a01d757f82b9f2d725f95076799fe19cd09b0a75c5",
+      "sha512": "f7d73d208672f9ab06bcc5456cc476a06b4e279fd64306a25263f1431fc0adac67ccf8215afa8fd6cef6c4be5b01c0f11017c2cf0e1622cbd3c03f7f92189948"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w16a",
+    "version": "22w16a",
+    "file_size": 700788,
+    "hashes": {
+      "sha1": "eea4587adcd200f78f6164e3e3d5c6273fa7d1d0",
+      "sha256": "cae3fc2b363c5dc280d39f4b2aae38e47410cd7e933c0c935a449afad9f50762",
+      "sha512": "49704e21c7178ce56cc3f8dd38f660ae7e62bcb9bfc4c53d86fff19c88ef529bb595ddc83e3c4afea5ac645a17059db0d051265643d24da88621719432b7a7b1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20",
+    "version": "1.20",
+    "file_size": 798706,
+    "hashes": {
+      "sha1": "5a5f9bcbe871e5ded5be61207446902c5eac4a46",
+      "sha256": "5680dd8df6f91f4fa508e9457613e099aa0ee8e50463bd14667d5cfc4a14ee5c",
+      "sha512": "f538dae4f44e1b1c6d9451d98bc366565516e2eef114847c6153ab970ada425d71d2bc3e2eb934d8fe60e027e0ebc898108cfa3e9134fc1c60c469fcbbd6b7ea"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.2-rc1",
+    "version": "1.21.2-rc1",
+    "file_size": 962103,
+    "hashes": {
+      "sha1": "b18581f18813fb46befa9b2ed029b2482b3a33dc",
+      "sha256": "7047b4b56a45237a6fd2f943d2e70e1470d8ced112ca9f62454807f751133000",
+      "sha512": "ecd3a7c5f6c7bc5416660ecbf040eb2052624a4caac7df41d84b774eabee875bfab32d3953973bddc2ab1e0f81183998fa8563983d26aa8cf4df90d504972ba7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w16b",
+    "version": "22w16b",
+    "file_size": 700799,
+    "hashes": {
+      "sha1": "73c213f2487f361715a11e8ab009eafe9d51c1cf",
+      "sha256": "a7cbb5c450d8440ce8b759a2387a86fc87e1278dc7e5ea7b22fc011c7f842ee8",
+      "sha512": "6fde9a6084aa35d9f5961db0f1ea88bd2b02c5319db066326b9e088b8c3c8c50c9bf08adac2b5d3360f4d5c6218fb122fcabb87d6da52e502ec47e94d12e4a56"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18",
+    "version": "1.18",
+    "file_size": 664337,
+    "hashes": {
+      "sha1": "38fc56c3ab8c135e10750a6a2fd42fa4e58afeb3",
+      "sha256": "9fb2e5d4e264e9d964380e6fc93a4029d9df0838390255256544e6aad1dd5527",
+      "sha512": "9cdeaf575748231a009b8ed730877ccb1f74bba19d935eba8f87b99b3fb06e852f5c5b834cb4d5af4b98dd30e92c68ddc32ec2c86568386e07dae658ca7e70d5"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w11a",
+    "version": "21w11a",
+    "file_size": 592722,
+    "hashes": {
+      "sha1": "192377f600a0118290fd674e4275cde6ec51ce1d",
+      "sha256": "82d2db8a0cb118bbc2b062101443fa12b70e8600ea16f1ca1a7afdd4fe0e2032",
+      "sha512": "4a60b3d25440de66acb9ab6b3b257939b97b403c232d33201b4ec5cceaf9aa8dcc6e4b6375398167b6f02e49b1feff538c778ebac8967eb0d1c650b247411948"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19",
+    "version": "1.19",
+    "file_size": 713437,
+    "hashes": {
+      "sha1": "32939a6d07aa31270dbebe19e95ed2a7e8e2746b",
+      "sha256": "5b5ecf8ad3987524d5ccbd3910f67b6f9913f0e027f12e04a8f7b392f920767a",
+      "sha512": "9c7551d3bbf6c85fd451e4577b697ad45580e84f17eb16ae548a4da463b20b5e8f6cec53d605a2266cb96ea48f8b796987bb0c4061a26117d6413d140d4b85bb"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w13a_or_b",
+    "version": "23w13a_or_b",
+    "file_size": 813829,
+    "hashes": {
+      "sha1": "70ff4a7e34e2dfafca1b06deb0d072afd241b881",
+      "sha256": "058d1528beb6da0b088c8706866f001331fd8b1c7e3d8895a2215222c66de4e9",
+      "sha512": "f786e9864cfd1cc4df7891928b2bf1f663aa04391587a81fe0299e2f3aac445a7dd35cfedede233e8fbc6a3ff4574e8b44ac6bb83f4c6cbae0e511bac8c836d2"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16",
+    "version": "1.16",
+    "file_size": 530075,
+    "hashes": {
+      "sha1": "df1a614db54037be2535e4c25a4d8c70b6487642",
+      "sha256": "169e72bb6ef736cf32266cf75ee2da834b4c3d883ce184b86c590fc9e8635ad2",
+      "sha512": "63ceefd99d89349b7994e178f6b17396fe4c329c6ab7dfcf7a1ce0ff670ac3b542074c18f646d565730ed4e5249c7ecac823d5eb6023d48d20309e3a0520b346"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17",
+    "version": "1.17",
+    "file_size": 641733,
+    "hashes": {
+      "sha1": "c68776cc64c66e3a83735e92646996e959c83060",
+      "sha256": "a84a12805dadbef8d4d2434d47824e9552c428b4836b1d7f22d59c595371ea02",
+      "sha512": "02f75219bfb6dc426770a7733baf9da6f87248baa077f54193b19d061c531c3c7864deb448a28696ec3dc48a35a19ac5df65eb8218fdceca7a8fe894b6f0b5df"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19-rc2",
+    "version": "1.19-rc2",
+    "file_size": 713437,
+    "hashes": {
+      "sha1": "fdbb4f44cc443dc537f030cbd471c006bda2f929",
+      "sha256": "0df1a05d1cdfc8a73421bb72c17710340da34325ff356d4c95cb9a317297d728",
+      "sha512": "445405341957020083032dd176cf91bc26aac0ba458c503865bffcbbf30e51f82f551d7b037d5b1d0fb5480410ed8ae1b50c0074de22269c2d3093bb22077a7e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19-rc1",
+    "version": "1.19-rc1",
+    "file_size": 713437,
+    "hashes": {
+      "sha1": "de83a8db77dd50e57f6f8bc13c888f4c8704ca48",
+      "sha256": "b65ca3fa8215c67b54ee4e0d32fde6ce3483b1c822fa3b9b81be8d35aee72cb3",
+      "sha512": "f15685b7fbb7fc6aa77101e4676db7b8e89c2dbf0172cdf95f303f5c2f1cb37b9df4a1c7806120a8178ca125d664b123aa7ebc5a491aea1aa56c2415c39457ea"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15",
+    "version": "1.15",
+    "file_size": 462500,
+    "hashes": {
+      "sha1": "0829faae6b14e4876919ce049c8c7d645dc6eb63",
+      "sha256": "970557d12efb8ed3cf84236ed6a51205eb1e280dcce8a99e791e76978ae36088",
+      "sha512": "1a96462bd5c47b77f038f3c69c5a307e68b9430d48ee4090e87c9fc7612338923284c83292e73d9e3fbbc27a8fa99617e6709b166f24d6b398967f6b3d5aeed3"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w41a",
+    "version": "19w41a",
+    "file_size": 455959,
+    "hashes": {
+      "sha1": "ff6f4c19ab56379b106e3d9a416a64751699af95",
+      "sha256": "37a625a89e59c2b29101ef3d1de4eed68c3d6d6cd3c4b84eac7623b1a76a57bd",
+      "sha512": "f5b0bec07b1e9339e46c66f1d1c7612f70b89e65f76cbf0ef56ce5d21704c4706f8689bfb12c25ec33b18df2cf4a4c6f4d1ab6e4efc51830e1e03dcd0adc7065"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w30a",
+    "version": "20w30a",
+    "file_size": 539115,
+    "hashes": {
+      "sha1": "268331fd94c4c9adbffcb99cef79af6d19ad91dd",
+      "sha256": "0b0648595927b9952253dfbd597bd18e9b591ae6b5ccf81b56fdc766339d2515",
+      "sha512": "113304ca90580edcbf311d4dafc1a0d9526e03d068a335dbe9317366af21d232c90289e08c7b1aa5344dcab9bbc2bcb63e2794b390a211630db9ca77b76d5494"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21-pre1",
+    "version": "1.21-pre1",
+    "file_size": 912779,
+    "hashes": {
+      "sha1": "cfb98320fbbb4032aa9e53725741e4cf9d0f30b7",
+      "sha256": "98fd4743e88563e88cd1972ffbf83e5a66d327adb35e922cb540b1f063470224",
+      "sha512": "56891ef449dcba7897caa906bbb6ea5ad2805a51ec57368d3b9259b5a8dff319707b3db69d84c8d0e3fd8a0ee0649e603fc654c383b92d952de97d41894431cb"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w05a",
+    "version": "22w05a",
+    "file_size": 665354,
+    "hashes": {
+      "sha1": "ced618cbdc57ba15d8e365c469a13a60f93408cd",
+      "sha256": "58845d5ec1b0908e13a69cd8e7ccee02f822856ab129ffd3748b661b2d21c57e",
+      "sha512": "33a847524c12d7ffe2d5463809bf4c245ad9efe0bb912437d16c536f891afe1cb8dc94ecfcee1215460dbcaab33f1fc8526399a2e466256495e416be33649372"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w17a",
+    "version": "22w17a",
+    "file_size": 703446,
+    "hashes": {
+      "sha1": "468926095ad6c01fbd221f869d6b1564c5299243",
+      "sha256": "53ce4440f57ab692a873198fb1f74fe88b9e18fe8c8ba1d4d266f820480e3be6",
+      "sha512": "bf4375120c8105136f059b7318c7b74283dcb1be08762223f3f5c01467f3ba1de7deb89cd7be1cc8c5c6c600c756b725def03575c771aa3b43a86468290f90db"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w10a",
+    "version": "21w10a",
+    "file_size": 589401,
+    "hashes": {
+      "sha1": "c51e9a209e508895d3cc95db372410eaaab73dd5",
+      "sha256": "6dea6be1b9853b016947a935a977467b61e3dd2d78aae2950776380960bdd829",
+      "sha512": "aa5b98a540161597464e018b381c1c0fde2e1b3c5529117eaf8474bf22527d45b2d45136f3e3dad6315de72c416fbfe864cc76ea406be485925ea9940616ff92"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15.2-pre2",
+    "version": "1.15.2-pre2",
+    "file_size": 463555,
+    "hashes": {
+      "sha1": "92ac9b8bbd68ac82679cfa29622b4e5418f86111",
+      "sha256": "18ad34e48799e78ddd34c855cee2d6aed733561db2b0045fd35e499cc9aba22e",
+      "sha512": "19c0235f3c60c011f6476050212631da23cb02d73a0fd04e73ddb27f48d1fe92f847ba13e1f6540dd6f58fcc2cd069efb8a5406398b724cd22e512aab4742c6c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.1-rc1",
+    "version": "1.20.1-rc1",
+    "file_size": 798778,
+    "hashes": {
+      "sha1": "86620f686cb15ed48f3827e03f858b137a578109",
+      "sha256": "d0bb0d579cf9206e1da01b28289c93f0fa1007491c455eaffe143d1dd3ada54a",
+      "sha512": "d0c4fb274d1de48c9880e761a8c95ee0c93c19467834e9253fc7ac0054b8f579c9b961892a9720994661f6bcc6e5fa39e22b39f66c58361b936907e6fddadf09"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15.2-pre1",
+    "version": "1.15.2-pre1",
+    "file_size": 463536,
+    "hashes": {
+      "sha1": "6376aa262934469ae5e49d68a2f86f56a5cc1db1",
+      "sha256": "dab63b4beec64ad8a43f79c6d08e229bc968dbbf828b398c5d79a7ab68c1a2ed",
+      "sha512": "3cbb1496cfc84c7a0c070373095f6d5d03860a68b59c048aa0e31cc48f405e7289013306dffdb0e98b6753437c5f41faf62c6f5083386dd07ffa8ecdcfd2d284"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w40a",
+    "version": "19w40a",
+    "file_size": 450623,
+    "hashes": {
+      "sha1": "2eb68a95586849c0d12dd5acacae95991db9f5d8",
+      "sha256": "e22d09f9a3cfeff7298e14c61f857bbc54bd02e3dd207281663adc3a724eef06",
+      "sha512": "61ffb753b463339f8064274512b63df1f10865e7c0c5759b92a1f4ac1bd66b9832009d87c8c907e81b0c4cbcfaebdbd2ab47c0cc2342840a034db8ca332feff6"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w21a",
+    "version": "20w21a",
+    "file_size": 519569,
+    "hashes": {
+      "sha1": "13f317a1e003be701c49e029af92511107199b64",
+      "sha256": "999c323912d42243f2737e02c9dd2c77d6178485316eda91373d8f022865d14e",
+      "sha512": "822867c025257281919fb3d27253017235db55abf4ebf43e302c166404f57961db8a0b65ada8adcf7e6327998312abe3b8b50b873e2a1645d9e1b3cc5a3424a1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w45a",
+    "version": "20w45a",
+    "file_size": 558787,
+    "hashes": {
+      "sha1": "b98389d898a5edf113f9c7ecaa1202f163f51d6a",
+      "sha256": "1ec1e1b6f8abe272f74b43e32257db0cbc4cdd7eb03a7f129c31af8030b83562",
+      "sha512": "16236f37adb94522ea1ba239a7dd4fc0b40a1fc2da4e9bf40342da0bb78ef3d71524033fbe28c3633010be51813c16ef852bd679437d4e5f761f8f19a159bd42"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w14a",
+    "version": "22w14a",
+    "file_size": 697621,
+    "hashes": {
+      "sha1": "8bdb5fac1ecca80936dd0b28e9fdf2df7b39974f",
+      "sha256": "a5d92853b730a4b39ff92dad8bf88c875b0a111f9be00bddab984e1e754453b6",
+      "sha512": "f00e18054a8d492046871a815c4a617b87a75850e1f7ef685bc4ec0c2105ab930792e93c3de2d1ca6b6c2dac1e86470b7a78ab75cbc7f74ae12ea620165c5cdf"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w06a",
+    "version": "23w06a",
+    "file_size": 770778,
+    "hashes": {
+      "sha1": "33181c2dee330d6baca65e7168cfc1616dc1eb81",
+      "sha256": "4f9f6f3cb20d499ad2c779700af7095d54aabe817945cd547c64eba8556bc270",
+      "sha512": "4a8b1f480d545384beaf85fd013fa1972a93ccd962af3ca1906ed7b9dd30df751ec0e1dfe0ef735a99890ca6d7903f42a0d7cd7001dbc80138691ac250335a46"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w18a",
+    "version": "23w18a",
+    "file_size": 792187,
+    "hashes": {
+      "sha1": "2b6ca394e7507c3bcf460ae5de99dccea1c44d84",
+      "sha256": "267cbd8202ee511b504012f4ee4db3b60b336df69a29878f3b250311002c6542",
+      "sha512": "dfc3910a06c6e4b214729a39fb0e8eaa6cc6f6769e87d2a779cbeb91c6fb6a09bb3d37baeac282d31acc41733d3acec1a99ca53fb33ebfe1e23c12135da42b43"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.11",
+    "version": "1.21.11",
+    "file_size": 1103658,
+    "hashes": {
+      "sha1": "bb8e21976c94855ff170a1cca66f737349f1b1f4",
+      "sha256": "98c6bb424f73f7e248d4a6f21ce3e24f3ed28ba4297591d0f1475a80fdcfd821",
+      "sha512": "54f1a0745eb1812c8171c4e2b9abba233bcbdf3944013c9d205bd80f93676036cbfb0936523a4c7e6acbdb95d5d5f50879c160dee5bca5995ffc18ab78b55665"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.10",
+    "version": "1.21.10",
+    "file_size": 1076960,
+    "hashes": {
+      "sha1": "74034a76cd112f3d31cd62ef85894c1c7c411666",
+      "sha256": "4cbf1ecd759d167cdd5cc88fd736f4a983371dfe20665005b7d645e792709f79",
+      "sha512": "7943e37b1884af671a7fd3ae20dd518528ccd7855af91365789f2889b9eb54a3629b42011ce11f6cfbb54d35fd676c92258686cc43b1b6da29c1b39245a8fc1c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w13a",
+    "version": "21w13a",
+    "file_size": 641744,
+    "hashes": {
+      "sha1": "9295276c83eb1e112f48ab17c3b0b3c7543cff80",
+      "sha256": "fea8bfb2277820cea7dea89f61e447d530fc33b762f3b0e5c784019c60727169",
+      "sha512": "40c3690bc9197e9bd5396f98d00dcbf6ffd2bcbac5e645eaab06a8e3cdfe1069a65b10085870c0b51746148dc59ae8c4c9a5feb450ed1955b6e6cfe51752785c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w37a",
+    "version": "21w37a",
+    "file_size": 648814,
+    "hashes": {
+      "sha1": "8e8ccf788c242c87f59c3d99eba574a8bb4f1d4d",
+      "sha256": "8f18e428b111d9376c55b64f9c4f2de80dd2542a3f10947f53e32401966ab37a",
+      "sha512": "38f5ce8bdd504b603be2ddf0bba1108cc738954cce005ac7158898117ea4e2b004afab8cbc26aaf0b5900c7d47936b751d900874d55f13fafdefa73223b88c71"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w20b",
+    "version": "20w20b",
+    "file_size": 509268,
+    "hashes": {
+      "sha1": "a4e385fb41421b84780d15e9f17c4839d0f66556",
+      "sha256": "33af480f8c33849d137bd75dad4e0cf0c1fe9c1b8be3e04e2cf6e4bc00963c45",
+      "sha512": "6431360cb72c9aa80bf6f87bf3972bcf48020985a64cf5aae51fc0cdf13b395070df25e2471ad3f1e285eb52373cb296d9a6aac4128c85ef33437968557aef14"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w20a",
+    "version": "20w20a",
+    "file_size": 509249,
+    "hashes": {
+      "sha1": "d5f459b266b79bee2ecdb3d4dc1e5df289fc7fb8",
+      "sha256": "db80aa856c7e7d719b4381f5109f46423a5b06eddd0d9c095d0ab6e4de4402bf",
+      "sha512": "00f31a334f788426b84f9c5d9578be15872c8073b657c307a898df4e1e56baa67a48f1ab4671ecdea0490c753810066343907720adf331eff8135a3ffba30e92"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.4-rc1",
+    "version": "1.16.4-rc1",
+    "file_size": 543322,
+    "hashes": {
+      "sha1": "bf3b92c5148207c4666b14e34328a89ebbb42a58",
+      "sha256": "026a521ffac9e3f062858a5595995508e5e1fbb8470044ba9f1c8aada3547ab0",
+      "sha512": "6cdfd0572e9adf9acb2042fe64c2b71a49ac7c9db2948ebf135d78a4c4fb1eff4a07a10c7ca4a1542f8a6d78493cc558c9219d299f6417820e305b79e43abdf1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w03a",
+    "version": "22w03a",
+    "file_size": 665188,
+    "hashes": {
+      "sha1": "82063fb8153bbc71ae82ee914edcaf90445850b8",
+      "sha256": "1ffdae78c01f8baed188700d01970af27db476d7090a7582b14d61cea8221373",
+      "sha512": "75e22a62dc153cce5d77cda6d6e6c1e5340e18573489c06b063d1eadedfddb9f61430b558e3759de730b2d0eaf8e2bca105adce50e1962a8bb7c593b75e6e135"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w15a",
+    "version": "22w15a",
+    "file_size": 699613,
+    "hashes": {
+      "sha1": "f0810af227acce0007c5ebeca0a97b1fec4f5a8b",
+      "sha256": "cb979f07861f102962f4162378378a2c3c86225531efae389a997e32944ffcf8",
+      "sha512": "0cf7da3218c7411c36110475409dfcebbdc0e3b7a4e4070c8cd2bd72ddb6fec1d6d5bd223ea36648e3bdeae484c43b11299ed87f99a0451a3a8db50253c4a01d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w07a",
+    "version": "23w07a",
+    "file_size": 777610,
+    "hashes": {
+      "sha1": "29c048b50c2f9f4203b9474edb90d4f5f1a5c644",
+      "sha256": "0beadbc8b6894273cfa36b3729a31148ea319360e244e805e624eacb0b4aa548",
+      "sha512": "ea092e5c0ba2e7ee55cc204730c739d7c6d95e563194150d7e2d6494593d44d766c904b1eb4715b88eabea9392d56f0999df2fa5d910d450b0b75b00da2ff95a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w11a",
+    "version": "20w11a",
+    "file_size": 487947,
+    "hashes": {
+      "sha1": "a6d9ca4b441d11c15e9d6eb92120b4c3a582c653",
+      "sha256": "06bac8848d060280b0fab8e8f2b5a09975ccea34c009352d4a8b9ba2147f173e",
+      "sha512": "05d4f35d80630a0ef1faf2f6b872a1197c2dc362c2b940dc1cabee774eff8415c05a6f148d5fae7f8104b90dde351451393fab8179209e6adc37ff63bcf98c1f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16-pre8",
+    "version": "1.16-pre8",
+    "file_size": 530041,
+    "hashes": {
+      "sha1": "51cf38bf69060810d1d75d972b4218320133f572",
+      "sha256": "81da7b9c726625fcdf541e6fa1319caa03fc7baef523bd987ce3c0e67b8f9aa1",
+      "sha512": "ec14b602f308e9a65de9f6f90236512bb89c7be285b9b1bde16be3f5f2b41a25a308f034cdf256fb79231b9c3fe2dbf8a742c034c7e949c70005bb6b3ba54869"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-rc1",
+    "version": "1.18-rc1",
+    "file_size": 664337,
+    "hashes": {
+      "sha1": "7b23ac90902fad61e4674e522669cd14ed5b42d6",
+      "sha256": "9582aaa9581bdad78dff75678da22fc6fefa146b1d0f69c7640d4121a558122a",
+      "sha512": "8c3377d07cc52895020df39e63634fb298c99a4d18e16a13f44209b3f9330bc37fb33fbdfa8095b7fe512de3ddc29690bbdf32e23ca3aa1bf997783d93822728"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-rc3",
+    "version": "1.18-rc3",
+    "file_size": 664337,
+    "hashes": {
+      "sha1": "d809f4765ae5ceb1c3bcf0227c13138bf3bb006b",
+      "sha256": "a6c54ea7bd2bf80661513176ee51ea91f7b8dc9ae4fd32fc7737c96e293b66d0",
+      "sha512": "120277b68fc790779ca6df0896779ab031dab1fe3da00f0c6ebf461d2441e8000de2ec7b5eb251dae460deb909736484da05e2b63e43c80c40e19c4895785a98"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w39a",
+    "version": "21w39a",
+    "file_size": 652658,
+    "hashes": {
+      "sha1": "27ae5f4d262c12125d01dace9e929e6e4ce3640d",
+      "sha256": "56a9a7a7b6832229fb7634c5205d0aa8a118694ea058ea401a804573dc7cbdb8",
+      "sha512": "85bf1927c0c6b5a54a0f76e8913b6dbb8e9b0f4523013241dca5ab899ace06963daf1957070310901d49d6f56128762aba4f08da21c83d5c192cd805275da936"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-rc2",
+    "version": "1.18-rc2",
+    "file_size": 664337,
+    "hashes": {
+      "sha1": "88bfc7ddf93b3e12ce73e9f836c84053f31c6c7f",
+      "sha256": "03f8e4848c569961871dd5eb60f75a8ff50f0c8b640b6294fa8ea744b0950ac0",
+      "sha512": "5287876d27ff162e82691ee08f98b7c1a3933089f5c28a77fd8725584a77ffc9c7ddd05d80a74de1a455706b83f730ba9ce25cd63643b7fa514cb23d1e17dd27"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18-rc4",
+    "version": "1.18-rc4",
+    "file_size": 664337,
+    "hashes": {
+      "sha1": "1ceadb497eec4083dc587e6181c2ef0b14cbabaa",
+      "sha256": "9bc8aff35ca15899bd49175c56ea6b9f6cb9b3f8259b0348b1e968717401b352",
+      "sha512": "172a8fe8311741c5a9614ed8ad8ca1233e4f6f777af19fcff77d872ef6a5ad202f9b78d43f56b2ec93674b6cedd88a5cba6282e5d4c299c78a71b93f556f9d9d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w03a",
+    "version": "21w03a",
+    "file_size": 575573,
+    "hashes": {
+      "sha1": "66980c7881ff53c739b7397c1a868f2c20b5d886",
+      "sha256": "5b1bf1231ec6aad22765cf5941874dbd82d4c03eef17b2f6d5f8aa2132f66729",
+      "sha512": "0233b350dc7fa60bf3fcb7f0b061b7fa76f8553d3e13ef70492c9ca3316ca8c5004ebff44dd05459b471d97b1869cb1f8992f78a7648fd952e7be4ea4503d4fc"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w15a",
+    "version": "21w15a",
+    "file_size": 644367,
+    "hashes": {
+      "sha1": "4a39f9952644049edc1f1045cf962b4e7f79a707",
+      "sha256": "7063a2648b77ec341d09fa08a6450028ff40ee60bc9df1be0f68e1c4d6f6ffe0",
+      "sha512": "64db303f5d7ffbc784d67ea82325a217b5e98360cac987588e99a3d72620cf2ab42da26841ed57b43fbb0a00ee753b33e83d6ebe59301c2b06f1e72a9b3215f5"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.2-rc1",
+    "version": "1.20.2-rc1",
+    "file_size": 817179,
+    "hashes": {
+      "sha1": "23e518816939938e2c8a3a34552adeb8c0c07bef",
+      "sha256": "c25d88a2989a08c4837723b92e296ace3a90d9293490436e9fa23f764086e5e3",
+      "sha512": "1dc753902665a50d148703de55146cd9f50d5b4dfa69feb73f44d5024be45e7210ff8542e9415c0fe5d4cbf1bac422557a3a562665c164edc7c21926ec93235b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w10a",
+    "version": "20w10a",
+    "file_size": 486843,
+    "hashes": {
+      "sha1": "2a52520e62490ce640bda365793f0843b139cd3a",
+      "sha256": "24dcc7fc5236ccafc04c1fa3e65f970393b5c94fcae9656ea87b69376f976a12",
+      "sha512": "4dbf13528916d1fefd5b16dd63be1c148acd61098e2295aec6e8e40be0bb80c75ba4545958e9ec8afa7a80f85ece1af594b0d18013899678d7fa3e033cc12544"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.2-rc2",
+    "version": "1.20.2-rc2",
+    "file_size": 817185,
+    "hashes": {
+      "sha1": "92d5c721187a51d78d7aa2cab39d63033766c9ff",
+      "sha256": "fa1ab5c2caa39cb7779382a89149fae1ac4cca565869a2abee0eb7e1434ed4d1",
+      "sha512": "76dca3a8118e173105bed6d3ccf62ce750b825e706caa7e628e53d49cf81ca94ccfed7e235ec5918e437ae350cbbf22761b596261b40669b2f1f6ee0c8a96d80"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w22a",
+    "version": "20w22a",
+    "file_size": 522757,
+    "hashes": {
+      "sha1": "9e3a150b39f3ee3293480f2db51a3a85b49413df",
+      "sha256": "5fbcb7a6f3350c71b0b78eab03c306e01e2206f62594a416387125ed55d7234d",
+      "sha512": "56e93854fe62f5bd4e754704548dab359ed3d36192e2b32283ca07d53da2a6283eb20ce88d01821a8b1a4b18ce111353683ecea09f1d3ba505e3e0ac68f23fa9"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16-pre5",
+    "version": "1.16-pre5",
+    "file_size": 529341,
+    "hashes": {
+      "sha1": "fcdcc0e7e9ae4b378cd1b0d071024c0111f2c71e",
+      "sha256": "659b3204c04ccda1899e151adbe70857d92bbc2fb39cd59520f1c5e4f440018a",
+      "sha512": "bbfc472023e02b17502d4909ea90b05b21969127eec9d2b942eaf649974303999808c978b45725a4f0a084b2e3cd70d66b9eb42e52f094d78eac66789c27b470"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16-pre4",
+    "version": "1.16-pre4",
+    "file_size": 528576,
+    "hashes": {
+      "sha1": "0d8c03950f5028607ad9485664aa663a62882a2a",
+      "sha256": "0210db9e1666dda10ec28279bf6f941dcfbf2d36cd76c13af7e9df6dc3a8029c",
+      "sha512": "33ccb788f53133832ecce7524864e2d287699b5dfdcd1278d8172fbfd73a39b12b6cc7d0ce51b6d8e8b547b73995301c29a78243ba3ab0ac9f3d83b1b24beeab"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16-pre7",
+    "version": "1.16-pre7",
+    "file_size": 529858,
+    "hashes": {
+      "sha1": "781e0a622e51ffd4c8dbabc54012e75686b062bf",
+      "sha256": "bcf560e608af4f953b01ae83df076867bfc97b5def06a6ab51540ea8cf1644bd",
+      "sha512": "16db3d1b0e166cc18df0411e9cedb629a63613eb1be03d42e4b8b3af69c7f861e7adeab85ac2c342aa91073770e8208fa29ea7b131c825211ca6b05ac8e8e5f9"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w46a",
+    "version": "20w46a",
+    "file_size": 562796,
+    "hashes": {
+      "sha1": "19df39eb88190b4838058f65772d4f1ef1358b68",
+      "sha256": "5acfb748ec9b243e5425a841adcf5fce40f69537c0e16d1318cb4a68e0db0d1c",
+      "sha512": "644587ddbe39f5e3fd9dcb496a019b3b48a55569205496ceeaca94a49892728fe0710b848fe8e90ecefd2079885b7d2634d17363376882c710fab245a68232a7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16-pre6",
+    "version": "1.16-pre6",
+    "file_size": 529613,
+    "hashes": {
+      "sha1": "24bafc6a0ebebb2bd38eae7c1f0b55dc5d7df3f3",
+      "sha256": "1b069471ed79830b60a2e19164082f5f5ea6d268014ba818034be3737c390ac4",
+      "sha512": "6a5c5fead0cf4ef02b8f64a427473f329fd0a4c1e67dbf7e82b6e17f65dfebc63d67e09c947dedf5b6dbf4d416966228d9d0c74d314418e3f310589a1adc9b7a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16-pre1",
+    "version": "1.16-pre1",
+    "file_size": 527304,
+    "hashes": {
+      "sha1": "40bfddb91f516b91e900fc6e91bdb1312093b73d",
+      "sha256": "b3711e42e1428224fd6a87b1ba46a882445503e432a74e13096cc4c051154f84",
+      "sha512": "6ae704fd991e259c8ba4977bdb18366981aa0c400aa33139a48a8675cb6d01f8fa4eada70cd6030ec10fc1605b595765045fd52402ab725ed5e267987aab2a8c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16-pre3",
+    "version": "1.16-pre3",
+    "file_size": 528632,
+    "hashes": {
+      "sha1": "73debf3bc67e11f4aa1a0b3e3e4acf90c1b12b12",
+      "sha256": "64acfd2596f3b8f6b6d9e18f4508bc23bd1851f26a4d61428c4774a299485d19",
+      "sha512": "c13acab1d09664c4031658bebcf4cb7af4d10b383c2b36c15e293c23f497c93d1e01c015bd9374115d9bab7ab42f6454abb9a232d193f5e5292e93d2d157f8af"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16-pre2",
+    "version": "1.16-pre2",
+    "file_size": 527324,
+    "hashes": {
+      "sha1": "659e390d57d6ff7d1fe60eb4f20e802d7d4d2469",
+      "sha256": "8d6b8b89d789cfec1ad995b60e357d5207eb1d56b0f4e73558f448f90d2de062",
+      "sha512": "64f3cfcfed352b7a1d84130adbace81687f4c3b61d1d1ab8037e387c1892bb18183a666826db1d2283bc658282a956082e4e463577f0782fe64c9de13ddf2a8d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w14a",
+    "version": "21w14a",
+    "file_size": 642237,
+    "hashes": {
+      "sha1": "ac444bcea9a52671afbc834b122d588282e5f6a8",
+      "sha256": "5fe6f20bf2bbe78d286d885d75f84ef99d95ba2a6c73adc7a232e9b68740dd34",
+      "sha512": "c71455bf68db98f1fad355fe65cc474933f8de557af719d3d5e4fa85b680092276c24ab1abffbeac8280a1c00b94074d642db9660c2a3f401e8b368ec8e72ebb"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w38a",
+    "version": "21w38a",
+    "file_size": 650942,
+    "hashes": {
+      "sha1": "7d3f35d5c8d6afb98a761226938de76dcc4d4857",
+      "sha256": "8d903b65497f9c59aaae260be7a3292757beae34480e5f990a64bcaeec6dd4f0",
+      "sha512": "ef8618097146c5cccc0038e83a4e4296d4ff4a5ed65f498a78b43981bc8e073826ebcae16c1c83084934fb203880480dd5f7f22d60a788e27b43db564b079d43"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.4-pre1",
+    "version": "1.21.4-pre1",
+    "file_size": 973320,
+    "hashes": {
+      "sha1": "9ffc5c3caa61595edc754c28820b97771284ca3d",
+      "sha256": "dbbf2ef2a29662cb10f532abe20a760e8cacff6e5ea26326bb1e234e76e7b6a0",
+      "sha512": "7e1ddd77c44c07331a227c875ccbd4b0ff5cb135222805a128493cf1344a965c08c26eda6bcee8ec17e136b972b60e096a7cd73afed573372cfc0063b2e83e67"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15_combat-6",
+    "version": "1.15_combat-6",
+    "file_size": 464204,
+    "hashes": {
+      "sha1": "504c3aaa76f88018e11436adcf0775a615b3d3c7",
+      "sha256": "4c7a0a3c13af75f575c3a6bb1bbba25f49525089a5d73791d45267b4f19fe96f",
+      "sha512": "b014798ad7f99357fef028a6c955c10446a4a9ce8b6b955449f75b61f2beb89b8c274897bd11e92b85a10f0c9fbd07d3ccb92d0995c11b6855bfb481bb7b88bd"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.4-pre3",
+    "version": "1.21.4-pre3",
+    "file_size": 973451,
+    "hashes": {
+      "sha1": "ac55b9004eb6129468b22f47b8db5807f880aff0",
+      "sha256": "92e8418a671b12937e5cc7870f932eb5a43f9e514c45f0a4462a109881f36aef",
+      "sha512": "1ef4564b24913a73caaac94ba5edfa0fd8cf6077e4d9700678ce6c58d7404a8c7b22bbf5697c911a99862e1fc16f9306a33866e2f93e664e781230d4bedb21bd"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.4-pre2",
+    "version": "1.21.4-pre2",
+    "file_size": 973451,
+    "hashes": {
+      "sha1": "81f98481f1ed724dcfdc7975733e6b2ce4e8f26d",
+      "sha256": "3689fd08614dd3cc0033f25d971871312117725b6b9e328bce803667ea50ee86",
+      "sha512": "a9dfce23e923216683d6ba1a1184c7406ca5f8382bfa23db04e933900f46813f0fee92f4f3c71f5665e581bb5354dbd7462f153656987da812a1a3cfea92755b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.1-pre6",
+    "version": "1.19.1-pre6",
+    "file_size": 725249,
+    "hashes": {
+      "sha1": "1ff63dec91d65d63dbd0cbce051cd3633e0c20fa",
+      "sha256": "fb9ab8ae25c9bd32901871147e21c6f79e1c8cca2830850c8b8414c1e48ffcfe",
+      "sha512": "8492826f6e7ab205895937c1653a57effcd96cc0703c5bab8c226367e3bcf3945bf634ac5596855a5b5f5f90938f7ba77a0cb34be8dc98a2fca3a1a63fde61f0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w14craftmine",
+    "version": "25w14craftmine",
+    "file_size": 1037963,
+    "hashes": {
+      "sha1": "7611e72de97d8881bdb181b6b174849ca297679f",
+      "sha256": "44451080f55ab188f8e3fcac5ff619995a6eef31f4cbcb0ebe83e00f54bbec54",
+      "sha512": "9baa7dbff1a6f61b0d251cdc8082cf2f8f41c27f7a52f63988430c5f5da898d247aeab9a6fdbfe4311752c211d9a0198854bf8c94ca2bbe82102a191f96ce153"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.1-pre5",
+    "version": "1.19.1-pre5",
+    "file_size": 724719,
+    "hashes": {
+      "sha1": "3a31cee15a66086375393c6c0e9b6d02d821e53e",
+      "sha256": "895beae1811b190ac5f35693c0e149b7d1ce8028b75095e6c27d69e1f842c4cb",
+      "sha512": "a86e9e10088d1f6e61e09c4556d63e95990f6495f2fbaf81f09877f8279e86261b38b6f52730ee2ec7832a4149612ee065aa7b197dc18b043a58fdb94e933c7b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.4-rc3",
+    "version": "1.19.4-rc3",
+    "file_size": 781854,
+    "hashes": {
+      "sha1": "08007a101930211b0136a2c5ba18112af56a72e0",
+      "sha256": "b98afe623804b5bdbf7459b3692849daed6bf1241fec681bcc6f26801868ed5b",
+      "sha512": "7d4766ba588a6888b106a81ef98617f3fcff550614ceb70b0f2f5d48ec859d95da3e4b90e8a2f21875f138b3823e1005fc08ef59139847e216bea41cd622fc9d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.1-pre4",
+    "version": "1.19.1-pre4",
+    "file_size": 722462,
+    "hashes": {
+      "sha1": "4f9868fdbb842750f643faeafb6c37cec248fb6c",
+      "sha256": "3a51e31301d8849e9fd841719e20e7c8262a692e65340535a81f6f26d91cb0c9",
+      "sha512": "89e4807d850a1e6e5459682a8c6c78a8ad74a3b3c0f3b65aff52ed87da0da6167cef9c248bab550835298784ae3578aec0591698f462f12c2d8890c84ece7b5b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.1-pre3",
+    "version": "1.19.1-pre3",
+    "file_size": 720934,
+    "hashes": {
+      "sha1": "025855ec4177cbdf049e8774192ddebbbb6f3478",
+      "sha256": "c2b0a145df545965ef0ab2f84f5278516bbffeb991ebc488361c4df09c159181",
+      "sha512": "1bb364300e5e0b758d4c79e2c7d1c0582ad94d52b7e8f5360ab20632fc06ebf9881ed896a7cfc87693b9e29a57f1e57562214f1f5884f95b784470c0e9069beb"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w18a",
+    "version": "22w18a",
+    "file_size": 707036,
+    "hashes": {
+      "sha1": "308a2ad4133843f11c78f021253a8ca545c45c86",
+      "sha256": "061341698113ee2cd792443909ac662b090d0f109d5d81bbc596964b6324e334",
+      "sha512": "6984cb68b115d9843ec7b06bf2178572eceb27e56ec4611758c83c4f85ce362131087d9fe105e613bdbbb0df3ef25b6c0c5c1f6874ab1e2a6ff4002f5dc943b3"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w13b",
+    "version": "20w13b",
+    "file_size": 494053,
+    "hashes": {
+      "sha1": "9e762b01972d391a83712b12c5a9e9bab3840847",
+      "sha256": "cab6158340f38a00c4f63b0e5a1c08697b03152da54daaebcf42322ee6e01fa9",
+      "sha512": "11119af61e7147656e99af684a9f8efdc12968d953e308338ee407160b3667d25f31ff3d57094fe477c68fc4e7e539dccc1d1eae71b71d24150c39365a475814"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.1-pre2",
+    "version": "1.19.1-pre2",
+    "file_size": 720376,
+    "hashes": {
+      "sha1": "8b8ee198bc5a29c95b70265312edaaa106171e06",
+      "sha256": "d6df0a8a2ba68a851e3c5249910110181349544a89252e3a587d6b0a3bb7d736",
+      "sha512": "336e8dbc290208d974a347187a9e1e85e774826cd29b570e9b6857a21d9b32114d523d04b2212975da4248bf56ede0641f6bf0b21370e50298aa87d81c6b19b7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w13a",
+    "version": "20w13a",
+    "file_size": 494053,
+    "hashes": {
+      "sha1": "66be295e33e2fbbd38f89c094b2eda60259e29ee",
+      "sha256": "387269368c5b06c4b46da412b3ab78644465b12cdb0553e2cdd26b4f292b24fb",
+      "sha512": "2bb9d607d6e1b54f3daea7a5ea5e125ffcaca1af67315d9a09551b52ccb92af0dffe9c61f5abe2654d9eba89f541c8c873286dae224b5559323599a0ad40e222"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.1-pre1",
+    "version": "1.19.1-pre1",
+    "file_size": 719910,
+    "hashes": {
+      "sha1": "3981ecc95f31d137e36e568c592fa27fa6c1f797",
+      "sha256": "7f201342e52e811b2c4e68c4a2c7980026e7182da414afe2bd6488bf046e01c4",
+      "sha512": "28a751ae3330862d62570c309017f52891fadbf2e3120cb4c0b73636eff79d603402016e9ab7d7e8ff2826b4c9ddbe75df093838c9793f4c3aa92d4bc3f555ab"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15_combat-1",
+    "version": "1.15_combat-1",
+    "file_size": 464204,
+    "hashes": {
+      "sha1": "bf2244e12622c176355f688d7fcaa6e988280d34",
+      "sha256": "c175f8b1c529e6d1207fe95eea42224125b11e19935dffbc5f0c70f55ad802e3",
+      "sha512": "b9221ed055bd6ac0ff7b82c620a61d8c7020a61a199c3abc0bddcd034957cf3b6ebb1d567e02e7e1ffb9ddebc9deb662e8dd0f3c34a4f8617cc7998d04e5373b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w06a",
+    "version": "22w06a",
+    "file_size": 666863,
+    "hashes": {
+      "sha1": "d03851a6a88abcb61f878023e45f83e5c79f7b6b",
+      "sha256": "d8665e1da9309c9088f6c1dc8be9d5529d38fb04b4aef054edcd22f8792b8eee",
+      "sha512": "1aefd2e8c0b21bc70067eeeee92472955bf9862a3aaa3792b460eecf78a79efffe4ee54a8d1124344bdaefd373874b7851aedd7a44d9cb6db1d134783676a6d5"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w49a",
+    "version": "20w49a",
+    "file_size": 569441,
+    "hashes": {
+      "sha1": "38eb2b9fc57dea841cf4e292a09d8cff6c963a30",
+      "sha256": "bdabc25d583685d9f4745bc2ab6fc019d9062dac2f3fd45797196ca244eb5d93",
+      "sha512": "b787dc0409d9d069acac03aa09e966f7f74532f0a5efa2bf216ec6aaa185f79bcab6dd58d2da2aa7bb98e764c87f7f906ae25269b43ec16df5791f7e2e5bc4fa"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.9-pre2",
+    "version": "1.21.9-pre2",
+    "file_size": 1076870,
+    "hashes": {
+      "sha1": "c4a5ff13e3156693086f871d61803143ce8c22f1",
+      "sha256": "1138153e11927c90b9cffb70317c7240b76cbbb0784c9d327ddb1787252533d5",
+      "sha512": "bc42090c727625260f417a74f8adc49a69e655584595088c90d0639126cb332fecc62e887766eeb3d6a0a718b1eac01d1a81ba73a695879a00965697b16ebe31"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.9-pre1",
+    "version": "1.21.9-pre1",
+    "file_size": 1077163,
+    "hashes": {
+      "sha1": "210e4c3200f1306d27668bbf0dc2da500001cc5d",
+      "sha256": "34c50b95b64f76739c92bc9b15e27f75f1a3766502f8634577c3878c88ae2665",
+      "sha512": "ad88a9a49e8d5404801f42601e66069d11c3d0f27b7a94bce4674e2e6f365599a7392ec01b34620092723c0ee1bf509225f1aafa9dfd02ca16acefa9c1d0f8ab"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.9-pre4",
+    "version": "1.21.9-pre4",
+    "file_size": 1076922,
+    "hashes": {
+      "sha1": "7936e0b811fc44f2878b88ad9482e62af69dc0fd",
+      "sha256": "5391dac553920eef20dc1e3acaf8eaee20ba6af1dfca99b5d42ab9b35b75eb97",
+      "sha512": "57482bc858927c9e727614a682cbdb4b53fc1e6aba2879469cb8b982309c7f53d889ecb6996d66e463aa8fdbd2cabefba5896b34755346366bacf8ff440c0b0d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.9-pre3",
+    "version": "1.21.9-pre3",
+    "file_size": 1076880,
+    "hashes": {
+      "sha1": "583d9ce3495de026d8a7264fa44821c2dabd3a91",
+      "sha256": "051586a88cab5de2da967940d69c57658eca6fd270491132cc43ee4000193dc4",
+      "sha512": "06ffece3b4dd92740f5e22b8e971c1f69eb661654799cf3c68535f863d68b52784531f567bacd95e2461d33994a68a43f8b5125c444a6f742338fcef7fbc43ed"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.7",
+    "version": "1.21.7",
+    "file_size": 1032960,
+    "hashes": {
+      "sha1": "73063c4dca3e69c35fd115d5d3a68b48bba0e303",
+      "sha256": "25f04dfe0b4c4baca74c69b304a5d4a2c34b9622909463eaefd723a21fa03cb2",
+      "sha512": "8cc0fbf34f70aa523f416cc8c26f6b85e42b8107955961eb60aeb25d3231a84480dd6c10864d81cdd0a44942ce9b55e88ab314009245511a6e3aa9b58d30c69c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w17a",
+    "version": "21w17a",
+    "file_size": 647530,
+    "hashes": {
+      "sha1": "8ce51b2a5845223eaf28241778e722b5743eda0e",
+      "sha256": "b552d7cd2fbdc002215b02b9167dd66bd75582bbf89642d90af106e8ed30b0e6",
+      "sha512": "45d27280e91a4329c68f96e467d8cc563e6873e547b639b6cde8a10f701bd334fea4f47307f70bbee6a2e30445c67367aeaac4d3832868ffa009d64305d279dd"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.6",
+    "version": "1.21.6",
+    "file_size": 1032857,
+    "hashes": {
+      "sha1": "968efb2487d96e5dda3dc4d0564799d135c33409",
+      "sha256": "3301f6401e3a2cdd6c6690f434cf6f653c713805f4d519dadab40082362ef5c7",
+      "sha512": "c87c4dde2ea4fc3f7757f511a76af604186afed3d73ce26dec25e944f0adb70eded49010d3f4d7646b2684399296bcde72cf515f749cc3ecb9dfbbb45f9da090"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.9",
+    "version": "1.21.9",
+    "file_size": 1076928,
+    "hashes": {
+      "sha1": "9d7359a1bd6435a281533483a9ffa0dfd7eaee8a",
+      "sha256": "83b5bf4de9f2d5fc19b9f83405639fb0581090cfc121e4ffde72fb4f60e1a132",
+      "sha512": "b57b9be2c30499b12af7664a33d900d8671bee231f380f66e9fa600efc692e77cb716a23e1adf05f66a9dfff100b798be8e6f117dfcdb70fc7dcb2a86f291590"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.8",
+    "version": "1.21.8",
+    "file_size": 1033090,
+    "hashes": {
+      "sha1": "e32be7b79c914f23efc2da5c102c0afc53032f63",
+      "sha256": "ad9df2a31b260ee4170abca722abfd340f08fdc6f4daac242dfb232f2b2708cf",
+      "sha512": "c23c967659bde639b49572469bf451874ce32704a2644bc1cca07ec4a3cabf28c1d54bc0470702dd1f2f1bf22401368ff4a4a932d2ee6eba4062be8b27150574"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.3",
+    "version": "1.21.3",
+    "file_size": 962088,
+    "hashes": {
+      "sha1": "bde08ab39fa05f486e7da580f808874942b29065",
+      "sha256": "e87264574f38fe10feb425c4060194947be8afccdaf1eb79a6b8b667663a39ae",
+      "sha512": "f0d61050597ca21a155005b16703a86ac9c4d6dbb0a7fac2c41940059b0f7b842efb639eb1ecc7323b49ac8181eb3b28503411929cd6c3a28d385a5436d8cd33"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.2",
+    "version": "1.21.2",
+    "file_size": 962123,
+    "hashes": {
+      "sha1": "7150b9afb4b10f3f180db7a0942330af9cc99f2f",
+      "sha256": "3969c38f8635c3149b16b5064dced237f67a3ce2b78a69bead926c8d39239e75",
+      "sha512": "49aa10eb0e5a56e12865774fc610e7f893ea6aac6debdbad0f86bf142f70d1b366e4d05f7143062553440156c754fa4ab00196953ff4d826ba0f1a4f06d43a38"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.5",
+    "version": "1.21.5",
+    "file_size": 1004033,
+    "hashes": {
+      "sha1": "f255525eee33562758a10dede6d1a92df8457f30",
+      "sha256": "13e09d5afd14d713e2bbd422477d582d50cedcee6a5d5daaf9c8cddbac91add6",
+      "sha512": "7f496f49550caaff45e48a8b2c5a37bf2777afa8cd6cf3ff025b9af513e00d1d23fea4e9fa950af27680853a3986aabac4281c0f1aefcc714e596507f5f7577d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w05b",
+    "version": "21w05b",
+    "file_size": 579110,
+    "hashes": {
+      "sha1": "71fcb958a1e90ffc416f0633b64ccf7ae14f4bcc",
+      "sha256": "6042bdd7fff16bcdcb30603eed7adfe217c56313b448f78ef37ea45a11173479",
+      "sha512": "85d1d7101d26695fec4721f6e908140704d5365f93d90385a6c8c31d060828008e0198e8b5bf5e492ccc769680a40ac7da1538e8530911d8927a78fdadb6c7ff"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.4",
+    "version": "1.21.4",
+    "file_size": 973587,
+    "hashes": {
+      "sha1": "a36b7923dc91750baea3c0fa021d68c69ba90be6",
+      "sha256": "0c3372f2029eebf799d1bd919acf2dd04f8893d0e754cbf87b73816d139e96f9",
+      "sha512": "c312aece25970997ae62e3774920446a8a0100b083ec70a73bc0c02aed471181a08d1d0a9b55caf44210656d6b204a5e82c96f5ffba944563266bf73c0667820"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w05a",
+    "version": "21w05a",
+    "file_size": 579124,
+    "hashes": {
+      "sha1": "6e490af969af2f6aaaac5042536687cc5f4166e0",
+      "sha256": "85c6def09b3215f59673d4e5074a53a01dec6e8ffbe7401008e6b679f0626a4a",
+      "sha512": "4c663df3cd66faea1cad13dd151de2ef3c93d37d07466b252785cff0f983d2efea5ad626395ee4176a08db362816a0fe4df68a92c34c86db8adb84985a43e294"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.1",
+    "version": "1.21.1",
+    "file_size": 913310,
+    "hashes": {
+      "sha1": "8470b4db40fde9b9a07b1c23e81156cb762a618a",
+      "sha256": "e8edfa7d2a5ab79b8b673dfcd028f3f082e5325132ceacb65e93db3dc720987a",
+      "sha512": "611f078880d1b88b6a610d0d9c54170f81104a296ac4de1c1fe6ea20251fca85df50b975368974cbb75de979b9dfa4874ee870e93a945f9956fe2e12ff4654a9"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.2-pre1",
+    "version": "1.16.2-pre1",
+    "file_size": 539974,
+    "hashes": {
+      "sha1": "5b6f8043bacecbcd2f818fc4e48180f713ce8fa1",
+      "sha256": "d9f61cf4266667074c098acb0399b653e4e3b1d0adb744d33782e86c44ac76de",
+      "sha512": "8e76f787549f8748c1b89554973264070bc82174559e7dd4c7ceeacd8a1571316502082adb712229ed122cb1076c43646ae221c9c683a6bf09c956023ef4ed68"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.2-pre2",
+    "version": "1.16.2-pre2",
+    "file_size": 540230,
+    "hashes": {
+      "sha1": "f4689c6f5295fc280f2c143fe7bebae9b8d44309",
+      "sha256": "7e64d768d2778d9fb7542914a9ba3ac3b1c0c53fae35f4077aae31366083b42e",
+      "sha512": "181e3d9df1a15efedee4911cf910a2fe5f34cad51ad2f5abca0cde03ab763528d86885126993a6560956bba141123d210fa40bb7982ea12441bbe10c5910b731"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.2-pre3",
+    "version": "1.16.2-pre3",
+    "file_size": 540361,
+    "hashes": {
+      "sha1": "18b46e6ae8394c030caae97a02a6efb213e7a264",
+      "sha256": "874d337c23d1efa146afc18e43ad12812bee1e238bb6af02661790b2898dcfc0",
+      "sha512": "a2a394a0baff87bf78f330cf72a1ade7c64ab800c5fb4a63942184728bc9bf361c87df32aaa6a7018291dc40583a34dad22e2a55b00fa8257c3c43c7cb6c8e5f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w48a",
+    "version": "20w48a",
+    "file_size": 563835,
+    "hashes": {
+      "sha1": "f0e545a340f05f4f477b8ffd04b00662ecbdc716",
+      "sha256": "223ab5c62720ff57da88681acb36e341220fdc16c953cf2831e93c05973ebd2b",
+      "sha512": "91c9a21a2a4268b546edb4e707118cd7b4614615c7e6d6a6656816503a131df11502e05a1adc955954dc2081a737e7a615b2f9c9f4e25ba581e66a3fca26a6b4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w07a",
+    "version": "22w07a",
+    "file_size": 670024,
+    "hashes": {
+      "sha1": "3b40df34f12904192dc1f55e0162d6e68ea4e35c",
+      "sha256": "a10fa9f87062972468a54ae6ccdcaeb976afedd03ac437cdfec8dfd324497ff7",
+      "sha512": "b8985a5f39fa157b972ed138c9ace848e0e6a97c63014ba3fae0c7222a8e6154633d63781498bad9d1c7627866d28f0e22c9fe219f88f7e8cb390668dcc44f95"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w12a",
+    "version": "20w12a",
+    "file_size": 490379,
+    "hashes": {
+      "sha1": "70adca4145a0350876de8cd97b500f941793681b",
+      "sha256": "bd75ca8058d1e63ad5d4756a573c8ef20b133d928394e65bc74a2c3ab7c105c9",
+      "sha512": "e94d343902c6fba230aedc0605133f1fbb98ff95c2d173287d2a5294e8d5ae7fe8d0ae53ba447e58a0ee734266b1437fe644218806d08c2aa1191e5d8cfc2fd9"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w19a",
+    "version": "22w19a",
+    "file_size": 710333,
+    "hashes": {
+      "sha1": "7355dfbaefa3acb15e50eacecf516b98d0b36533",
+      "sha256": "5a8b7348853166b63d882daaf23eeb4ed20072c76e2890e64e5343018a5590f7",
+      "sha512": "bf0f80c2a9fbd8464292e0b2e90db474b0f9959758b026814174e1b08397e474251dffa1c28be6df8771f7f2031e76d3141441ed0955163e60c28a4295217af4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.3-rc1",
+    "version": "1.16.3-rc1",
+    "file_size": 540699,
+    "hashes": {
+      "sha1": "69d7412a7c85a419c5310794124976bc2d24d76e",
+      "sha256": "dc8ba2ffaa93acfa0aa47e147fe6dd5345e39118b46533fe3a17160f82e5dd01",
+      "sha512": "6bfa7cbf3103f3e13ec6138d169447589c833ee4e1d43ff2ecbc787aa89f5a828fee4a0ff272fac5f98077bc56e853d36ec55918a35e06bfec06af40d97f2e3f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.4-rc2",
+    "version": "1.19.4-rc2",
+    "file_size": 781854,
+    "hashes": {
+      "sha1": "a65fa55c3169f7bb82e21a0fa70c19d602124899",
+      "sha256": "8cebd1b12e61d9bb7a4e63a172eb8be521a5536f1f7a8074aac8f0948f2fbab8",
+      "sha512": "2bf802af8fb9764c09ce06b252bc647c78370305802b576a5ba906c1e7e35943966dee8d994f630ee0b45f24b300dc18cc59866bc073597a96164fd8664eca30"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.4-rc1",
+    "version": "1.19.4-rc1",
+    "file_size": 781854,
+    "hashes": {
+      "sha1": "6d999255fdc12d5c7ce9ba16836958f7fb2f856b",
+      "sha256": "5e2fac502c623e2f1e759a0fea1b657455824e8f6be23294650292dd9f635ec6",
+      "sha512": "1c50d999173def45cb7438a70ecccec1a0ce275e624f7ae17ed37eba0167baf3e7997610934a83d1ff2ba50e05d2ff9397e171a3538813025acdbf7920c31e70"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w16a",
+    "version": "21w16a",
+    "file_size": 646203,
+    "hashes": {
+      "sha1": "9cba7beb3b1f68403b53bfa7aee9ab503c7669a5",
+      "sha256": "5fae972bdc16d7d485b21c240128a0c0a5620d9f470d75f0efd6d617a4dc7795",
+      "sha512": "10d551cddb5d2224dd1a9b2ed30db50d2e3c64c786571abbee83aa5f515b3b714dbe3376c6116ffadd770403610057fd3ebd64bfc3fcba680aef27b378861bd3"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w41a",
+    "version": "25w41a",
+    "file_size": 1087925,
+    "hashes": {
+      "sha1": "cb095d70108fa677d0da2a980fd349dd9af03b4b",
+      "sha256": "e888999ae6fb536c5bc9feedf87871fef09e51ddd204b2675e7fdfae620c5e35",
+      "sha512": "51ca90db32082f02dddc7ca7b31b94eaf462cd7e48bebf8afa82770b35b7ea5a72470b544d7124081eebe392def3d5df4c279277ae74b27d1214cecda1361352"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.4-pre1",
+    "version": "1.16.4-pre1",
+    "file_size": 542926,
+    "hashes": {
+      "sha1": "e67309b9fa8ecc1b17ce51ee56dbee73b5f72a06",
+      "sha256": "ea1d30bd7cb0ba2bb81f7ba287bb38585b6c3498fe63ee885ad0e5c0d620db0d",
+      "sha512": "b659685a1e017e50ea1bbebf727199d594d654e49cfbabaa46e3234085205b94ac3f4f83cabaf2e80133037920cd3ac152b7dbb8275b0e663fb91a3c2f49febc"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w15a",
+    "version": "20w15a",
+    "file_size": 498614,
+    "hashes": {
+      "sha1": "bc0641e1f1872eb8d76a6423e66614e1e3b12943",
+      "sha256": "26ebd603e862bce53376d3e0c14faaed2e4995f2b099c7e0cbe83b4fa5f30681",
+      "sha512": "a687f550017a759c167a4a64ccebbe7a91b21264776fbcd8b531c693e854b1d25a55f824a472d6763eed072ad2cf17bc69ad05a9a92a8c3898336ecf2d565f4c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.4-pre2",
+    "version": "1.16.4-pre2",
+    "file_size": 543219,
+    "hashes": {
+      "sha1": "9a32a367ceb02d1e9294091479ba0d7f579a4a63",
+      "sha256": "b254d5680f34771819867b19434b8f2242349f1f33d9b48716c42eca8182c770",
+      "sha512": "146e96186f1f671e12a0c151545557f7d9b09140d213131b8470721787190c59f429ab23474f9dc3eabc43cc1398ad14f4f7df95c01a081bf07f2ca7b3bcea35"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w27a",
+    "version": "20w27a",
+    "file_size": 531035,
+    "hashes": {
+      "sha1": "eb89db25ced0a07dc67e3fc1c75903fe90a86407",
+      "sha256": "20755b42585d058360dc6ed7f7afef12fd9085fba73fce69735eafc605bc9733",
+      "sha512": "402cc7321948cf0d0accc7cefee5c77796a3cc701bacb17e80bcb903adc6c26d056bf4c523b7cbf9645712d3d4a0fbdc8c4860c34157973c0ed22fe251f21ab8"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.3-pre1",
+    "version": "1.19.3-pre1",
+    "file_size": 753231,
+    "hashes": {
+      "sha1": "20251063b0cd83c92d02370fb9c76ad4794f12e4",
+      "sha256": "7f5dbf113a21b84824d4c825695628602221668a05e75a84f4e8177b5ff644a2",
+      "sha512": "9045c229a915dfde292bd2713b4a2aa258aef8423103aa80099d627b2499892ad32177ae8b3f96d16057c400187377b5fb057749384a262e6ea0f3ef78b4cd69"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w07a",
+    "version": "21w07a",
+    "file_size": 581719,
+    "hashes": {
+      "sha1": "9ff86913360ae527f560d68408a3b851d52c421a",
+      "sha256": "db88157d8be4f0362524849c4cf54a9f83b4650b97ca7f3a891804151d33009f",
+      "sha512": "a33d75c053000b27aa3571a84aa62370bfd38b3520609ed6a1ac520a542d204c2cdbe89f7f8099f67c3b3959b8b107914e69d9aa95306883e65e1bcc048a83be"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w38b",
+    "version": "19w38b",
+    "file_size": 447518,
+    "hashes": {
+      "sha1": "c5ac2056ce254e41db66a026a45d43f24a0b4077",
+      "sha256": "a11592c4c47d254bd04593a61518a91afd101d2f035e9be2314591e3330c9172",
+      "sha512": "5942838a48019402601474f9e53db67ee194ac42adfeecc4c4f4ca03078d916398a5139eee9601f986ab73267c34189b1fd6eb2a0b5ca2efe3d233752138f3cb"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.3-pre3",
+    "version": "1.19.3-pre3",
+    "file_size": 754179,
+    "hashes": {
+      "sha1": "ad35c237d070d0c5fe7c76bb0ebb66c8e9544fc1",
+      "sha256": "a169212e15c26e4e3cd3e589a771666573bf10cbd038acf6706437b0ad348953",
+      "sha512": "afafe6d19f5832a6d8d76315b7fe30760f77bb1854f082049be5a5d99b9018504a03b1e4af5a2180821be5501d23e55ac13def8d572f1f2ed9acb1c54e9bdbbc"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w19a",
+    "version": "21w19a",
+    "file_size": 635474,
+    "hashes": {
+      "sha1": "2fccea6c6910a595a8db08c01f534ef2b4c19c38",
+      "sha256": "f99df1b7cf960ff6e498fe3a901955bfff8d28533af1733a7afa39c64008a799",
+      "sha512": "85c67aec3e836b7067dcc98219998d7e27c18034ab065146ef636584ef864bb1cc5d3d0d79deace37ef34855cd7d7581de47d683048af97cccd2b31e8e669fdf"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w38a",
+    "version": "19w38a",
+    "file_size": 447513,
+    "hashes": {
+      "sha1": "eee91a55278a2b93dcc59ba73399809fb1636a8f",
+      "sha256": "e36cfaad5b2bed6a455f42b4d633d47086b679e163f4af35a06ab7923cdb1bac",
+      "sha512": "60b999b61caff47f6bdc22b72257b1280f96437dd332971cbe3f9eaafe60dc55f1eadd95bb656358ca327b702f252712b6ed8f03041f8b65b8fe01aa8d6af895"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.3-pre2",
+    "version": "1.19.3-pre2",
+    "file_size": 753918,
+    "hashes": {
+      "sha1": "6aa210ac4358af0987fe6a17c5de985c072fdb7d",
+      "sha256": "00e039970a31ed936521b92640640494c35311968c938aab5b2d6f2f35208980",
+      "sha512": "cd4eb8c095816f8b825d9ea297c283679ad8b053df2bef761d84e25b3adf0318eef5f010f2f15cd06fe44b0928ec31d92106ce5bc5b6e5b4e84b14195e16644f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.4",
+    "version": "1.20.4",
+    "file_size": 847209,
+    "hashes": {
+      "sha1": "620b10c8165076ed378d2b4d1c0c1244b9c3d86a",
+      "sha256": "15696167d57f3fc748cd1e009c135f63062f0e9cb37201eead2d89db2c8d46c9",
+      "sha512": "4db142df2a40ab21496d2c59060016a31cff17ef954723cef9f89d3bfd43d863be069921470e4de6d82276a7d17b8a2899c5cf10b549836764002ceb870dd317"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.3",
+    "version": "1.20.3",
+    "file_size": 847209,
+    "hashes": {
+      "sha1": "4ce2906b7e5af9e84f79176d4776cee0c2fcb732",
+      "sha256": "83db749891a10c6ccb9a84ce36f2a14673ef7a87524f0a142fde4e398c392490",
+      "sha512": "c777271e23c4d3fc716132b6487d2306af9d03adedc629620551b33fac3f13396f09e4f6971a049407437d6c141bac65b9b8d886c9a3a98d0850caa9916e9094"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.6",
+    "version": "1.20.6",
+    "file_size": 897066,
+    "hashes": {
+      "sha1": "9169894c96e1cbfeb9b5ff3ebef10470deae6aff",
+      "sha256": "3a1117fd967234cea30c3b28ae58df885f4c94ef1ceb83fa7249df87bc4781ee",
+      "sha512": "66eaf2db38441338334e0c471d3abe5f408460d5b722f0dc6813c9565400321da1a3079b59b69bc44882e1c9a3b107085014d1407c17b5bc57d90231e6ef2b8e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.5",
+    "version": "1.20.5",
+    "file_size": 897072,
+    "hashes": {
+      "sha1": "3a82bb5c1a4938d2e367707e8d3865349916c30c",
+      "sha256": "9f6a81f1c3a9946c3162eb48412cc07daaa1168c825c64db509b474a86dda421",
+      "sha512": "054a27ac50d87a9cb16d5f0425b3826caabd0ac069b8720fb51d159cd54a8564cb18005f066b8700542832ec493c8ec9883990755d43bcb189d5cb14ac117554"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.2",
+    "version": "1.20.2",
+    "file_size": 817185,
+    "hashes": {
+      "sha1": "9d8a5944f271ce881f1a8413aa294421e250d855",
+      "sha256": "49b1986ed32e7314ee4189065616957a2c501adbfcb77910917c432f9d41e9b4",
+      "sha512": "2d6145d1829dc409d87c3b244dd79727a73c46926f37bfc9b2915a3d5ba67ba9c200955ca4f894ceed1fe480bc2a5e768041adc5c857e4eb49c8531e1b578d91"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.1",
+    "version": "1.20.1",
+    "file_size": 798778,
+    "hashes": {
+      "sha1": "24d6332c2ed45545c8c8622ecb14ccc3022cb873",
+      "sha256": "d330b9d6bc63d865667c51346a8a7ead0a42b71ab47c8a7257a2b257af652881",
+      "sha512": "d1bf78fe52f0d53b988ebc832f4eb0c69dba8fb28a46b39be7eec68b4105983d424e3d3d4afec38e08cfa5e9ef409d8d4e4e9a5dbe9a2a406faa992f42c11eb1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19-pre2",
+    "version": "1.19-pre2",
+    "file_size": 713022,
+    "hashes": {
+      "sha1": "f5fc998b2ad6f1a5da484204a54dcb8199af147b",
+      "sha256": "876bb354ad5d96d2343933f4568a0e9eae5b81fad1e709bd2408e218d2c32665",
+      "sha512": "bbe28da2f19f5accb60a6e5636183aefd16745b4099a7f123aa97b302eeb14291ef50caf9afb04280e179b2c7fee46c2413ef8416bf399acc76daaefb2cb52c8"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19-pre1",
+    "version": "1.19-pre1",
+    "file_size": 712723,
+    "hashes": {
+      "sha1": "34a2389c0b88d1bc7dc6d5d4022466e78f60da65",
+      "sha256": "c07cda07d7cde03e352a42f61ff5739017bba00cae921521c11aa6be578d847e",
+      "sha512": "7f8bac44f118e252f46b7353997dcd2d44be34b11282f8f744feaa8d1bc0be02656ad505f27f170560206445bfeb64fab6541b280baed01f7739d4adcd70b375"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w14a",
+    "version": "20w14a",
+    "file_size": 496051,
+    "hashes": {
+      "sha1": "57efd579369cf1f984a080cbb51d54d6b9679913",
+      "sha256": "e49369ce06ab5468055e3067748d29b8cd0b42f35b8430cf204ef4e05e609b8b",
+      "sha512": "f712207d86b3b5108fe281fbc63576b742f32cd40d11ff2481a203bf662da067a0b519766d0016b6edefa3d001db0494c3c1f4b84c2ca5a9c9c47742b3b89bf7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19-pre5",
+    "version": "1.19-pre5",
+    "file_size": 713439,
+    "hashes": {
+      "sha1": "f8343bb3815823e71d03a9bc9d27b3e76dbb85c9",
+      "sha256": "80a8d6a73adcc4af422cdd4924a233987e2e1d3646bd239599f70530e61553b0",
+      "sha512": "840d5d29927f90bad1443b241ebdd0cb6d62b0363b368b6bc35b27fa725493cc52a45b9139078606748f75b2b5fb1044c0bdd77c44637ec363f3f081f5a10d6b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19-pre4",
+    "version": "1.19-pre4",
+    "file_size": 713243,
+    "hashes": {
+      "sha1": "e983c2a55c559776b838a4e478524aac6774db43",
+      "sha256": "df4387b0156309ad42e0123b83d5d4cc05818359295db5a6f6cf68e92f687bac",
+      "sha512": "c8717663d648acab92c9c1d6bc8e639e6e72298169dd00dd1d4cff27c71cdcf103664528d9ec048033355d6834d87830f167d985e52434c3eb33f5658fe5d15f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19-pre3",
+    "version": "1.19-pre3",
+    "file_size": 713210,
+    "hashes": {
+      "sha1": "bb082586ce2901a5c8b828c2c217b3fb56200ca7",
+      "sha256": "1d9c254dc312e2809271fe831edcaa3114ab61bffa0f085e69e22589241876c7",
+      "sha512": "a66299c81ae1e1f7764999b961c1b7478f73411da8286d9751ecc43f08006ab48dcd91d5a684313e3a3222196b095b9e3339c1332b3b9de9046dad15f7300a2c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w06a",
+    "version": "21w06a",
+    "file_size": 580212,
+    "hashes": {
+      "sha1": "e57ff28b2579d4e69bf249d6dc56f9db295126f0",
+      "sha256": "b687e3bf12779f02b2b93d313f60b0771a7bfda436774b4c23a832a5ee77cc76",
+      "sha512": "7162934df4764e35aa44e60b9588d06949570a77acd75c0a904f799631ce8f2e7b31da54aa38d7a543360d730328574cf2670f1270753a426bf091c489649257"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w18a",
+    "version": "21w18a",
+    "file_size": 647985,
+    "hashes": {
+      "sha1": "e29e0b5f40dc9fabca84911852ee109403b48c80",
+      "sha256": "c81213cddf5b213845dcdb5e1dd1efe80ee542af9ffde1c4d60a4e8c86de5050",
+      "sha512": "8a7d9add5051ff5c8029ed92ece47f0a485584cd6494ba58471b01301c290c03b2089bbc439ce17e9cabbf75f53e87272a78e3efbe8542238fea1a34ee623a1a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w37a",
+    "version": "19w37a",
+    "file_size": 447693,
+    "hashes": {
+      "sha1": "cb2e615350ecc85a02f97cd8d1c3585326c66147",
+      "sha256": "4163e92cdb5a00416b597fe7faee30b69effe966dde53fe18730c9e3ffd90ca5",
+      "sha512": "fb38bdd722754f81ca4909c2a6f7707219318b1080af8688ce6206b47e30e59fc0e616c89ed597ada1f062f448b383640e989253d567b92b03b41507d8a2c1f5"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.2-rc2",
+    "version": "1.16.2-rc2",
+    "file_size": 540667,
+    "hashes": {
+      "sha1": "e9a490c48e45a9fa5b8e1615212346e6b568e45f",
+      "sha256": "2aea21f12737e3e855fcebf300ced4aaebb59637f30045908c3a60477c9ac48a",
+      "sha512": "16eb8c646204d0fdedb332b29a5bd6f0b8d31f6437508cd765c5eac4c66aba859ddeb0709dd7c0063482ca73af2e25a3c4787b0d1a52e83bb90eca4fc47eb5d8"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16.2-rc1",
+    "version": "1.16.2-rc1",
+    "file_size": 540613,
+    "hashes": {
+      "sha1": "d2fce671313d7303b519eded2f4a0963859e03e6",
+      "sha256": "f6d30ea86ac7eb0c91ce9de0530662cb0c47a9afa97f8393d38c7746a6529995",
+      "sha512": "5fd519c0842bafc3a8f18178fda2d304010862e52d8065c2e3a93ed5e6a91e780909bc765840b61108bd020123e8b9d9a790f5f6f06fbc7b631776cb327095f8"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17.1-pre1",
+    "version": "1.17.1-pre1",
+    "file_size": 642048,
+    "hashes": {
+      "sha1": "030d0da4ab5d4df8915f5fad524ef91f63ac0539",
+      "sha256": "809fa9cf0ecf07467c1ca30640456a668511ab7574d6969432309d6eea09eaa4",
+      "sha512": "375c766528f1b94fc1955169fe4713bc18fb2a41ab2bb68eeb9b79cc9f422636b731ef0769941295210f730eae35d0207f8fc0829329832294a8a1c78450729b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17.1-pre3",
+    "version": "1.17.1-pre3",
+    "file_size": 642295,
+    "hashes": {
+      "sha1": "eb22caac3d43b2d7b2f0c4402af8769d68c7db08",
+      "sha256": "31ed089097d491eeada9f5e0bf4d559fbac76743e1f886266bf3e4725de8c6d8",
+      "sha512": "0c63df848ca90dc37478bd8d484c3dcd4844127f6ae4eb0c9438ebe87db77729cbd4cdb507b869d0b89caa4d8af74ee51726cafbdea2a86d698d0ebb223092d8"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17.1-pre2",
+    "version": "1.17.1-pre2",
+    "file_size": 642165,
+    "hashes": {
+      "sha1": "fcfd595d9942e94976e27f51857c86414ea4e60d",
+      "sha256": "59e07f7293780c2eb82d3479db601fd341f8955ef6220b7666f3299fbdc4c5e6",
+      "sha512": "992ec9411e5462d92671476b6057aa323423455aed63f0c8bd7c3fe0fe52b34fc334643b573dc6cbd5cc3d80ad989c163ba5680889f43eb5b920af958b73f296"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w29a",
+    "version": "20w29a",
+    "file_size": 534778,
+    "hashes": {
+      "sha1": "846e7dbc41589a7d21ac4d35bbaa69bb89c8c7c5",
+      "sha256": "1976fdc32ba8218fa04b5a404d68ef9349eb0308efa48b5a9aa27bfe61391907",
+      "sha512": "a5003a6455ed94ba1ea91e2943177b8a35755cec076b2947507867efd1cb5bb4772f1072f706884437ac42259a2c74ffb4cc87cdc717bd2ebd2f208346dee83c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w17a",
+    "version": "20w17a",
+    "file_size": 506198,
+    "hashes": {
+      "sha1": "2a5d474723dd0a5aabc21edbb796804394a94843",
+      "sha256": "a3893c5fb74a5df36b47d590a58a64f0aab58ff5ad0f9c499b19ac3af0d0a33e",
+      "sha512": "e274a162ba8faed1b66979a4d80910e4ef01b53c4bcb8cfcca5aa3f67a6133795da7af76718ca21aec14bcfd3eb486fafe888e89491000a8e98f4ae44ff78b53"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w36a",
+    "version": "19w36a",
+    "file_size": 447386,
+    "hashes": {
+      "sha1": "d78cbfcb7f6e7b5ea268fcc73b654f68704336d9",
+      "sha256": "b5b984f5d47ec5cc9c0a65df64fd976ef5bfd59113c4acd62853a2813b93cf85",
+      "sha512": "5e5508efdc6226a6128eaa47ebc3b22ce38ac68042c34df05a67f6b7a5aa4da5dfcdf9670bf2ccf28df5c443b85b490032fd841e6c4a5d7d5a889b9466666aed"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18.2-pre1",
+    "version": "1.18.2-pre1",
+    "file_size": 674643,
+    "hashes": {
+      "sha1": "874d99514bbb79be12d5ea23b33ca8cb3b48b628",
+      "sha256": "49b1a4dffa31955c80530d647c3091ad8404057a828ea8df9ebebcec02dbe98d",
+      "sha512": "18e0d82a81fa23f58f4fda285dd5de732e166b3ceaa20fe356e22d80639198e7e8719a1f66c7e5c95956d27a64bddddbed0548feca82d2a88883668e68f09a3c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17-rc1",
+    "version": "1.17-rc1",
+    "file_size": 641698,
+    "hashes": {
+      "sha1": "cd6940ac403f5dadb1a2ba842be6f785bad20872",
+      "sha256": "c70d05997ae0954604b2ce575c10473cf0fe58686e01bade168d7c90121d1322",
+      "sha512": "910884e6049c311648366775f11df3609ede8419acd4f8fe68323f751ed89cc0c1af1c9803c38c763c1e036ce2390f44e2f6c86a89ef93167eccc4c7c0282688"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.17-rc2",
+    "version": "1.17-rc2",
+    "file_size": 641733,
+    "hashes": {
+      "sha1": "a0b344d89d336fd9bbfa749cfe16b7ad7cbd2ea9",
+      "sha256": "bf024f69822db70f5a74189bb9cc08c2fe54f0543cf4d359141d67584c866f75",
+      "sha512": "05ca5ad13aa550ff490d490f69a4de73ba82075d44fb96ba62906772a528b6eac58539e5d751edad11445f50cc17448ba50f73400f1a1222377ab30192356ab2"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18.2-pre3",
+    "version": "1.18.2-pre3",
+    "file_size": 675127,
+    "hashes": {
+      "sha1": "3782c08a4b99f0453b279692b138d67877de506d",
+      "sha256": "e4ee7c2b8a8ca073badc9554cbffd33b86cbf22fdac173380cbc3315ee884cb6",
+      "sha512": "5f5f74bccab0b31bf71fc97f6d4b08cd6b43b395cdadb338c3632516f546dc771a06a6cc6ea5333c515e47f411ab128691eb759d8db0007675736b5a226a8a1a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18.2-pre2",
+    "version": "1.18.2-pre2",
+    "file_size": 674995,
+    "hashes": {
+      "sha1": "f28f77829593b55ec149746e7166f1946015a7c1",
+      "sha256": "60097826b03e661d14149dfc0552116c229dbc1151835c067740dddd9006e4ba",
+      "sha512": "dcd85996f6c69463e9aa05eb410a02a80f30c53b1df0ac8a43c050234650bfd13e22bc70ba4e7b8276ee6e6e633f227ed8c2a894fdb85305f2dae4df605f92b4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.4-rc1",
+    "version": "1.21.4-rc1",
+    "file_size": 973451,
+    "hashes": {
+      "sha1": "020c1382bd674fba3273803c9dd0dfabe0e6bf2e",
+      "sha256": "a6b71c81f4ad0c575e2c253938a944340b61ae1e5b8263784722e663a45a518c",
+      "sha512": "d10f1e56a1845854f879e0101e45a4029bc8333955cfe5a93d77401ed3d8ed1b6d9d027df8539159c0c16d73b3dc68dea082e6b11886ebd5e434bf68013ce307"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.4-rc2",
+    "version": "1.21.4-rc2",
+    "file_size": 973451,
+    "hashes": {
+      "sha1": "9312c50024704e6c1f0b8c11185c716ce39ceb8a",
+      "sha256": "7bb2c0149448b695e3b82cd39e9b5784503415a97174ada21157aea2e1b10f16",
+      "sha512": "d83e222f520bee6ca30aa2ba5c105785fdfc6835de97dd9f231924a80e06b3dbbf3e37815caaa5181a2816faaf3b455341ac4ff4f3966c754fe845fae759fe12"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w16a",
+    "version": "20w16a",
+    "file_size": 500485,
+    "hashes": {
+      "sha1": "ebb9d7f1b39e06dfede96f8df5869eaa391e8333",
+      "sha256": "6078f5acb2c3a726bae35c1eb1764f43446350707007f0cd2b3194b6bcfc3aae",
+      "sha512": "3be8988c3efb2fd33359ce423a94f841b1e6e719197b7a13c9093e3963e742b480f61e74cc036ec3603d0441e8ffc4f009e5c60360e1ff4d876faad510009573"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.4-rc3",
+    "version": "1.21.4-rc3",
+    "file_size": 973587,
+    "hashes": {
+      "sha1": "ff3a89ed449f693876e2bf57f358a1bfd386a32c",
+      "sha256": "88a9627e5e1f862ba50fda2bd748c9bfdab3e689ffb21f133d206b41f1724602",
+      "sha512": "99eabf9e62537d9defceb3f8927dfbdc7abf511db76f7cb2ac48dcb523fe2de2125c0183c3e6e5f95d7b457cc61035bd09318a45f3e771b1507580ed9ec14d74"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w28a",
+    "version": "20w28a",
+    "file_size": 534522,
+    "hashes": {
+      "sha1": "ad7d4530cfcb546c54388a7d7e9648d337bdcd10",
+      "sha256": "d7f5ad64f8627f910b1b4e7384975828d232f230234e0a9f2826af95af255caf",
+      "sha512": "da0f7b860c7199f5e2771b8def1debf119b8945307f15ef6303e6b4c9ad798e1b76ce2bb0ae82438ead150e7a1ee8d7e597d33d2e8f925c1839b4b8fcb6e3fce"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.2-pre5",
+    "version": "1.21.2-pre5",
+    "file_size": 962103,
+    "hashes": {
+      "sha1": "e718bc5058df08fb9efe2ae2b355b76043265eea",
+      "sha256": "cd6edda3e904dd15ab0eaaf5137f2014268e60098a286a2e9e00eb1c87ffde69",
+      "sha512": "44bee24dce7c03fc1dbe91ac70a2b7b8d327c5c207c9838b874a9c6198c812d20558ab18a6e871780bcc500918cdd83482af54c9f9bca590fe76a6682815822a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.2-pre4",
+    "version": "1.21.2-pre4",
+    "file_size": 962019,
+    "hashes": {
+      "sha1": "3bbe2a2c7c738c00b9205abf3ce45d89a7fecdbb",
+      "sha256": "79264057e0addf2d3e0281cf5fcf89bd0e1bd4d6abb6004c507e95210ef98d10",
+      "sha512": "62cefc39d18de58b564054964a89a78c624492ce9508d7de66d5f1d73df25feb07eaf115a70473895b9055fde47e0f278ec7684cdc9b988d30c1136e9c2b9a05"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.2-pre3",
+    "version": "1.21.2-pre3",
+    "file_size": 961966,
+    "hashes": {
+      "sha1": "798edea7f0738f8c9b60285575a97d095c1ec0f4",
+      "sha256": "aeb4ac87972dc1c6a85397c08e56316c636a6d8799c05031007c405ffe31beff",
+      "sha512": "5edc9d9a0c1cf4c5c029135312615795a1e1619ab9795a7173f40d5730ea4b2b71dec34baed06f8d7be51bdce0998de5c69c347e640eabcac88b7ad8bb0986fa"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.2-pre2",
+    "version": "1.21.2-pre2",
+    "file_size": 961751,
+    "hashes": {
+      "sha1": "bc9cb36fa8b9f4943a449ea5cda6ac255699cd81",
+      "sha256": "74aa1c31c4285bace979c96779f419fcfc8e5c1a984dad02620a2036e261f440",
+      "sha512": "15b1176e10a42135bb0b8714d370791c9521334f958eff246aec309ad945e88ec25f023173855a9f76cc0be03a6dd77d40b67154e85182b30278213eaf18b149"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.2-pre1",
+    "version": "1.21.2-pre1",
+    "file_size": 961357,
+    "hashes": {
+      "sha1": "b01db0771dacc68cee4084bc828ffbf3a5753ee7",
+      "sha256": "bdacd0bbaac961b0b7cd68c296d0f672b0f0bae03d120dce72e599d97023e954",
+      "sha512": "c4afc3f62fff698ab4ea3b3967bd4e10b8c0813f06d74c5f9198e1e4232c86962313ce1b7169a599ac7210a021e6196f0a1cf88e3ba2ec04ad80c273e61261f3"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.6-rc1",
+    "version": "1.20.6-rc1",
+    "file_size": 897066,
+    "hashes": {
+      "sha1": "d71c539a54afd196629c93fa4d2256909f197d4d",
+      "sha256": "8e56f191bb0504944ac8b21c9da21f955b500081a7bf7ebafdc28bcd727a0e6c",
+      "sha512": "9514effd74194ea3d895d9823f3cb75bd00d693506a57cd67b8699a5c6840d36aa373a06d854a84c2b0f4c42cbfe7a21aa129b4cfcba2eb7ec362f7f49a9cb24"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20-pre7",
+    "version": "1.20-pre7",
+    "file_size": 798610,
+    "hashes": {
+      "sha1": "403dbf9deeabe141bd6f3cfd64795997ff21dfe7",
+      "sha256": "b9a8e0432c73b1dc3930943ec64c75a06a96b92d1384a0fc21e849c38a5c706a",
+      "sha512": "acaf4b20874fa730540e4cb6aa4436358a66cbf49c6a408a6caed6b7eb5a9bb993342dec256a6674c12ea92acdfd44524a106d627dcff4dfecf20419ee7fd979"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w08b",
+    "version": "21w08b",
+    "file_size": 585432,
+    "hashes": {
+      "sha1": "175effd396ac735bfb3ff4ab5808963495a9a324",
+      "sha256": "ed0512a54f3155e2f1faf2c375bf9e35a9e5b40d52399ec19ce3cc8ebe693a0c",
+      "sha512": "a3a90d4edca738b2924338379b8f5e1c4db4e58faa3452d1a907e6ba67ecd1f2f196a7e64a01792c9cc834aa535180383327ca57db16ded3f0c8ee9879d79c6e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20-pre5",
+    "version": "1.20-pre5",
+    "file_size": 797462,
+    "hashes": {
+      "sha1": "8e8316ab40410382543fb659c81c2bdfd38505c0",
+      "sha256": "b3db74189a964006d1b9768b219f15d2d8e4030c49c7c4f903935554d984a770",
+      "sha512": "3fc06a780f126722d97716077b05712de528dc624dd0615bf6abdad333eb1d7cd37d2c473a51ccaa4f9d59ff57c700294173387a56992109c0ddca7c62d6591b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:21w08a",
+    "version": "21w08a",
+    "file_size": 585432,
+    "hashes": {
+      "sha1": "766a33b63746754c3e5df4bc19dd041eb3d602dd",
+      "sha256": "c94239e323e3090b74a817027ac03cddb4235bb2f2ff5105a02d87b1cc3de211",
+      "sha512": "de6036a75a330c148345dfa455fc59a44373d2df701824d41494d9032731c35326f7c7cb1e3f381eb5dbf3b0e99ca30788904e287390c771efe5552bbd756be3"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20-pre6",
+    "version": "1.20-pre6",
+    "file_size": 797855,
+    "hashes": {
+      "sha1": "1b19688821d87a968f5b2ddf86ea41e1746edc0d",
+      "sha256": "6a0c69b0e43c49bb6edf4be837734896eebcffff382cba07f8d4bec4fdaffc0e",
+      "sha512": "a4d6b1cda765efdc89cbbc18809ca5707fa369066ef572716e07801a2731b354fc7a78439a164d06e979eee7d6a46c1328454f3aff230b66bb12239e1b3ec02b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20-pre3",
+    "version": "1.20-pre3",
+    "file_size": 797280,
+    "hashes": {
+      "sha1": "6aca7f31efb7042cb53337960e6c9e03da426e17",
+      "sha256": "dea593332ddeeaca3f8de6bf3f4e50cc70b0dcac07eaa141960b33fbb1cb2e4d",
+      "sha512": "94bd441a59c58396a403df64376caaae4c759d26bbfa4d0700acbfa4e3af8d053f47a0539516da9bf598b2bf063303b9fbb5e510beca860812f8359f2e13b848"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20-pre4",
+    "version": "1.20-pre4",
+    "file_size": 797280,
+    "hashes": {
+      "sha1": "828c9985c406a1fa971969ce429150962fde37de",
+      "sha256": "4870016f00b376affc58d0298bf601ffefb432188567c8c6c286174488d0a2c3",
+      "sha512": "2c5ab23eb28dcbac26d0c373feff22b853d9d4d2f86734007cbee27e3586ee4f98a1d822440ee48968d9cb07528aa7dcf1a83a6731d4fb0c3d61e522ec45c414"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20-pre1",
+    "version": "1.20-pre1",
+    "file_size": 793283,
+    "hashes": {
+      "sha1": "e02eef981062c4a420708aac4445e0635d2cb7e0",
+      "sha256": "a14d50cacad6115956a8cdac5c92ae42c7509f2f6e40bcc8f463c833f4146a43",
+      "sha512": "a187c0c784b2c19d8fb6f56805c808cbccbc807227388c2ccfef8e444f77c5138c71b295b1b4f6a8d10feb443912e08e473cf50675a7c10fb80073e8cf61a619"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20-pre2",
+    "version": "1.20-pre2",
+    "file_size": 796997,
+    "hashes": {
+      "sha1": "256b9f8ff75dd00459690727a8cd1957635cf319",
+      "sha256": "1edff2d0e425edb7c0212926c2110c2c0ff71a2cb9a0992ca27d4c46688a106d",
+      "sha512": "77e285380aee2860218d8b528d3012dd54642bbcc8d428f0757597752b5b6a88ad89ff713d9836b859cac9047a24125f19b48f836fec3ade8367c80b8826e630"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w46b",
+    "version": "19w46b",
+    "file_size": 458896,
+    "hashes": {
+      "sha1": "c6502f82b616a61319e9f0b93fdd071560293769",
+      "sha256": "3e0bb6db3d6c3c8af52d4fdcdfd5ef15e6b9a439dd539f4b81b17e26df8826c0",
+      "sha512": "ce13aecfa071b02431ce4685c997183c65083b6d9104654345e77b526404a1dee2a7bf41c7762dbad42b39d5d1ebc90022e71270e7be7ff1dd44187cb9833cb7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w46a",
+    "version": "19w46a",
+    "file_size": 458764,
+    "hashes": {
+      "sha1": "5fbe4b3f92fcd974eda5d8dd87bed52f4e44ec07",
+      "sha256": "02f6db27082eeb697120a88f304fee2a5d407cf57a7ab45744b6665e67c6e9f4",
+      "sha512": "91c25a27c2da226a9b7903b58553f2003a2f90ec9e4562f245c8e1b45541f408695f41ce61cf55cad423bc239e22870a34659b4aa2d43f5fa140f787ac39a04e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w07a",
+    "version": "20w07a",
+    "file_size": 474215,
+    "hashes": {
+      "sha1": "c28ce99e0c9557cdc3d645fe77a041bc78aad45c",
+      "sha256": "e54ec128ae025c6d66525d24436232d457a01e62b330be90185c3867127e33c1",
+      "sha512": "f28a41b6d8c2f65deac90e9b7958d3a0c2c5de8b83a65da87a3cb28a579e92818f2a827a7eb224f341533f5de9bc3f26538b3c5261c4e6a4c473f30db3f2d77a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w19a",
+    "version": "20w19a",
+    "file_size": 508441,
+    "hashes": {
+      "sha1": "e5f7b335ddbb44433dc2db1140ec6237c4b0a07d",
+      "sha256": "48088309708887a37b2795fd7418f5d039ceb029e1be2bb61a41abae50547698",
+      "sha512": "f6bda23fc949458645d06c5d4a8fcdb03c720956fac4dcd0644835fddba13ba18bbc8a288aa7e646d446c191acd54135f3e751e334b2e85a590bf1abdcff07be"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.6-pre1",
+    "version": "1.21.6-pre1",
+    "file_size": 1032388,
+    "hashes": {
+      "sha1": "79ece4584deea2d88ed00940323343b6ad1a1d66",
+      "sha256": "19162af38fa14a92c62314eb23f44f5d6a2f2f9d048f7eeea6046767033a5e8f",
+      "sha512": "7be49053b66174305a53b8c9225de0775a1122e68ab8db5d2b6497e5596e068db104426bb589feb4be5c796391ed1ed5f745d7510c4380f7299d04240390c3a6"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w45a",
+    "version": "25w45a",
+    "file_size": 1098818,
+    "hashes": {
+      "sha1": "5dcf1e93493f9223b3c4f5fbe40d8b548e5fc462",
+      "sha256": "8e34d9674028f011c05f1c3d33115bd87a6d89556ead4899cd14ac47b1f17873",
+      "sha512": "64dfbe328ef45d92f6f14ef16b9895ac5dbb340ab851f80bf59f9fa1f88223593dc5672adcea5e1c30ac598c4a64a4b9171f98e65300152f72c0bad185e4ff82"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.6-pre4",
+    "version": "1.21.6-pre4",
+    "file_size": 1032833,
+    "hashes": {
+      "sha1": "1eb6a7ef7263105e8e6fb40efa8d69f4cd7a8771",
+      "sha256": "26ee953c9436d02f759edd4734eb7ff474ade1752b86193f93cb39c4e2354373",
+      "sha512": "fb50e81952950c6ca33e97b676e39e4b8ea6ef701e9bd499df8a7ae308e877abd3303ba47cc6811e3c06d69662056f9d14035d6024eae8766740ddb0e8becba0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w33a",
+    "version": "25w33a",
+    "file_size": 1053553,
+    "hashes": {
+      "sha1": "7795770ffcdb86f8848ecef76960939770dfce0b",
+      "sha256": "74ad32df63d0d11e84d1553b202fd57fc4b33966c113d8def75e4cfaafcdb5b6",
+      "sha512": "5e030f47e52833243a9b7bb291acc5ed7802a451d332edc91df877352e9674f98b34bbfc358f17c8d5cb9361232781f0e4089f6a70f5abbccfeb0619404d0b69"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.6-pre2",
+    "version": "1.21.6-pre2",
+    "file_size": 1032785,
+    "hashes": {
+      "sha1": "c39dec4812bb91ec64afd999c0a624dd4be7d678",
+      "sha256": "e4814ae6b6890d722899dc6f8a8a68276429f92cdeb101d050efc239d9c20689",
+      "sha512": "0550942b1ccb1cd87843e6f5e96b6e0927dd96f04f3b312f88e68f3af220432b799968e3d292974f23d616f8cd62161cf84c2775aea4fadb2250f9fb90c6eb7c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w21a",
+    "version": "25w21a",
+    "file_size": 1031090,
+    "hashes": {
+      "sha1": "3215bd6be04d367a30269158b0f9ed475f3445a4",
+      "sha256": "75b2684fbf490658f293813c6f770e4be4c45ac6872d70f058fbe89414521ad9",
+      "sha512": "a199de5cc8ccf5a43a8d148760ac14a74f5300fbb5eaaf620a10b00cea7b10ce39ee132e141a5da5701944b2c50b0427d4d3eda46b0b2dc6d0a2a55ac62e66e3"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.6-pre3",
+    "version": "1.21.6-pre3",
+    "file_size": 1032786,
+    "hashes": {
+      "sha1": "5bf4b3c273783c66d494092e686d9c79f670483e",
+      "sha256": "f9f2d94996ebe8ecf93d7aef4f2c9d0943d1d3e5038d5eb6d6f325a0d62fcf1d",
+      "sha512": "bdbb1ed2e23f1852092fddcfa34b0e82553e84c3fcfe850a1b59d2834d0026c6862f993d7339ea7662efec77617adf332fed49bf60a7d0381ccb9b2aa2ab0bce"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.1-rc2",
+    "version": "1.19.1-rc2",
+    "file_size": 725395,
+    "hashes": {
+      "sha1": "bf7f8a89ec0f78dcfc4eaf3836a35d56e0eafc4e",
+      "sha256": "f94cd140bd68a1a3f141ee4e3b175cf6f8839c2fc2662adde5d3929ea96e0621",
+      "sha512": "e1359d4b93fd271c745730edc8039eb033c92cf8c1585e828b4b54b60ca22597c205ada991ddf827d09b129db1a915e067037dd2e3d893a4575bff7487aa7548"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.1-rc3",
+    "version": "1.19.1-rc3",
+    "file_size": 725720,
+    "hashes": {
+      "sha1": "c9fa62363aa489b6912f83225913b6a7ef70a538",
+      "sha256": "fe35ce59d6e7df12b02b8df4672712d69bd85468996e9ccd281fe021810b93ff",
+      "sha512": "b73368629708a09f2fe2854667c3449e1aeb275424904bdfcde51a3e00924d6765fc98e866d5260de5f89206f768885dc3d99562f47199ab52c97afc9e5299b4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.1-rc1",
+    "version": "1.19.1-rc1",
+    "file_size": 720041,
+    "hashes": {
+      "sha1": "9179324bd3602db8537d1a73c322370fb2c32fe7",
+      "sha256": "f5f5b095ac3a816d52cdf1d2e1b925a5e867f5d6ac39c2b60141dd82954c5a41",
+      "sha512": "d7b333695f1f542c5d7ffba26175af03ff5456f39bbdd2a033ae6ab210470cdd2498f8599fe595e9c6d23220b74f222c82fabdf33ddc4d5d3f6afc8e4c5a7b11"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w45b",
+    "version": "19w45b",
+    "file_size": 457809,
+    "hashes": {
+      "sha1": "b517accb9f6f2a92637ffa83e43520d88b85197c",
+      "sha256": "1a9e0cc56167f9159da1043ee418d890ca597089b48c4d5c6ec95987a6556b00",
+      "sha512": "1276c1010754b53554a263d45e18d40be534538222e0c2a330206d4a9b2377659522d3b4935b9a1d0707a51718a2cd100b19f4e459d1cbca3cdf9beb2aaf63cd"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w45a",
+    "version": "19w45a",
+    "file_size": 457809,
+    "hashes": {
+      "sha1": "bf756590c39714eb26fdaacf0a32c920ef6b5535",
+      "sha256": "a1094d6ed2b6ba57a4da3bf30e263453e777d1927236a854e6885f3031da2b4a",
+      "sha512": "aed07c8225f13efd6d1a1082c1b7bc5137376a265c0137fc3cb492519f3a97a211a3e774491932fc6096d99a761701bffed25d5473da877440b96d7a80f55455"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w18a",
+    "version": "20w18a",
+    "file_size": 508133,
+    "hashes": {
+      "sha1": "4c6e7845b04e3caf9363bed804b0cf61dc9e8a7b",
+      "sha256": "089f67d6ddbde755eab640fb8a37a3d4a16ee79cdf7c14a02d01198575e4704c",
+      "sha512": "6d49a6990deac73e1715e247346ef43d96bc015b8dda48e702342372ae0bdf9022772a04d7dd2fae4d5091a34a80548b1a9dd250eae339467be97853d0d07af7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w06a",
+    "version": "20w06a",
+    "file_size": 469521,
+    "hashes": {
+      "sha1": "96a7944e8c8dc0a47703553e2b7984fac89a6dc7",
+      "sha256": "6da0276d3e0d1fcf79959f2f87885af12eb4819551b3074941cdc69c7d9fbc7b",
+      "sha512": "4f7027bdd9f04bf24b6a0f650b3ee0bd4318916f7424ecdd3b1724833270b6255c2fc7eb4bde6581a8f244bb0a92a4151d0ee1158d7845cfed6fe79516c66d53"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w40a",
+    "version": "24w40a",
+    "file_size": 960103,
+    "hashes": {
+      "sha1": "5110f5b85b5fb35033504c63371f858e9b504836",
+      "sha256": "c2ea1d585df68a139c795af4251d605306c986579bbf183b2da7bbf919b6aa9c",
+      "sha512": "91f3de90beb460ce37a78da3e418518bd86fc6311c37de9ec1f7f01b3e8c7703b3bd06b61306ae9a6149e20826b6cd5a0a4d98f12c313ace7a323f883a8fcac7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w44a",
+    "version": "25w44a",
+    "file_size": 1094259,
+    "hashes": {
+      "sha1": "9fb71711e556a787d6339309f1dc32a2cd7b9295",
+      "sha256": "1e4e10f6f69cb8b825f52ec1d63c5332156bc8f41206eb9e95464013049ee4bc",
+      "sha512": "a5369d1948b12ddf1921db409e8cb00f77d0bd8dc1075e5abea640f13c16d4658aedbe2e2af990ebc9f495c91d584c264d144a6f7c550f4d3445c32546e8ac6b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w32a",
+    "version": "25w32a",
+    "file_size": 1051200,
+    "hashes": {
+      "sha1": "da25e68ce40530a51959e8298cdca2acdb77c11b",
+      "sha256": "5637168a908925714bb1f453e7e71476733770e7d943075cc0bd4a841c83073a",
+      "sha512": "4404bd970e19ea9349189efbcda86a340ab3aa66bfe510b933e6e53010c674b9554e1b41904cdf512966aed072cdba63a49bf6c0ef779ac530d8b9ceda7486e6"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w20a",
+    "version": "25w20a",
+    "file_size": 1029932,
+    "hashes": {
+      "sha1": "b0ef33ee821057505212f8b3f7d2dc026b6cacb5",
+      "sha256": "e560c6901ea911a44cdc7cb7abefd372ab252c6e88029bfb9fb7fb0290020049",
+      "sha512": "9577470b7bc172d379a94708ee5a3f285d8f785225b7d21b363712d4e731203203f286f1fb61c49fede674726d5c7e7f2de117ca3985a67f923b6c06ed642366"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18.2-rc1",
+    "version": "1.18.2-rc1",
+    "file_size": 675189,
+    "hashes": {
+      "sha1": "a1455526d7029318dd76af0b97d9da837a64ae04",
+      "sha256": "2668cc1cc741ec005a3072d8234a23019d379568240e8dee9f45195634740d04",
+      "sha512": "ef975348549d613a8f5718d8f740e97159a01e85efff74951fc6d8f3e58250eff93c18197af51340d3e1d6c1ac9e55d6f37924a654e4082b05b93934a874ddaf"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w44a",
+    "version": "19w44a",
+    "file_size": 456749,
+    "hashes": {
+      "sha1": "f24ff9e9e52844d68ad22209770e2f1bb752a953",
+      "sha256": "8550d12df01c61d5d37dbb6d74dee0ed4f1fb8e33b5658453c7173e323627fe3",
+      "sha512": "d9859a46e8c50abe207c81e67e7e52b9789d80aee25a0230ea4e7e316976b2e6eaa6f2804f46ba09538bf735f233575ffc77dbfaa8f01de23cee8413140bc675"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.5-rc1",
+    "version": "1.21.5-rc1",
+    "file_size": 1004033,
+    "hashes": {
+      "sha1": "b68ca884d980bddb3f79ab2ef90e12420d6bd692",
+      "sha256": "90545dfb92d2149fd30ccf7d7540a25de311d92230bff42e23506db96d547035",
+      "sha512": "a3234948652ff96a9ce1f71cee7eda34c6c1401b83fb78cb9311be7f3b5068574a9302d104fa9b4eb0cb5c9ce09a9acba061b4517f2e3fbb248d7630a5297648"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.5-rc2",
+    "version": "1.21.5-rc2",
+    "file_size": 1004033,
+    "hashes": {
+      "sha1": "2cc4458c312eb5129bb7097b3b961fb84ca768bf",
+      "sha256": "80aba4ca2bc4698a809c440f5bbf6cebb27a1c3cd5973784decb9a70b68d67de",
+      "sha512": "ad5ae941db2ef1648070f70919d459842111fcf5fdf1a102512773fc81879be355a107487ff7f796387403f60c560f9b46ca131e6e46c61315d49d5b08f2b61d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21-pre4",
+    "version": "1.21-pre4",
+    "file_size": 913192,
+    "hashes": {
+      "sha1": "0becff06777da18f0dc589faac55eb81f91b0498",
+      "sha256": "cb8934aefa359927064c0f4efa51f3bec131d2d4c0a3e068aad7ac9a5314cc22",
+      "sha512": "773997ec273081a54ab360d1a34209c4e2bcd3b102634da9709862532768e17a0f279db3ab585d5de15caddbaaa06cbff1ed4360c0295e457d2e37a1aeb3a73a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21-pre3",
+    "version": "1.21-pre3",
+    "file_size": 913145,
+    "hashes": {
+      "sha1": "49d6aa7eaab08fc20f8f38809cab4a2b7461884a",
+      "sha256": "9861aa8c3f16ad1f51f40840ba199a7b8063395c0a2311a992cbf0d29d94ef70",
+      "sha512": "3120d86ec9562522d53e280fa34bb93ef6f98b0f35ba354a5e36f8ebc4ba4e4cfb56c95ba642fcab2db935e8f2cbf554a3444e1da3a510d994bc052933901fb9"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21-pre2",
+    "version": "1.21-pre2",
+    "file_size": 912937,
+    "hashes": {
+      "sha1": "cb6cb28e4a991f88491b20a5d675b3b0b8087b04",
+      "sha256": "3c13764a9812ca5b74e06ca41f6de844d073de8711b7c7bb8cbd01de2e0a6816",
+      "sha512": "e6efae88616f97e2a1cb042064765921e19da928b9cc1c21db25c1952f256a77ca9798822ace4c2a0f4c5d3ec252381b6edf1320cc98963f6de9472bfe83b17e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w43a",
+    "version": "25w43a",
+    "file_size": 1092156,
+    "hashes": {
+      "sha1": "5aedf1cfa2081980ebcd874ae30ceb9a45c08012",
+      "sha256": "9d0579bdd0d195e17be9e6622b2d23854776c8512912489aaa934cf5569a4bcf",
+      "sha512": "58bca1b77e550bad1058eca27b84d4dec74aa791fbc34a76af04d81fb8efe6a90b5992afd9e1130f7ca9db1893abaf616e666d3ef753ff08bbad390e35f50664"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w31a",
+    "version": "25w31a",
+    "file_size": 1049009,
+    "hashes": {
+      "sha1": "496bd7d4a84c7c09585c380d5dedf191cb7b7c67",
+      "sha256": "eb1097915677a66364a079a543079558cd8587622889df20b3076e9cc4160b73",
+      "sha512": "7ec966266cb6c30b32b53dc6747aa74e8c89322adb8dda86f502f13bf46a82a073d3bf3d3dceaf045e65f6e5fc1a16c0dbce2c22a5ea79013fac452c13e43899"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w08a",
+    "version": "20w08a",
+    "file_size": 474215,
+    "hashes": {
+      "sha1": "23564c1edf4feca9ff92d76a40276c7b3eafb6fd",
+      "sha256": "5e6d0ee5e1991c673014363d3e6e2f63ceb40e136cb54615ea13722aa1038063",
+      "sha512": "99a43217999d05e2bca56bb48b50a4d17e1ec0a5cb1354baf1749865d79972b885d4c4bc7dd476c76f277e2fd1f2c7fac67b8be6b3ea7c7c0b779cc051b601a9"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16-rc1",
+    "version": "1.16-rc1",
+    "file_size": 530048,
+    "hashes": {
+      "sha1": "de35c86f6df1afa2e9fc7115f0c4c36214aa2534",
+      "sha256": "edc45f17a2a3492b3ce201af51f1ebd744b57820cf6b98bf2c27b9e0714b39ba",
+      "sha512": "deee424e6941f120eb562bff0780b64944b544571856b7ce668f361ad8ae6bf64c60a3e4a50e1fc9e5291cf25216e06e0fcdfe991bfcfd8262d3ebf1af231288"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:20w09a",
+    "version": "20w09a",
+    "file_size": 475293,
+    "hashes": {
+      "sha1": "cc876b7af13286359b2caa6aaed6f39871b8faa2",
+      "sha256": "47a11740b27ea6003368a1a726c7863a92af14c5834f92e5aca2132908f900e2",
+      "sha512": "2cb15829e8d2a347893fed2b222f03696227ad778a89bbc1413c2ef46c166ae176428d8e34e35a8e7d7f3825cb5ceb22f368c68ea830fbc4e4aa2a9e2f4401a7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.5-rc1",
+    "version": "1.20.5-rc1",
+    "file_size": 897014,
+    "hashes": {
+      "sha1": "b3b820f8d604b5ab9ce8325735feca4444c445bd",
+      "sha256": "493169b6c84555b88e0840d72e9bd9056bbca788ad8e6d24fc813bfa08c18292",
+      "sha512": "0d11e59a363f86f4543b6803ae46bb96facd23c6e02b1f704327420fa1af7f20a3281c72ac2b95bf473969bb1879a95c89133038e94b30735c38e77d7d13843d"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.5-rc2",
+    "version": "1.20.5-rc2",
+    "file_size": 897059,
+    "hashes": {
+      "sha1": "2881f2cf925d46fce840f85bdc79173ca19af4d8",
+      "sha256": "4955e498c9e451a8662fd3f15614cc916af5370ca216ab7fd1e1c03abf3db76a",
+      "sha512": "7a32cadcab3b2bc3c3cd8bd23038bc266d09ac932f6e65dfca9b98ec0994378496a06c6681531aaa1e35ceb78595aeed4e01e393bed4372d6fbda9532bf01a5f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.5-rc3",
+    "version": "1.20.5-rc3",
+    "file_size": 897072,
+    "hashes": {
+      "sha1": "4bf2ba4f9a948378d9a9d430ee98802232464f08",
+      "sha256": "b935e00d8f1ba9be3191395a1adb6b1d0544ed938dcb7ffe022584514d0656fb",
+      "sha512": "4416f32815b4180a8256ab543e866e7fb0ed22ee57b2167af845566bfe24a455eb0061663fad670fdb2a7222b9f938f01304c3350474ec098d89509937d7ab54"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w42a",
+    "version": "25w42a",
+    "file_size": 1092110,
+    "hashes": {
+      "sha1": "96b1f896ef69b8042d39f396a82f6464aa7465aa",
+      "sha256": "527c8577db80d6d5ffac5d21f626c62ac355682603a35a83095f8b83caa4eb8c",
+      "sha512": "1eae396deba8725fe6e81d98751611a0dda8910dd0f4355d9cd19286beb97b4c9d443f5d8369c573dae7c725a7b95e6e9831ce5e3824258ed0d1c0abf34ae47b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18.1-rc1",
+    "version": "1.18.1-rc1",
+    "file_size": 664341,
+    "hashes": {
+      "sha1": "706f6d4b36d1cf8395c6817b79eff6290a44731b",
+      "sha256": "2d88ff4f492e346dfcb6de5af8be776599108d7a91017a1a8e6ee3581988d7a6",
+      "sha512": "718451145d904726f264866dadcc74d7960f6c9a1a1c53de03430ac4fcd70407f3a82fcdb436cd40e9c11294b39c9d13f85b8724ed4001e8a57080a88ccaa97a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18.1-rc2",
+    "version": "1.18.1-rc2",
+    "file_size": 664341,
+    "hashes": {
+      "sha1": "851a7de1df65a6f1a9ca288930c0a0fc1768b09f",
+      "sha256": "5c1c079c2ee52ccacc8fef3f1051c6973677501e176c7a76b1feee06c9c4fb72",
+      "sha512": "ac3115c9781acd564b3e25bb192d04e1a70bf865a7925ae0227bd6009b2f327cc836290aa2f46800d3baa23cf2fd187d7a33a53ff4c31216b76bbf77681a69ed"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18.1-rc3",
+    "version": "1.18.1-rc3",
+    "file_size": 664372,
+    "hashes": {
+      "sha1": "6c3872f1e77f18f2bffcef4f09d86995f6cf758e",
+      "sha256": "1ebd4f376e2e9f1247722779fd7f72e42133404af3e7015a84a8189ac4b6920f",
+      "sha512": "9f33dd06f274d33a15dd87f96e1dac526d48e576170186c49a825c1e141f65b959607cc0329e6311b4b7aed5522d7ef86f895c8b20ee94404ba32315ba1d4b5a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w21a",
+    "version": "24w21a",
+    "file_size": 910658,
+    "hashes": {
+      "sha1": "e3c507e94ea645bc08ada4ee0240010b9f913b97",
+      "sha256": "e7989091accbfaaa5cb2dcd5bfa9f0e9ad8abf81d6d22022b5aaa2abd059dfb4",
+      "sha512": "5a7aa114844fff8a52300955877051a1e8058bec42c2db9eb997255f5c30683ea0397fbdcc3028b90a3d93cb754a8036a0f99b58c5b32b34fa19a782a9bd1251"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w33a",
+    "version": "24w33a",
+    "file_size": 936530,
+    "hashes": {
+      "sha1": "787b6431e3fbbf7299a306c4a9256ad474686b1b",
+      "sha256": "eda47f3ea01e8a3bf401799301bd7888d82bdacc62b8acf461effb4b3ce30cb9",
+      "sha512": "8178593b99d7f7407c15e56e78cd76356d1e2bda4a0f3f3060d1c6888b1524ef18d515f0b329e8c89f5a8a1ad74df9a91d757229adbdab4e1dcdc619a6383cd4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w21b",
+    "version": "24w21b",
+    "file_size": 910668,
+    "hashes": {
+      "sha1": "da9ad3b5c87c025065874125dd52d8e51bd0ea4d",
+      "sha256": "dcbce76024883c4d40cef9e2dfba4d663b55a3d92595525935dd672537603699",
+      "sha512": "b1b45e6bf863eddd62f59a9302b4f33c941823cef87b87b05eea4b6e4b7d4c4e035fc2fb0d2bdfac77c1a98922e5881efdd329523c885d71f14b4b6d521630e9"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.4-pre3",
+    "version": "1.19.4-pre3",
+    "file_size": 781295,
+    "hashes": {
+      "sha1": "f749b700579d09793968358a50b877f64cabb3ab",
+      "sha256": "8bf9e62310fe1cb1d27b86d1a546891e3340636f11b6eb2a9eb5db23dcef0a2e",
+      "sha512": "a179c5b54f7388928096558586e559f63b149d1c9fc52f757d1cfe2cb90b7c111f0c10bb962b893f1d7306a97fa1254d1c32060e04aee6d843c86f8d40fd043e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.4-pre4",
+    "version": "1.19.4-pre4",
+    "file_size": 781790,
+    "hashes": {
+      "sha1": "2486ab6b01bc5022ae5ae5422a03297f2ada41a5",
+      "sha256": "778631923edb34aa2bda9eb678f531057af22a186ddfa2763ec76dac9c644a1e",
+      "sha512": "2aa874d30172a4a257fed71d101d1c8e874f4b6ce3342aad22a422418ced2ae32d02dff5744bbe73ecfe8a4f7dc13adaf32f0d8fcc59d765fcd24d50630fc5da"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w45a",
+    "version": "24w45a",
+    "file_size": 971824,
+    "hashes": {
+      "sha1": "e14afe791d13e693855b2c8c53853c9228f07e40",
+      "sha256": "2c25da6627e8ef5a2ebcff450f035d99eee649f72dc2f077e4ea49d6a8e1db21",
+      "sha512": "5d1e6dc18e21b9084efb42d130182cfc5f555b7f7dd324e4c72fdf19ef536bda5a0e44473cdf14ed1b453c355c9401582392447ecee37d3009a6683e99728915"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.4-pre1",
+    "version": "1.19.4-pre1",
+    "file_size": 780955,
+    "hashes": {
+      "sha1": "751c96e722bc2de4401410b8ea3e6438900c9e25",
+      "sha256": "bb43185b6def0829c75dc3fc62ec3614f270dbb790c63baba3a01c55b0b1669a",
+      "sha512": "89c2952a7aa0ffaf9bd3de0b49fa2a89d4b80af505edda4ffb872eafa1a83e910bd70f6adf11cb7c3f37ad01e5a59115c44c8b09b934a7cfddb4c49e4d80158c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.4-pre2",
+    "version": "1.19.4-pre2",
+    "file_size": 781140,
+    "hashes": {
+      "sha1": "b3535e21108bb6889e37ae79d10daba105021d88",
+      "sha256": "f0f474738d0b77873b61fd9fa99b9f1a5fc693e81c9368779e363d9e26f18bfc",
+      "sha512": "f6ee330876433d1e67d2a802475077733af4bceab635e942da01acce4b3e2bfb46e0a57beb349c32250e1eaeee5810ed1db7bd86aeb8821dc469ca634d97f796"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16_combat-0",
+    "version": "1.16_combat-0",
+    "file_size": 540835,
+    "hashes": {
+      "sha1": "34a84908addd22bd40daf00134673289a593e166",
+      "sha256": "13cf40488d2888ad4a561a2c851d243eb730dc236d2995ac7ac8b3be790578f1",
+      "sha512": "e9a7da4fc28122b719fc79953b38ed8fed3f0a742e9cacd9bd65f933b53228df1c1a41237d5078668a389221df54fb1bb61c204819785b3729f0b3683212acb7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16_combat-1",
+    "version": "1.16_combat-1",
+    "file_size": 541286,
+    "hashes": {
+      "sha1": "fa34d4dba3d7ae96e8061ea23abc361bb2e4cb98",
+      "sha256": "561878779a50cd7ad9186df86a657643742ffb44ac404593e43ddf17e77537ff",
+      "sha512": "e1c4c292eeb1db5cb6ecd6ea3f769350129ef143f1b2b7f10ce6e13ff1c5de8f6c9e14c022611d35a124c9e7b1f95656609009db5513b9b79f786edcd3758328"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16_combat-2",
+    "version": "1.16_combat-2",
+    "file_size": 541286,
+    "hashes": {
+      "sha1": "d815bcc27e434278551f76faca5e4f35efcea111",
+      "sha256": "30f318e78d0f1b0b954aa8488a9d34a71497cb7dc2170ce6bfd6e407f7cb064b",
+      "sha512": "371c24d80e9eb4401eb15182fe022719033cd54f0c29cda375cfdd288554ed102485850b3136814827f5e04b04bdb12bdeba54061694bb41d4fc14c204c7c83b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16_combat-3",
+    "version": "1.16_combat-3",
+    "file_size": 541286,
+    "hashes": {
+      "sha1": "f71c08bfb71c0bd71f954aa754e808269c970855",
+      "sha256": "5f7399e23ebfd73d0ef392c00792121cad7385f100fef3c1b8f38be25982f1b3",
+      "sha512": "f5996855781d9c3364bbbe1655022401678f7d501c0e6ae6238b3bd39d26945cd22cbf1330d7a89a4c25256511a5867d3de7bd14330a77257e6fb9dace941d5a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w40a",
+    "version": "23w40a",
+    "file_size": 824020,
+    "hashes": {
+      "sha1": "b083f8dbd7cd87f82d176e2f5a963cdf09ece095",
+      "sha256": "1d340eb69eef5628b228840d2ce73aaf177befd2b7381299562ff2cfec306872",
+      "sha512": "24663930da9fca5f9038bb37b780bb3d58360dd9474cd336ccaea839bbe19878b4b14448bc2be13eff3ad966df69022ea0c1562818a16a5a2c699f6d68fdea25"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16_combat-4",
+    "version": "1.16_combat-4",
+    "file_size": 541348,
+    "hashes": {
+      "sha1": "fc84e2704443d57167520ed946b7a29e62067d29",
+      "sha256": "4122bc5e5df2b0b674d65526ec46dc4064556bcec855985fbf239ccb99ca5c97",
+      "sha512": "5622c9dd6aadafe0f370b020e78cbceae05b14a095d3522a1f188d9beb6f307bf703349a714dbe8362f3e868b64939602cabc6d9334db751a5f8dd88740f4e50"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w37a",
+    "version": "25w37a",
+    "file_size": 1075338,
+    "hashes": {
+      "sha1": "864f9a4e59c407427b7d73e4faaf77f2be3c2a52",
+      "sha256": "3d90b8336e1de5b193364870dc2a014a719f30bb04bdded54a34c89bdc7af6a5",
+      "sha512": "b111214bf64e8e6b4655498519dac567c461daa6b5785b484cfff17d77c34ff975943d5a8ac9e12aa7769a3d16ff69b4e76380c6f124db64bea0cbe3b07b5325"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16_combat-5",
+    "version": "1.16_combat-5",
+    "file_size": 541320,
+    "hashes": {
+      "sha1": "6f72de93c52070eff655d5addcdd93deebc4ac99",
+      "sha256": "4765903f5012de346a1533754530fc4e70f8da6e7d70386fb41c55ec9ed308fc",
+      "sha512": "9a0c4a293dfe7d15763c5ec08651b336e05cb95117cdeac41f5bb89a90a06966d3b95164edece8f529312e6f5d28a31b082c1d76f39a9bb371c3643648c8841b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.16_combat-6",
+    "version": "1.16_combat-6",
+    "file_size": 541356,
+    "hashes": {
+      "sha1": "e137297b115dbb4707d6576c9939a5b17d823bc1",
+      "sha256": "8658667275f6594c38ff8dc542a6723d601ef9fcb734680c3bde2800508360bd",
+      "sha512": "31e64f8a9fd7c2389ffeb819fc8c77bce746fb886c18720f6049512cbdc4fc2caf530b9cc8c51a5887df78d02f58097ad0aacac9baa59aab982c66fb4dee42b0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.9-rc1",
+    "version": "1.21.9-rc1",
+    "file_size": 1076928,
+    "hashes": {
+      "sha1": "2bd8e692fa349a11ee0236f907b6dbe3a5bd49f3",
+      "sha256": "4cfe2fb63cf492014995c45c9766114933b1582e4f576f40a09abd18b79ebfc3",
+      "sha512": "ae75f02908d4c98cfc073ef1399181126c39d272d0f75e5aae69e61a26413d65144c130af20379da648018cfc3c59c881635ba734e18cd62f4a7c55db33c9076"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w44a",
+    "version": "24w44a",
+    "file_size": 965382,
+    "hashes": {
+      "sha1": "6d8951085697287c33b681416f876169ba58181e",
+      "sha256": "68832a412d737a061e3898b8c02dfa1fe4e373f66428b5236ac23e2fc0703870",
+      "sha512": "0075fac8e62ea302f102458eb6eeeb7a22be3410e54ade54fa84c426ef483b36b3d10dd89cbb95bd82a1b41115960f82160ddcdf78e1f01b76e1a78a526f2d33"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w20a",
+    "version": "24w20a",
+    "file_size": 907548,
+    "hashes": {
+      "sha1": "953957b5135fc0eb1093c37f6ae15ac495c47090",
+      "sha256": "6cf5905897d04260bd9ceb548220fe91805537235087df05a4388e196fe18ad1",
+      "sha512": "f2f499dc59b6e70b2affc3fa98c7218df899ae52774d9d770fc982d9b3f368647299d1be5716f9173ec6c2839ca2e803bb145a0ddf9466bd4e77365e45d85fb1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.2-pre3",
+    "version": "1.20.2-pre3",
+    "file_size": 817177,
+    "hashes": {
+      "sha1": "0d6e5cd8119a353f02c7d24bb5a9e33352850583",
+      "sha256": "893bd19aff63ba7b11cb0bda27d279e53a9eb8d7161d22a1e178291c2dd15c1a",
+      "sha512": "1deabcac0928ff6c93379c2572e169bd551227f5287c6061b29479746c2272726cc9aa5e932fb8b6566043c6f60a2dac409e54b3bb677d42a5d99894a9a46a1b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.2-pre4",
+    "version": "1.20.2-pre4",
+    "file_size": 817117,
+    "hashes": {
+      "sha1": "407241f5ec8a7f53f31a8696ed0397c90d6ff3d3",
+      "sha256": "98263dedb0f1f476d82894319002731ec79db3ed156ca07a752f9caf8f1ba881",
+      "sha512": "526d3cb457fe8a408a1e145af290b9f3ff8ff18db2a3458e40e81b659f3dfdaf6b58c1885b15bdf4a8eba5a5b18378dcbc163d487c49969d08a04cb413304ff5"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.2-pre1",
+    "version": "1.20.2-pre1",
+    "file_size": 816811,
+    "hashes": {
+      "sha1": "ff0a615cf9d006c3ab28b9ff107df735e13f8e0d",
+      "sha256": "986c362bb633170e6ee605020f35ddcc50f82f20cdbf63568568b047f69b7e5a",
+      "sha512": "561aa67b912c73cd6ca402a0d651703fb2e01bb4976469b6b983ab3d3cb505c1852b88ebb005db64824fe235ab6faebb379931e57d236d53f3e0090e153b428f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.2-pre2",
+    "version": "1.20.2-pre2",
+    "file_size": 816962,
+    "hashes": {
+      "sha1": "31997b8372bb869a72886ce63e08637532afc880",
+      "sha256": "8c808c4ed6ecb9213b149d3e7006566d111023f375fa819b7bae090db25fbf68",
+      "sha512": "0ade1855857aca3bd914a286485cee38c6dab3271db3209f4f2a28e32b2bea3ad863fa48c171436b580a6f55e8107894ee8510dc7e667869e24529658ec6b266"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w41a",
+    "version": "23w41a",
+    "file_size": 826809,
+    "hashes": {
+      "sha1": "9563d1c7c591b4f0800ca3e2b643ab50d7aa0899",
+      "sha256": "5e5b4fe7b67eef53a2d9b87afc313f81d86e0062ea58708eeda9cf135a817ca3",
+      "sha512": "10164691ea0d7075791386e3d450736480f7838991c78588e91af8e7411c531c384a5cf08832dd9c0afe744f95630431eb645ea9715010f0096f2c4209afabee"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w36a",
+    "version": "25w36a",
+    "file_size": 1072284,
+    "hashes": {
+      "sha1": "aaab50701498f618abacf79b0a96fce85ec3c151",
+      "sha256": "a320826a00a539b831fa7f3e1586f53f1a9725c34c16e948078b2d37e6c4fc4b",
+      "sha512": "baf7ecc5f5f26fe33794ae4057c7f4b53a5a6fa52ceede821b2b6fa38625f7ff922926a665c1e358c9200fa39d105fcdbecb335f48c9bbb29200260b2ba196d4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w36b",
+    "version": "25w36b",
+    "file_size": 1072284,
+    "hashes": {
+      "sha1": "ed6d4b3cf272f6fbfc7905e7767b27c0747aa4a1",
+      "sha256": "9103392e18a881d1f641c0e787ca43ec1c2b94fa625e9931bbec42d6368a5729",
+      "sha512": "176ffd9ed6f44a375f6db06eeed742bff1deabba00fb6ad1160054039df945b97759e87c88fe88cd21241d0f36b5c0f58d216235ccab56aea58f53aa9d78b6e4"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.6-rc1",
+    "version": "1.21.6-rc1",
+    "file_size": 1032857,
+    "hashes": {
+      "sha1": "39bf2a07a3fe4e89d10d3b1d6e33a545d32322fb",
+      "sha256": "cfa2ea2b4ddcb43d822db37d0c4610a5db63f4641618a5ed9e7f5a5c0edd93b7",
+      "sha512": "776b4f79127e58e379783e81a3985948b652dc3de44a416274ba9d8def0e5691b1353c8184241e97147498480bb03d760e279bbc94c0019e1403c63159adadad"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w35a",
+    "version": "25w35a",
+    "file_size": 1066773,
+    "hashes": {
+      "sha1": "fd8195cd7dd9d4849499c52079f26db1c292215e",
+      "sha256": "b8067a4cc14cb29b4b86079e76ed0837b113ce73d7c4bb010ff86814e6d79d69",
+      "sha512": "b13b3edd1d139375a5c08fdd9d2c52d807da56954e04f163dbb976a706c6ae2fe325eab22f8937aac87b2ab749b68c6c8d8a3b2b70c53a4897a4721bb0a995f6"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w51b",
+    "version": "23w51b",
+    "file_size": 849858,
+    "hashes": {
+      "sha1": "f6545eee5d32055c734b7d9812d73b3954576176",
+      "sha256": "968f1761de5d174e04c26b62a7d9cd365aaf6ae6556435a23a4381432cb96865",
+      "sha512": "ba600545d62837cbfe44bc796a7317061168d1a6b06b9d73840e3305983d92415f709669b5bb96ce170160877d047a3d6862a0aacb3fe70694cccbed51dea53e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.5-pre3",
+    "version": "1.21.5-pre3",
+    "file_size": 1003954,
+    "hashes": {
+      "sha1": "3d1ddea5ac9739d84cc01c3f247222a0be010f83",
+      "sha256": "a39b2ad92596660079bdb59e3ad3907233be2095dcdfcde3f9cc1a9bbd4f5507",
+      "sha512": "f1e44d3f4899c6b377739a96c9408822aa89a924a166f4fda1ac1c5825ccf3037af93fff8b455411ef8a7e328b57bb3a9c677c0e32c3b4ae4c18aa76c58211b1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.5-pre1",
+    "version": "1.21.5-pre1",
+    "file_size": 1003839,
+    "hashes": {
+      "sha1": "388f6f9707ad85b84e1071da404b66dcb6b4dbc3",
+      "sha256": "a1b5ec0546845453c797fc114a92e8147defcae2aa71b7f9643bff65b3262223",
+      "sha512": "c7142c346b68361e3c8e2c117dac80316f1b9c2a5b0e20ab5ab274453c421443fd2fc6bdde96a3e55976549cc5a04676b59414361d6347b67fc8e923441432fb"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.5-pre2",
+    "version": "1.21.5-pre2",
+    "file_size": 1003850,
+    "hashes": {
+      "sha1": "a571ab5a0a3ba62503e2fb2d4558383562cdd895",
+      "sha256": "426f4c0a0c3831eefe232af582738e0234063790ba1a37deff1bf7bd4f699581",
+      "sha512": "9ab020c369022a25c60193f10f86dac8643f94bbc01bc355ffb357431b23a45cbf8be2bd01331d3ffc0ce2523f8ac26f08a32d0de4d63fdaf4bd99722fcdda67"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w34a",
+    "version": "25w34a",
+    "file_size": 1056392,
+    "hashes": {
+      "sha1": "d3eaf2ad7706b95419fa7613ee495435f2edd25e",
+      "sha256": "6ff64f39f739ae0d7d5e82763e9929d432c741ac78fb3b5f241eadd92e4c0a43",
+      "sha512": "5b416a9c546c0ec9996b133ef78c6590ca9afff7f27db9607c9c49b4d55cb9d763a061ec90d9018109540cbb51099e5c7b0112daa3029627299f08797975bec7"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w51a",
+    "version": "23w51a",
+    "file_size": 849861,
+    "hashes": {
+      "sha1": "079e65e0d80c3161e8057b7de6df5dea1537ac4a",
+      "sha256": "458c85c9e57a4cac19194421ac2f14647aab6136814e288ddd3e7fc0a2d9011e",
+      "sha512": "38fb8e6c2a84aed4344f90f9b4c1db3f4ea90f24928d47142182ce327584ffbcf16408a5b9e379dd6a7c1316d3fc1b6b345dd91608e17cf7439b1211979dc377"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w34b",
+    "version": "25w34b",
+    "file_size": 1056450,
+    "hashes": {
+      "sha1": "d953588d4abc5a8faacf908bda65db846c3f7d2f",
+      "sha256": "4394c9ae14de88ef72ed55fa13c353e556dd0690a65347cd5f057a5794fb1527",
+      "sha512": "2922cf3193ce4428fa7d2c35748aa5b698bbc12b0dd90b14f8f4fd679f123227d11f3ff088ebe377af46c63bf077a570e45f6ec9e92643868ac7c0185d7ccc54"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w10a",
+    "version": "25w10a",
+    "file_size": 1003411,
+    "hashes": {
+      "sha1": "d5fd9d6778a77a20c37a03b0a2aa97f6e31ba7e8",
+      "sha256": "78b30121ca935842cba6aaa6028889fe1d084d323a7d29b4abdbfc36a6fd99ee",
+      "sha512": "d99bdbdd59012f48c293a15198548f51abf3f768634b0e81b0324be1ef31e7fce2a076064673f13703680013a57710f40efe4a1dec08927a01a706869995b4f2"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w46a",
+    "version": "25w46a",
+    "file_size": 1100839,
+    "hashes": {
+      "sha1": "582f9160cb5eadbdae1436c6844df80647ac250f",
+      "sha256": "be69b874cef5f2b5cea46701199b0bed18204f8496c3aa2e9f7981a280f157f8",
+      "sha512": "2f49eaf489d610fee519602a96cccb4719a33ddf02ae3db574711fa4de59f30b2b43744471c2e178031767c0b15939fb5f7d546b60b645b05d1a13405e536bad"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15-pre7",
+    "version": "1.15-pre7",
+    "file_size": 462500,
+    "hashes": {
+      "sha1": "3d255fd6319b8a44343f6033a11cbbef8fc60670",
+      "sha256": "566cf46630698080985d51b4fe208ff6d26e0e3024b916234cc221cf1bb0092f",
+      "sha512": "adec41a12800810484ad9b61c32a9de2d425b1ef77e0a9b44dd248c9760ec19ff094a008c4d4f88fbdae71d0647ba1fc341d0e9b5332a8e91463cc80192b3256"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w37a",
+    "version": "24w37a",
+    "file_size": 949988,
+    "hashes": {
+      "sha1": "b0280031500d13203fc39f80491aa074a048bede",
+      "sha256": "668f8cd224f4352587cd9814b6199f1137c95613c4d2460010d4e67389d5983e",
+      "sha512": "7b21d23bbb0bee45bb5d2f4e81092a95a92e3d28648c400bb6529ccacefbd5c4471cd611e854d938040e660f7cc5042ab6806ea579a342f71204e5eb23cd63cf"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w13a",
+    "version": "24w13a",
+    "file_size": 893515,
+    "hashes": {
+      "sha1": "e2b32dad334001eb93c318fdf69116ea936b89b8",
+      "sha256": "1a1a10a762b7c03a3d7df13dfd976fd2de7d847f29868debd5ded5f7eec3aeb8",
+      "sha512": "1d8c580f8f6412741560cb9c51f2b250613f2d56ed7c1042c7d77fe7108109a8eedc2d74b672c082ad3dedb6708967eca8458bd2eb677b513f87106526bb2684"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w17a",
+    "version": "25w17a",
+    "file_size": 1018085,
+    "hashes": {
+      "sha1": "7c261f67b98f87658bca937ce8266f8d9561ebfa",
+      "sha256": "756bc71bf82aaf41a571ab494386707a0b51d56272f5ca9b6f5693f01dc56829",
+      "sha512": "b35506f26d7fe0eb863659ea300d2bc578540a31ffc7515d5bab6865b8dbe5d9e5459e9c3b69850dc01aa79889591c20ec6742ca2bd89709411141f33fefaada"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w05a",
+    "version": "25w05a",
+    "file_size": 985240,
+    "hashes": {
+      "sha1": "13f06186ad316e4b03af4789d0b604750cd1cd8a",
+      "sha256": "9c9596674f2a2d322cd61edd493ef30a6d62d010d43d7eeb7adbff5c8c0bd066",
+      "sha512": "fe1a23b849b2fd56b27c6de1ee90b11c85e695fbe8230870bfe68e4d621cc086328db621b5d838dfb2aa5075d3b93b273f2f73498b16cf129fe10a7f12167dc0"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w32a",
+    "version": "23w32a",
+    "file_size": 813346,
+    "hashes": {
+      "sha1": "421cf42fffa338727837cc3b06944d4842050c08",
+      "sha256": "5775d4b279d04e22b17b3d0cecdb0ecadb83cf978b27590f5fed24c3444a7223",
+      "sha512": "6ec7098980bf021af123c57428fbdb44194e4a2c881d7f5d60895390ac8635b0643c9006e2979f70daf8e4f8dcb0e4f8c20018924853fb4e5a2e68187c9f2a22"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w44a",
+    "version": "23w44a",
+    "file_size": 835298,
+    "hashes": {
+      "sha1": "74a06fbf81a32e983a708a40499f5fc45a37c31e",
+      "sha256": "cddca5e7dac47ec619a14e4ec2eed4c8424a4c3cd838d027eca8b2e6b74d17a3",
+      "sha512": "00fd387553c8c0a879a64c8dec02b8aa82bb2f1c493472948daa996cbbe5213396231fd3fcfbebc9985c2f677e69e989b40aab44afd2321f00940b88568e2336"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.21.8-rc1",
+    "version": "1.21.8-rc1",
+    "file_size": 1033048,
+    "hashes": {
+      "sha1": "95a52e95f6767c2846e75d8cdcf7febb6953f385",
+      "sha256": "d7b0dedb4411f3334f46a9c08d9d81d194c489a5d162a1913d19e22b2810fdc9",
+      "sha512": "d7e9f74e8b70945e9b8f9f11035853ad12207b950d854f0fde18d1cd301855cf56afa0d40be206f0e137173b25d6bf83e16a79030dff09b47d7f57640f155326"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w36a",
+    "version": "24w36a",
+    "file_size": 947501,
+    "hashes": {
+      "sha1": "c4371a5ffb1dfb1b020a432b784419680b00a731",
+      "sha256": "c6c49b8415b1431996dd33420957e750b0014ac98c617678f1341f07dfe3ba5c",
+      "sha512": "15a329c6b1809c561f55b14a7ed383d6eef0f7a0046f468e090dbe66efccad2aa6aa18fa32dd1eeb605e3cd705b4fbdde54cd243ccf975a4bc0b50615a527563"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w12a",
+    "version": "24w12a",
+    "file_size": 891361,
+    "hashes": {
+      "sha1": "d10f9acf18d05be00c29a07c1505ce013b2a7610",
+      "sha256": "71e62fb51d8f8bab3e1e53e3ea3bc9c27e814cf65df7e64ede539313cf2afc66",
+      "sha512": "5ed59e6e6f240a16708af2c01356606bf887babf0ec15352570ace35522169f5b90a8c7669f6392db2ac5113580b8fe57a0551427f4df7a7a1ba56f02c46cf24"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.5-pre4",
+    "version": "1.20.5-pre4",
+    "file_size": 896824,
+    "hashes": {
+      "sha1": "87ba01351a752378e2c78e83e3dd9d7f59197abd",
+      "sha256": "24fd106703d0a1ed9bbfc87551a7376e9700318af3843899c79f4abbcc9b5b1b",
+      "sha512": "af07703a8eaecf36441bfa4e6ff8e36a8b042b53d82b6ab943d6fd58207f60b6268d9a5fc1031fb5be4eb15a17412fc529d58670777bf74464d03f2d6ebfdb35"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.1",
+    "version": "1.19.1",
+    "file_size": 725720,
+    "hashes": {
+      "sha1": "5c27ea6bd00944375f1036a3bf82f053b55ee8a2",
+      "sha256": "0c9ff518aff6d86a4aef757c31d292418efb46d723e9eea7900e7e8c09d3d210",
+      "sha512": "c7221ead4c4d9270048fe031cb4afcbf5ad65351a1df2e7bc9092da31fcf3c4cde8477a13ac5b916e20391ca1066f85d3bb9f80d58abb69c65a8d8c45ff8803b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.5-pre1",
+    "version": "1.20.5-pre1",
+    "file_size": 896138,
+    "hashes": {
+      "sha1": "3f04144404653c2a366ec0488ff17138a25cb4a4",
+      "sha256": "e78a8e3ef55faabfa952a10ee6ebae453832e0a660dcd22471d571ee78659f7b",
+      "sha512": "ddaf8ccc5d1457c3802f16e7a338909bebf2ca39657683dd60ca34e3383d1102455783007bdfd8b3be896406da778606f0a868e4f2949b0ed95a8888d2ffb9e1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.2",
+    "version": "1.19.2",
+    "file_size": 725834,
+    "hashes": {
+      "sha1": "8b82eb73b4bba54af01a84a73d0dd60d3e83413d",
+      "sha256": "be2a0c9a0f82a3f157608cc28fc2d1140b588631cbf40d53fe0d3ff9bd712271",
+      "sha512": "ba003f26dcfc208a6630d45d96c650570176645cfff4261b7db4574c6cedbe57b6321d5f62244d450e0c34d12f4ab56fb5e889846db07a8f433f85fef87fdab1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.5-pre2",
+    "version": "1.20.5-pre2",
+    "file_size": 896600,
+    "hashes": {
+      "sha1": "d5d8b500f618930c145e1612615dacd23abd6b85",
+      "sha256": "59ed2ba534a8c071c1e2be9c7daeb7ab7fc841d2f9c3f2da05b330ddf3f9f35e",
+      "sha512": "8cebc37e4b62d734cb77afa009813d4aa0eea677f8b1a49034948eb3e2941c7ed553a1f6a8c80bd6e9d6492521819ce79da8d38d92e9be0437c3675ae0344221"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.3",
+    "version": "1.19.3",
+    "file_size": 754142,
+    "hashes": {
+      "sha1": "0a60132fe04dc278d1aafa453e72d878e2c97229",
+      "sha256": "aa520a3632af8cb7fffcbcc08b691be55491a4f242651283d90f746d80fca093",
+      "sha512": "455510afeda8868ab3ffb6a9cea743ec8a4585b0d8ebddcf0bc206bc7f282a99567f721f57e233421f4fb0e61b59ec6bd50d32325a35d187cabd08def29404b6"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20.5-pre3",
+    "version": "1.20.5-pre3",
+    "file_size": 896885,
+    "hashes": {
+      "sha1": "082c81f24f98917c03b52e1fb59fe508d62b2a6b",
+      "sha256": "4ce0459fb33fd41e01b49ab523fb617f1e88e08db276ed685e208dda7ba78bff",
+      "sha512": "7b3a02a265ca722b44abb207db60d96ecea7f6236df6aac7ac2c22b0ea4922586319dadc390cba208e92add894ab0dff759309243f496b191a213e5b7033bd0c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.19.4",
+    "version": "1.19.4",
+    "file_size": 781863,
+    "hashes": {
+      "sha1": "06ae78c6cf7143c74d0216e9dbd8b0f5590aee51",
+      "sha256": "3a307599ddd5056dec9397dce58be84eb092b6dbe3e2b0633aefc50c57eb4847",
+      "sha512": "5b6a34e04470408aa4a462c6c3394abc4787e019ac273d1108bda5af8008793e551ee5aa2fb61337239f40c9f2189dda1f365fff6cb1ea324bc796d65c678915"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w04a",
+    "version": "25w04a",
+    "file_size": 983896,
+    "hashes": {
+      "sha1": "9284042ed8741c058e6d5f7a014fcb1340f26178",
+      "sha256": "11c1cd116245d40712521016635740b1a1f2a896a5ca29f697cd778b583ace46",
+      "sha512": "f8795377662a5f8eea72318fd0f9a972f991676b44d87180a95b1bfe793a5886565f9a3ce3ee2ff2203c39f42d1a2d47cfeda1457a3d4e99b9e692ad4b9ace51"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w16a",
+    "version": "25w16a",
+    "file_size": 1015662,
+    "hashes": {
+      "sha1": "96cc82af0497452e866b9b6ac07350627b45a48a",
+      "sha256": "9fcf99eadf6ef1fb96bd5de0406f3117a078f3fa2aa527baa7b8e5eaf017b25a",
+      "sha512": "77c50266bc42b41a25f87431c761f13b8e6235e428e60a108a914889f5adffb8d8257df4834265382600088d688df22fbc7775f251f15061bf43441223f69f8c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w33a",
+    "version": "23w33a",
+    "file_size": 814829,
+    "hashes": {
+      "sha1": "307cf301c520c2bd6fde831a1217185584f2c944",
+      "sha256": "e91692622aed862cbe5f56882e69c152412086678e259e2ad5b4a50134aa1a10",
+      "sha512": "96af7ab306b76d2d3868b9412cd29267824a08bde50790132b37c0d6b65692fd8fd70168bbecf0d1a23c1959d0ce5ecd850f45a91af70f11ace94b1389f63ad1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w45a",
+    "version": "23w45a",
+    "file_size": 841232,
+    "hashes": {
+      "sha1": "ef83411648f4f93cd6c9e1e541525420ffb9f224",
+      "sha256": "c40fa90847e66ee2860a30fed06c194c36ed2b3d7f21c71c14a432c38c5196b0",
+      "sha512": "01c11fa8d085d335ae7673b5898db86290b45e108d93c487dd0920cc04df54e26c2c9f50fc7154aff20b535d3355dbfc0e690b46940de527220b9b12b4c29d48"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w11a",
+    "version": "24w11a",
+    "file_size": 886924,
+    "hashes": {
+      "sha1": "c7d239653fa476ac62f311e98ca35eb6a8a54d0a",
+      "sha256": "7d5aae96fce6e07a0154877f4f891e84cb83ac1187571e0e4851d06f048a58e8",
+      "sha512": "31b8a25db2b27dd29d9b5939ff1888b3913fddeff556393be945dfc8363de2a9e4dc4f4baf050dd2ce7405084e6e903be441a10ed7e10bc9cb5299e5cbe8528c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w35a",
+    "version": "24w35a",
+    "file_size": 942010,
+    "hashes": {
+      "sha1": "d889b2bc495c0e9396673bce92f731c2b79cb3d8",
+      "sha256": "0f09d0d33b28c281784ebba3988675968ca9c0de48ea5cb06334821bb4e54bec",
+      "sha512": "607bc326ea36d5854f0a802e0fcb96dc8c1d399538f76b7e38f8b2eea6dfd434820c986bd2a5133c47e33b3c42ab8e79b0868cdb57c18d3f52f00b3bd32f7580"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:22w13oneblockatatime",
+    "version": "22w13oneblockatatime",
+    "file_size": 679039,
+    "hashes": {
+      "sha1": "87084303e781df343c4e325bc4287be7c8c05dcb",
+      "sha256": "95dd17a0dbed24d0069bfb3b2fcf15441cf01606ccc7aff87aaa326689cc3114",
+      "sha512": "d783c6a93db3d17b40472e7738d8c766a7673b2a9bd5e5f0d3a419ec658ac2431476414c8a3928391e5196e0cc7fadbfa83ad11e2839ae2e30b1eee76787f0ce"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w03a",
+    "version": "25w03a",
+    "file_size": 980771,
+    "hashes": {
+      "sha1": "6b211837903acf5f005e2e6430a58c1f6f10a695",
+      "sha256": "154ff952391fdcabda6108b79662f41b5a6165c149cdd08ff4cde86b381c16e8",
+      "sha512": "989f8b38671c156e38ae417f47d43ace6ea867efe3a129384820d2d4bfa2a111387379c430806926dc8165ebcf169d0b4c79771a7e333676b1c45a20762a4d04"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w42a",
+    "version": "23w42a",
+    "file_size": 830034,
+    "hashes": {
+      "sha1": "abb09b27985fb7ce5048ef6ec23a96032fceb9c2",
+      "sha256": "b913036555c3d92927eff5086a5897fce5e9ef45045e7722ffdb01b843a73ef8",
+      "sha512": "9849a6f76feca19e366df3acd67a8efdc1bf4dd5d31e9a05d1b32e09639f9b15cf39038ddf52a9fcf95a798e32365771c6eda6bb283684e4ff589e4810812c6e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w15a",
+    "version": "25w15a",
+    "file_size": 1013902,
+    "hashes": {
+      "sha1": "63363dba8973d7fbf6395bb425672d5477667f62",
+      "sha256": "50053491305c9a9156bd28b91725e876810ff94ee355b3c45bb3465457fcf737",
+      "sha512": "99da158e52a729d64362977030b4c62a04e54fe2df831b1e8b3a8386cd5219ea2f653426538b3f89733dab86ecc9232cd0d154cc8cfa7b1342df8a15727caf3b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w10a",
+    "version": "24w10a",
+    "file_size": 883987,
+    "hashes": {
+      "sha1": "f242802a1ef7da15eebb22d0308402ca66d633c4",
+      "sha256": "d6f9a5ecfe7ddb642fbfa237dbc698bfb3a9bc8dc37218d7ad3b16f893ed9f66",
+      "sha512": "c4be8060d3bc43696320d51925fbae43877f52fe4b32b20bda3b5fbdbf23d11546e8be32d3b4e3d6ad788da21994fa6bc37dd69318ba7a72666caadcfa40e0c5"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.20-rc1",
+    "version": "1.20-rc1",
+    "file_size": 798706,
+    "hashes": {
+      "sha1": "0f08cac4c2cda2dfbb34829697a500dac789281d",
+      "sha256": "3b4783a1d30f42bfb44817c8d6fe719446ab3cd30631df13fb68346e57c1814b",
+      "sha512": "6466f6e7cd47bc3f7ff1c4b6cd89ae759668fcc0c78e4deb9ee066a54afae302b6ec8e42c1d43f826a94df3f5d59ff24c63d1a207a39ea34354c0988b77a69a1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w34a",
+    "version": "24w34a",
+    "file_size": 937600,
+    "hashes": {
+      "sha1": "d7e6fcf902e7d300e5ce96f04bfcba894ff88a01",
+      "sha256": "a2da9ad855aef7944b13b891511dc00f88887a002b4a889205d0101bb587bc8f",
+      "sha512": "54ae86ae25181b81c9d1af15a46d636c8882cb250baa0a276ee84af4a65712cf23e65ca9b6a51158d13129befb42c0a516deb34f2078c99a42bb7deef287a388"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:24w46a",
+    "version": "24w46a",
+    "file_size": 972370,
+    "hashes": {
+      "sha1": "6fab17f166c967c04853d52f6bfdb22f3fdb4e0e",
+      "sha256": "b71dc4f2164646d240d3f39d399ad2415fe4b39a300221648e1d43f3e39c5d4f",
+      "sha512": "7f490568ea10c0c479a84d1e54f6f444b23c472fba21bf8c0ac13bdc862661542c9d7f4729f23c4af60e1b22f0e043a796794be542734a94f19e932c6444ce6e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18.2",
+    "version": "1.18.2",
+    "file_size": 675189,
+    "hashes": {
+      "sha1": "e7c704e3daf3d83eba51b93fb9bc6914aa334295",
+      "sha256": "6e7e8e292eb98c9b29d3b6f4daac0a4486e6525f9c89929401a24db58903cc48",
+      "sha512": "165f6b885666510f251f356df45dc0702603db26b96e069e7e805c150a001ffd8bb34c55be8b3dbd0e5bddccc92e54c5c81f117cce0388e758eb9051de660d1a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:25w02a",
+    "version": "25w02a",
+    "file_size": 975520,
+    "hashes": {
+      "sha1": "ac4a3f788454aba6023d3d3eb487909cb56db816",
+      "sha256": "f842e3b1eb08928e86a3bc6e3767c01c38384a8544ce1b90efb7407a5d95c2cc",
+      "sha512": "434ff2bd31ddd677c849ae1d44571cea27404c90086d219e8af746e2028ab942d0a1dac8edd77d9220eb61abd923998da4fc5c9aa5519ea2b2faa208cf335496"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w43b",
+    "version": "23w43b",
+    "file_size": 834524,
+    "hashes": {
+      "sha1": "2433dab421005a62610c864c8fc12f2dd1e31ca3",
+      "sha256": "92b5802764c53a93c56000753e42539977da891d5b4ed530b0c0be9572f65214",
+      "sha512": "4bf9a474c964385a36a5c4ef16fd3b9feafce48a0353fee2992bfb47cc0f3212846fa7c35ea043d4dbb7112334dbebd14b36d51771aadfa5bd2516452698cb0f"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w31a",
+    "version": "23w31a",
+    "file_size": 809963,
+    "hashes": {
+      "sha1": "605261321b6304ad9487747b55307052907d3cfa",
+      "sha256": "7cd4af536bd21915de582437a27df1c9592c855068c0e0b07792c382cebee640",
+      "sha512": "4326257f60eb1f44c5269f426b1e8a9b17d3dc7586c2d75a4a73eca1c016148937d437aaf6ec43bc1782a284e36309c0db8aa0d18db2e37695d24e84c401503c"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15-pre1",
+    "version": "1.15-pre1",
+    "file_size": 461450,
+    "hashes": {
+      "sha1": "205e4e7819fd0252b191566636eef65cf79c3c80",
+      "sha256": "ed056e32bd01b87294810fe0653e62fdc778ad6e47391b5a26ae8c4c4a1cbec8",
+      "sha512": "f74e7ac88bc0256ae652ce35cd8905b59dde9b728a86245de5931ac6f837269545dc7e6b0ab0cc30ef837902899c0e645007b13a261621bebd3142e3d73d852a"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:23w43a",
+    "version": "23w43a",
+    "file_size": 834524,
+    "hashes": {
+      "sha1": "4cdef2fb5cac839fb627ba7dc9a1cbcca7d4c1ce",
+      "sha256": "02500323801792dd0bc9dec188d0d454245ef57c1054ffdd34e63038adb6fc44",
+      "sha512": "53d9b43a8514af47141f35d81d36c4060f85536ec527d299c46236c367566d7103c4381c43e33401f258f77e2deeaf4dfc43b00b79d0529e1808144e30b638dd"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.18.1",
+    "version": "1.18.1",
+    "file_size": 664372,
+    "hashes": {
+      "sha1": "ecfbb95de5344c0d361c506dc0486913fba0019b",
+      "sha256": "ea13524ef984a574249a4115ac6b1bdbe0e18135f473cb9801d503b7148ab269",
+      "sha512": "8170c0540484ffba2dc41fffb3ef19181ee30b25a34c833d6f9063dc49f4c071e188652fef01a472f2c71db21f62b49be991e0e4cc2610b97e008db273044e9b"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15-pre2",
+    "version": "1.15-pre2",
+    "file_size": 462100,
+    "hashes": {
+      "sha1": "ae101a676e4a8d7c30b9b259f381f451786043af",
+      "sha256": "8fa58726599a6cbc6cfe3f9b429e534dd74864baf114fe8a97509efad65948e2",
+      "sha512": "0ac8200668b7f1bc76bbb7e6e482c5424ae4dccd70854559cc6449d24cdaffab358d7849b1bf998e92c35d359c25d4b294aa6b2962320c5029d9f29a032a3bb8"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:19w39a",
+    "version": "19w39a",
+    "file_size": 450479,
+    "hashes": {
+      "sha1": "a432a0276b3b03b8bcc4c089e928583b9e953339",
+      "sha256": "ab8fb3b2613aade038e23c90ac82cb5964ab1da6fe0fc0e579ed289fe0dc6828",
+      "sha512": "f83225b71acc113265fb8f545277e328bdd1b9b9cc1203905ffb2f239ab5dd9b9a291565b97ca053f477e5e8ca28938bf623f29d4377f94e9f11e8057aae3203"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15-pre3",
+    "version": "1.15-pre3",
+    "file_size": 462264,
+    "hashes": {
+      "sha1": "7b97e12f1f0fe3f2a49417ef1423e619cdefbfa9",
+      "sha256": "f364790a8335770101062e9774ee5aab70f75332bcbde5e4f7b05eb1e919f93d",
+      "sha512": "51a7d9dc4196c45b60a8a57cb3f68c94a10f5e71bb5c0ab3be7d0b5eb4a599db98942e2c2b7139d6571d30ee6ad93af56062fcdaa268854ce4153c5252d39db9"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15-pre4",
+    "version": "1.15-pre4",
+    "file_size": 462379,
+    "hashes": {
+      "sha1": "fee8925422c96caa82e852ef33ec07aae3584d38",
+      "sha256": "32dfc09de4c5a73926265113dbec1333bf18e3eda5a3613053943ee762e17a66",
+      "sha512": "115a0b77e9661860e4817e7766870596ccd57515e7b306527e4f6f5ca989b60bfa48ce09939c8af35a4bb6a39790253bc8f13733ab085e9b7616e731909b15d1"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15-pre5",
+    "version": "1.15-pre5",
+    "file_size": 462522,
+    "hashes": {
+      "sha1": "4bf94caad30606d9adf17bd289379bebcf8022fa",
+      "sha256": "c61321bc979ce6be09c3eae32aa8184a76bc56ff20bcaf84f1008a10095fcaa3",
+      "sha512": "e310cd22d82f30819e88715c7784de117471ef0a353313ef9462c3c06c7e429e26c7b578dbc378bcb7aa772c9f1a2be7b4db083a322c3781f3f116f55f96964e"
+    }
+  },
+  {
+    "maven": "org.quiltmc:hashed:1.15-pre6",
+    "version": "1.15-pre6",
+    "file_size": 462508,
+    "hashes": {
+      "sha1": "12b1abb0fbd049552ab0297a925192ae8e5c27f9",
+      "sha256": "db291daa6a3ea4495894d0b93ab2d225cafeae8dcf840861c15b128da7bb968c",
+      "sha512": "ae4315b08701e9398b567af12fccfc401beefa1ecd5e0d17b445d63e9fe16b3a164929f8bcd87eb2c453abc0ba22b47316b91be78fc79420f5a1bdbbcd6c98d0"
+    }
+  }
+]
