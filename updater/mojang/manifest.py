@@ -5,6 +5,7 @@ VERSION_MANIFEST_V2_URL = "https://piston-meta.mojang.com/mc/game/version_manife
 MOJANG_RAW_DIR = RAW_DIR / "mojang"
 MANIFEST_FILE = MOJANG_RAW_DIR / "version_manifest_v2.json"
 NORMALIZED_VERSIONS_FILE = REPO_ROOT / "mojang" / "minecraft-versions.json"
+VERSIONS_LIST_FILE = REPO_ROOT / "mojang" / "minecraft-versions-list.json"
 
 
 def normalize_manifest(raw_manifest: dict) -> dict:
@@ -20,14 +21,21 @@ def normalize_manifest(raw_manifest: dict) -> dict:
 
 
 def update_manifest() -> None:
-    """Fetches Mojang version_manifest_v2.json and generates normalized minecraft-versions.json."""
+    """Fetches Mojang version_manifest_v2.json and generates normalized files."""
     logger.info(f"Fetching Mojang version manifest from {VERSION_MANIFEST_V2_URL}...")
     data = fetch_json(VERSION_MANIFEST_V2_URL)
     save_json(MANIFEST_FILE, data)
-    versions_count = len(data.get("versions", []))
+    versions = data.get("versions", [])
+    versions_count = len(versions)
     logger.info(f"Saved {versions_count} versions to {MANIFEST_FILE}")
 
     # Generate normalized minecraft-versions.json
     normalized = normalize_manifest(data)
     save_json(NORMALIZED_VERSIONS_FILE, normalized)
     logger.info(f"Saved normalized versions to {NORMALIZED_VERSIONS_FILE}")
+
+    # Generate ordered list of version IDs
+    version_ids = [v["id"] for v in versions]
+    save_json(VERSIONS_LIST_FILE, version_ids)
+    logger.info(f"Saved ordered version list ({len(version_ids)} items) to {VERSIONS_LIST_FILE}")
+
