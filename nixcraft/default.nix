@@ -17,6 +17,7 @@
     waterfall = fromJSON (readFile ./waterfall.json);
 
     asset-sha1-sha256-map = fromJSON (readFile ./asset-sha1-sha256-map.json);
+    waywall = fromJSON (readFile ./waywall.json);
   };
 in {
   # The reason this attr exists is to provide forward and backward compatibility
