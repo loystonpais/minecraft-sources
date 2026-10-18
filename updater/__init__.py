@@ -1,0 +1,1 @@
+"""Minecraft sources updater package."""
