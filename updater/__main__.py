@@ -67,6 +67,7 @@ def mojang_assets_command(args: argparse.Namespace) -> int:
 
 
 from updater.servers import AVAILABLE_SERVERS, update_server
+from updater.nixcraft import build_libraries
 
 
 def update_server_command(args: argparse.Namespace) -> int:
@@ -84,12 +85,25 @@ def update_server_command(args: argparse.Namespace) -> int:
     return 0
 
 
+def nixcraft_command(args: argparse.Namespace) -> int:
+    try:
+        build_libraries()
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to build nixcraft sources: {e}")
+        return 1
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="python -m updater",
         description="Minecraft Sources Manager & Updater",
     )
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
+
+    # nixcraft subcommand
+    nixcraft_parser = subparsers.add_parser("nixcraft", help="Build/update nixcraft/ domain files (merged libraries, etc.)")
+    nixcraft_parser.set_defaults(func=nixcraft_command)
 
     # server subcommand
     server_parser = subparsers.add_parser("server", help="Update server software sources (Paper, Folia, etc.)")
@@ -98,6 +112,7 @@ def build_parser() -> argparse.ArgumentParser:
         choices=AVAILABLE_SERVERS + ["all", "all-papermc"],
         help="Server project name, 'all-papermc', or 'all'",
     )
+
     server_parser.set_defaults(func=update_server_command)
 
     # modloader subcommand
