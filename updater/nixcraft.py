@@ -5,8 +5,6 @@ from typing import Any
 from updater.config import REPO_ROOT, save_json, load_json, logger
 
 NIXCRAFT_DIR = REPO_ROOT / "nixcraft"
-SCHEMA_VERSION = 1
-
 # Modloader & dependency sources that contribute to libraries.json
 SOURCE_LOADERS = ["fabric", "quilt", "forge", "neoforge", "liteloader", "lwjgl"]
 
@@ -20,13 +18,6 @@ def hex_to_sri(hex_digest: str, algo: str = "sha256") -> str:
     raw_bytes = bytes.fromhex(cleaned_hex)
     b64 = base64.b64encode(raw_bytes).decode("ascii")
     return f"{algo}-{b64}"
-
-
-def build_meta() -> None:
-    """Writes nixcraft/meta.json containing schema version."""
-    meta_path = NIXCRAFT_DIR / "meta.json"
-    save_json(meta_path, {"version": SCHEMA_VERSION})
-    logger.info(f"Saved {meta_path} (schema version {SCHEMA_VERSION})")
 
 
 def build_libraries() -> None:
@@ -257,7 +248,6 @@ def build_servers() -> None:
 def build_all_nixcraft() -> None:
     """Builds the entire flat nixcraft/ directory."""
     NIXCRAFT_DIR.mkdir(parents=True, exist_ok=True)
-    build_meta()
     build_libraries()
     build_mojang()
     build_fabric_and_quilt()
