@@ -64,12 +64,39 @@ def mojang_assets_command(args: argparse.Namespace) -> int:
         return 1
 
 
+from updater.servers import AVAILABLE_SERVERS, update_server
+
+
+def update_server_command(args: argparse.Namespace) -> int:
+    target = args.server.lower()
+    targets = [s for s in AVAILABLE_SERVERS if s != "purpur"] if target == "all-papermc" else (
+        AVAILABLE_SERVERS if target == "all" else [target]
+    )
+
+    for s in targets:
+        try:
+            update_server(s)
+        except Exception as e:
+            logger.error(f"Failed to update server '{s}': {e}")
+            return 1
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="python -m updater",
         description="Minecraft Sources Manager & Updater",
     )
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
+
+    # server subcommand
+    server_parser = subparsers.add_parser("server", help="Update server software sources (Paper, Folia, etc.)")
+    server_parser.add_argument(
+        "server",
+        choices=AVAILABLE_SERVERS + ["all", "all-papermc"],
+        help="Server project name, 'all-papermc', or 'all'",
+    )
+    server_parser.set_defaults(func=update_server_command)
 
     # modloader subcommand
     modloader_parser = subparsers.add_parser("modloader", help="Update modloader sources")

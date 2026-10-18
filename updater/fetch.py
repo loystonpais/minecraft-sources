@@ -1,3 +1,4 @@
+import hashlib
 import time
 import urllib.request
 import json
@@ -31,3 +32,26 @@ def fetch_json(url: str, delay: float = 0.05, max_retries: int = 3) -> Any:
     """Fetch and decode JSON from a URL."""
     content = fetch_bytes(url, delay=delay, max_retries=max_retries)
     return json.loads(content.decode("utf-8"))
+
+
+def fetch_stream_sha256(url: str, chunk_size: int = 65536, max_retries: int = 3) -> str:
+    """Streams a file from URL and computes its SHA256 hex digest without loading the whole file into RAM."""
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    last_err: Exception | None = None
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            h = hashlib.sha256()
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                while chunk := resp.read(chunk_size):
+                    h.update(chunk)
+            return h.hexdigest()
+        except Exception as e:
+            last_err = e
+            logger.warning(f"Stream hash attempt {attempt}/{max_retries} failed for {url}: {e}")
+            if attempt < max_retries:
+                time.sleep(attempt * 1.0)
+
+    if last_err:
+        raise last_err
+    raise RuntimeError(f"Failed to stream and hash {url}")
