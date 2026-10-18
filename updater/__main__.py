@@ -25,15 +25,17 @@ def update_modloader_command(args: argparse.Namespace) -> int:
     for name in targets:
         loader_cls = MODLOADERS[name]
         loader = loader_cls()
-        logger.info(f"==> Updating raw data for {name}...")
+        logger.info(f"==> Updating data for {name}...")
         try:
             loader.update_raw()
+            loader.normalize()
         except Exception as e:
             logger.error(f"Failed to update {name}: {e}")
             return 1
 
     logger.info("Done.")
     return 0
+
 
 
 def mojang_manifest_command(args: argparse.Namespace) -> int:
