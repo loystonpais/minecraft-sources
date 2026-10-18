@@ -99,14 +99,14 @@ class FabricModloader(BaseModloader):
                     names = []
                     for item in lib_list:
                         name = item.get("name")
-                        url = item.get("url", f"{FABRIC_MAVEN_BASE}/")
+                        base = item.get("url", f"{FABRIC_MAVEN_BASE}/")
                         if name:
                             names.append(name)
-                            all_required_maven_coords.add((name, url))
-                            # If maven json provides sha256 inline, cache it!
+                            all_required_maven_coords.add((name, base))
                             if "sha256" in item:
+                                full_url = MavenCoord.parse(name).jar_url(base)
                                 libraries[name] = {
-                                    "url": url,
+                                    "url": full_url,
                                     "sha256": item["sha256"]
                                 }
                     return names
@@ -137,8 +137,9 @@ class FabricModloader(BaseModloader):
                 hash_res = get_maven_hash(coord_str, base_url, existing_cache=libraries)
                 if hash_res:
                     h_type, h_val = hash_res
+                    full_url = MavenCoord.parse(coord_str).jar_url(base_url)
                     libraries[coord_str] = {
-                        "url": base_url,
+                        "url": full_url,
                         h_type: h_val,
                     }
                 if idx % 50 == 0:
@@ -146,4 +147,5 @@ class FabricModloader(BaseModloader):
 
         save_json(libraries_file, libraries)
         logger.info(f"Saved {len(libraries)} libraries to {libraries_file}")
+
 
