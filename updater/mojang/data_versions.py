@@ -46,8 +46,14 @@ def update_data_versions(target_version_ids: list[str] | None = None) -> int:
             ):
                 to_process.append((vid, v["url"]))
 
+    # Ensure the dictionary is sorted by DataVersion integer descending (highest/newest first)
+    sorted_versions = dict(sorted(data_versions.items(), key=lambda item: item[1], reverse=True))
+
     if not to_process:
-        logger.info("All target versions already present in minecraft-data-versions.json")
+        logger.info("All target versions already present in data-versions.json")
+        if list(data_versions.keys()) != list(sorted_versions.keys()):
+            save_json(DATA_VERSIONS_FILE, sorted_versions)
+            logger.info(f"Re-sorted versions in {DATA_VERSIONS_FILE}")
         return 0
 
     logger.info(f"Checking {len(to_process)} Minecraft versions for DataVersion...")
@@ -74,8 +80,13 @@ def update_data_versions(target_version_ids: list[str] | None = None) -> int:
         except Exception as e:
             logger.error(f"Failed to fetch data version for {vid}: {e}")
 
-    if updated_count > 0:
-        save_json(DATA_VERSIONS_FILE, data_versions)
-        logger.info(f"Updated {updated_count} versions in {DATA_VERSIONS_FILE}")
+    if updated_count > 0 or not target_version_ids:
+        # Sort by DataVersion integer descending (highest/newest first)
+        sorted_versions = dict(sorted(data_versions.items(), key=lambda item: item[1], reverse=True))
+        save_json(DATA_VERSIONS_FILE, sorted_versions)
+        if updated_count > 0:
+            logger.info(f"Updated {updated_count} versions in {DATA_VERSIONS_FILE}")
+        else:
+            logger.info(f"Sorted versions in {DATA_VERSIONS_FILE}")
 
     return 0
