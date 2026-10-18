@@ -257,6 +257,40 @@ def verify_asset_map(data: dict[str, Any]) -> None:
             break
 
 
+def verify_waywall(data: dict[str, Any]) -> None:
+    file_name = "waywall.json"
+    assert_type(file_name, "root", data, dict)
+    for req in ["versions", "releases"]:
+        if req not in data:
+            fail(file_name, f"Missing top-level key '{req}'")
+
+    assert_type(file_name, "versions", data["versions"], list)
+    assert_type(file_name, "releases", data["releases"], dict)
+
+    for tag, info in data["releases"].items():
+        assert_type(file_name, f"releases.{tag}", info, dict)
+        if "src" not in info:
+            fail(file_name, f"Missing 'src' in releases.{tag}")
+        assert_type(file_name, f"releases.{tag}.src", info["src"], dict)
+        if "url" not in info["src"]:
+            fail(file_name, f"Missing 'url' in releases.{tag}.src")
+        assert_type(file_name, f"releases.{tag}.src.url", info["src"]["url"], str)
+        if "hash" not in info["src"]:
+            fail(file_name, f"Missing 'hash' in releases.{tag}.src")
+        assert_sri(file_name, f"releases.{tag}.src.hash", info["src"]["hash"])
+
+        if "patches" in info:
+            assert_type(file_name, f"releases.{tag}.patches", info["patches"], dict)
+            for p_name, p_info in info["patches"].items():
+                assert_type(file_name, f"releases.{tag}.patches.{p_name}", p_info, dict)
+                if "url" not in p_info:
+                    fail(file_name, f"Missing 'url' in releases.{tag}.patches.{p_name}")
+                assert_type(file_name, f"releases.{tag}.patches.{p_name}.url", p_info["url"], str)
+                if "hash" not in p_info:
+                    fail(file_name, f"Missing 'hash' in releases.{tag}.patches.{p_name}")
+                assert_sri(file_name, f"releases.{tag}.patches.{p_name}.hash", p_info["hash"])
+
+
 def verify_all_nixcraft() -> bool:
     """Runs exhaustive schema validation across every file in nixcraft/."""
     logger.info("==> Validating nixcraft/ schema and attributes...")
@@ -279,6 +313,7 @@ def verify_all_nixcraft() -> bool:
         ("velocity.json", lambda d: verify_server("velocity.json", d)),
         ("waterfall.json", lambda d: verify_server("waterfall.json", d)),
         ("asset-sha1-sha256-map.json", verify_asset_map),
+        ("waywall.json", verify_waywall),
     ]
 
     for fname, validator in checks:

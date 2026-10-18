@@ -245,6 +245,44 @@ def build_servers() -> None:
         logger.info(f"Saved {dest} ({len(sri_builds)} versions)")
 
 
+def build_waywall() -> None:
+    """Normalizes and exports Waywall releases with SRI hashes into nixcraft/waywall.json."""
+    logger.info("==> Building nixcraft/waywall.json...")
+    src_releases = REPO_ROOT / "waywall" / "releases.json"
+    src_versions = REPO_ROOT / "waywall" / "versions-list.json"
+    if not src_releases.exists():
+        return
+
+    raw_releases = load_json(src_releases) or {}
+    versions_list = load_json(src_versions) or list(raw_releases.keys())
+
+    sri_releases: dict[str, dict[str, Any]] = {}
+    for tag, info in raw_releases.items():
+        entry = {
+            "src": {
+                "url": info["src"]["url"],
+                "hash": hex_to_sri(info["src"]["sha256"], "sha256"),
+            }
+        }
+        if "patches" in info:
+            entry["patches"] = {}
+            for p_name, p_info in info["patches"].items():
+                entry["patches"][p_name] = {
+                    "url": p_info["url"],
+                    "hash": hex_to_sri(p_info["sha256"], "sha256"),
+                }
+        sri_releases[tag] = entry
+
+    consolidated = {
+        "versions": versions_list,
+        "releases": sri_releases,
+    }
+
+    dest = NIXCRAFT_DIR / "waywall.json"
+    save_json(dest, consolidated)
+    logger.info(f"Saved {dest} ({len(sri_releases)} versions)")
+
+
 def build_all_nixcraft() -> None:
     """Builds the entire flat nixcraft/ directory."""
     NIXCRAFT_DIR.mkdir(parents=True, exist_ok=True)
@@ -254,4 +292,5 @@ def build_all_nixcraft() -> None:
     build_forge_and_neoforge()
     build_lwjgl()
     build_servers()
+    build_waywall()
     logger.info("==> Successfully updated all nixcraft/ sources.")

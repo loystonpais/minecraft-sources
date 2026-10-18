@@ -111,6 +111,18 @@ def verify_command(args: argparse.Namespace) -> int:
         return 1
 
 
+from updater.waywall import update_waywall
+
+
+def waywall_command(args: argparse.Namespace) -> int:
+    try:
+        update_waywall()
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to update Waywall sources: {e}")
+        return 1
+
+
 def lwjgl_command(args: argparse.Namespace) -> int:
     try:
         update_lwjgl()
@@ -130,6 +142,10 @@ def build_parser() -> argparse.ArgumentParser:
     # verify subcommand
     verify_parser = subparsers.add_parser("verify", help="Exhaustively validate schema and attributes of nixcraft/ files")
     verify_parser.set_defaults(func=verify_command)
+
+    # waywall subcommand
+    waywall_parser = subparsers.add_parser("waywall", help="Update Waywall releases and patch sources")
+    waywall_parser.set_defaults(func=waywall_command)
 
     # lwjgl subcommand
     lwjgl_parser = subparsers.add_parser("lwjgl", help="Update LWJGL 2 and 3 sources")
