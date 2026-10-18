@@ -1,0 +1,906 @@
+{
+  "io.github.zekerzhayard:ForgeWrapper:prism-2026-08-01": {
+    "url": "https://files.prismlauncher.org/maven/io/github/zekerzhayard/ForgeWrapper/prism-2026-08-01/ForgeWrapper-prism-2026-08-01.jar",
+    "sha1": "852b7e59748da1512d40e38407eadb1f0031a996"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:4.0.45": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.45/earlydisplay-4.0.45.jar",
+    "sha1": "dc7a8b1370054dd0e2d70c1db4ddf4092793c115"
+  },
+  "net.neoforged.fancymodloader:loader:4.0.45": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.45/loader-4.0.45.jar",
+    "sha1": "4a0968c2ec6234d58e0a9ed97acafc08cc8f33b5"
+  },
+  "net.neoforged.accesstransformers:at-modlauncher:10.0.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar",
+    "sha1": "5aba50202aceead086bc09fbc2751c9f05cb4890"
+  },
+  "net.neoforged:accesstransformers:10.0.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar",
+    "sha1": "fd83b5725f76eae9115e9355fa1c456a6a441400"
+  },
+  "net.neoforged:bus:8.0.5": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.5/bus-8.0.5.jar",
+    "sha1": "5b2d33285ab5d1554e9798ad98c40d6ea3868bd5"
+  },
+  "net.neoforged:coremods:7.0.3": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar",
+    "sha1": "09147e6f638b4272b3bd5fc8f92ad37802512c6c"
+  },
+  "cpw.mods:modlauncher:11.0.5": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar",
+    "sha1": "b8f0d49294f733fdb6173931b263553e943dc950"
+  },
+  "net.neoforged:mergetool:2.0.0:api": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar",
+    "sha1": "52fe1949be64e3303aabaaa21e315f551db9c9f4"
+  },
+  "com.electronwill.night-config:toml:3.8.3": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar",
+    "sha1": "90b2fd6efcb4a7d5b9810cf78f9d824994d717f2"
+  },
+  "com.electronwill.night-config:core:3.8.3": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar",
+    "sha1": "b442a95f09e349927f5a945ecb594455870fcf4f"
+  },
+  "net.neoforged:JarJarSelector:0.4.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar",
+    "sha1": "fb3cc7a58af22ad2880adb98af6d518128c47dae"
+  },
+  "net.neoforged:JarJarMetadata:0.4.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar",
+    "sha1": "f8da03683dc81694556dc3e177c5e3bb77ae6fcb"
+  },
+  "org.apache.maven:maven-artifact:3.8.5": {
+    "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar",
+    "sha1": "4433f50c07debefaed0553bd0068f4f48d449313"
+  },
+  "net.jodah:typetools:0.6.3": {
+    "url": "https://maven.neoforged.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
+    "sha1": "a01aaa6ddaea9ec07ec4f209487b7a46a526283a"
+  },
+  "net.minecrell:terminalconsoleappender:1.3.0": {
+    "url": "https://maven.neoforged.net/releases/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar",
+    "sha1": "b562e9bb61235c9520e26282cdee71f8f802d1fc"
+  },
+  "net.fabricmc:sponge-mixin:0.16.4+mixin.0.8.7": {
+    "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/sponge-mixin-0.16.4+mixin.0.8.7.jar",
+    "sha1": "26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433"
+  },
+  "org.openjdk.nashorn:nashorn-core:15.4": {
+    "url": "https://maven.neoforged.net/releases/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar",
+    "sha1": "f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5"
+  },
+  "org.apache.commons:commons-lang3:3.14.0": {
+    "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar",
+    "sha1": "1ed471194b02f2c6cb734a0cd6f6f107c673afae"
+  },
+  "cpw.mods:bootstraplauncher:2.0.2": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar",
+    "sha1": "1a2d076cbc33b0520cbacd591224427b2a20047d"
+  },
+  "cpw.mods:securejarhandler:3.0.8": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar",
+    "sha1": "c0ef95cecd8699a0449053ac7d9c160748d902cd"
+  },
+  "org.ow2.asm:asm-commons:9.10.1": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
+    "sha1": "4229e4c55fd8e01c23f9fe9884075cc628aacc50"
+  },
+  "org.ow2.asm:asm-util:9.10.1": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
+    "sha1": "7bb9d450e8d4cbf9f9e04096c44bbfe7fba80b15"
+  },
+  "org.ow2.asm:asm-analysis:9.10.1": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
+    "sha1": "8d49f14d51f632cb1d87c88d1ceaf50db0d8af1b"
+  },
+  "org.ow2.asm:asm-tree:9.10.1": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
+    "sha1": "e244332a17564c1d1572449399a842de35881be2"
+  },
+  "org.ow2.asm:asm:9.10.1": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
+    "sha1": "ada2141c0cc52ee8f5c48cd5fa4ce0e794f22236"
+  },
+  "net.neoforged:JarJarFileSystems:0.4.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar",
+    "sha1": "78f59f89defcd032ed788b151ca6a0d40ace796a"
+  },
+  "net.sf.jopt-simple:jopt-simple:5.0.4": {
+    "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+    "sha1": "4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c"
+  },
+  "commons-io:commons-io:2.15.1": {
+    "url": "https://libraries.minecraft.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar",
+    "sha1": "f11560da189ab563a5c8e351941415430e9304ea"
+  },
+  "com.mojang:logging:1.2.7": {
+    "url": "https://libraries.minecraft.net/com/mojang/logging/1.2.7/logging-1.2.7.jar",
+    "sha1": "24cb95ffb0e3433fd6e844c04e68009e504ca1c0"
+  },
+  "com.google.guava:guava:32.1.2-jre": {
+    "url": "https://libraries.minecraft.net/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar",
+    "sha1": "5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318"
+  },
+  "com.google.code.gson:gson:2.10.1": {
+    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+    "sha1": "b3add478d4382b78ea20b1671390a858002feb6c"
+  },
+  "org.slf4j:slf4j-api:2.0.9": {
+    "url": "https://maven.neoforged.net/releases/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar",
+    "sha1": "7cf2726fdcfbc8610f9a71fb3ed639871f315340"
+  },
+  "org.antlr:antlr4-runtime:4.13.1": {
+    "url": "https://maven.neoforged.net/releases/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar",
+    "sha1": "17125bae1d965624e265ef49552f6465a2bfa307"
+  },
+  "net.minecraftforge:srgutils:0.4.15": {
+    "url": "https://maven.neoforged.net/releases/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar",
+    "sha1": "ca408b131759478f164e010fae0d73997e125fb5"
+  },
+  "org.codehaus.plexus:plexus-utils:3.3.0": {
+    "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar",
+    "sha1": "cf43b5391de623b36fe066a21127baef82c64022"
+  },
+  "org.jline:jline-reader:3.20.0": {
+    "url": "https://maven.neoforged.net/releases/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar",
+    "sha1": "8f15415b022a25b473e8e16c28ae913186ffb9c4"
+  },
+  "com.machinezoo.noexception:noexception:1.7.1": {
+    "url": "https://maven.neoforged.net/releases/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar",
+    "sha1": "b65330c98e38a1f915fa54a6e5eca496505e3f0a"
+  },
+  "com.google.guava:failureaccess:1.0.1": {
+    "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+    "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+  },
+  "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava": {
+    "url": "https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+    "sha1": "b421526c5f297295adef1c886e5246c39d4ac629"
+  },
+  "com.google.code.findbugs:jsr305:3.0.2": {
+    "url": "https://libraries.minecraft.net/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+    "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+  },
+  "org.checkerframework:checker-qual:3.33.0": {
+    "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar",
+    "sha1": "de2b60b62da487644fc11f734e73c8b0b431238f"
+  },
+  "com.google.errorprone:error_prone_annotations:2.18.0": {
+    "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar",
+    "sha1": "89b684257096f548fa39a7df9fdaa409d4d4df91"
+  },
+  "com.google.j2objc:j2objc-annotations:2.8": {
+    "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar",
+    "sha1": "c85270e307e7b822f1086b93689124b89768e273"
+  },
+  "org.jline:jline-terminal:3.20.0": {
+    "url": "https://maven.neoforged.net/releases/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar",
+    "sha1": "d0ddcc708ddf527a3454c941b7b9225cc83a15ff"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:12.0.12": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/12.0.12/earlydisplay-12.0.12.jar",
+    "sha1": "08437387fd35033b1ea0d3fac7cc28ced4efdc6b"
+  },
+  "net.neoforged.fancymodloader:loader:12.0.12": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/12.0.12/loader-12.0.12.jar",
+    "sha1": "f097a25d6289aa0b289e7cdb6de83a5c8c72f77e"
+  },
+  "net.neoforged:accesstransformers:11.0.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar",
+    "sha1": "25dcb69c78b16669935f0ab91dff830ce192379d"
+  },
+  "org.ow2.asm:asm-commons:9.11": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.11/asm-commons-9.11.jar",
+    "sha1": "07ddfa7d6cee28f627af0bd246ef046e24e1b02a"
+  },
+  "net.neoforged:mergetool:2.0.7:api": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.7/mergetool-2.0.7-api.jar",
+    "sha1": "793b18456e92c4a7f66d9b5d8bf7a9c1c7a20b20"
+  },
+  "org.ow2.asm:asm-util:9.11": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.11/asm-util-9.11.jar",
+    "sha1": "1d4e8839681014f2530b85a1969eb5b0d8af3dd7"
+  },
+  "org.ow2.asm:asm-analysis:9.11": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.11/asm-analysis-9.11.jar",
+    "sha1": "f35f7706e93e0de19c256b3e7e7f43e792a8d571"
+  },
+  "org.ow2.asm:asm-tree:9.11": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.11/asm-tree-9.11.jar",
+    "sha1": "2e0298e7c0986f94e161de26d108c78d20547935"
+  },
+  "org.ow2.asm:asm:9.11": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.11/asm-9.11.jar",
+    "sha1": "2a2c870691d2220eb93492c88fdcd3711ab0fadb"
+  },
+  "com.electronwill.night-config:toml:3.9.0": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.9.0/toml-3.9.0.jar",
+    "sha1": "8548891033db17e8f219b453cac38fb865ee4224"
+  },
+  "com.electronwill.night-config:core:3.9.0": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.9.0/core-3.9.0.jar",
+    "sha1": "29bba7ced5c9768adda06384c61fff2c33dc5e05"
+  },
+  "net.neoforged:JarJarSelector:0.5.3": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.5.3/JarJarSelector-0.5.3.jar",
+    "sha1": "6b845aab8d5c8e721b4e3cd30f97722b7f8044b1"
+  },
+  "net.neoforged:JarJarMetadata:0.5.3": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.5.3/JarJarMetadata-0.5.3.jar",
+    "sha1": "ff40c1cd721d07615d825c5bbf27705b2e3258ed"
+  },
+  "org.apache.maven:maven-artifact:3.10.0": {
+    "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.10.0/maven-artifact-3.10.0.jar",
+    "sha1": "27e1f01911be3be075ea108d4fe8fd59ae717c5c"
+  },
+  "net.fabricmc:sponge-mixin:0.17.4+mixin.0.8.7": {
+    "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
+    "sha1": "5f66cc9f59b8efaa942155a3d5a30599bf6640dd"
+  },
+  "org.jspecify:jspecify:1.0.1": {
+    "url": "https://maven.neoforged.net/releases/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar",
+    "sha1": "3d60fd98eb8ade73004f4195c37b6317e02cf3d7"
+  },
+  "net.neoforged.accesstransformers:at-parser:11.0.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar",
+    "sha1": "64aae57d6d26d69543c5275181fe6971707a4e16"
+  },
+  "net.neoforged:srgutils:1.0.10": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/srgutils/1.0.10/srgutils-1.0.10.jar",
+    "sha1": "abb471237b33b19f040ada00bfbad1ec45b949b6"
+  },
+  "org.codehaus.plexus:plexus-utils:3.6.2": {
+    "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.6.2/plexus-utils-3.6.2.jar",
+    "sha1": "c8e32e2f08fb3a0e6caf34f1448cc69f077f4282"
+  },
+  "com.google.errorprone:error_prone_annotations:2.48.0": {
+    "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.48.0/error_prone_annotations-2.48.0.jar",
+    "sha1": "bbe30942a31d1778c74cb272321267eca82dc708"
+  },
+  "com.google.j2objc:j2objc-annotations:3.1": {
+    "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar",
+    "sha1": "a892ca9507839bbdb900d64310ac98256cab992f"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:11.0.15": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/11.0.15/earlydisplay-11.0.15.jar",
+    "sha1": "b254aa4ec40828f8ce65411dcb7fb9f6ce008064"
+  },
+  "net.neoforged.fancymodloader:loader:11.0.15": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/11.0.15/loader-11.0.15.jar",
+    "sha1": "069ddd98736a6b095783523404d1af8992842722"
+  },
+  "org.ow2.asm:asm-commons:9.9.1": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar",
+    "sha1": "ab35de4c537184a09339069f1a3b3aacf2289149"
+  },
+  "org.ow2.asm:asm-util:9.9.1": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar",
+    "sha1": "e51f5b0ae0b0c1960687ae970a2a3434d39d8abb"
+  },
+  "org.ow2.asm:asm-analysis:9.9.1": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar",
+    "sha1": "1ab8d9316ef7a67240087919a708246c37ed1660"
+  },
+  "org.ow2.asm:asm-tree:9.9.1": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar",
+    "sha1": "b6b1b3366296163b4b1f540731aad0a2baa484d8"
+  },
+  "org.ow2.asm:asm:9.9.1": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar",
+    "sha1": "2ceea6ab43bcae1979b2a6d85fc0ca429877e5ab"
+  },
+  "net.neoforged:JarJarSelector:0.5.0": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.5.0/JarJarSelector-0.5.0.jar",
+    "sha1": "64e4956b8dcdd6537eba96590f12fa1f3ba2f831"
+  },
+  "net.neoforged:JarJarMetadata:0.5.0": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.5.0/JarJarMetadata-0.5.0.jar",
+    "sha1": "6f03d0ac17102c33cb7384e42a2e22eda2a3ad8c"
+  },
+  "org.apache.maven:maven-artifact:3.9.9": {
+    "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar",
+    "sha1": "a130ec431ef32e12a4424f9b074735bb58e15d2d"
+  },
+  "com.google.errorprone:error_prone_annotations:2.41.0": {
+    "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar",
+    "sha1": "4381275efdef6ddfae38f002c31e84cd001c97f0"
+  },
+  "org.codehaus.plexus:plexus-utils:3.5.1": {
+    "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar",
+    "sha1": "c6bfb17c97ecc8863e88778ea301be742c62b06d"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:2.0.17": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/2.0.17/earlydisplay-2.0.17.jar",
+    "sha1": "d6af13e1290e79c7e4501a097cdd1bd50531f5f3"
+  },
+  "net.neoforged.fancymodloader:loader:2.0.17": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/2.0.17/loader-2.0.17.jar",
+    "sha1": "e187e949dea14726924c284ef8bf6d51e4c87526"
+  },
+  "net.neoforged:coremods:6.0.4": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/coremods/6.0.4/coremods-6.0.4.jar",
+    "sha1": "87c17499d9fd2d5c9a220ec653f0e674fb25ccaa"
+  },
+  "net.neoforged.fancymodloader:spi:2.0.17": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/spi/2.0.17/spi-2.0.17.jar",
+    "sha1": "3d3f2ed71a472bb360a38eaad565cec755696406"
+  },
+  "cpw.mods:modlauncher:10.0.9": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar",
+    "sha1": "06d9443f56f50bb85cea383686ff9c867391458b"
+  },
+  "cpw.mods:securejarhandler:2.1.24": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/securejarhandler/2.1.24/securejarhandler-2.1.24.jar",
+    "sha1": "21e16217c30688d99200796f5d828ad5b671141c"
+  },
+  "org.ow2.asm:asm-commons:9.8": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar",
+    "sha1": "36e4d212970388e5bd2c5180292012502df461bb"
+  },
+  "org.ow2.asm:asm-util:9.8": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar",
+    "sha1": "395f1c1f035258511f27bc9b2583d76e4b143f59"
+  },
+  "org.ow2.asm:asm-analysis:9.8": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar",
+    "sha1": "b9747a320844b6cb1eacd90d8ecfd260a16c01d3"
+  },
+  "org.ow2.asm:asm-tree:9.8": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar",
+    "sha1": "018419ca5b77a2f81097c741e7872e6ab8d2f40d"
+  },
+  "net.neoforged:bus:7.2.0": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/bus/7.2.0/bus-7.2.0.jar",
+    "sha1": "03bc91f330d0e2f350ab1dbe5026a5769dc52b9a"
+  },
+  "org.ow2.asm:asm:9.8": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.8/asm-9.8.jar",
+    "sha1": "dc19ecb3f7889b7860697215cae99c0f9b6f6b4b"
+  },
+  "net.minecraftforge:unsafe:0.2.0": {
+    "url": "https://maven.neoforged.net/releases/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar",
+    "sha1": "54d7a0a5e8fdb71b973025caa46f341ae5904f39"
+  },
+  "com.electronwill.night-config:toml:3.6.4": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar",
+    "sha1": "51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4"
+  },
+  "com.electronwill.night-config:core:3.6.4": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar",
+    "sha1": "510f174abbf1c947494db50ef2445683bd52c230"
+  },
+  "net.neoforged:JarJarSelector:0.4.0": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.4.0/JarJarSelector-0.4.0.jar",
+    "sha1": "122fa3fe21da1a0ace8323709197616cdb4d1416"
+  },
+  "net.neoforged:JarJarMetadata:0.4.0": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.4.0/JarJarMetadata-0.4.0.jar",
+    "sha1": "06f5e5c52382d11a15f47ca030e046519e389456"
+  },
+  "net.minecrell:terminalconsoleappender:1.2.0": {
+    "url": "https://maven.neoforged.net/releases/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar",
+    "sha1": "96d02cd3b384ff015a8fef4223bcb4ccf1717c95"
+  },
+  "net.fabricmc:sponge-mixin:0.13.4+mixin.0.8.5": {
+    "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.13.4+mixin.0.8.5/sponge-mixin-0.13.4+mixin.0.8.5.jar",
+    "sha1": "8adf0cff1795a169141b9e16ad7b9f6e2527a990"
+  },
+  "org.apache.commons:commons-lang3:3.13.0": {
+    "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar",
+    "sha1": "b7263237aa89c1f99b327197c41d0669707a462e"
+  },
+  "commons-io:commons-io:2.11.0": {
+    "url": "https://libraries.minecraft.net/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+    "sha1": "a2503f302b11ebde7ebc3df41daebe0e4eea3689"
+  },
+  "com.google.guava:guava:31.1-jre": {
+    "url": "https://libraries.minecraft.net/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar",
+    "sha1": "60458f877d055d0c9114d9e1a2efb737b4bc282c"
+  },
+  "com.google.code.gson:gson:2.10": {
+    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10/gson-2.10.jar",
+    "sha1": "dd9b193aef96e973d5a11ab13cd17430c2e4306b"
+  },
+  "com.mojang:logging:1.1.1": {
+    "url": "https://libraries.minecraft.net/com/mojang/logging/1.1.1/logging-1.1.1.jar",
+    "sha1": "832b8e6674a9b325a5175a3a6267dfaf34c85139"
+  },
+  "org.jetbrains:annotations:22.0.0": {
+    "url": "https://maven.neoforged.net/releases/org/jetbrains/annotations/22.0.0/annotations-22.0.0.jar",
+    "sha1": "fb9bebc90794c7602e73d6ed0cb165a0c650be62"
+  },
+  "org.jline:jline-reader:3.12.1": {
+    "url": "https://maven.neoforged.net/releases/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar",
+    "sha1": "4382ab1382c7b6f379377ed5f665dc2f6e1218bc"
+  },
+  "org.checkerframework:checker-qual:3.12.0": {
+    "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar",
+    "sha1": "d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5"
+  },
+  "com.google.errorprone:error_prone_annotations:2.11.0": {
+    "url": "https://libraries.minecraft.net/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar",
+    "sha1": "c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69"
+  },
+  "com.google.j2objc:j2objc-annotations:1.3": {
+    "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+    "sha1": "ba035118bc8bac37d7eff77700720999acd9986d"
+  },
+  "org.jline:jline-terminal:3.12.1": {
+    "url": "https://maven.neoforged.net/releases/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar",
+    "sha1": "c777448314e050d980a6b697c140f3bfe9eb7416"
+  },
+  "cpw.mods:bootstraplauncher:1.1.2": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar",
+    "sha1": "0c546e00443d8432cda6baa1c860346980742628"
+  },
+  "net.neoforged:JarJarFileSystems:0.4.0": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarFileSystems/0.4.0/JarJarFileSystems-0.4.0.jar",
+    "sha1": "ef7e5716525bbe50c784a362f9393457a33e6daf"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:5.0.8": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/5.0.8/earlydisplay-5.0.8.jar",
+    "sha1": "e1da033bef44e55ee316725287fadd0219f3763f"
+  },
+  "net.neoforged.fancymodloader:loader:5.0.8": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/5.0.8/loader-5.0.8.jar",
+    "sha1": "40068add15a25d57c1ff4e8f229fb8a3a8f86f73"
+  },
+  "net.neoforged.accesstransformers:at-modlauncher:11.0.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-modlauncher/11.0.1/at-modlauncher-11.0.1.jar",
+    "sha1": "c3bab0ab738f57325df7be7d7cb71868b775cffc"
+  },
+  "net.neoforged:accesstransformers:11.0.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/11.0.1/accesstransformers-11.0.1.jar",
+    "sha1": "41c41b1cd9800f0fea16c89a5e21f83d34bd9b87"
+  },
+  "cpw.mods:modlauncher:11.0.4": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/11.0.4/modlauncher-11.0.4.jar",
+    "sha1": "6619d4812a3c092310d521ebc4c9503727563df7"
+  },
+  "com.electronwill.night-config:toml:3.8.0": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.0/toml-3.8.0.jar",
+    "sha1": "861dbcf2757dd6701c98b3949198549ccb5f62ff"
+  },
+  "com.electronwill.night-config:core:3.8.0": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.0/core-3.8.0.jar",
+    "sha1": "2498dd2b3120dd49e963e2feab8fa5d0c5f80e0a"
+  },
+  "net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7": {
+    "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar",
+    "sha1": "2af2f021d8e02a0220dc27a7a72b4666d66d44ca"
+  },
+  "net.neoforged.accesstransformers:at-parser:11.0.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-parser/11.0.1/at-parser-11.0.1.jar",
+    "sha1": "124789359511c100a88ab0ba90adc80a8fd7db36"
+  },
+  "com.mojang:logging:1.4.9": {
+    "url": "https://libraries.minecraft.net/com/mojang/logging/1.4.9/logging-1.4.9.jar",
+    "sha1": "275b4b0469bb089e2633b569768be913a444e5d9"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:6.0.18": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/6.0.18/earlydisplay-6.0.18.jar",
+    "sha1": "63203c5fc5a552fc9cdd3aac7c6ada46d73fb3b1"
+  },
+  "net.neoforged.fancymodloader:loader:6.0.18": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/6.0.18/loader-6.0.18.jar",
+    "sha1": "87957873971a693e716ff29f8b94f833f23c741f"
+  },
+  "net.neoforged.accesstransformers:at-modlauncher:11.0.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/accesstransformers/at-modlauncher/11.0.2/at-modlauncher-11.0.2.jar",
+    "sha1": "88dea58a6e1969cfce4029bf0cc5d231f9d95107"
+  },
+  "com.electronwill.night-config:toml:3.8.1": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.1/toml-3.8.1.jar",
+    "sha1": "fb0731789fc50ddeb3ad43e48ef65008b777b2ec"
+  },
+  "com.electronwill.night-config:core:3.8.1": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.1/core-3.8.1.jar",
+    "sha1": "530d608fc238350f00c815d562f21a5d79939972"
+  },
+  "org.slf4j:slf4j-api:2.0.16": {
+    "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar",
+    "sha1": "0172931663a09a1fa515567af5fbef00897d3c04"
+  },
+  "com.mojang:logging:1.5.10": {
+    "url": "https://libraries.minecraft.net/com/mojang/logging/1.5.10/logging-1.5.10.jar",
+    "sha1": "9ab1202793717af9df9c1704d0a02892067001eb"
+  },
+  "commons-io:commons-io:2.17.0": {
+    "url": "https://libraries.minecraft.net/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar",
+    "sha1": "ddcc8433eb019fb48fe25207c0278143f3e1d7e2"
+  },
+  "com.google.guava:guava:33.3.1-jre": {
+    "url": "https://libraries.minecraft.net/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar",
+    "sha1": "852f8b363da0111e819460021ca693cacca3e8db"
+  },
+  "com.google.guava:failureaccess:1.0.2": {
+    "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
+    "sha1": "c4a06a64e650562f30b7bf9aaec1bfed43aca12b"
+  },
+  "org.checkerframework:checker-qual:3.43.0": {
+    "url": "https://libraries.minecraft.net/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar",
+    "sha1": "9425eee39e56b116d2b998b7c2cebcbd11a3c98b"
+  },
+  "com.google.code.gson:gson:2.11.0": {
+    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar",
+    "sha1": "527175ca6d81050b53bdd4c457a6d6e017626b0e"
+  },
+  "com.google.errorprone:error_prone_annotations:2.28.0": {
+    "url": "https://maven.neoforged.net/releases/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar",
+    "sha1": "59fc00087ce372de42e394d2c789295dff2d19f0"
+  },
+  "com.google.j2objc:j2objc-annotations:3.0.0": {
+    "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar",
+    "sha1": "7399e65dd7e9ff3404f4535b2f017093bdb134c7"
+  },
+  "org.apache.commons:commons-lang3:3.17.0": {
+    "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar",
+    "sha1": "b17d2136f0460dcc0d2016ceefca8723bdf4ee70"
+  },
+  "cpw.mods:modlauncher:11.0.2": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/11.0.2/modlauncher-11.0.2.jar",
+    "sha1": "87260bdd037c8cca573b21850214c7def5b78bcc"
+  },
+  "net.neoforged:bus:8.0.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.1/bus-8.0.1.jar",
+    "sha1": "9df0ed904cec279eb33ca6df420f6f82706ebb4c"
+  },
+  "net.neoforged.fancymodloader:loader:3.0.45": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/3.0.45/loader-3.0.45.jar",
+    "sha1": "8e3c78a138ca5b19abec5b9687ae7cbffbb418bf"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:3.0.45": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/3.0.45/earlydisplay-3.0.45.jar",
+    "sha1": "fba2bb2cd007009e4daab37caa7c9149e3ded962"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:7.0.13": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/7.0.13/earlydisplay-7.0.13.jar",
+    "sha1": "49c748814bab7be3bdd6cd3b83992f19353bc2af"
+  },
+  "net.neoforged.fancymodloader:loader:7.0.13": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/7.0.13/loader-7.0.13.jar",
+    "sha1": "4cee6b4c62479ccd1aaf54e71f4b58d00e72ff0e"
+  },
+  "com.electronwill.night-config:toml:3.8.2": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/toml/3.8.2/toml-3.8.2.jar",
+    "sha1": "c128842f759692f613ea6c3ef0ef052273bbb38c"
+  },
+  "com.electronwill.night-config:core:3.8.2": {
+    "url": "https://maven.neoforged.net/releases/com/electronwill/night-config/core/3.8.2/core-3.8.2.jar",
+    "sha1": "94eee571e1524129804d08c75f6416a3be380ad4"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:10.0.36": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/10.0.36/earlydisplay-10.0.36.jar",
+    "sha1": "dbd0e11d545443f602addede111c39d9639708f9"
+  },
+  "net.neoforged.fancymodloader:loader:10.0.36": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/10.0.36/loader-10.0.36.jar",
+    "sha1": "0f72ab4d3e755fe736829883d90430a281527aca"
+  },
+  "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7": {
+    "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar",
+    "sha1": "80fc3a9f592673cea87f4cd702f87991c6c9fe4d"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:9.0.18": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/9.0.18/earlydisplay-9.0.18.jar",
+    "sha1": "7d3e3280895c5e156838c122e7f33af303197868"
+  },
+  "net.neoforged.fancymodloader:loader:9.0.18": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/9.0.18/loader-9.0.18.jar",
+    "sha1": "fada6a897afb213a5d2cf85ce82a9bbf03cdcfe4"
+  },
+  "net.neoforged.fancymodloader:bootstraplauncher:9.0.18": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/bootstraplauncher/9.0.18/bootstraplauncher-9.0.18.jar",
+    "sha1": "ec6c91c3e44cd3c77be98069010ce94b1555e292"
+  },
+  "net.neoforged.fancymodloader:securejarhandler:9.0.18": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/securejarhandler/9.0.18/securejarhandler-9.0.18.jar",
+    "sha1": "a130f48d1f454285428953ba2ab79861b7532db7"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:11.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/11.0.16/earlydisplay-11.0.16.jar",
+    "sha1": "2d357375a7ea94a1ca86042d48fa4f719a552894"
+  },
+  "net.neoforged.fancymodloader:loader:11.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/11.0.16/loader-11.0.16.jar",
+    "sha1": "42d3bfead0ba3aa89c7d45ac29115defc9967219"
+  },
+  "net.neoforged:JarJarSelector:0.5.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarSelector/0.5.1/JarJarSelector-0.5.1.jar",
+    "sha1": "fb620ee1e164b0d4e527759df69317237c51133d"
+  },
+  "net.neoforged:JarJarMetadata:0.5.1": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/JarJarMetadata/0.5.1/JarJarMetadata-0.5.1.jar",
+    "sha1": "09344da1c9bab76064f484a0d5921a1ca290a716"
+  },
+  "org.apache.maven:maven-artifact:3.9.16": {
+    "url": "https://maven.neoforged.net/releases/org/apache/maven/maven-artifact/3.9.16/maven-artifact-3.9.16.jar",
+    "sha1": "1176c6579a8a68508c3479ef72d514e71c98ddca"
+  },
+  "org.codehaus.plexus:plexus-utils:3.6.1": {
+    "url": "https://maven.neoforged.net/releases/org/codehaus/plexus/plexus-utils/3.6.1/plexus-utils-3.6.1.jar",
+    "sha1": "9dce1b9c69b197f453223e45a2cb9fa0cd48b424"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:11.0.5": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/11.0.5/earlydisplay-11.0.5.jar",
+    "sha1": "b2edeab4008c91772d61f8f98a5253a09a4e890d"
+  },
+  "net.neoforged.fancymodloader:loader:11.0.5": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/11.0.5/loader-11.0.5.jar",
+    "sha1": "3477e70d79fe8cd06962749f24e64f01edda3bb3"
+  },
+  "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7": {
+    "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar",
+    "sha1": "cf31463202f72d03b0ef1e1e38e8ee71b7faaab6"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:11.0.0": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/11.0.0/earlydisplay-11.0.0.jar",
+    "sha1": "ff17cf55bcf18ef4a83a5e108bbcf27a78aba844"
+  },
+  "net.neoforged.fancymodloader:loader:11.0.0": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/11.0.0/loader-11.0.0.jar",
+    "sha1": "ee08faf8743b13ec64a5bdc788b48f64d3789e69"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:10.0.32": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar",
+    "sha1": "1ca2e62504996c417c19e740513f8d09b880359e"
+  },
+  "net.neoforged.fancymodloader:loader:10.0.32": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar",
+    "sha1": "ef0364b1413d96932ddf4b4dc4a5660a4d861b5b"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:10.0.14": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/10.0.14/earlydisplay-10.0.14.jar",
+    "sha1": "1f33d6a4ddb222e2eb6a1e12b22512f3ac726884"
+  },
+  "net.neoforged.fancymodloader:loader:10.0.14": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/10.0.14/loader-10.0.14.jar",
+    "sha1": "a59c38c4017e3b1f1ba076c7d37aa73081760e30"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:9.0.14": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/9.0.14/earlydisplay-9.0.14.jar",
+    "sha1": "fd92dae83d06c0bf1ea2aa14b8c8ec5c32557a2b"
+  },
+  "net.neoforged.fancymodloader:loader:9.0.14": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/9.0.14/loader-9.0.14.jar",
+    "sha1": "ebcd2c523d8a1ba1e10183dd0ccef9de8c401f49"
+  },
+  "net.neoforged.fancymodloader:bootstraplauncher:9.0.14": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/bootstraplauncher/9.0.14/bootstraplauncher-9.0.14.jar",
+    "sha1": "a49e4ba81a5abaeed7b8be13be647e690da4f89f"
+  },
+  "net.neoforged.fancymodloader:securejarhandler:9.0.14": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/securejarhandler/9.0.14/securejarhandler-9.0.14.jar",
+    "sha1": "327cc906fa0f445cd5af6b27a234598fbd559357"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:9.0.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/9.0.2/earlydisplay-9.0.2.jar",
+    "sha1": "051915980a448fe20a56f0a3a7ecce64ae25938e"
+  },
+  "net.neoforged.fancymodloader:loader:9.0.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/9.0.2/loader-9.0.2.jar",
+    "sha1": "50533ef2a283d0a430095b5def9262f78d1ae501"
+  },
+  "net.neoforged.fancymodloader:bootstraplauncher:9.0.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/bootstraplauncher/9.0.2/bootstraplauncher-9.0.2.jar",
+    "sha1": "fb05f564fa555f0157afe68dc6fa2a9f591409ee"
+  },
+  "net.neoforged.fancymodloader:securejarhandler:9.0.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/securejarhandler/9.0.2/securejarhandler-9.0.2.jar",
+    "sha1": "f2ed818154ab63580543a520ad8f0a677caad166"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:7.0.10": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/7.0.10/earlydisplay-7.0.10.jar",
+    "sha1": "b492de98200980d046ad1bdcf0020971e92b45e5"
+  },
+  "net.neoforged.fancymodloader:loader:7.0.10": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/7.0.10/loader-7.0.10.jar",
+    "sha1": "7362b65e592213d0fce821f7d656c87c4ffe7f3d"
+  },
+  "net.neoforged:bus:8.0.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/bus/8.0.2/bus-8.0.2.jar",
+    "sha1": "163c9ef7c4bcca6d850c34e95261b606af91fe06"
+  },
+  "org.ow2.asm:asm-commons:9.7": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar",
+    "sha1": "e86dda4696d3c185fcc95d8d311904e7ce38a53f"
+  },
+  "org.ow2.asm:asm-util:9.7": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar",
+    "sha1": "c0655519f24d92af2202cb681cd7c1569df6ead6"
+  },
+  "org.ow2.asm:asm-analysis:9.7": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar",
+    "sha1": "e4a258b7eb96107106c0599f0061cfc1832fe07a"
+  },
+  "org.ow2.asm:asm-tree:9.7": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar",
+    "sha1": "e446a17b175bfb733b87c5c2560ccb4e57d69f1a"
+  },
+  "org.ow2.asm:asm:9.7": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.7/asm-9.7.jar",
+    "sha1": "073d7b3086e14beb604ced229c302feff6449723"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:1.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/1.0.16/earlydisplay-1.0.16.jar",
+    "sha1": "8d0077997d17a487cf655aff977ca2d3d3f04739"
+  },
+  "net.neoforged.fancymodloader:core:1.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/core/1.0.16/core-1.0.16.jar",
+    "sha1": "6bab0913ca1635a8e272ef89c17befb52115a3c2"
+  },
+  "net.neoforged.fancymodloader:loader:1.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/1.0.16/loader-1.0.16.jar",
+    "sha1": "47bd8344813542922e606b034623172a8c271da6"
+  },
+  "net.neoforged:coremods:6.0.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/coremods/6.0.2/coremods-6.0.2.jar",
+    "sha1": "74c047103e2268ef9688db18a4df28973f962749"
+  },
+  "net.neoforged:neoforgespi:8.0.0": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforgespi/8.0.0/neoforgespi-8.0.0.jar",
+    "sha1": "504823c2b4bfec1880b7a80a939af7570ff1862f"
+  },
+  "org.ow2.asm:asm-commons:9.5": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar",
+    "sha1": "19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0"
+  },
+  "org.ow2.asm:asm-util:9.5": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar",
+    "sha1": "64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe"
+  },
+  "org.ow2.asm:asm-analysis:9.5": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar",
+    "sha1": "490bacc77de7cbc0be1a30bb3471072d705be4a4"
+  },
+  "org.ow2.asm:asm-tree:9.5": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar",
+    "sha1": "fd33c8b6373abaa675be407082fdfda35021254a"
+  },
+  "org.ow2.asm:asm:9.5": {
+    "url": "https://maven.neoforged.net/releases/org/ow2/asm/asm/9.5/asm-9.5.jar",
+    "sha1": "dc6ea1875f4d64fbc85e1691c95b96a3d8569c90"
+  },
+  "org.spongepowered:mixin:0.8.5": {
+    "url": "https://maven.neoforged.net/releases/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar",
+    "sha1": "9d1c0c3a304ae6697ecd477218fa61b850bf57fc"
+  },
+  "org.apache.commons:commons-lang3:3.12.0": {
+    "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+    "sha1": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e"
+  },
+  "net.neoforged.fancymodloader:language-java:1.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/language-java/1.0.16/language-java-1.0.16.jar",
+    "sha1": "2ddedcd8a488fd73e3e92a59949845e9c3a7d9f2"
+  },
+  "net.neoforged.fancymodloader:language-lowcode:1.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/language-lowcode/1.0.16/language-lowcode-1.0.16.jar",
+    "sha1": "0e627c78870d4286826c4b14c0137319ff03b4e0"
+  },
+  "net.neoforged.fancymodloader:language-minecraft:1.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/language-minecraft/1.0.16/language-minecraft-1.0.16.jar",
+    "sha1": "c1f7785ff7fc0b18aa6d2d4056dcff4fee1b32be"
+  },
+  "net.neoforged.fancymodloader:events:1.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/events/1.0.16/events-1.0.16.jar",
+    "sha1": "c88fa18a63098831e4e044ea6cfd3fea37774f6b"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:4.0.29": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.29/earlydisplay-4.0.29.jar",
+    "sha1": "1edc5420c37dde59a5c8b12a842f3ea22cd6139e"
+  },
+  "net.neoforged:mergetool:2.0.3:api": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/mergetool/2.0.3/mergetool-2.0.3-api.jar",
+    "sha1": "1275202cbbb248f49345cf6787ce299afd9a02fb"
+  },
+  "net.neoforged.fancymodloader:loader:4.0.29": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.29/loader-4.0.29.jar",
+    "sha1": "d18deaf54bafe631f281d4adb5b905308e0a271e"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:4.0.23": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.23/earlydisplay-4.0.23.jar",
+    "sha1": "c9491ed7df998cf229eae9c7364ee9ab6f26bcfe"
+  },
+  "net.neoforged.fancymodloader:loader:4.0.23": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.23/loader-4.0.23.jar",
+    "sha1": "1603ac9e724a9bf4e3d4ae2631da629e4755111d"
+  },
+  "net.fabricmc:sponge-mixin:0.14.0+mixin.0.8.6": {
+    "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.14.0+mixin.0.8.6/sponge-mixin-0.14.0+mixin.0.8.6.jar",
+    "sha1": "c265173c84346e9e5d42a2384b2b02bd39a4a899"
+  },
+  "net.neoforged.fancymodloader:loader:47.2.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/47.2.2/loader-47.2.2.jar",
+    "sha1": "e29a838f13be8ba241211b8cb33d007bc5ff7926"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:47.2.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/47.2.2/earlydisplay-47.2.2.jar",
+    "sha1": "8bcfaa1053ee270b5131a6e95135210e6e039fcd"
+  },
+  "cpw.mods:securejarhandler:2.1.10": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar",
+    "sha1": "51e6a22c6c716beb11e244bf5b8be480f51dd6b5"
+  },
+  "net.minecraftforge:accesstransformers:8.0.4": {
+    "url": "https://maven.neoforged.net/releases/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar",
+    "sha1": "272d240aa73f42195b2a68e2ebd8b701ecf41f63"
+  },
+  "org.antlr:antlr4-runtime:4.9.1": {
+    "url": "https://maven.neoforged.net/releases/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar",
+    "sha1": "428664f05d2b7f7b7610204b5aa7c1763f62011a"
+  },
+  "net.minecraftforge:eventbus:6.0.5": {
+    "url": "https://maven.neoforged.net/releases/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar",
+    "sha1": "699143dd438431d06b57416944f7cedbe52e1475"
+  },
+  "net.minecraftforge:forgespi:7.0.1": {
+    "url": "https://maven.neoforged.net/releases/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar",
+    "sha1": "3b4972a0cdb135853dba219be61a79b22cff1309"
+  },
+  "net.minecraftforge:coremods:5.0.1": {
+    "url": "https://maven.neoforged.net/releases/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar",
+    "sha1": "386b00279628b105b2d507539c46e134e96f6237"
+  },
+  "net.minecraftforge:mergetool:1.1.5:api": {
+    "url": "https://maven.neoforged.net/releases/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar",
+    "sha1": "f3da18e12c696d35a47c82cbb2cc8b5aa15e1154"
+  },
+  "org.openjdk.nashorn:nashorn-core:15.3": {
+    "url": "https://maven.neoforged.net/releases/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar",
+    "sha1": "43977e804697048fc8d81d333a36c17d07a5b3dd"
+  },
+  "net.minecraftforge:JarJarSelector:0.3.19": {
+    "url": "https://maven.neoforged.net/releases/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar",
+    "sha1": "376cc9c8ea60720cf027c01fc033de915699801c"
+  },
+  "net.minecraftforge:JarJarMetadata:0.3.19": {
+    "url": "https://maven.neoforged.net/releases/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar",
+    "sha1": "0083feaa9b770e6ac0e96ee4fc23fa89325c5fe2"
+  },
+  "net.minecraftforge:JarJarFileSystems:0.3.19": {
+    "url": "https://maven.neoforged.net/releases/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar",
+    "sha1": "2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020"
+  },
+  "net.neoforged.fancymodloader:events:47.2.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/events/47.2.2/events-47.2.2.jar",
+    "sha1": "7cd6d6112be32a3f0d806ccf164ff9c1d21c7a27"
+  },
+  "net.neoforged.fancymodloader:core:47.2.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/core/47.2.2/core-47.2.2.jar",
+    "sha1": "27c66a2985d8f0226d2b397fdd4bc5f6a5923ac2"
+  },
+  "net.neoforged.fancymodloader:language-java:47.2.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/language-java/47.2.2/language-java-47.2.2.jar",
+    "sha1": "8fdb1b51a9e5cb1ca82634263039012601b32317"
+  },
+  "net.neoforged.fancymodloader:language-lowcode:47.2.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/language-lowcode/47.2.2/language-lowcode-47.2.2.jar",
+    "sha1": "e8f72140a147fea3ca0d75e6548cc505c0b9cc9e"
+  },
+  "net.neoforged.fancymodloader:language-minecraft:47.2.2": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/language-minecraft/47.2.2/language-minecraft-47.2.2.jar",
+    "sha1": "6b986e48b9fc90aaf550a0445e635983398a41c1"
+  },
+  "net.neoforged.fancymodloader:earlydisplay:3.0.18": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/3.0.18/earlydisplay-3.0.18.jar",
+    "sha1": "8aded266715a7c5f02af7b1eb42532d1f6b324dc"
+  },
+  "net.neoforged.fancymodloader:loader:3.0.18": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/3.0.18/loader-3.0.18.jar",
+    "sha1": "3ab6fe65ab3719222395ff554b0ad7984634cb33"
+  },
+  "cpw.mods:modlauncher:10.1.10": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/modlauncher/10.1.10/modlauncher-10.1.10.jar",
+    "sha1": "3d03c3561e23383ba6b43d3911430fbee292007c"
+  },
+  "cpw.mods:securejarhandler:2.1.31": {
+    "url": "https://maven.neoforged.net/releases/cpw/mods/securejarhandler/2.1.31/securejarhandler-2.1.31.jar",
+    "sha1": "077b44e5253faa6ba815f1753e422b576df5b488"
+  },
+  "net.fabricmc:sponge-mixin:0.13.1+mixin.0.8.5": {
+    "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.13.1+mixin.0.8.5/sponge-mixin-0.13.1+mixin.0.8.5.jar",
+    "sha1": "618f4dff860cf2d6b5196073b1a5f5e0a8591acb"
+  }
+}
