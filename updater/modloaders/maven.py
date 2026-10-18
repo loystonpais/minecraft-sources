@@ -8,13 +8,15 @@ class MavenCoord:
     group: str
     artifact: str
     version: str
+    classifier: str | None = None
 
     @classmethod
     def parse(cls, coord: str) -> "MavenCoord":
         parts = coord.split(":")
         if len(parts) < 3:
             raise ValueError(f"Invalid maven coordinate: {coord}")
-        return cls(group=parts[0], artifact=parts[1], version=parts[2])
+        classifier = parts[3] if len(parts) > 3 else None
+        return cls(group=parts[0], artifact=parts[1], version=parts[2], classifier=classifier)
 
     @property
     def path(self) -> str:
@@ -25,7 +27,8 @@ class MavenCoord:
         base = base_url.rstrip("/")
         art = urllib.parse.quote(self.artifact, safe="+")
         ver = urllib.parse.quote(self.version, safe="+")
-        return f"{base}/{self.path}/{art}/{ver}/{art}-{ver}.jar"
+        suffix = f"-{self.classifier}" if self.classifier else ""
+        return f"{base}/{self.path}/{art}/{ver}/{art}-{ver}{suffix}.jar"
 
     def sha256_url(self, base_url: str) -> str:
         return f"{self.jar_url(base_url)}.sha256"

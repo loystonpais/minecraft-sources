@@ -87,16 +87,28 @@ def update_server_command(args: argparse.Namespace) -> int:
 
 
 from updater.nixcraft import build_all_nixcraft
+from updater.verify import verify_all_nixcraft
 
 
 def nixcraft_command(args: argparse.Namespace) -> int:
     try:
         build_all_nixcraft()
+        if not args.no_verify:
+            if not verify_all_nixcraft():
+                return 1
         return 0
     except Exception as e:
         logger.error(f"Failed to build nixcraft sources: {e}")
         return 1
 
+
+def verify_command(args: argparse.Namespace) -> int:
+    try:
+        success = verify_all_nixcraft()
+        return 0 if success else 1
+    except Exception as e:
+        logger.error(f"Verification encountered an error: {e}")
+        return 1
 
 
 def lwjgl_command(args: argparse.Namespace) -> int:
@@ -115,12 +127,17 @@ def build_parser() -> argparse.ArgumentParser:
     )
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
 
+    # verify subcommand
+    verify_parser = subparsers.add_parser("verify", help="Exhaustively validate schema and attributes of nixcraft/ files")
+    verify_parser.set_defaults(func=verify_command)
+
     # lwjgl subcommand
     lwjgl_parser = subparsers.add_parser("lwjgl", help="Update LWJGL 2 and 3 sources")
     lwjgl_parser.set_defaults(func=lwjgl_command)
 
     # nixcraft subcommand
     nixcraft_parser = subparsers.add_parser("nixcraft", help="Build/update nixcraft/ domain files (merged libraries, etc.)")
+    nixcraft_parser.add_argument("--no-verify", action="store_true", help="Skip schema verification after build")
     nixcraft_parser.set_defaults(func=nixcraft_command)
 
     # server subcommand
