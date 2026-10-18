@@ -1,0 +1,183 @@
+{
+  "versions": [
+    "4.2.1-SNAPSHOT",
+    "4.2.0",
+    "4.1.2-SNAPSHOT",
+    "4.1.1",
+    "4.1.1-SNAPSHOT",
+    "4.1.0",
+    "4.1.0-SNAPSHOT",
+    "4.0.0",
+    "4.0.0-SNAPSHOT",
+    "3.5.1",
+    "3.5.0",
+    "3.6.0-SNAPSHOT",
+    "3.5.0-SNAPSHOT",
+    "3.4.0",
+    "3.4.0-SNAPSHOT",
+    "3.3.0-SNAPSHOT",
+    "3.2.0-SNAPSHOT",
+    "3.1.2-SNAPSHOT",
+    "3.1.1",
+    "3.1.1-SNAPSHOT",
+    "3.1.0",
+    "1.1.9",
+    "1.0.10"
+  ],
+  "builds": {
+    "4.2.1-SNAPSHOT": {
+      "build": 43,
+      "time": "2026-10-18T13:49:20.695Z",
+      "channel": "BETA",
+      "url": "https://fill-data.papermc.io/v1/objects/9255dba0acede009dcba713abd84da0310446d5da970ad5060851e1f8a309ac0/velocity-4.2.1-SNAPSHOT-43.jar",
+      "hash": "sha256-klXboKzt4AncunE6vYTaAxBEbV2pcK1QYIUeH4owmsA="
+    },
+    "4.2.0": {
+      "build": 30,
+      "time": "2026-09-14T16:50:54.749Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/35a5596a5468a035d8a32c8de5ebb0dc6b8d8f0cc3ff5169d514aca762af8aa8/velocity-4.2.0-30.jar",
+      "hash": "sha256-NaVZalRooDXYoyyN5euw3GuNjwzD/1Fp1RSsp2Kviqg="
+    },
+    "4.1.2-SNAPSHOT": {
+      "build": 29,
+      "time": "2026-09-14T16:38:19.814Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/01a960340f0dc5d5af99e848513e395c5d406519359b0a5e2c66f539bae03dcc/velocity-4.1.2-SNAPSHOT-29.jar",
+      "hash": "sha256-AalgNA8NxdWvmehIUT45XF1AZRk1mwpeLGb1ObrgPcw="
+    },
+    "4.1.1": {
+      "build": 24,
+      "time": "2026-08-26T19:32:52.554Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/846411d2d0560fed0f23496ffb89681be528d2c0650ecdcf21724d2d7bd9c1ee/velocity-4.1.1-24.jar",
+      "hash": "sha256-hGQR0tBWD+0PI0lv+4loG+Uo0sBlDs3PIXJNLXvZwe4="
+    },
+    "4.1.1-SNAPSHOT": {
+      "build": 23,
+      "time": "2026-08-26T10:12:42.311Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/4e7206b3933b25050aba299ba0eea850f6f53b0f4726281f94b8629babe9150b/velocity-4.1.1-SNAPSHOT-23.jar",
+      "hash": "sha256-TnIGs5M7JQUKuimboO6oUPb1Ow9HJigflLhim6vpFQs="
+    },
+    "4.1.0": {
+      "build": 22,
+      "time": "2026-08-24T16:29:22.154Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/bff15036c6a43f0db66600ee405407aa71e95fbf05d692e35e8ab364c7c9083d/velocity-4.1.0-22.jar",
+      "hash": "sha256-v/FQNsakPw22ZgDuQFQHqnHpX78F1pLjXoqzZMfJCD0="
+    },
+    "4.1.0-SNAPSHOT": {
+      "build": 21,
+      "time": "2026-08-14T10:57:03.338Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/f840e8dbf9e3220f1ae400aa67c462ef4213d64fd03209dae284e2e991147c93/velocity-4.1.0-SNAPSHOT-21.jar",
+      "hash": "sha256-+EDo2/njIg8a5ACqZ8Ri70IT1k/QMgna4oTi6ZEUfJM="
+    },
+    "4.0.0": {
+      "build": 6,
+      "time": "2026-07-14T14:13:05.541Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/4540289f48c83e305fc2f2c495a84d1f4d0b7f360830251e169dd5a208740e70/velocity-4.0.0-6.jar",
+      "hash": "sha256-RUAon0jIPjBfwvLElahNH00LfzYIMCUeFp3Vogh0DnA="
+    },
+    "4.0.0-SNAPSHOT": {
+      "build": 5,
+      "time": "2026-07-11T21:08:54.806Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/7dc974ba4b3094d05d308032790a22e5348845c46d82c664730b169ce2b4ea79/velocity-4.0.0-SNAPSHOT-5.jar",
+      "hash": "sha256-fcl0ukswlNBdMIAyeQoi5TSIRcRtgsZkcwsWnOK06nk="
+    },
+    "3.5.1": {
+      "build": 615,
+      "time": "2026-07-11T15:59:56.494Z",
+      "channel": "RECOMMENDED",
+      "url": "https://fill-data.papermc.io/v1/objects/b4e3164df5377346854dc6cb9e6a78022b1946ff69e89676313f5f6f1c6f0fb3/velocity-3.5.1-615.jar",
+      "hash": "sha256-tOMWTfU3c0aFTcbLnmp4AisZRv9p6JZ2MT9fbxxvD7M="
+    },
+    "3.6.0-SNAPSHOT": {
+      "build": 613,
+      "time": "2026-07-11T01:22:38.184Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/a87eea534bd483209aa5ccb03822cb14d5006796d9c18a59e6e34cfd3c28b5b0/velocity-3.6.0-SNAPSHOT-613.jar",
+      "hash": "sha256-qH7qU0vUgyCapcywOCLLFNUAZ5bZwYpZ5uNM/TwotbA="
+    },
+    "3.5.0-SNAPSHOT": {
+      "build": 609,
+      "time": "2026-07-11T00:37:15.676Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/0c3d16b70ed757638b696a9a87d670b4301f23a6fef30c3acbbd9b0e0d7b29bb/velocity-3.5.0-SNAPSHOT-609.jar",
+      "hash": "sha256-DD0Wtw7XV2OLaWqah9ZwtDAfI6b+8ww6y72bDg17Kbs="
+    },
+    "3.4.0": {
+      "build": 566,
+      "time": "2026-01-25T17:52:08.734Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/fb599cbda6a6d01decce5e281f71f51cae7cacffcfafca32a09601f407b0583e/velocity-3.4.0-566.jar",
+      "hash": "sha256-+1mcvaam0B3szl4oH3H1HK58rP/Pr8oyoJYB9AewWD4="
+    },
+    "3.4.0-SNAPSHOT": {
+      "build": 563,
+      "time": "2026-01-21T19:00:31.648Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/fe53021f3168322cb6cb68f78699866fd098df3c306e4359847a10b0d02689ef/velocity-3.4.0-SNAPSHOT-563.jar",
+      "hash": "sha256-/lMCHzFoMiy2y2j3hpmGb9CY3zwwbkNZhHoQsNAmie8="
+    },
+    "3.3.0-SNAPSHOT": {
+      "build": 436,
+      "time": "2024-09-16T01:32:42.541Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/06bb2a6ac16228a2f33a0336952624e6918a97535d36a3660725b18e2a6efdfb/velocity-3.3.0-SNAPSHOT-436.jar",
+      "hash": "sha256-BrsqasFiKKLzOgM2lSYk5pGKl1NdNqNmByWxjipu/fs="
+    },
+    "3.2.0-SNAPSHOT": {
+      "build": 296,
+      "time": "2023-11-30T23:04:30.461Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/27f78414a3c39736130b28e69c2d22f52e13cb6c70a9245a7c07a4a76787723e/velocity-3.2.0-SNAPSHOT-296.jar",
+      "hash": "sha256-J/eEFKPDlzYTCyjmnC0i9S4Ty2xwqSRafAekp2eHcj4="
+    },
+    "3.1.2-SNAPSHOT": {
+      "build": 207,
+      "time": "2023-01-01T18:09:42.968Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/823393405413413dae1f7c83c89851dbe7439e719cc31793a15b9aad951a4315/velocity-3.1.2-SNAPSHOT-207.jar",
+      "hash": "sha256-gjOTQFQTQT2uH3yDyJhR2+dDnnGcwxeToVuarZUaQxU="
+    },
+    "3.1.1": {
+      "build": 102,
+      "time": "2021-12-14T19:47:52.783Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/89a44c6385e39712717e2476254f931717f4d718deeb72578d159187cf5119c7/velocity-3.1.1-102.jar",
+      "hash": "sha256-iaRMY4XjlxJxfiR2JU+TFxf01xje63JXjRWRh89RGcc="
+    },
+    "3.1.1-SNAPSHOT": {
+      "build": 97,
+      "time": "2021-12-09T18:48:18.015Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/f2fbf80d9ef089d9905db3b841232d25a2e16a6208dfadb5704a3d9f9ead8e8d/velocity-3.1.1-SNAPSHOT-97.jar",
+      "hash": "sha256-8vv4DZ7widmQXbO4QSMtJaLhamII3621cEo9n56tjo0="
+    },
+    "3.1.0": {
+      "build": 95,
+      "time": "2021-11-29T00:33:06.112Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/7b509535916a3ee4dacea289915a2851b87f4738bd42f12ff38b674417b5f683/velocity-3.1.0-95.jar",
+      "hash": "sha256-e1CVNZFqPuTazqKJkVooUbh/Rzi9QvEv84tnRBe19oM="
+    },
+    "1.1.9": {
+      "build": 447,
+      "time": "2022-05-19T16:40:49.730Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/d6ba2c934eb956b3aea5381135fb6c5763bb3a50a85022671fac6f5bfed63843/velocity-1.1.9-447.jar",
+      "hash": "sha256-1rosk065VrOupTgRNftsV2O7OlCoUCJnH6xvW/7WOEM="
+    },
+    "1.0.10": {
+      "build": 245,
+      "time": "2022-05-19T16:40:39.508Z",
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/16e786af6b6c9c34e77f6229c8fd573b7b97a8394beb3575bfdfa0b34826cae3/velocity-1.0.10-245.jar",
+      "hash": "sha256-FueGr2tsnDTnf2IpyP1XO3uXqDlL6zV1v9+gs0gmyuM="
+    }
+  }
+}
