@@ -86,13 +86,17 @@ def update_server_command(args: argparse.Namespace) -> int:
     return 0
 
 
+from updater.nixcraft import build_all_nixcraft
+
+
 def nixcraft_command(args: argparse.Namespace) -> int:
     try:
-        build_libraries()
+        build_all_nixcraft()
         return 0
     except Exception as e:
         logger.error(f"Failed to build nixcraft sources: {e}")
         return 1
+
 
 
 def lwjgl_command(args: argparse.Namespace) -> int:
