@@ -4,8 +4,8 @@ from updater.fetch import fetch_json
 VERSION_MANIFEST_V2_URL = "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json"
 MOJANG_RAW_DIR = RAW_DIR / "mojang"
 MANIFEST_FILE = MOJANG_RAW_DIR / "version_manifest_v2.json"
-NORMALIZED_VERSIONS_FILE = REPO_ROOT / "mojang" / "minecraft-versions.json"
-VERSIONS_LIST_FILE = REPO_ROOT / "mojang" / "minecraft-versions-list.json"
+NORMALIZED_VERSIONS_FILE = REPO_ROOT / "mojang" / "versions.json"
+VERSIONS_LIST_FILE = REPO_ROOT / "mojang" / "versions-list.json"
 
 
 def normalize_manifest(raw_manifest: dict) -> dict:
@@ -29,7 +29,7 @@ def update_manifest() -> None:
     versions_count = len(versions)
     logger.info(f"Saved {versions_count} versions to {MANIFEST_FILE}")
 
-    # Generate normalized minecraft-versions.json
+    # Generate normalized versions.json
     normalized = normalize_manifest(data)
     save_json(NORMALIZED_VERSIONS_FILE, normalized)
     logger.info(f"Saved normalized versions to {NORMALIZED_VERSIONS_FILE}")
@@ -38,4 +38,5 @@ def update_manifest() -> None:
     version_ids = [v["id"] for v in versions]
     save_json(VERSIONS_LIST_FILE, version_ids)
     logger.info(f"Saved ordered version list ({len(version_ids)} items) to {VERSIONS_LIST_FILE}")
+
 
