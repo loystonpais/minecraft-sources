@@ -68,6 +68,7 @@ def mojang_assets_command(args: argparse.Namespace) -> int:
 
 from updater.servers import AVAILABLE_SERVERS, update_server
 from updater.nixcraft import build_libraries
+from updater.lwjgl import update_lwjgl
 
 
 def update_server_command(args: argparse.Namespace) -> int:
@@ -94,12 +95,25 @@ def nixcraft_command(args: argparse.Namespace) -> int:
         return 1
 
 
+def lwjgl_command(args: argparse.Namespace) -> int:
+    try:
+        update_lwjgl()
+        return 0
+    except Exception as e:
+        logger.error(f"Failed to update LWJGL sources: {e}")
+        return 1
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="python -m updater",
         description="Minecraft Sources Manager & Updater",
     )
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
+
+    # lwjgl subcommand
+    lwjgl_parser = subparsers.add_parser("lwjgl", help="Update LWJGL 2 and 3 sources")
+    lwjgl_parser.set_defaults(func=lwjgl_command)
 
     # nixcraft subcommand
     nixcraft_parser = subparsers.add_parser("nixcraft", help="Build/update nixcraft/ domain files (merged libraries, etc.)")
@@ -112,6 +126,7 @@ def build_parser() -> argparse.ArgumentParser:
         choices=AVAILABLE_SERVERS + ["all", "all-papermc"],
         help="Server project name, 'all-papermc', or 'all'",
     )
+
 
     server_parser.set_defaults(func=update_server_command)
 

@@ -6,8 +6,9 @@ from updater.config import REPO_ROOT, save_json, load_json, logger
 NIXCRAFT_DIR = REPO_ROOT / "nixcraft"
 NIXCRAFT_LIBRARIES_FILE = NIXCRAFT_DIR / "libraries.json"
 
-# Loader directories that produce libraries.json
-SOURCE_LOADERS = ["fabric", "quilt", "forge", "neoforge", "liteloader"]
+# Directories that produce libraries.json to pool
+SOURCE_LOADERS = ["fabric", "quilt", "forge", "neoforge", "liteloader", "lwjgl"]
+
 
 
 def hex_to_sri(hex_digest: str, algo: str = "sha256") -> str:
