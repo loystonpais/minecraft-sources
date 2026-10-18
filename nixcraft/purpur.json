@@ -45,247 +45,206 @@
   "builds": {
     "26.3": {
       "build": 2652,
-      "time": 1792207977287,
       "url": "https://api.purpurmc.org/v2/purpur/26.3/2652/download",
       "hash": "md5-u/XYcDvI7lqmxSUeG7yqeA=="
     },
     "26.2": {
       "build": 2633,
-      "time": 1789180874846,
       "url": "https://api.purpurmc.org/v2/purpur/26.2/2633/download",
       "hash": "md5-PzyTPy1RivmFccdGH6QieA=="
     },
     "26.1.2": {
       "build": 2592,
-      "time": 1781553371655,
       "url": "https://api.purpurmc.org/v2/purpur/26.1.2/2592/download",
       "hash": "md5-DQGpvKvV4yseXl1IkB8fFw=="
     },
     "1.21.11": {
       "build": 2568,
-      "time": 1775341335566,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.11/2568/download",
       "hash": "md5-uNVALvjji/YMq8bu3bP6GA=="
     },
     "1.21.10": {
       "build": 2535,
-      "time": 1765420672026,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.10/2535/download",
       "hash": "md5-1Irgw17uXcoeR23V3Czi6g=="
     },
     "1.21.9": {
       "build": 2505,
-      "time": 1759812124754,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.9/2505/download",
       "hash": "md5-Tn942E1i+Z6pYTvjPWKXyQ=="
     },
     "1.21.8": {
       "build": 2497,
-      "time": 1758246365352,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.8/2497/download",
       "hash": "md5-uLKAJSX1uF+YavSaxLCVqg=="
     },
     "1.21.7": {
       "build": 2477,
-      "time": 1752807771285,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.7/2477/download",
       "hash": "md5-NmmUxiA88Ak2JVovPdqvpA=="
     },
     "1.21.6": {
       "build": 2465,
-      "time": 1751309951429,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.6/2465/download",
       "hash": "md5-Qfvr+nO7WI2QnZgp/P6gGg=="
     },
     "1.21.5": {
       "build": 2450,
-      "time": 1750136773989,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.5/2450/download",
       "hash": "md5-k+B2ne32jhbCkdvh0M8XfQ=="
     },
     "1.21.4": {
       "build": 2416,
-      "time": 1744500645780,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.4/2416/download",
       "hash": "md5-44MrRu+koqVtMbx84m328A=="
     },
     "1.21.3": {
       "build": 2358,
-      "time": 1733316876194,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.3/2358/download",
       "hash": "md5-chLnEIH24VYNmwmiqjFqTw=="
     },
     "1.21.1": {
       "build": 2329,
-      "time": 1730406106810,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.1/2329/download",
       "hash": "md5-3AAmRiysdshpM1/rQziKdg=="
     },
     "1.21": {
       "build": 2284,
-      "time": 1723311202625,
       "url": "https://api.purpurmc.org/v2/purpur/1.21/2284/download",
       "hash": "md5-rbD+BuJvfq77E1mylCJFvg=="
     },
     "1.20.6": {
       "build": 2233,
-      "time": 1718683050390,
       "url": "https://api.purpurmc.org/v2/purpur/1.20.6/2233/download",
       "hash": "md5-1O9oNLJU2smPetizsQvaVA=="
     },
     "1.20.4": {
       "build": 2176,
-      "time": 1713939818972,
       "url": "https://api.purpurmc.org/v2/purpur/1.20.4/2176/download",
       "hash": "md5-x1OSI4WwaIUwbAs2ponJfw=="
     },
     "1.20.2": {
       "build": 2095,
-      "time": 1701908332854,
       "url": "https://api.purpurmc.org/v2/purpur/1.20.2/2095/download",
       "hash": "md5-YWaoL+ard0eafqkZL7uoXQ=="
     },
     "1.20.1": {
       "build": 2062,
-      "time": 1695437226456,
       "url": "https://api.purpurmc.org/v2/purpur/1.20.1/2062/download",
       "hash": "md5-Wbv/cMw5TAU6cbrMxCgGOw=="
     },
     "1.20": {
       "build": 1990,
-      "time": 1686535535799,
       "url": "https://api.purpurmc.org/v2/purpur/1.20/1990/download",
       "hash": "md5-ZoH7WdiPX/aElpA041ItLA=="
     },
     "1.19.4": {
       "build": 1985,
-      "time": 1686252621435,
       "url": "https://api.purpurmc.org/v2/purpur/1.19.4/1985/download",
       "hash": "md5-n8F76c1e60FG0dBl1hWn7A=="
     },
     "1.19.3": {
       "build": 1933,
-      "time": 1678853679241,
       "url": "https://api.purpurmc.org/v2/purpur/1.19.3/1933/download",
       "hash": "md5-2KNMpdx+uG8nMNElZ6RogQ=="
     },
     "1.19.2": {
       "build": 1858,
-      "time": 1670432777708,
       "url": "https://api.purpurmc.org/v2/purpur/1.19.2/1858/download",
       "hash": "md5-hqmrIrsP5EV2HrFqq4zzCg=="
     },
     "1.19.1": {
       "build": 1751,
-      "time": 1659731442220,
       "url": "https://api.purpurmc.org/v2/purpur/1.19.1/1751/download",
       "hash": "md5-stIwY0byNMIXgFQsNnn+cw=="
     },
     "1.19": {
       "build": 1735,
-      "time": 1658910194443,
       "url": "https://api.purpurmc.org/v2/purpur/1.19/1735/download",
       "hash": "md5-QR9QTUrPSFWywb+p9Settw=="
     },
     "1.18.2": {
       "build": 1632,
-      "time": 1654621809889,
       "url": "https://api.purpurmc.org/v2/purpur/1.18.2/1632/download",
       "hash": "md5-ZSpSnQatbEM09aRGye7k5g=="
     },
     "1.18.1": {
       "build": 1566,
-      "time": 1646117235396,
       "url": "https://api.purpurmc.org/v2/purpur/1.18.1/1566/download",
       "hash": "md5-/NpN4CZEPbtykkMzxP/i9g=="
     },
     "1.18": {
       "build": 1433,
-      "time": 1639107992377,
       "url": "https://api.purpurmc.org/v2/purpur/1.18/1433/download",
       "hash": "md5-EsKfmucnJvCN0xMvzk4ksw=="
     },
     "1.17.1": {
       "build": 1428,
-      "time": 1637673315051,
       "url": "https://api.purpurmc.org/v2/purpur/1.17.1/1428/download",
       "hash": "md5-wC7RvpBaD9YLSrTNCfCZZw=="
     },
     "1.17": {
       "build": 1255,
-      "time": 1625551299970,
       "url": "https://api.purpurmc.org/v2/purpur/1.17/1255/download",
       "hash": "md5-5z+1NIgmxHwmfJWIvVqATQ=="
     },
     "1.16.5": {
       "build": 1171,
-      "time": 1623976042813,
       "url": "https://api.purpurmc.org/v2/purpur/1.16.5/1171/download",
       "hash": "md5-Ulx6qS5s74IMMIpg9UpDyg=="
     },
     "1.16.4": {
       "build": 956,
-      "time": 1610728031513,
       "url": "https://api.purpurmc.org/v2/purpur/1.16.4/956/download",
       "hash": "md5-9pacy7DfSQqdHu/x17uVBw=="
     },
     "1.16.3": {
       "build": 808,
-      "time": 1604265186635,
       "url": "https://api.purpurmc.org/v2/purpur/1.16.3/808/download",
       "hash": "md5-dEYY7+TUe/z1x3cfL8qRAg=="
     },
     "1.16.2": {
       "build": 750,
-      "time": 1599693156829,
       "url": "https://api.purpurmc.org/v2/purpur/1.16.2/750/download",
       "hash": "md5-oF/H2ufq8cOeUEazNS8Q5Q=="
     },
     "1.16.1": {
       "build": 710,
-      "time": 1597470687521,
       "url": "https://api.purpurmc.org/v2/purpur/1.16.1/710/download",
       "hash": "md5-czjWlr320sBPqww6aNmtag=="
     },
     "1.15.2": {
       "build": 606,
-      "time": 1593097494476,
       "url": "https://api.purpurmc.org/v2/purpur/1.15.2/606/download",
       "hash": "md5-CKJoihEl31fjMZFlfMiGZg=="
     },
     "1.15.1": {
       "build": 397,
-      "time": 1579370130786,
       "url": "https://api.purpurmc.org/v2/purpur/1.15.1/397/download",
       "hash": "md5-cecqK8MDwFtrTCnBF3fJgA=="
     },
     "1.15": {
       "build": 346,
-      "time": 1576545896041,
       "url": "https://api.purpurmc.org/v2/purpur/1.15/346/download",
       "hash": "md5-OgY/sScfu5sCpA9cstXe/A=="
     },
     "1.14.4": {
       "build": 337,
-      "time": 1576263135535,
       "url": "https://api.purpurmc.org/v2/purpur/1.14.4/337/download",
       "hash": "md5-r10Hx2IF4kQiBYYMMIf+aA=="
     },
     "1.14.3": {
       "build": 202,
-      "time": 1563502646407,
       "url": "https://api.purpurmc.org/v2/purpur/1.14.3/202/download",
       "hash": "md5-PQoPIFErCn5+zuEzmXn0ng=="
     },
     "1.14.2": {
       "build": 126,
-      "time": 1561346326986,
       "url": "https://api.purpurmc.org/v2/purpur/1.14.2/126/download",
       "hash": "md5-erSjua5zfqhvDDzzWFhCAw=="
     },
     "1.14.1": {
       "build": 63,
-      "time": 1558975626426,
       "url": "https://api.purpurmc.org/v2/purpur/1.14.1/63/download",
       "hash": "md5-/n93BS8ue205bichwCGTKw=="
     }
