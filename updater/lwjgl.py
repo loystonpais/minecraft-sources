@@ -30,6 +30,7 @@ def update_lwjgl() -> None:
         raw_versions = index_data.get("versions", [])
         logger.info(f"Found {len(raw_versions)} versions for {pkg_uid}")
 
+        pending_specs = []
         for v_entry in raw_versions:
             ver = v_entry.get("version")
             if not ver:
@@ -43,11 +44,24 @@ def update_lwjgl() -> None:
             
             comp_spec = load_json(raw_comp_file)
             if not comp_spec:
-                logger.info(f"  Fetching {pkg_uid} version {ver}...")
-                comp_spec = fetch_json(comp_url, delay=0.02)
-                save_json(raw_comp_file, comp_spec)
+                pending_specs.append((ver, comp_url, raw_comp_file))
+            else:
+                versions_data[ver] = comp_spec
 
-            versions_data[ver] = comp_spec
+        if pending_specs:
+            from concurrent.futures import ThreadPoolExecutor
+            logger.info(f"  Fetching {len(pending_specs)} {pkg_uid} component specs in parallel...")
+            def fetch_comp(item):
+                v, url, path = item
+                data = fetch_json(url, delay=0.0)
+                save_json(path, data)
+                return v, data
+
+            with ThreadPoolExecutor(max_workers=8) as pool:
+                results = list(pool.map(fetch_comp, pending_specs))
+
+            for v, data in results:
+                versions_data[v] = data
 
             # Extract libraries and hashes
             for lib_entry in comp_spec.get("libraries", []):

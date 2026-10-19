@@ -72,17 +72,19 @@ class NeoForgeModloader(BaseModloader):
         libraries: dict[str, dict] = dict(existing_libraries)
 
         # 4. Fetch component spec for selected builds
-        logger.info(f"Fetching NeoForge loader specs for {len(selected_versions)} recommended/latest builds...")
-        for idx, ver in enumerate(selected_versions, 1):
-            if ver in loaders and loaders[ver].get("dependencies"):
-                continue
+        pending_versions = [ver for ver in selected_versions if not (ver in loaders and loaders[ver].get("dependencies"))]
 
-            try:
+        if pending_versions:
+            from concurrent.futures import ThreadPoolExecutor
+            logger.info(f"Fetching {len(pending_versions)} NeoForge loader specs in parallel...")
+
+            def process_neoforge(ver):
                 comp_url = f"{PRISM_META_BASE}/net.neoforged/{ver}.json"
-                spec = fetch_json(comp_url, delay=0.02)
+                spec = fetch_json(comp_url, delay=0.0)
                 raw_libs = spec.get("libraries", [])
 
                 dep_names = []
+                discovered_libs = {}
                 for lib_entry in raw_libs:
                     name = lib_entry.get("name")
                     if not name:
@@ -90,10 +92,7 @@ class NeoForgeModloader(BaseModloader):
                     dep_names.append(name)
 
                     dl = lib_entry.get("downloads", {}).get("artifact", {})
-                    url = dl.get("url")
-                    if not url and "url" in lib_entry:
-                        url = lib_entry["url"]
-
+                    url = dl.get("url") or lib_entry.get("url")
                     sha1 = dl.get("sha1") or lib_entry.get("sha1")
                     sha256 = dl.get("sha256") or lib_entry.get("sha256")
 
@@ -103,18 +102,22 @@ class NeoForgeModloader(BaseModloader):
                             entry["sha256"] = sha256
                         if sha1:
                             entry["sha1"] = sha1
-                        libraries[name] = entry
+                        discovered_libs[name] = entry
 
-                loaders[ver] = {
+                res = {
                     "version": ver,
                     "dependencies": dep_names,
                     "mainClass": spec.get("mainClass"),
                     "minecraftArguments": spec.get("minecraftArguments"),
                 }
-                if idx % 10 == 0:
-                    logger.info(f"  [{idx}/{len(selected_versions)}] Processed NeoForge build {ver}...")
-            except Exception as e:
-                logger.warning(f"Could not fetch NeoForge spec for {ver}: {e}")
+                return ver, res, discovered_libs
+
+            with ThreadPoolExecutor(max_workers=16) as pool:
+                results = list(pool.map(process_neoforge, pending_versions))
+
+            for ver, res, discovered_libs in results:
+                loaders[ver] = res
+                libraries.update(discovered_libs)
 
         save_json(loaders_file, loaders)
         logger.info(f"Saved {len(loaders)} loader versions to {loaders_file}")

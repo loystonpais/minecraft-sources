@@ -104,13 +104,14 @@ class QuiltModloader(BaseModloader):
         existing_loaders = load_json(loaders_file) or {}
         loaders: dict[str, dict] = dict(existing_loaders)
 
+        # Collect loader versions that need processing
+        pending_versions = []
         for v_obj in raw_versions:
             ver = v_obj.get("version")
             if not ver or not SEMVER_PATTERN.match(ver):
                 continue
 
             loader_coord = f"org.quiltmc:quilt-loader:{ver}"
-            # Quilt API provides loader sha256 directly in the manifest
             hashes = v_obj.get("hashes", {})
             if "sha256" in hashes:
                 libraries[loader_coord] = {
@@ -120,17 +121,24 @@ class QuiltModloader(BaseModloader):
 
             if ver in loaders and loaders[ver].get("dependencies"):
                 deps = loaders[ver]["dependencies"]
-                # Only skip if all dependencies are already present in libraries.json
                 all_deps = [d for group in deps.values() for d in group]
                 if all(d in libraries for d in all_deps):
                     continue
 
-            try:
+            pending_versions.append((ver, loader_coord))
+
+        if pending_versions:
+            from concurrent.futures import ThreadPoolExecutor
+            logger.info(f"Processing {len(pending_versions)} Quilt loader specs in parallel...")
+
+            def process_loader(item_pair):
+                ver, loader_coord = item_pair
                 coord = MavenCoord.parse(loader_coord)
                 json_url = coord.json_url(QUILT_MAVEN_BASE)
-                loader_spec = fetch_json(json_url, delay=0.02)
+                loader_spec = fetch_json(json_url, delay=0.0)
                 raw_libs = loader_spec.get("libraries", {})
 
+                discovered_libs: dict[str, dict] = {}
                 def extract_names(lib_list):
                     names = []
                     for item in lib_list:
@@ -140,7 +148,7 @@ class QuiltModloader(BaseModloader):
                             names.append(name)
                             if name not in libraries:
                                 if "sha256" in item:
-                                    libraries[name] = {
+                                    discovered_libs[name] = {
                                         "url": MavenCoord.parse(name).jar_url(base),
                                         "sha256": item["sha256"]
                                     }
@@ -148,13 +156,13 @@ class QuiltModloader(BaseModloader):
                                     hash_res = get_maven_hash(name, base, existing_cache=libraries)
                                     if hash_res:
                                         h_type, h_val = hash_res
-                                        libraries[name] = {
+                                        discovered_libs[name] = {
                                             "url": MavenCoord.parse(name).jar_url(base),
                                             h_type: h_val
                                         }
                     return names
 
-                loaders[ver] = {
+                res_loader = {
                     "name": loader_coord,
                     "dependencies": {
                         "client": extract_names(raw_libs.get("client", [])),
@@ -166,8 +174,14 @@ class QuiltModloader(BaseModloader):
                         "server": "org.quiltmc.loader.impl.launch.knot.KnotServer"
                     })
                 }
-            except Exception as e:
-                logger.warning(f"Could not fetch loader spec for Quilt {ver}: {e}")
+                return ver, res_loader, discovered_libs
+
+            with ThreadPoolExecutor(max_workers=16) as pool:
+                results = list(pool.map(process_loader, pending_versions))
+
+            for ver, res_loader, discovered_libs in results:
+                loaders[ver] = res_loader
+                libraries.update(discovered_libs)
 
         save_json(loaders_file, loaders)
         logger.info(f"Saved {len(loaders)} loader versions to {loaders_file}")

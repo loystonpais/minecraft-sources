@@ -56,6 +56,7 @@ class FabricModloader(BaseModloader):
         libraries: dict[str, dict] = dict(existing_libraries)
 
         items = intermediary_data if isinstance(intermediary_data, list) else intermediary_data.get("versions", [])
+        missing_intermediary = []
         for item in items:
             mc_ver = item.get("version")
             if not mc_ver:
@@ -65,7 +66,14 @@ class FabricModloader(BaseModloader):
                 "dependencies": [coord_str]
             }
             if coord_str not in libraries:
-                hash_res = get_maven_hash(coord_str, f"{FABRIC_MAVEN_BASE}/", existing_cache=libraries)
+                missing_intermediary.append(coord_str)
+
+        if missing_intermediary:
+            from concurrent.futures import ThreadPoolExecutor
+            logger.info(f"Resolving {len(missing_intermediary)} intermediary library hashes in parallel...")
+            with ThreadPoolExecutor(max_workers=16) as pool:
+                results = list(pool.map(lambda c: (c, get_maven_hash(c, f"{FABRIC_MAVEN_BASE}/", existing_cache=libraries)), missing_intermediary))
+            for coord_str, hash_res in results:
                 if hash_res:
                     h_type, h_val = hash_res
                     libraries[coord_str] = {
@@ -81,32 +89,42 @@ class FabricModloader(BaseModloader):
         existing_loaders = load_json(loaders_file) or {}
         loaders: dict[str, dict] = dict(existing_loaders)
 
-        # We process semver loader releases
+        # Collect loader versions that need processing
+        pending_versions = []
         for v_obj in raw_versions:
             ver = v_obj.get("version")
             if not ver or not SEMVER_PATTERN.match(ver):
                 continue
 
             loader_coord = v_obj.get("maven") or f"net.fabricmc:fabric-loader:{ver}"
-            if loader_coord not in libraries:
-                hash_res = get_maven_hash(loader_coord, f"{FABRIC_MAVEN_BASE}/", existing_cache=libraries)
-                if hash_res:
-                    h_type, h_val = hash_res
-                    libraries[loader_coord] = {
-                        "url": MavenCoord.parse(loader_coord).jar_url(f"{FABRIC_MAVEN_BASE}/"),
-                        h_type: h_val,
-                    }
-
             if ver in loaders and loaders[ver].get("dependencies"):
                 deps = loaders[ver]["dependencies"]
                 all_deps = [d for group in deps.values() for d in group]
-                if all(d in libraries for d in all_deps):
+                if all(d in libraries for d in all_deps) and loader_coord in libraries:
                     continue
 
-            try:
+            pending_versions.append((ver, loader_coord))
+
+        if pending_versions:
+            from concurrent.futures import ThreadPoolExecutor
+            logger.info(f"Processing {len(pending_versions)} Fabric loader specs in parallel...")
+
+            def process_fabric_loader(item_pair):
+                ver, loader_coord = item_pair
+                discovered_libs: dict[str, dict] = {}
+
+                if loader_coord not in libraries:
+                    hash_res = get_maven_hash(loader_coord, f"{FABRIC_MAVEN_BASE}/", existing_cache=libraries)
+                    if hash_res:
+                        h_type, h_val = hash_res
+                        discovered_libs[loader_coord] = {
+                            "url": MavenCoord.parse(loader_coord).jar_url(f"{FABRIC_MAVEN_BASE}/"),
+                            h_type: h_val,
+                        }
+
                 coord = MavenCoord.parse(loader_coord)
                 json_url = coord.json_url(FABRIC_MAVEN_BASE)
-                loader_spec = fetch_json(json_url, delay=0.02)
+                loader_spec = fetch_json(json_url, delay=0.0)
                 raw_libs = loader_spec.get("libraries", {})
 
                 def extract_names(lib_list):
@@ -116,9 +134,9 @@ class FabricModloader(BaseModloader):
                         base = item.get("url") or f"{FABRIC_MAVEN_BASE}/"
                         if name:
                             names.append(name)
-                            if name not in libraries:
+                            if name not in libraries and name not in discovered_libs:
                                 if "sha256" in item:
-                                    libraries[name] = {
+                                    discovered_libs[name] = {
                                         "url": MavenCoord.parse(name).jar_url(base),
                                         "sha256": item["sha256"]
                                     }
@@ -126,13 +144,13 @@ class FabricModloader(BaseModloader):
                                     hash_res = get_maven_hash(name, base, existing_cache=libraries)
                                     if hash_res:
                                         h_type, h_val = hash_res
-                                        libraries[name] = {
+                                        discovered_libs[name] = {
                                             "url": MavenCoord.parse(name).jar_url(base),
                                             h_type: h_val
                                         }
                     return names
 
-                loaders[ver] = {
+                res_loader = {
                     "name": loader_coord,
                     "dependencies": {
                         "client": extract_names(raw_libs.get("client", [])),
@@ -144,8 +162,14 @@ class FabricModloader(BaseModloader):
                         "server": "net.fabricmc.loader.impl.launch.knot.KnotServer"
                     })
                 }
-            except Exception as e:
-                logger.warning(f"Could not fetch loader spec for Fabric {ver}: {e}")
+                return ver, res_loader, discovered_libs
+
+            with ThreadPoolExecutor(max_workers=16) as pool:
+                results = list(pool.map(process_fabric_loader, pending_versions))
+
+            for ver, res_loader, discovered_libs in results:
+                loaders[ver] = res_loader
+                libraries.update(discovered_libs)
 
         save_json(loaders_file, loaders)
         logger.info(f"Saved {len(loaders)} loader versions to {loaders_file}")
