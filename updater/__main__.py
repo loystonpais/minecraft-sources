@@ -8,7 +8,9 @@ from updater.mojang import (
     update_data_versions,
     update_from_local_directory,
     update_from_remote,
+    update_mojang_libraries,
 )
+
 
 
 def update_modloader_command(args: argparse.Namespace) -> int:
@@ -64,6 +66,16 @@ def mojang_assets_command(args: argparse.Namespace) -> int:
     except Exception as e:
         logger.error(f"Failed to update asset sha256 hashes: {e}")
         return 1
+
+
+def mojang_libraries_command(args: argparse.Namespace) -> int:
+    try:
+        return update_mojang_libraries(full=args.full, limit_versions=args.limit)
+    except Exception as e:
+        logger.error(f"Failed to update Mojang libraries: {e}")
+        return 1
+
+
 
 
 from updater.servers import AVAILABLE_SERVERS, update_server
@@ -138,14 +150,17 @@ def update_all_command(args: argparse.Namespace) -> int:
     logger.info("   Starting Full Minecraft Sources Update Pipeline")
     logger.info("==================================================")
 
-    # 1. Mojang Manifest & Data Versions
-    logger.info("\n==> [1/7] Updating Mojang Manifest & Data Versions...")
+    # 1. Mojang Manifest & Data Versions & Libraries
+    logger.info("\n==> [1/7] Updating Mojang Manifest, Data Versions & Libraries...")
     try:
-        update_manifest()
+        changed_versions = update_manifest()
         update_data_versions()
+        update_mojang_libraries(target_versions=changed_versions)
     except Exception as e:
         logger.error(f"Failed during Mojang update: {e}")
         return 1
+
+
 
     # 2. Modloaders (Fabric, Quilt, Forge, NeoForge, LiteLoader)
     logger.info("\n==> [2/7] Updating Modloaders...")
@@ -280,7 +295,25 @@ def build_parser() -> argparse.ArgumentParser:
     )
     m_assets.set_defaults(func=mojang_assets_command)
 
+    # mojang libraries
+    m_libs = mojang_subparsers.add_parser("libraries", help="Update mojang/libraries.json from version packages")
+    m_libs.add_argument(
+        "--full",
+        action="store_true",
+        help="Perform full scan of all versions in manifest instead of incremental diff",
+    )
+    m_libs.add_argument(
+        "--limit",
+        "-l",
+        type=int,
+        default=0,
+        help="Limit number of manifest versions to scan remotely (default: 0 for all)",
+    )
+    m_libs.set_defaults(func=mojang_libraries_command)
+
+
     return parser
+
 
 
 def main() -> None:

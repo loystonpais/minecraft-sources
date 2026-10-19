@@ -6,7 +6,8 @@ from updater.config import REPO_ROOT, save_json, load_json, logger
 
 NIXCRAFT_DIR = REPO_ROOT / "nixcraft"
 # Modloader & dependency sources that contribute to libraries.json
-SOURCE_LOADERS = ["fabric", "quilt", "forge", "neoforge", "liteloader", "lwjgl"]
+SOURCE_LOADERS = ["mojang", "fabric", "quilt", "forge", "neoforge", "liteloader", "lwjgl"]
+
 
 # Supported server software
 SERVER_PROJECTS = ["paper", "folia", "purpur", "velocity", "waterfall"]
