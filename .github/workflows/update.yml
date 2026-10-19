@@ -1,0 +1,87 @@
+name: Update Minecraft Sources
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Daily at 00:00
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Update target'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - nixcraft
+          - server
+          - modloader
+          - mojang
+          - lwjgl
+          - waywall
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v30
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+
+      - name: Set up Python
+        run: |
+          PYTHON_STORE_PATH=$(nix build --no-link --print-out-paths 'github:fzakaria/nixpkgs-multiverse#fast.versions.python3."3.14.7".out')
+          echo "$PYTHON_STORE_PATH/bin" >> $GITHUB_PATH
+          "$PYTHON_STORE_PATH/bin/python3.14" --version
+
+      - name: Run Sources Updater
+        run: |
+          TARGET="${{ inputs.target || 'all' }}"
+          if [ "$TARGET" = "all" ]; then
+            python3.14 -m updater all
+          elif [ "$TARGET" = "server" ]; then
+            python3.14 -m updater server all
+            python3.14 -m updater nixcraft
+          elif [ "$TARGET" = "modloader" ]; then
+            python3.14 -m updater modloader all
+            python3.14 -m updater nixcraft
+          elif [ "$TARGET" = "mojang" ]; then
+            python3.14 -m updater mojang manifest
+            python3.14 -m updater mojang data-versions
+            python3.14 -m updater nixcraft
+          else
+            python3.14 -m updater "$TARGET"
+            python3.14 -m updater nixcraft
+          fi
+
+      - name: Verify Nixcraft Nix Evaluation
+        run: |
+          nix-instantiate --eval --strict -E '
+          let
+            sources = import ./nixcraft {};
+          in
+          {
+            version = sources.currentVersion;
+            libraries = builtins.length (builtins.attrNames sources.version."1".libraries);
+            mojang = sources.version."1".mojang.latest.release;
+          }
+          '
+
+      - name: Commit and Push Changes
+        run: |
+          if git status --porcelain | grep -q .; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "chore(sources): automated update"
+            git push origin main
+          else
+            echo "No changes detected. Working tree clean."
+          fi
