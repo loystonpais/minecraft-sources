@@ -1,6 +1,6 @@
 {
-  "21.1.263": {
-    "version": "21.1.263",
+  "21.1.264": {
+    "version": "21.1.264",
     "dependencies": [
       "io.github.zekerzhayard:ForgeWrapper:prism-2026-08-01",
       "net.neoforged.fancymodloader:earlydisplay:4.0.45",
@@ -49,7 +49,7 @@
       "org.jline:jline-terminal:3.20.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
-    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --fml.neoForgeVersion 21.1.263 --fml.fmlVersion 4.0.45 --fml.mcVersion 1.21.1 --fml.neoFormVersion 20240808.144430 --launchTarget forgeclient"
+    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --fml.neoForgeVersion 21.1.264 --fml.fmlVersion 4.0.45 --fml.mcVersion 1.21.1 --fml.neoFormVersion 20240808.144430 --launchTarget forgeclient"
   },
   "26.3.0.92": {
     "version": "26.3.0.92",

@@ -2479,71 +2479,35 @@
     "1.21.11": [
       "net.fabricmc:intermediary:1.21.11"
     ],
-    "1.21.11_unobfuscated": [
-      "net.fabricmc:intermediary:1.21.11_unobfuscated"
-    ],
-    "1_21_11_unobfuscated": [
-      "net.fabricmc:intermediary:1_21_11_unobfuscated"
-    ],
     "1.21.11-rc3": [
       "net.fabricmc:intermediary:1.21.11-rc3"
-    ],
-    "1.21.11-rc3_unobfuscated": [
-      "net.fabricmc:intermediary:1.21.11-rc3_unobfuscated"
     ],
     "1.21.11-rc2": [
       "net.fabricmc:intermediary:1.21.11-rc2"
     ],
-    "1.21.11-rc2_unobfuscated": [
-      "net.fabricmc:intermediary:1.21.11-rc2_unobfuscated"
-    ],
     "1.21.11-rc1": [
       "net.fabricmc:intermediary:1.21.11-rc1"
-    ],
-    "1.21.11-rc1_unobfuscated": [
-      "net.fabricmc:intermediary:1.21.11-rc1_unobfuscated"
     ],
     "1.21.11-pre5": [
       "net.fabricmc:intermediary:1.21.11-pre5"
     ],
-    "1.21.11-pre5_unobfuscated": [
-      "net.fabricmc:intermediary:1.21.11-pre5_unobfuscated"
-    ],
     "1.21.11-pre4": [
       "net.fabricmc:intermediary:1.21.11-pre4"
-    ],
-    "1.21.11-pre4_unobfuscated": [
-      "net.fabricmc:intermediary:1.21.11-pre4_unobfuscated"
     ],
     "1.21.11-pre3": [
       "net.fabricmc:intermediary:1.21.11-pre3"
     ],
-    "1.21.11-pre3_unobfuscated": [
-      "net.fabricmc:intermediary:1.21.11-pre3_unobfuscated"
-    ],
     "1.21.11-pre2": [
       "net.fabricmc:intermediary:1.21.11-pre2"
-    ],
-    "1.21.11-pre2_unobfuscated": [
-      "net.fabricmc:intermediary:1.21.11-pre2_unobfuscated"
     ],
     "1.21.11-pre1": [
       "net.fabricmc:intermediary:1.21.11-pre1"
     ],
-    "1.21.11-pre1_unobfuscated": [
-      "net.fabricmc:intermediary:1.21.11-pre1_unobfuscated"
-    ],
     "25w46a": [
       "net.fabricmc:intermediary:25w46a"
     ],
-    "25w46a_unobfuscated": [
-      "net.fabricmc:intermediary:25w46a_unobfuscated"
-    ],
     "25w45a": [
       "net.fabricmc:intermediary:25w45a"
-    ],
-    "25w45a_unobfuscated": [
-      "net.fabricmc:intermediary:25w45a_unobfuscated"
     ],
     "25w44a": [
       "net.fabricmc:intermediary:25w44a"
@@ -2872,9 +2836,6 @@
     "24w14potato": [
       "net.fabricmc:intermediary:24w14potato"
     ],
-    "24w14potato_original": [
-      "net.fabricmc:intermediary:24w14potato_original"
-    ],
     "24w13a": [
       "net.fabricmc:intermediary:24w13a"
     ],
@@ -3045,9 +3006,6 @@
     ],
     "23w13a_or_b": [
       "net.fabricmc:intermediary:23w13a_or_b"
-    ],
-    "23w13a_or_b_original": [
-      "net.fabricmc:intermediary:23w13a_or_b_original"
     ],
     "23w13a": [
       "net.fabricmc:intermediary:23w13a"
@@ -3244,9 +3202,6 @@
     "1.18.2-pre1": [
       "net.fabricmc:intermediary:1.18.2-pre1"
     ],
-    "1.19_deep_dark_experimental_snapshot-1": [
-      "net.fabricmc:intermediary:1.19_deep_dark_experimental_snapshot-1"
-    ],
     "22w07a": [
       "net.fabricmc:intermediary:22w07a"
     ],
@@ -3336,27 +3291,6 @@
     ],
     "21w37a": [
       "net.fabricmc:intermediary:21w37a"
-    ],
-    "1.18_experimental-snapshot-7": [
-      "net.fabricmc:intermediary:1.18_experimental-snapshot-7"
-    ],
-    "1.18_experimental-snapshot-6": [
-      "net.fabricmc:intermediary:1.18_experimental-snapshot-6"
-    ],
-    "1.18_experimental-snapshot-5": [
-      "net.fabricmc:intermediary:1.18_experimental-snapshot-5"
-    ],
-    "1.18_experimental-snapshot-4": [
-      "net.fabricmc:intermediary:1.18_experimental-snapshot-4"
-    ],
-    "1.18_experimental-snapshot-3": [
-      "net.fabricmc:intermediary:1.18_experimental-snapshot-3"
-    ],
-    "1.18_experimental-snapshot-2": [
-      "net.fabricmc:intermediary:1.18_experimental-snapshot-2"
-    ],
-    "1.18_experimental-snapshot-1": [
-      "net.fabricmc:intermediary:1.18_experimental-snapshot-1"
     ],
     "1.17.1": [
       "net.fabricmc:intermediary:1.17.1"
@@ -3481,8 +3415,32 @@
     "1.16.4-pre2": [
       "net.fabricmc:intermediary:1.16.4-pre2"
     ],
-    "3D Shareware v1.34": [
-      "net.fabricmc:intermediary:3D Shareware v1.34"
+    "1.16.4-pre1": [
+      "net.fabricmc:intermediary:1.16.4-pre1"
+    ],
+    "1.16.3": [
+      "net.fabricmc:intermediary:1.16.3"
+    ],
+    "1.16.3-rc1": [
+      "net.fabricmc:intermediary:1.16.3-rc1"
+    ],
+    "1.16.2": [
+      "net.fabricmc:intermediary:1.16.2"
+    ],
+    "1.16.2-rc2": [
+      "net.fabricmc:intermediary:1.16.2-rc2"
+    ],
+    "1.16.2-rc1": [
+      "net.fabricmc:intermediary:1.16.2-rc1"
+    ],
+    "1.16.2-pre3": [
+      "net.fabricmc:intermediary:1.16.2-pre3"
+    ],
+    "1.16.2-pre2": [
+      "net.fabricmc:intermediary:1.16.2-pre2"
+    ],
+    "1.16.2-pre1": [
+      "net.fabricmc:intermediary:1.16.2-pre1"
     ],
     "20w30a": [
       "net.fabricmc:intermediary:20w30a"
@@ -3496,26 +3454,59 @@
     "20w27a": [
       "net.fabricmc:intermediary:20w27a"
     ],
-    "20w21a": [
-      "net.fabricmc:intermediary:20w21a"
+    "1.16.1": [
+      "net.fabricmc:intermediary:1.16.1"
+    ],
+    "1.16": [
+      "net.fabricmc:intermediary:1.16"
+    ],
+    "1.16-rc1": [
+      "net.fabricmc:intermediary:1.16-rc1"
+    ],
+    "1.16-pre8": [
+      "net.fabricmc:intermediary:1.16-pre8"
+    ],
+    "1.16-pre7": [
+      "net.fabricmc:intermediary:1.16-pre7"
+    ],
+    "1.16-pre6": [
+      "net.fabricmc:intermediary:1.16-pre6"
+    ],
+    "1.16-pre5": [
+      "net.fabricmc:intermediary:1.16-pre5"
+    ],
+    "1.16-pre4": [
+      "net.fabricmc:intermediary:1.16-pre4"
+    ],
+    "1.16-pre3": [
+      "net.fabricmc:intermediary:1.16-pre3"
+    ],
+    "1.16-pre2": [
+      "net.fabricmc:intermediary:1.16-pre2"
+    ],
+    "1.16-pre1": [
+      "net.fabricmc:intermediary:1.16-pre1"
     ],
     "20w22a": [
       "net.fabricmc:intermediary:20w22a"
     ],
-    "20w20a": [
-      "net.fabricmc:intermediary:20w20a"
+    "20w21a": [
+      "net.fabricmc:intermediary:20w21a"
     ],
     "20w20b": [
       "net.fabricmc:intermediary:20w20b"
     ],
+    "20w20a": [
+      "net.fabricmc:intermediary:20w20a"
+    ],
     "20w19a": [
       "net.fabricmc:intermediary:20w19a"
     ],
-    "20w17a": [
-      "net.fabricmc:intermediary:20w17a"
-    ],
     "20w18a": [
       "net.fabricmc:intermediary:20w18a"
+    ],
+    "20w17a": [
+      "net.fabricmc:intermediary:20w17a"
     ],
     "20w16a": [
       "net.fabricmc:intermediary:20w16a"
@@ -3523,17 +3514,17 @@
     "20w15a": [
       "net.fabricmc:intermediary:20w15a"
     ],
-    "20w14infinite": [
-      "net.fabricmc:intermediary:20w14infinite"
-    ],
     "20w14a": [
       "net.fabricmc:intermediary:20w14a"
     ],
-    "20w13a": [
-      "net.fabricmc:intermediary:20w13a"
+    "20w14infinite": [
+      "net.fabricmc:intermediary:20w14infinite"
     ],
     "20w13b": [
       "net.fabricmc:intermediary:20w13b"
+    ],
+    "20w13a": [
+      "net.fabricmc:intermediary:20w13a"
     ],
     "20w12a": [
       "net.fabricmc:intermediary:20w12a"
@@ -3555,6 +3546,45 @@
     ],
     "20w06a": [
       "net.fabricmc:intermediary:20w06a"
+    ],
+    "1.15.2": [
+      "net.fabricmc:intermediary:1.15.2"
+    ],
+    "1.15.2-pre2": [
+      "net.fabricmc:intermediary:1.15.2-pre2"
+    ],
+    "1.15.2-pre1": [
+      "net.fabricmc:intermediary:1.15.2-pre1"
+    ],
+    "1.15.1": [
+      "net.fabricmc:intermediary:1.15.1"
+    ],
+    "1.15.1-pre1": [
+      "net.fabricmc:intermediary:1.15.1-pre1"
+    ],
+    "1.15": [
+      "net.fabricmc:intermediary:1.15"
+    ],
+    "1.15-pre7": [
+      "net.fabricmc:intermediary:1.15-pre7"
+    ],
+    "1.15-pre6": [
+      "net.fabricmc:intermediary:1.15-pre6"
+    ],
+    "1.15-pre5": [
+      "net.fabricmc:intermediary:1.15-pre5"
+    ],
+    "1.15-pre4": [
+      "net.fabricmc:intermediary:1.15-pre4"
+    ],
+    "1.15-pre3": [
+      "net.fabricmc:intermediary:1.15-pre3"
+    ],
+    "1.15-pre2": [
+      "net.fabricmc:intermediary:1.15-pre2"
+    ],
+    "1.15-pre1": [
+      "net.fabricmc:intermediary:1.15-pre1"
     ],
     "19w46b": [
       "net.fabricmc:intermediary:19w46b"
@@ -3592,239 +3622,14 @@
     "19w37a": [
       "net.fabricmc:intermediary:19w37a"
     ],
-    "19w35a": [
-      "net.fabricmc:intermediary:19w35a"
-    ],
     "19w36a": [
       "net.fabricmc:intermediary:19w36a"
     ],
+    "19w35a": [
+      "net.fabricmc:intermediary:19w35a"
+    ],
     "19w34a": [
       "net.fabricmc:intermediary:19w34a"
-    ],
-    "19w14b": [
-      "net.fabricmc:intermediary:19w14b"
-    ],
-    "19w14a": [
-      "net.fabricmc:intermediary:19w14a"
-    ],
-    "19w13b": [
-      "net.fabricmc:intermediary:19w13b"
-    ],
-    "19w13a": [
-      "net.fabricmc:intermediary:19w13a"
-    ],
-    "19w12b": [
-      "net.fabricmc:intermediary:19w12b"
-    ],
-    "19w12a": [
-      "net.fabricmc:intermediary:19w12a"
-    ],
-    "19w11b": [
-      "net.fabricmc:intermediary:19w11b"
-    ],
-    "19w11a": [
-      "net.fabricmc:intermediary:19w11a"
-    ],
-    "19w09a": [
-      "net.fabricmc:intermediary:19w09a"
-    ],
-    "19w08b": [
-      "net.fabricmc:intermediary:19w08b"
-    ],
-    "19w07a": [
-      "net.fabricmc:intermediary:19w07a"
-    ],
-    "19w08a": [
-      "net.fabricmc:intermediary:19w08a"
-    ],
-    "19w05a": [
-      "net.fabricmc:intermediary:19w05a"
-    ],
-    "19w06a": [
-      "net.fabricmc:intermediary:19w06a"
-    ],
-    "19w04b": [
-      "net.fabricmc:intermediary:19w04b"
-    ],
-    "19w04a": [
-      "net.fabricmc:intermediary:19w04a"
-    ],
-    "19w03b": [
-      "net.fabricmc:intermediary:19w03b"
-    ],
-    "19w03c": [
-      "net.fabricmc:intermediary:19w03c"
-    ],
-    "19w02a": [
-      "net.fabricmc:intermediary:19w02a"
-    ],
-    "19w03a": [
-      "net.fabricmc:intermediary:19w03a"
-    ],
-    "18w49a": [
-      "net.fabricmc:intermediary:18w49a"
-    ],
-    "18w50a": [
-      "net.fabricmc:intermediary:18w50a"
-    ],
-    "18w48b": [
-      "net.fabricmc:intermediary:18w48b"
-    ],
-    "18w47b": [
-      "net.fabricmc:intermediary:18w47b"
-    ],
-    "18w48a": [
-      "net.fabricmc:intermediary:18w48a"
-    ],
-    "18w46a": [
-      "net.fabricmc:intermediary:18w46a"
-    ],
-    "18w47a": [
-      "net.fabricmc:intermediary:18w47a"
-    ],
-    "18w44a": [
-      "net.fabricmc:intermediary:18w44a"
-    ],
-    "18w45a": [
-      "net.fabricmc:intermediary:18w45a"
-    ],
-    "18w43c": [
-      "net.fabricmc:intermediary:18w43c"
-    ],
-    "18w43b": [
-      "net.fabricmc:intermediary:18w43b"
-    ],
-    "1.16": [
-      "net.fabricmc:intermediary:1.16"
-    ],
-    "1.16.4-pre1": [
-      "net.fabricmc:intermediary:1.16.4-pre1"
-    ],
-    "1.16_combat-3": [
-      "net.fabricmc:intermediary:1.16_combat-3"
-    ],
-    "1.16.3-rc1": [
-      "net.fabricmc:intermediary:1.16.3-rc1"
-    ],
-    "1.16.3": [
-      "net.fabricmc:intermediary:1.16.3"
-    ],
-    "1.16.2": [
-      "net.fabricmc:intermediary:1.16.2"
-    ],
-    "1.16.2-rc2": [
-      "net.fabricmc:intermediary:1.16.2-rc2"
-    ],
-    "1.16.2-pre3": [
-      "net.fabricmc:intermediary:1.16.2-pre3"
-    ],
-    "1.16.2-rc1": [
-      "net.fabricmc:intermediary:1.16.2-rc1"
-    ],
-    "1.16.2-pre2": [
-      "net.fabricmc:intermediary:1.16.2-pre2"
-    ],
-    "1.16.2-pre1": [
-      "net.fabricmc:intermediary:1.16.2-pre1"
-    ],
-    "1.16.1": [
-      "net.fabricmc:intermediary:1.16.1"
-    ],
-    "1.16-rc1": [
-      "net.fabricmc:intermediary:1.16-rc1"
-    ],
-    "1.16-pre8": [
-      "net.fabricmc:intermediary:1.16-pre8"
-    ],
-    "1.16-pre7": [
-      "net.fabricmc:intermediary:1.16-pre7"
-    ],
-    "1.16-pre6": [
-      "net.fabricmc:intermediary:1.16-pre6"
-    ],
-    "1.16-pre5": [
-      "net.fabricmc:intermediary:1.16-pre5"
-    ],
-    "1.16-pre3": [
-      "net.fabricmc:intermediary:1.16-pre3"
-    ],
-    "1.16-pre4": [
-      "net.fabricmc:intermediary:1.16-pre4"
-    ],
-    "1.16-pre1": [
-      "net.fabricmc:intermediary:1.16-pre1"
-    ],
-    "1.16-pre2": [
-      "net.fabricmc:intermediary:1.16-pre2"
-    ],
-    "1.15": [
-      "net.fabricmc:intermediary:1.15"
-    ],
-    "1.15_combat-1": [
-      "net.fabricmc:intermediary:1.15_combat-1"
-    ],
-    "1.15.2-pre2": [
-      "net.fabricmc:intermediary:1.15.2-pre2"
-    ],
-    "1.15.2": [
-      "net.fabricmc:intermediary:1.15.2"
-    ],
-    "1.15.2-pre1": [
-      "net.fabricmc:intermediary:1.15.2-pre1"
-    ],
-    "1.15.1-pre1": [
-      "net.fabricmc:intermediary:1.15.1-pre1"
-    ],
-    "1.15.1": [
-      "net.fabricmc:intermediary:1.15.1"
-    ],
-    "1.15-pre7": [
-      "net.fabricmc:intermediary:1.15-pre7"
-    ],
-    "1.15-pre6": [
-      "net.fabricmc:intermediary:1.15-pre6"
-    ],
-    "1.15-pre5": [
-      "net.fabricmc:intermediary:1.15-pre5"
-    ],
-    "1.15-pre4": [
-      "net.fabricmc:intermediary:1.15-pre4"
-    ],
-    "1.15-pre3": [
-      "net.fabricmc:intermediary:1.15-pre3"
-    ],
-    "1.15-pre1": [
-      "net.fabricmc:intermediary:1.15-pre1"
-    ],
-    "1.15-pre2": [
-      "net.fabricmc:intermediary:1.15-pre2"
-    ],
-    "1.14_combat-3": [
-      "net.fabricmc:intermediary:1.14_combat-3"
-    ],
-    "1.14": [
-      "net.fabricmc:intermediary:1.14"
-    ],
-    "1.14_combat-212796": [
-      "net.fabricmc:intermediary:1.14_combat-212796"
-    ],
-    "1.14_combat-0": [
-      "net.fabricmc:intermediary:1.14_combat-0"
-    ],
-    "1.14 Pre-Release 5": [
-      "net.fabricmc:intermediary:1.14 Pre-Release 5"
-    ],
-    "1.14 Pre-Release 4": [
-      "net.fabricmc:intermediary:1.14 Pre-Release 4"
-    ],
-    "1.14 Pre-Release 3": [
-      "net.fabricmc:intermediary:1.14 Pre-Release 3"
-    ],
-    "1.14 Pre-Release 2": [
-      "net.fabricmc:intermediary:1.14 Pre-Release 2"
-    ],
-    "1.14 Pre-Release 1": [
-      "net.fabricmc:intermediary:1.14 Pre-Release 1"
     ],
     "1.14.4": [
       "net.fabricmc:intermediary:1.14.4"
@@ -3835,11 +3640,11 @@
     "1.14.4-pre6": [
       "net.fabricmc:intermediary:1.14.4-pre6"
     ],
-    "1.14.4-pre4": [
-      "net.fabricmc:intermediary:1.14.4-pre4"
-    ],
     "1.14.4-pre5": [
       "net.fabricmc:intermediary:1.14.4-pre5"
+    ],
+    "1.14.4-pre4": [
+      "net.fabricmc:intermediary:1.14.4-pre4"
     ],
     "1.14.4-pre3": [
       "net.fabricmc:intermediary:1.14.4-pre3"
@@ -3850,11 +3655,11 @@
     "1.14.4-pre1": [
       "net.fabricmc:intermediary:1.14.4-pre1"
     ],
-    "1.14.3-pre4": [
-      "net.fabricmc:intermediary:1.14.3-pre4"
-    ],
     "1.14.3": [
       "net.fabricmc:intermediary:1.14.3"
+    ],
+    "1.14.3-pre4": [
+      "net.fabricmc:intermediary:1.14.3-pre4"
     ],
     "1.14.3-pre3": [
       "net.fabricmc:intermediary:1.14.3-pre3"
@@ -3883,11 +3688,203 @@
     "1.14.1": [
       "net.fabricmc:intermediary:1.14.1"
     ],
+    "1.14.1 Pre-Release 2": [
+      "net.fabricmc:intermediary:1.14.1 Pre-Release 2"
+    ],
     "1.14.1 Pre-Release 1": [
       "net.fabricmc:intermediary:1.14.1 Pre-Release 1"
     ],
-    "1.14.1 Pre-Release 2": [
-      "net.fabricmc:intermediary:1.14.1 Pre-Release 2"
+    "1.14": [
+      "net.fabricmc:intermediary:1.14"
+    ],
+    "1.14 Pre-Release 5": [
+      "net.fabricmc:intermediary:1.14 Pre-Release 5"
+    ],
+    "1.14 Pre-Release 4": [
+      "net.fabricmc:intermediary:1.14 Pre-Release 4"
+    ],
+    "1.14 Pre-Release 3": [
+      "net.fabricmc:intermediary:1.14 Pre-Release 3"
+    ],
+    "1.14 Pre-Release 2": [
+      "net.fabricmc:intermediary:1.14 Pre-Release 2"
+    ],
+    "1.14 Pre-Release 1": [
+      "net.fabricmc:intermediary:1.14 Pre-Release 1"
+    ],
+    "19w14b": [
+      "net.fabricmc:intermediary:19w14b"
+    ],
+    "19w14a": [
+      "net.fabricmc:intermediary:19w14a"
+    ],
+    "3D Shareware v1.34": [
+      "net.fabricmc:intermediary:3D Shareware v1.34"
+    ],
+    "19w13b": [
+      "net.fabricmc:intermediary:19w13b"
+    ],
+    "19w13a": [
+      "net.fabricmc:intermediary:19w13a"
+    ],
+    "19w12b": [
+      "net.fabricmc:intermediary:19w12b"
+    ],
+    "19w12a": [
+      "net.fabricmc:intermediary:19w12a"
+    ],
+    "19w11b": [
+      "net.fabricmc:intermediary:19w11b"
+    ],
+    "19w11a": [
+      "net.fabricmc:intermediary:19w11a"
+    ],
+    "19w09a": [
+      "net.fabricmc:intermediary:19w09a"
+    ],
+    "19w08b": [
+      "net.fabricmc:intermediary:19w08b"
+    ],
+    "19w08a": [
+      "net.fabricmc:intermediary:19w08a"
+    ],
+    "19w07a": [
+      "net.fabricmc:intermediary:19w07a"
+    ],
+    "19w06a": [
+      "net.fabricmc:intermediary:19w06a"
+    ],
+    "19w05a": [
+      "net.fabricmc:intermediary:19w05a"
+    ],
+    "19w04b": [
+      "net.fabricmc:intermediary:19w04b"
+    ],
+    "19w04a": [
+      "net.fabricmc:intermediary:19w04a"
+    ],
+    "19w03c": [
+      "net.fabricmc:intermediary:19w03c"
+    ],
+    "19w03b": [
+      "net.fabricmc:intermediary:19w03b"
+    ],
+    "19w03a": [
+      "net.fabricmc:intermediary:19w03a"
+    ],
+    "19w02a": [
+      "net.fabricmc:intermediary:19w02a"
+    ],
+    "18w50a": [
+      "net.fabricmc:intermediary:18w50a"
+    ],
+    "18w49a": [
+      "net.fabricmc:intermediary:18w49a"
+    ],
+    "18w48b": [
+      "net.fabricmc:intermediary:18w48b"
+    ],
+    "18w48a": [
+      "net.fabricmc:intermediary:18w48a"
+    ],
+    "18w47b": [
+      "net.fabricmc:intermediary:18w47b"
+    ],
+    "18w47a": [
+      "net.fabricmc:intermediary:18w47a"
+    ],
+    "18w46a": [
+      "net.fabricmc:intermediary:18w46a"
+    ],
+    "18w45a": [
+      "net.fabricmc:intermediary:18w45a"
+    ],
+    "18w44a": [
+      "net.fabricmc:intermediary:18w44a"
+    ],
+    "18w43c": [
+      "net.fabricmc:intermediary:18w43c"
+    ],
+    "18w43b": [
+      "net.fabricmc:intermediary:18w43b"
+    ],
+    "1.21.11_unobfuscated": [
+      "net.fabricmc:intermediary:1.21.11_unobfuscated"
+    ],
+    "1.21.11-rc3_unobfuscated": [
+      "net.fabricmc:intermediary:1.21.11-rc3_unobfuscated"
+    ],
+    "1.21.11-rc2_unobfuscated": [
+      "net.fabricmc:intermediary:1.21.11-rc2_unobfuscated"
+    ],
+    "1.21.11-rc1_unobfuscated": [
+      "net.fabricmc:intermediary:1.21.11-rc1_unobfuscated"
+    ],
+    "1.21.11-pre5_unobfuscated": [
+      "net.fabricmc:intermediary:1.21.11-pre5_unobfuscated"
+    ],
+    "1.21.11-pre4_unobfuscated": [
+      "net.fabricmc:intermediary:1.21.11-pre4_unobfuscated"
+    ],
+    "1.21.11-pre3_unobfuscated": [
+      "net.fabricmc:intermediary:1.21.11-pre3_unobfuscated"
+    ],
+    "1.21.11-pre2_unobfuscated": [
+      "net.fabricmc:intermediary:1.21.11-pre2_unobfuscated"
+    ],
+    "1.21.11-pre1_unobfuscated": [
+      "net.fabricmc:intermediary:1.21.11-pre1_unobfuscated"
+    ],
+    "25w46a_unobfuscated": [
+      "net.fabricmc:intermediary:25w46a_unobfuscated"
+    ],
+    "25w45a_unobfuscated": [
+      "net.fabricmc:intermediary:25w45a_unobfuscated"
+    ],
+    "24w14potato_original": [
+      "net.fabricmc:intermediary:24w14potato_original"
+    ],
+    "23w13a_or_b_original": [
+      "net.fabricmc:intermediary:23w13a_or_b_original"
+    ],
+    "1.19_deep_dark_experimental_snapshot-1": [
+      "net.fabricmc:intermediary:1.19_deep_dark_experimental_snapshot-1"
+    ],
+    "1.18_experimental-snapshot-7": [
+      "net.fabricmc:intermediary:1.18_experimental-snapshot-7"
+    ],
+    "1.18_experimental-snapshot-6": [
+      "net.fabricmc:intermediary:1.18_experimental-snapshot-6"
+    ],
+    "1.18_experimental-snapshot-5": [
+      "net.fabricmc:intermediary:1.18_experimental-snapshot-5"
+    ],
+    "1.18_experimental-snapshot-4": [
+      "net.fabricmc:intermediary:1.18_experimental-snapshot-4"
+    ],
+    "1.18_experimental-snapshot-3": [
+      "net.fabricmc:intermediary:1.18_experimental-snapshot-3"
+    ],
+    "1.18_experimental-snapshot-2": [
+      "net.fabricmc:intermediary:1.18_experimental-snapshot-2"
+    ],
+    "1.18_experimental-snapshot-1": [
+      "net.fabricmc:intermediary:1.18_experimental-snapshot-1"
+    ],
+    "1.16_combat-3": [
+      "net.fabricmc:intermediary:1.16_combat-3"
+    ],
+    "1.15_combat-1": [
+      "net.fabricmc:intermediary:1.15_combat-1"
+    ],
+    "1.14_combat-3": [
+      "net.fabricmc:intermediary:1.14_combat-3"
+    ],
+    "1.14_combat-0": [
+      "net.fabricmc:intermediary:1.14_combat-0"
+    ],
+    "1.14_combat-212796": [
+      "net.fabricmc:intermediary:1.14_combat-212796"
     ]
   }
 }
