@@ -132,12 +132,91 @@ def lwjgl_command(args: argparse.Namespace) -> int:
         return 1
 
 
+def update_all_command(args: argparse.Namespace) -> int:
+    """Executes full update pipeline across all sources followed by nixcraft compilation and verification."""
+    logger.info("==================================================")
+    logger.info("   Starting Full Minecraft Sources Update Pipeline")
+    logger.info("==================================================")
+
+    # 1. Mojang Manifest & Data Versions
+    logger.info("\n==> [1/7] Updating Mojang Manifest & Data Versions...")
+    try:
+        update_manifest()
+        update_data_versions()
+    except Exception as e:
+        logger.error(f"Failed during Mojang update: {e}")
+        return 1
+
+    # 2. Modloaders (Fabric, Quilt, Forge, NeoForge, LiteLoader)
+    logger.info("\n==> [2/7] Updating Modloaders...")
+    for name, loader_cls in MODLOADERS.items():
+        logger.info(f"--> Updating {name}...")
+        try:
+            loader = loader_cls()
+            loader.update_raw()
+            loader.normalize()
+        except Exception as e:
+            logger.error(f"Failed updating modloader {name}: {e}")
+            return 1
+
+    # 3. Server Software (Paper, Folia, Purpur, Velocity, Waterfall)
+    logger.info("\n==> [3/7] Updating Server Software...")
+    for s_name in AVAILABLE_SERVERS:
+        logger.info(f"--> Updating server {s_name}...")
+        try:
+            update_server(s_name)
+        except Exception as e:
+            logger.error(f"Failed updating server {s_name}: {e}")
+            return 1
+
+    # 4. LWJGL 2 & 3
+    logger.info("\n==> [4/7] Updating LWJGL...")
+    try:
+        update_lwjgl()
+    except Exception as e:
+        logger.error(f"Failed updating LWJGL: {e}")
+        return 1
+
+    # 5. Waywall
+    logger.info("\n==> [5/7] Updating Waywall...")
+    try:
+        update_waywall()
+    except Exception as e:
+        logger.error(f"Failed updating Waywall: {e}")
+        return 1
+
+    # 6. Nixcraft Compilation
+    logger.info("\n==> [6/7] Building nixcraft/ Directory...")
+    try:
+        build_all_nixcraft()
+    except Exception as e:
+        logger.error(f"Failed compiling nixcraft: {e}")
+        return 1
+
+    # 7. Verification
+    logger.info("\n==> [7/7] Validating nixcraft/ Schemas...")
+    if not args.no_verify:
+        if not verify_all_nixcraft():
+            logger.error("Schema validation failed!")
+            return 1
+
+    logger.info("\n==================================================")
+    logger.info("   Full Pipeline Completed Successfully!")
+    logger.info("==================================================")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="python -m updater",
         description="Minecraft Sources Manager & Updater",
     )
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
+
+    # all subcommand
+    all_parser = subparsers.add_parser("all", help="Update all sources, build nixcraft/, and verify schemas")
+    all_parser.add_argument("--no-verify", action="store_true", help="Skip schema verification after build")
+    all_parser.set_defaults(func=update_all_command)
 
     # verify subcommand
     verify_parser = subparsers.add_parser("verify", help="Exhaustively validate schema and attributes of nixcraft/ files")
