@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install Nix
         uses: cachix/install-nix-action@v30
@@ -74,7 +76,7 @@ jobs:
           }
           '
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Changes to Main
         run: |
           if git status --porcelain | grep -q .; then
             git config user.name "github-actions[bot]"
@@ -83,5 +85,36 @@ jobs:
             git commit -m "chore(sources): automated update"
             git push origin main
           else
-            echo "No changes detected. Working tree clean."
+            echo "No changes detected on main. Working tree clean."
           fi
+
+      - name: Sync and Push to Nixcraft Branch
+        run: |
+          # Fetch nixcraft branch from remote
+          git fetch origin nixcraft:nixcraft || git branch --track nixcraft origin/nixcraft || true
+
+          # Create a separate worktree for nixcraft branch
+          WORKTREE_DIR=$(mktemp -d)
+          git worktree add "$WORKTREE_DIR" nixcraft
+
+          # Clean old files in the branch worktree to avoid orphaned artifacts
+          rm -rf "$WORKTREE_DIR"/*
+
+          # Copy everything from nixcraft/ directory into worktree root
+          cp -r nixcraft/* "$WORKTREE_DIR"/
+
+          cd "$WORKTREE_DIR"
+          if git status --porcelain | grep -q .; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "chore(nixcraft): sync sources from main"
+            git push origin nixcraft
+          else
+            echo "No changes detected in nixcraft branch."
+          fi
+
+
+          cd -
+          git worktree remove "$WORKTREE_DIR" --force
+
