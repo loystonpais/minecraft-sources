@@ -1,0 +1,97 @@
+{
+  "versions": [
+    "0.2026.10.12b",
+    "0.2026.10.11",
+    "0.2026.06.13",
+    "0.2026.02.06",
+    "0.2026.01.11",
+    "0.2025.12.30",
+    "0.2025.12.20"
+  ],
+  "releases": {
+    "0.2026.10.12b": {
+      "src": {
+        "url": "https://github.com/tesselslate/waywall/archive/refs/tags/0.2026.10.12b.tar.gz",
+        "hash": "sha256-mBm4C0t809NWI0/HR53eQGuGSGj7Jrgv9sDh36kxvqM="
+      },
+      "patches": {
+        "glfw": {
+          "url": "https://raw.githubusercontent.com/tesselslate/waywall/0.2026.10.12b/contrib/glfw.patch",
+          "hash": "sha256-kl3DFYVfUe4CPBSuh3DJxDpYvg8vFxq8F+RR9sG+EHE="
+        }
+      }
+    },
+    "0.2026.10.11": {
+      "src": {
+        "url": "https://github.com/tesselslate/waywall/archive/refs/tags/0.2026.10.11.tar.gz",
+        "hash": "sha256-7lOd59Lym13p//GthLIQCXX2t59QYaTjccLI1Dzh1u4="
+      },
+      "patches": {
+        "glfw": {
+          "url": "https://raw.githubusercontent.com/tesselslate/waywall/0.2026.10.11/contrib/glfw.patch",
+          "hash": "sha256-kl3DFYVfUe4CPBSuh3DJxDpYvg8vFxq8F+RR9sG+EHE="
+        }
+      }
+    },
+    "0.2026.06.13": {
+      "src": {
+        "url": "https://github.com/tesselslate/waywall/archive/refs/tags/0.2026.06.13.tar.gz",
+        "hash": "sha256-y4haKw4Z8wqtOT5eTEt/tUqbr4FoYf5EbH63uyTGDow="
+      },
+      "patches": {
+        "glfw": {
+          "url": "https://raw.githubusercontent.com/tesselslate/waywall/0.2026.06.13/contrib/glfw.patch",
+          "hash": "sha256-kl3DFYVfUe4CPBSuh3DJxDpYvg8vFxq8F+RR9sG+EHE="
+        }
+      }
+    },
+    "0.2026.02.06": {
+      "src": {
+        "url": "https://github.com/tesselslate/waywall/archive/refs/tags/0.2026.02.06.tar.gz",
+        "hash": "sha256-SlT7B01sAKE3n9HVnE+t9hcbQnr5qcCBsBAy4btN0mw="
+      },
+      "patches": {
+        "glfw": {
+          "url": "https://raw.githubusercontent.com/tesselslate/waywall/0.2026.02.06/contrib/glfw.patch",
+          "hash": "sha256-kl3DFYVfUe4CPBSuh3DJxDpYvg8vFxq8F+RR9sG+EHE="
+        }
+      }
+    },
+    "0.2026.01.11": {
+      "src": {
+        "url": "https://github.com/tesselslate/waywall/archive/refs/tags/0.2026.01.11.tar.gz",
+        "hash": "sha256-VOtwVFMGgUvsGnD1CnflKtUy5tTKqK2C/qNsWwgbyEU="
+      },
+      "patches": {
+        "glfw": {
+          "url": "https://raw.githubusercontent.com/tesselslate/waywall/0.2026.01.11/contrib/glfw.patch",
+          "hash": "sha256-kl3DFYVfUe4CPBSuh3DJxDpYvg8vFxq8F+RR9sG+EHE="
+        }
+      }
+    },
+    "0.2025.12.30": {
+      "src": {
+        "url": "https://github.com/tesselslate/waywall/archive/refs/tags/0.2025.12.30.tar.gz",
+        "hash": "sha256-idtlOXT3RGjAOMgZ+e5vwZnxd33snc4sIjq0G6TU7HU="
+      },
+      "patches": {
+        "glfw": {
+          "url": "https://raw.githubusercontent.com/tesselslate/waywall/0.2025.12.30/contrib/glfw.patch",
+          "hash": "sha256-kl3DFYVfUe4CPBSuh3DJxDpYvg8vFxq8F+RR9sG+EHE="
+        }
+      }
+    },
+    "0.2025.12.20": {
+      "src": {
+        "url": "https://github.com/tesselslate/waywall/archive/refs/tags/0.2025.12.20.tar.gz",
+        "hash": "sha256-sGb/dxXBlzXBvv2IWjgwSE8WM5qB04mYATl0uhSozMQ="
+      },
+      "patches": {
+        "glfw": {
+          "url": "https://raw.githubusercontent.com/tesselslate/waywall/0.2025.12.20/contrib/glfw.patch",
+          "hash": "sha256-kl3DFYVfUe4CPBSuh3DJxDpYvg8vFxq8F+RR9sG+EHE="
+        }
+      }
+    }
+  }
+}
