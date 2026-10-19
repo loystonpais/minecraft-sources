@@ -63,40 +63,42 @@ def update_lwjgl() -> None:
             for v, data in results:
                 versions_data[v] = data
 
-            # Extract libraries and hashes
-            for lib_entry in comp_spec.get("libraries", []):
-                name = lib_entry.get("name")
-                if not name:
-                    continue
+    # Extract libraries and hashes across all loaded component specifications
+    for ver, comp_spec in versions_data.items():
+        for lib_entry in comp_spec.get("libraries", []):
+            name = lib_entry.get("name")
+            if not name:
+                continue
 
-                # 1. Main artifact
-                dl = lib_entry.get("downloads", {}).get("artifact", {})
-                url = dl.get("url") or lib_entry.get("url")
-                sha1 = dl.get("sha1") or lib_entry.get("sha1")
-                sha256 = dl.get("sha256") or lib_entry.get("sha256")
+            # 1. Main artifact
+            dl = lib_entry.get("downloads", {}).get("artifact", {})
+            url = dl.get("url") or lib_entry.get("url")
+            sha1 = dl.get("sha1") or lib_entry.get("sha1")
+            sha256 = dl.get("sha256") or lib_entry.get("sha256")
 
-                if url and (sha1 or sha256):
-                    entry = {"url": url}
-                    if sha256:
-                        entry["sha256"] = sha256
-                    if sha1:
-                        entry["sha1"] = sha1
-                    libraries_data[name] = entry
+            if url and (sha1 or sha256):
+                entry = {"url": url}
+                if sha256:
+                    entry["sha256"] = sha256
+                if sha1:
+                    entry["sha1"] = sha1
+                libraries_data[name] = entry
 
-                # 2. Classifier native artifacts (e.g. LWJGL 2 natives)
-                classifiers = lib_entry.get("downloads", {}).get("classifiers", {})
-                for c_classifier, c_info in classifiers.items():
-                    c_url = c_info.get("url")
-                    c_sha1 = c_info.get("sha1")
-                    c_sha256 = c_info.get("sha256")
-                    if c_url and (c_sha1 or c_sha256):
-                        c_coord = f"{name}:{c_classifier}"
-                        c_entry = {"url": c_url}
-                        if c_sha256:
-                            c_entry["sha256"] = c_sha256
-                        if c_sha1:
-                            c_entry["sha1"] = c_sha1
-                        libraries_data[c_coord] = c_entry
+            # 2. Classifier native artifacts (e.g. LWJGL 2 natives)
+            classifiers = lib_entry.get("downloads", {}).get("classifiers", {})
+            for c_classifier, c_info in classifiers.items():
+                c_url = c_info.get("url")
+                c_sha1 = c_info.get("sha1")
+                c_sha256 = c_info.get("sha256")
+                if c_url and (c_sha1 or c_sha256):
+                    c_coord = f"{name}:{c_classifier}"
+                    c_entry = {"url": c_url}
+                    if c_sha256:
+                        c_entry["sha256"] = c_sha256
+                    if c_sha1:
+                        c_entry["sha1"] = c_sha1
+                    libraries_data[c_coord] = c_entry
+
 
     # 1. Save versions-list.json
     versions_list_file = LWJGL_DOMAIN_DIR / "versions-list.json"
