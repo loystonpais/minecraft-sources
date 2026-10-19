@@ -11,23 +11,25 @@ FABRIC_MAVEN_BASE = "https://maven.fabricmc.net"
 class FabricModloader(BaseModloader):
     """Fabric modloader updater."""
 
+    FABRIC_META_BASE = "https://meta.fabricmc.net/v2/versions"
+
     @property
     def name(self) -> str:
         return "fabric"
 
     def update_raw(self) -> None:
-        loader_url = f"{PRISM_META_BASE}/net.fabricmc.fabric-loader/"
-        intermediary_url = f"{PRISM_META_BASE}/net.fabricmc.intermediary/"
+        loader_url = f"{self.FABRIC_META_BASE}/loader"
+        intermediary_url = f"{self.FABRIC_META_BASE}/intermediary"
 
         logger.info(f"Fetching Fabric Loader raw manifest from {loader_url}...")
         loader_data = fetch_json(loader_url)
         save_json(self.raw_dir / "manifest.json", loader_data)
-        logger.info(f"Saved {len(loader_data.get('versions', []))} Fabric versions to {self.raw_dir / 'manifest.json'}")
+        logger.info(f"Saved {len(loader_data)} Fabric versions to {self.raw_dir / 'manifest.json'}")
 
         logger.info(f"Fetching Fabric Intermediary raw manifest from {intermediary_url}...")
         intermediary_data = fetch_json(intermediary_url)
         save_json(self.raw_dir / "intermediary.json", intermediary_data)
-        logger.info(f"Saved {len(intermediary_data.get('versions', []))} Intermediary versions to {self.raw_dir / 'intermediary.json'}")
+        logger.info(f"Saved {len(intermediary_data)} Intermediary versions to {self.raw_dir / 'intermediary.json'}")
 
     def normalize(self) -> None:
         """Generates fabric/versions-list.json, fabric/mappings.json, fabric/loaders.json, and fabric/libraries.json."""
@@ -36,7 +38,7 @@ class FabricModloader(BaseModloader):
         if not manifest_data:
             return
 
-        raw_versions = manifest_data.get("versions", [])
+        raw_versions = manifest_data if isinstance(manifest_data, list) else manifest_data.get("versions", [])
 
         # 1. versions-list.json
         versions = [v["version"] for v in raw_versions]
@@ -45,32 +47,39 @@ class FabricModloader(BaseModloader):
 
         # 2. mappings.json (MC version -> intermediary dependency)
         intermediary_file = self.raw_dir / "intermediary.json"
-        intermediary_data = load_json(intermediary_file)
+        intermediary_data = load_json(intermediary_file) or []
         mappings = {}
-        all_required_maven_coords: set[tuple[str, str]] = set()
 
-        if intermediary_data:
-            for item in intermediary_data.get("versions", []):
-                mc_ver = item.get("version")
-                if not mc_ver:
-                    continue
-                coord_str = f"net.fabricmc:intermediary:{mc_ver}"
-                mappings[mc_ver] = {
-                    "dependencies": [coord_str]
-                }
-                all_required_maven_coords.add((coord_str, f"{FABRIC_MAVEN_BASE}/"))
-            save_json(self.output_dir / "mappings.json", mappings)
-            logger.info(f"Saved {len(mappings)} versions to {self.output_dir / 'mappings.json'}")
-
-        # 3. loaders.json (loader version -> dependencies & mainClass)
-        loaders_file = self.output_dir / "loaders.json"
-        existing_loaders = load_json(loaders_file) or {}
-        loaders: dict[str, dict] = dict(existing_loaders)
-
-        # 4. libraries.json (maven coordinate -> { url, sha256 })
+        # 3. libraries.json (maven coordinate -> { url, sha256 })
         libraries_file = self.output_dir / "libraries.json"
         existing_libraries = load_json(libraries_file) or {}
         libraries: dict[str, dict] = dict(existing_libraries)
+
+        items = intermediary_data if isinstance(intermediary_data, list) else intermediary_data.get("versions", [])
+        for item in items:
+            mc_ver = item.get("version")
+            if not mc_ver:
+                continue
+            coord_str = item.get("maven") or f"net.fabricmc:intermediary:{mc_ver}"
+            mappings[mc_ver] = {
+                "dependencies": [coord_str]
+            }
+            if coord_str not in libraries:
+                hash_res = get_maven_hash(coord_str, f"{FABRIC_MAVEN_BASE}/", existing_cache=libraries)
+                if hash_res:
+                    h_type, h_val = hash_res
+                    libraries[coord_str] = {
+                        "url": MavenCoord.parse(coord_str).jar_url(f"{FABRIC_MAVEN_BASE}/"),
+                        h_type: h_val,
+                    }
+
+        save_json(self.output_dir / "mappings.json", mappings)
+        logger.info(f"Saved {len(mappings)} versions to {self.output_dir / 'mappings.json'}")
+
+        # 4. loaders.json (loader version -> dependencies & mainClass)
+        loaders_file = self.output_dir / "loaders.json"
+        existing_loaders = load_json(loaders_file) or {}
+        loaders: dict[str, dict] = dict(existing_loaders)
 
         # We process semver loader releases
         for v_obj in raw_versions:
@@ -78,16 +87,21 @@ class FabricModloader(BaseModloader):
             if not ver or not SEMVER_PATTERN.match(ver):
                 continue
 
-            loader_coord = f"net.fabricmc:fabric-loader:{ver}"
-            all_required_maven_coords.add((loader_coord, f"{FABRIC_MAVEN_BASE}/"))
+            loader_coord = v_obj.get("maven") or f"net.fabricmc:fabric-loader:{ver}"
+            if loader_coord not in libraries:
+                hash_res = get_maven_hash(loader_coord, f"{FABRIC_MAVEN_BASE}/", existing_cache=libraries)
+                if hash_res:
+                    h_type, h_val = hash_res
+                    libraries[loader_coord] = {
+                        "url": MavenCoord.parse(loader_coord).jar_url(f"{FABRIC_MAVEN_BASE}/"),
+                        h_type: h_val,
+                    }
 
             if ver in loaders and loaders[ver].get("dependencies"):
-                # Collect libraries from existing cache
                 deps = loaders[ver]["dependencies"]
-                for dep_list in deps.values():
-                    for d in dep_list:
-                        all_required_maven_coords.add((d, f"{FABRIC_MAVEN_BASE}/"))
-                continue
+                all_deps = [d for group in deps.values() for d in group]
+                if all(d in libraries for d in all_deps):
+                    continue
 
             try:
                 coord = MavenCoord.parse(loader_coord)
@@ -99,16 +113,23 @@ class FabricModloader(BaseModloader):
                     names = []
                     for item in lib_list:
                         name = item.get("name")
-                        base = item.get("url", f"{FABRIC_MAVEN_BASE}/")
+                        base = item.get("url") or f"{FABRIC_MAVEN_BASE}/"
                         if name:
                             names.append(name)
-                            all_required_maven_coords.add((name, base))
-                            if "sha256" in item:
-                                full_url = MavenCoord.parse(name).jar_url(base)
-                                libraries[name] = {
-                                    "url": full_url,
-                                    "sha256": item["sha256"]
-                                }
+                            if name not in libraries:
+                                if "sha256" in item:
+                                    libraries[name] = {
+                                        "url": MavenCoord.parse(name).jar_url(base),
+                                        "sha256": item["sha256"]
+                                    }
+                                else:
+                                    hash_res = get_maven_hash(name, base, existing_cache=libraries)
+                                    if hash_res:
+                                        h_type, h_val = hash_res
+                                        libraries[name] = {
+                                            "url": MavenCoord.parse(name).jar_url(base),
+                                            h_type: h_val
+                                        }
                     return names
 
                 loaders[ver] = {
@@ -128,23 +149,6 @@ class FabricModloader(BaseModloader):
 
         save_json(loaders_file, loaders)
         logger.info(f"Saved {len(loaders)} loader versions to {loaders_file}")
-
-        # Resolve hashes for any missing maven coordinates
-        missing_coords = [c for c in all_required_maven_coords if c[0] not in libraries]
-        if missing_coords:
-            logger.info(f"Resolving {len(missing_coords)} library hashes for Fabric...")
-            for idx, (coord_str, base_url) in enumerate(missing_coords, 1):
-                hash_res = get_maven_hash(coord_str, base_url, existing_cache=libraries)
-                if hash_res:
-                    h_type, h_val = hash_res
-                    full_url = MavenCoord.parse(coord_str).jar_url(base_url)
-                    libraries[coord_str] = {
-                        "url": full_url,
-                        h_type: h_val,
-                    }
-                if idx % 50 == 0:
-                    logger.info(f"  [{idx}/{len(missing_coords)}] Resolved library hashes...")
-
         save_json(libraries_file, libraries)
         logger.info(f"Saved {len(libraries)} libraries to {libraries_file}")
 

@@ -19,14 +19,14 @@ class QuiltModloader(BaseModloader):
         return "quilt"
 
     def update_raw(self) -> None:
-        loader_url = f"{PRISM_META_BASE}/org.quiltmc.quilt-loader/"
+        loader_url = f"{self.QUILT_META_BASE}/loader"
         hashed_url = f"{self.QUILT_META_BASE}/hashed"
         intermediary_url = f"{self.QUILT_META_BASE}/intermediary"
 
         logger.info(f"Fetching Quilt Loader raw manifest from {loader_url}...")
         loader_data = fetch_json(loader_url)
         save_json(self.raw_dir / "manifest.json", loader_data)
-        logger.info(f"Saved {len(loader_data.get('versions', []))} Quilt versions to {self.raw_dir / 'manifest.json'}")
+        logger.info(f"Saved {len(loader_data)} Quilt versions to {self.raw_dir / 'manifest.json'}")
 
         logger.info(f"Fetching Quilt hashed mappings from {hashed_url}...")
         hashed_data = fetch_json(hashed_url)
@@ -45,7 +45,7 @@ class QuiltModloader(BaseModloader):
         if not manifest_data:
             return
 
-        raw_versions = manifest_data.get("versions", [])
+        raw_versions = manifest_data if isinstance(manifest_data, list) else manifest_data.get("versions", [])
 
         # 1. versions-list.json
         versions = [v["version"] for v in raw_versions]
@@ -110,14 +110,20 @@ class QuiltModloader(BaseModloader):
                 continue
 
             loader_coord = f"org.quiltmc:quilt-loader:{ver}"
-            all_required_maven_coords.add((loader_coord, f"{QUILT_MAVEN_BASE}/"))
+            # Quilt API provides loader sha256 directly in the manifest
+            hashes = v_obj.get("hashes", {})
+            if "sha256" in hashes:
+                libraries[loader_coord] = {
+                    "url": MavenCoord.parse(loader_coord).jar_url(f"{QUILT_MAVEN_BASE}/"),
+                    "sha256": hashes["sha256"]
+                }
 
             if ver in loaders and loaders[ver].get("dependencies"):
                 deps = loaders[ver]["dependencies"]
-                for dep_list in deps.values():
-                    for d in dep_list:
-                        all_required_maven_coords.add((d, f"{QUILT_MAVEN_BASE}/"))
-                continue
+                # Only skip if all dependencies are already present in libraries.json
+                all_deps = [d for group in deps.values() for d in group]
+                if all(d in libraries for d in all_deps):
+                    continue
 
             try:
                 coord = MavenCoord.parse(loader_coord)
@@ -129,16 +135,23 @@ class QuiltModloader(BaseModloader):
                     names = []
                     for item in lib_list:
                         name = item.get("name")
-                        base = item.get("url", f"{QUILT_MAVEN_BASE}/")
+                        base = item.get("url") or f"{QUILT_MAVEN_BASE}/"
                         if name:
                             names.append(name)
-                            all_required_maven_coords.add((name, base))
-                            if "sha256" in item:
-                                full_url = MavenCoord.parse(name).jar_url(base)
-                                libraries[name] = {
-                                    "url": full_url,
-                                    "sha256": item["sha256"]
-                                }
+                            if name not in libraries:
+                                if "sha256" in item:
+                                    libraries[name] = {
+                                        "url": MavenCoord.parse(name).jar_url(base),
+                                        "sha256": item["sha256"]
+                                    }
+                                else:
+                                    hash_res = get_maven_hash(name, base, existing_cache=libraries)
+                                    if hash_res:
+                                        h_type, h_val = hash_res
+                                        libraries[name] = {
+                                            "url": MavenCoord.parse(name).jar_url(base),
+                                            h_type: h_val
+                                        }
                     return names
 
                 loaders[ver] = {
@@ -158,23 +171,6 @@ class QuiltModloader(BaseModloader):
 
         save_json(loaders_file, loaders)
         logger.info(f"Saved {len(loaders)} loader versions to {loaders_file}")
-
-        # Resolve hashes for any missing maven coordinates
-        missing_coords = [c for c in all_required_maven_coords if c[0] not in libraries]
-        if missing_coords:
-            logger.info(f"Resolving {len(missing_coords)} library hashes for Quilt...")
-            for idx, (coord_str, base_url) in enumerate(missing_coords, 1):
-                hash_res = get_maven_hash(coord_str, base_url, existing_cache=libraries)
-                if hash_res:
-                    h_type, h_val = hash_res
-                    full_url = MavenCoord.parse(coord_str).jar_url(base_url)
-                    libraries[coord_str] = {
-                        "url": full_url,
-                        h_type: h_val,
-                    }
-                if idx % 50 == 0:
-                    logger.info(f"  [{idx}/{len(missing_coords)}] Resolved library hashes...")
-
         save_json(libraries_file, libraries)
         logger.info(f"Saved {len(libraries)} libraries to {libraries_file}")
 
