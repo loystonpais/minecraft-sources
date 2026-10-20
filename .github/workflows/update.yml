@@ -72,7 +72,7 @@ jobs:
           {
             version = sources.currentVersion;
             libraries = builtins.length (builtins.attrNames sources.version."1".libraries);
-            mojang = sources.version."1".mojang.latest.release;
+            mojang = sources.version."1".mojang.meta.latest.release;
           }
           '
 
