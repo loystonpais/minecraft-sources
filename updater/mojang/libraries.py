@@ -4,6 +4,7 @@ from updater.config import REPO_ROOT, RAW_DIR, load_json, save_json, logger
 from updater.fetch import fetch_json
 
 MOJANG_RAW_DIR = RAW_DIR / "mojang"
+RAW_VERSIONS_DIR = MOJANG_RAW_DIR / "versions"
 MOJANG_OUTPUT_DIR = REPO_ROOT / "mojang"
 MOJANG_LIBRARIES_FILE = MOJANG_OUTPUT_DIR / "libraries.json"
 MANIFEST_FILE = MOJANG_RAW_DIR / "version_manifest_v2.json"
@@ -69,6 +70,16 @@ def fetch_version_in_memory(v_info: dict[str, Any]) -> dict[str, Any] | None:
         return None
 
 
+def load_or_fetch_version(v_info: dict[str, Any]) -> dict[str, Any] | None:
+    """Loads version JSON from raw/mojang/versions/<v_id>.json if available, else fetches remotely."""
+    v_id = v_info.get("id")
+    if v_id:
+        local_file = RAW_VERSIONS_DIR / f"{v_id}.json"
+        if local_file.exists():
+            return load_json(local_file)
+    return fetch_version_in_memory(v_info)
+
+
 def update_mojang_libraries(
     target_versions: list[dict[str, Any]] | None = None,
     full: bool = False,
@@ -112,9 +123,9 @@ def update_mojang_libraries(
 
     logger.info(f"Scanning {len(versions_to_scan)} Mojang version(s) in-memory for libraries...")
 
-    # Fetch in parallel directly into memory
+    # Load from local cache or fetch in parallel directly into memory
     with ThreadPoolExecutor(max_workers=16) as pool:
-        version_datas = list(pool.map(fetch_version_in_memory, versions_to_scan))
+        version_datas = list(pool.map(load_or_fetch_version, versions_to_scan))
 
     all_libraries: dict[str, dict[str, str]] = dict(existing_libraries)
     total_added = 0

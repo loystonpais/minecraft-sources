@@ -92,12 +92,25 @@ def verify_mojang(data: dict[str, Any]) -> None:
     assert_type(file_name, "versions", versions, dict)
     for v_id, info in versions.items():
         assert_type(file_name, f"versions.{v_id}", info, dict)
-        for req in ["type", "url", "hash"]:
+        for req in ["type", "id", "downloads", "libraries"]:
             if req not in info:
                 fail(file_name, f"Missing '{req}' in version '{v_id}'")
         assert_type(file_name, f"versions.{v_id}.type", info["type"], str)
-        assert_type(file_name, f"versions.{v_id}.url", info["url"], str)
-        assert_sri(file_name, f"versions.{v_id}.hash", info["hash"])
+        assert_type(file_name, f"versions.{v_id}.id", info["id"], str)
+        assert_type(file_name, f"versions.{v_id}.downloads", info["downloads"], dict)
+        assert_type(file_name, f"versions.{v_id}.libraries", info["libraries"], dict)
+
+        # Ensure cleaned: time and releaseTime should not be present
+        if "time" in info:
+            fail(file_name, f"'time' unexpectedly found in cleaned version '{v_id}'")
+        if "releaseTime" in info:
+            fail(file_name, f"'releaseTime' unexpectedly found in cleaned version '{v_id}'")
+
+        # Ensure libraries are indexed by coordinate and no downloads URLs exist
+        for coord, lib_meta in info["libraries"].items():
+            assert_type(file_name, f"versions.{v_id}.libraries.{coord}", lib_meta, dict)
+            if "downloads" in lib_meta:
+                fail(file_name, f"'downloads' unexpectedly found in version '{v_id}' library {coord}")
 
     # data_versions
     dv = data["data_versions"]

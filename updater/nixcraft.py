@@ -2,7 +2,7 @@ import base64
 import shutil
 from pathlib import Path
 from typing import Any
-from updater.config import REPO_ROOT, save_json, load_json, logger
+from updater.config import REPO_ROOT, RAW_DIR, save_json, load_json, logger
 
 NIXCRAFT_DIR = REPO_ROOT / "nixcraft"
 # Modloader & dependency sources that contribute to libraries.json
@@ -69,28 +69,88 @@ def build_libraries() -> None:
     logger.info(f"Saved {len(merged)} total merged libraries to {dest}")
 
 
+def classifier_to_rule(classifier: str) -> list[dict[str, Any]] | None:
+    """Translates standard classifier names into OS match rules."""
+    if classifier in ("natives-linux", "linux-x86_64"):
+        return [{"action": "allow", "os": {"name": "linux"}}]
+    elif classifier in ("natives-osx", "natives-macos"):
+        return [{"action": "allow", "os": {"name": "osx"}}]
+    elif classifier == "natives-windows":
+        return [{"action": "allow", "os": {"name": "windows"}}]
+    elif classifier == "natives-windows-32":
+        return [{"action": "allow", "os": {"name": "windows", "arch": "x86"}}]
+    elif classifier == "natives-windows-64":
+        return [{"action": "allow", "os": {"name": "windows"}}]
+    return None
+
+
+def clean_mojang_version_data(raw_data: dict[str, Any]) -> dict[str, Any]:
+    """Cleans a raw Mojang version package:
+
+    - Removes releaseTime and time
+    - Transforms libraries from list to an attrset mapping Maven coordinates -> {rules, extract}
+    - Flattens native classifiers into distinct Maven coordinates (matching libraries.json)
+    - Preserves all other game specification content.
+    """
+    clean: dict[str, Any] = dict(raw_data)
+    clean.pop("time", None)
+    clean.pop("releaseTime", None)
+
+    if "libraries" in clean:
+        clean_libs: dict[str, dict[str, Any]] = {}
+        for lib in clean["libraries"]:
+            base_name = lib.get("name")
+            if not base_name:
+                continue
+
+            dl = lib.get("downloads", {})
+
+            # 1. Main artifact / non-classifier library
+            if "artifact" in dl or "natives" not in lib:
+                entry: dict[str, Any] = {}
+                if "rules" in lib:
+                    entry["rules"] = lib["rules"]
+                if base_name not in clean_libs:
+                    clean_libs[base_name] = entry
+
+            # 2. Native classifiers flattened to separate coordinates
+            if "classifiers" in dl:
+                for c_name in dl["classifiers"]:
+                    coord = f"{base_name}:{c_name}"
+                    entry = {}
+                    rule = classifier_to_rule(c_name)
+                    if rule:
+                        entry["rules"] = rule
+                    if "extract" in lib:
+                        entry["extract"] = lib["extract"]
+                    clean_libs[coord] = entry
+
+        clean["libraries"] = clean_libs
+
+    return clean
+
+
 def build_mojang() -> None:
     """Consolidates vanilla Minecraft data into nixcraft/mojang.json and copies asset map."""
     logger.info("==> Building nixcraft/mojang.json...")
-    versions_data = load_json(REPO_ROOT / "mojang" / "versions.json") or {}
+    manifest_data = load_json(RAW_DIR / "mojang" / "version_manifest_v2.json") or {}
     versions_list = load_json(REPO_ROOT / "mojang" / "versions-list.json") or []
     data_versions = load_json(REPO_ROOT / "mojang" / "data-versions.json") or {}
 
-    raw_versions = versions_data.get("versions", {})
+    raw_versions_dir = RAW_DIR / "mojang" / "versions"
     clean_versions: dict[str, dict[str, Any]] = {}
-    for v_id, v_info in raw_versions.items():
-        entry: dict[str, Any] = {
-            "type": v_info.get("type"),
-            "url": v_info.get("url"),
-        }
-        if "hash" in v_info:
-            entry["hash"] = v_info["hash"]
-        elif "sha1" in v_info:
-            entry["hash"] = hex_to_sri(v_info["sha1"], "sha1")
-        clean_versions[v_id] = entry
+
+    for v_id in versions_list:
+        v_file = raw_versions_dir / f"{v_id}.json"
+        if v_file.exists():
+            v_raw = load_json(v_file)
+            if v_raw:
+                clean_versions[v_id] = clean_mojang_version_data(v_raw)
+        else:
+            logger.warning(f"Raw version file not found for {v_id} at {v_file}")
 
     mojang_consolidated = {
-        "latest": versions_data.get("latest", {}),
+        "latest": manifest_data.get("latest", {}),
         "versions_list": versions_list,
         "versions": clean_versions,
         "data_versions": data_versions,
@@ -98,7 +158,7 @@ def build_mojang() -> None:
 
     mojang_dest = NIXCRAFT_DIR / "mojang.json"
     save_json(mojang_dest, mojang_consolidated)
-    logger.info(f"Saved consolidated vanilla data to {mojang_dest}")
+    logger.info(f"Saved consolidated vanilla data ({len(clean_versions)} versions) to {mojang_dest}")
 
     # Copy asset map using its exact real filename
     asset_src = REPO_ROOT / "mojang" / "asset-sha1-sha256-map.json"
