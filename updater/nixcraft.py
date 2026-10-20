@@ -73,8 +73,14 @@ def classifier_to_rule(classifier: str) -> list[dict[str, Any]] | None:
     """Translates standard classifier names into OS match rules."""
     if classifier in ("natives-linux", "linux-x86_64"):
         return [{"action": "allow", "os": {"name": "linux"}}]
+    elif classifier == "natives-linux-arm32":
+        return [{"action": "allow", "os": {"name": "linux-arm32"}}]
+    elif classifier == "natives-linux-arm64":
+        return [{"action": "allow", "os": {"name": "linux-arm64"}}]
     elif classifier in ("natives-osx", "natives-macos"):
         return [{"action": "allow", "os": {"name": "osx"}}]
+    elif classifier == "natives-osx-arm64":
+        return [{"action": "allow", "os": {"name": "osx-arm64"}}]
     elif classifier == "natives-windows":
         return [{"action": "allow", "os": {"name": "windows"}}]
     elif classifier == "natives-windows-32":
@@ -252,21 +258,48 @@ def build_forge_and_neoforge() -> None:
 
 
 def build_lwjgl() -> None:
-    """Consolidates lwjgl.json (clean versions and stripped library components)."""
+    """Consolidates lwjgl.json into clean versions and coordinate-indexed components attrset."""
     logger.info("==> Building nixcraft/lwjgl.json...")
     versions_list = load_json(REPO_ROOT / "lwjgl" / "versions-list.json") or []
     components_data = load_json(REPO_ROOT / "lwjgl" / "versions.json") or {}
 
-    clean_components: dict[str, list[dict[str, Any]]] = {}
+    clean_components: dict[str, dict[str, dict[str, Any]]] = {}
     for ver, comp in components_data.items():
-        clean_libs: list[dict[str, Any]] = []
+        clean_libs: dict[str, dict[str, Any]] = {}
         for lib in comp.get("libraries", []):
-            entry: dict[str, Any] = {"name": lib["name"]}
-            if "rules" in lib and lib["rules"]:
-                entry["rules"] = lib["rules"]
-            if "natives" in lib and lib["natives"]:
-                entry["natives"] = lib["natives"]
-            clean_libs.append(entry)
+            base_name = lib["name"]
+            dl = lib.get("downloads", {})
+
+            # 1. Main artifact / non-classifier
+            if "artifact" in dl or "natives" not in lib:
+                entry: dict[str, Any] = {}
+                if "rules" in lib and lib["rules"]:
+                    entry["rules"] = lib["rules"]
+                if base_name not in clean_libs:
+                    clean_libs[base_name] = entry
+
+            # 2. Native classifiers
+            if "classifiers" in dl:
+                for c_name in dl["classifiers"]:
+                    coord = f"{base_name}:{c_name}"
+                    entry = {}
+                    rule = classifier_to_rule(c_name)
+                    if rule:
+                        entry["rules"] = rule
+                    if "extract" in lib and lib["extract"]:
+                        entry["extract"] = lib["extract"]
+                    clean_libs[coord] = entry
+            elif "natives" in lib:
+                for c_name in lib["natives"].values():
+                    coord = f"{base_name}:{c_name}"
+                    entry = {}
+                    rule = classifier_to_rule(c_name)
+                    if rule:
+                        entry["rules"] = rule
+                    if "extract" in lib and lib["extract"]:
+                        entry["extract"] = lib["extract"]
+                    clean_libs[coord] = entry
+
         clean_components[ver] = clean_libs
 
     consolidated = {

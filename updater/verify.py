@@ -220,21 +220,15 @@ def verify_lwjgl(data: dict[str, Any]) -> None:
     assert_type(file_name, "components", data["components"], dict)
 
     for v, libs in data["components"].items():
-        assert_type(file_name, f"components.{v}", libs, list)
-        for idx, lib in enumerate(libs):
-            assert_type(file_name, f"components.{v}[{idx}]", lib, dict)
-            if "name" not in lib:
-                fail(file_name, f"Missing 'name' in component '{v}' library [{idx}]")
-            assert_type(file_name, f"components.{v}[{idx}].name", lib["name"], str)
-
-            if "rules" in lib:
-                assert_type(
-                    file_name, f"components.{v}[{idx}].rules", lib["rules"], list
-                )
-            if "natives" in lib:
-                assert_type(
-                    file_name, f"components.{v}[{idx}].natives", lib["natives"], dict
-                )
+        assert_type(file_name, f"components.{v}", libs, dict)
+        for coord, meta in libs.items():
+            assert_type(file_name, f"components.{v}.{coord}", meta, dict)
+            if "downloads" in meta:
+                fail(file_name, f"'downloads' unexpectedly found in component '{v}' library '{coord}'")
+            if "rules" in meta:
+                assert_type(file_name, f"components.{v}.{coord}.rules", meta["rules"], list)
+            if "extract" in meta:
+                assert_type(file_name, f"components.{v}.{coord}.extract", meta["extract"], dict)
 
 
 def verify_server(file_name: str, data: dict[str, Any]) -> None:
