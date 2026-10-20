@@ -131,34 +131,46 @@ def clean_mojang_version_data(raw_data: dict[str, Any]) -> dict[str, Any]:
 
 
 def build_mojang() -> None:
-    """Consolidates vanilla Minecraft data into nixcraft/mojang.json and copies asset map."""
-    logger.info("==> Building nixcraft/mojang.json...")
+    """Consolidates vanilla Minecraft data into nixcraft/mojang/minecraft.json and nixcraft/mojang/versions/."""
+    logger.info("==> Building nixcraft/mojang/...")
     manifest_data = load_json(RAW_DIR / "mojang" / "version_manifest_v2.json") or {}
     versions_list = load_json(REPO_ROOT / "mojang" / "versions-list.json") or []
     data_versions = load_json(REPO_ROOT / "mojang" / "data-versions.json") or {}
 
     raw_versions_dir = RAW_DIR / "mojang" / "versions"
-    clean_versions: dict[str, dict[str, Any]] = {}
+    nixcraft_mojang_dir = NIXCRAFT_DIR / "mojang"
+    nixcraft_versions_dir = nixcraft_mojang_dir / "versions"
+    nixcraft_versions_dir.mkdir(parents=True, exist_ok=True)
 
+    # Clean and save each individual version JSON
+    saved_count = 0
     for v_id in versions_list:
         v_file = raw_versions_dir / f"{v_id}.json"
         if v_file.exists():
             v_raw = load_json(v_file)
             if v_raw:
-                clean_versions[v_id] = clean_mojang_version_data(v_raw)
+                clean_v = clean_mojang_version_data(v_raw)
+                dest_file = nixcraft_versions_dir / f"{v_id}.json"
+                save_json(dest_file, clean_v)
+                saved_count += 1
         else:
             logger.warning(f"Raw version file not found for {v_id} at {v_file}")
 
-    mojang_consolidated = {
+    # Remove any obsolete nixcraft/mojang.json
+    legacy_file = NIXCRAFT_DIR / "mojang.json"
+    if legacy_file.exists():
+        legacy_file.unlink()
+
+    # Save nixcraft/mojang/minecraft.json
+    minecraft_meta = {
         "latest": manifest_data.get("latest", {}),
-        "versions_list": versions_list,
-        "versions": clean_versions,
+        "versions": versions_list,
         "data_versions": data_versions,
     }
 
-    mojang_dest = NIXCRAFT_DIR / "mojang.json"
-    save_json(mojang_dest, mojang_consolidated)
-    logger.info(f"Saved consolidated vanilla data ({len(clean_versions)} versions) to {mojang_dest}")
+    minecraft_dest = nixcraft_mojang_dir / "minecraft.json"
+    save_json(minecraft_dest, minecraft_meta)
+    logger.info(f"Saved {minecraft_dest} and {saved_count} version specs to {nixcraft_versions_dir}")
 
     # Copy asset map using its exact real filename
     asset_src = REPO_ROOT / "mojang" / "asset-sha1-sha256-map.json"

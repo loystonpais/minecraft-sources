@@ -64,10 +64,19 @@ def verify_libraries(data: dict[str, Any]) -> None:
         assert_sri(file_name, f"libraries.{coord}.hash", info["hash"])
 
 
-def verify_mojang(data: dict[str, Any]) -> None:
-    file_name = "mojang.json"
+def verify_mojang() -> None:
+    file_name = "mojang/minecraft.json"
+    minecraft_path = NIXCRAFT_DIR / "mojang" / "minecraft.json"
+    versions_dir = NIXCRAFT_DIR / "mojang" / "versions"
+
+    if not minecraft_path.exists():
+        fail(file_name, f"Missing {minecraft_path}")
+    if not versions_dir.is_dir():
+        fail(file_name, f"Missing versions directory {versions_dir}")
+
+    data = load_json(minecraft_path)
     assert_type(file_name, "root", data, dict)
-    for expected_key in ["latest", "versions_list", "versions", "data_versions"]:
+    for expected_key in ["latest", "versions", "data_versions"]:
         if expected_key not in data:
             fail(file_name, f"Missing top-level key '{expected_key}'")
 
@@ -79,38 +88,39 @@ def verify_mojang(data: dict[str, Any]) -> None:
             fail(file_name, f"Missing '{k}' in 'latest'")
         assert_type(file_name, f"latest.{k}", latest[k], str)
 
-    # versions_list
-    v_list = data["versions_list"]
-    assert_type(file_name, "versions_list", v_list, list)
-    if not v_list:
-        fail(file_name, "'versions_list' is empty")
-    for idx, v in enumerate(v_list[:10]):
-        assert_type(file_name, f"versions_list[{idx}]", v, str)
-
     # versions
-    versions = data["versions"]
-    assert_type(file_name, "versions", versions, dict)
-    for v_id, info in versions.items():
-        assert_type(file_name, f"versions.{v_id}", info, dict)
+    v_list = data["versions"]
+    assert_type(file_name, "versions", v_list, list)
+    if not v_list:
+        fail(file_name, "'versions' is empty")
+
+    # Check a sample of individual version files
+    for v_id in v_list[:10] + v_list[-10:]:
+        v_file = versions_dir / f"{v_id}.json"
+        if not v_file.exists():
+            fail(file_name, f"Missing version file {v_file}")
+        info = load_json(v_file)
+        v_file_name = f"mojang/versions/{v_id}.json"
+        assert_type(v_file_name, "root", info, dict)
         for req in ["type", "id", "downloads", "libraries"]:
             if req not in info:
-                fail(file_name, f"Missing '{req}' in version '{v_id}'")
-        assert_type(file_name, f"versions.{v_id}.type", info["type"], str)
-        assert_type(file_name, f"versions.{v_id}.id", info["id"], str)
-        assert_type(file_name, f"versions.{v_id}.downloads", info["downloads"], dict)
-        assert_type(file_name, f"versions.{v_id}.libraries", info["libraries"], dict)
+                fail(v_file_name, f"Missing '{req}' in version '{v_id}'")
+        assert_type(v_file_name, f"type", info["type"], str)
+        assert_type(v_file_name, f"id", info["id"], str)
+        assert_type(v_file_name, f"downloads", info["downloads"], dict)
+        assert_type(v_file_name, f"libraries", info["libraries"], dict)
 
         # Ensure cleaned: time and releaseTime should not be present
         if "time" in info:
-            fail(file_name, f"'time' unexpectedly found in cleaned version '{v_id}'")
+            fail(v_file_name, f"'time' unexpectedly found in cleaned version '{v_id}'")
         if "releaseTime" in info:
-            fail(file_name, f"'releaseTime' unexpectedly found in cleaned version '{v_id}'")
+            fail(v_file_name, f"'releaseTime' unexpectedly found in cleaned version '{v_id}'")
 
-        # Ensure libraries are indexed by coordinate and no downloads URLs exist
+        # Ensure libraries are indexed by coordinate and no downloads exist
         for coord, lib_meta in info["libraries"].items():
-            assert_type(file_name, f"versions.{v_id}.libraries.{coord}", lib_meta, dict)
+            assert_type(v_file_name, f"libraries.{coord}", lib_meta, dict)
             if "downloads" in lib_meta:
-                fail(file_name, f"'downloads' unexpectedly found in version '{v_id}' library {coord}")
+                fail(v_file_name, f"'downloads' unexpectedly found in version '{v_id}' library {coord}")
 
     # data_versions
     dv = data["data_versions"]
@@ -311,7 +321,7 @@ def verify_all_nixcraft() -> bool:
 
     checks = [
         ("libraries.json", verify_libraries),
-        ("mojang.json", verify_mojang),
+        ("mojang/minecraft.json", lambda _: verify_mojang()),
         ("fabric.json", lambda d: verify_modloader_fabric_quilt("fabric.json", d)),
         ("quilt.json", lambda d: verify_modloader_fabric_quilt("quilt.json", d)),
         ("forge.json", lambda d: verify_modloader_forge_neoforge("forge.json", d)),
