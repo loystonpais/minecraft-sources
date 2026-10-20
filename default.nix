@@ -3,16 +3,15 @@
 
   sources = {
     mojang = let
-      minecraft = fromJSON (readFile ./mojang/minecraft.json);
-    in
-      minecraft
-      // {
-        versions = listToAttrs (map (vId: {
-            name = vId;
-            value = fromJSON (readFile (./mojang/versions + "/${vId}.json"));
-          })
-          minecraft.versions);
-      };
+      meta = fromJSON (readFile ./mojang/meta.json);
+    in {
+      inherit meta;
+      versions = listToAttrs (map (vId: {
+          name = vId;
+          value = fromJSON (readFile (./mojang/versions + "/${vId}.json"));
+        })
+        meta.versions);
+    };
 
     libraries = fromJSON (readFile ./libraries.json);
 
