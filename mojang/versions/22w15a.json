@@ -1,0 +1,605 @@
+{
+  "arguments": {
+    "game": [
+      "--username",
+      "${auth_player_name}",
+      "--version",
+      "${version_name}",
+      "--gameDir",
+      "${game_directory}",
+      "--assetsDir",
+      "${assets_root}",
+      "--assetIndex",
+      "${assets_index_name}",
+      "--uuid",
+      "${auth_uuid}",
+      "--accessToken",
+      "${auth_access_token}",
+      "--clientId",
+      "${clientid}",
+      "--xuid",
+      "${auth_xuid}",
+      "--userType",
+      "${user_type}",
+      "--versionType",
+      "${version_type}",
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "is_demo_user": true
+            }
+          }
+        ],
+        "value": "--demo"
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "has_custom_resolution": true
+            }
+          }
+        ],
+        "value": [
+          "--width",
+          "${resolution_width}",
+          "--height",
+          "${resolution_height}"
+        ]
+      }
+    ],
+    "jvm": [
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "osx"
+            }
+          }
+        ],
+        "value": [
+          "-XstartOnFirstThread"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows"
+            }
+          }
+        ],
+        "value": "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows",
+              "version": "^10\\."
+            }
+          }
+        ],
+        "value": [
+          "-Dos.name=Windows 10",
+          "-Dos.version=10.0"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "arch": "x86"
+            }
+          }
+        ],
+        "value": "-Xss1M"
+      },
+      "-Djava.library.path=${natives_directory}",
+      "-Dminecraft.launcher.brand=${launcher_name}",
+      "-Dminecraft.launcher.version=${launcher_version}",
+      "-cp",
+      "${classpath}"
+    ]
+  },
+  "assetIndex": {
+    "id": "1.19",
+    "sha1": "a9c8b05a8082a65678beda6dfa2b8f21fa627bce",
+    "size": 385608,
+    "totalSize": 557023211,
+    "url": "https://piston-meta.mojang.com/v1/packages/a9c8b05a8082a65678beda6dfa2b8f21fa627bce/1.19.json"
+  },
+  "assets": "1.19",
+  "complianceLevel": 1,
+  "downloads": {
+    "client": {
+      "sha1": "b5b14c791de1b44ce2d6de13dfd18b9ced843618",
+      "size": 21254897,
+      "url": "https://piston-data.mojang.com/v1/objects/b5b14c791de1b44ce2d6de13dfd18b9ced843618/client.jar"
+    },
+    "client_mappings": {
+      "sha1": "5ca2f62eacc890b09b9b9b45cd1edfe36cdee34a",
+      "size": 7003536,
+      "url": "https://piston-data.mojang.com/v1/objects/5ca2f62eacc890b09b9b9b45cd1edfe36cdee34a/client.txt"
+    },
+    "server": {
+      "sha1": "2760f745a00711bcc19bf78d6056019f69318d03",
+      "size": 47136065,
+      "url": "https://piston-data.mojang.com/v1/objects/2760f745a00711bcc19bf78d6056019f69318d03/server.jar"
+    },
+    "server_mappings": {
+      "sha1": "496416e9ac476347b47655089b7819877977f737",
+      "size": 5453124,
+      "url": "https://piston-data.mojang.com/v1/objects/496416e9ac476347b47655089b7819877977f737/server.txt"
+    }
+  },
+  "id": "22w15a",
+  "javaVersion": {
+    "component": "java-runtime-beta",
+    "majorVersion": 17
+  },
+  "libraries": {
+    "com.mojang:logging:1.0.0": {},
+    "com.mojang:blocklist:1.0.10": {},
+    "com.mojang:patchy:2.2.10": {},
+    "com.github.oshi:oshi-core:5.8.5": {},
+    "net.java.dev.jna:jna:5.10.0": {},
+    "net.java.dev.jna:jna-platform:5.10.0": {},
+    "org.slf4j:slf4j-api:1.8.0-beta4": {},
+    "org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0": {},
+    "com.ibm.icu:icu4j:70.1": {},
+    "com.mojang:javabridge:1.2.24": {},
+    "net.sf.jopt-simple:jopt-simple:5.0.4": {},
+    "io.netty:netty-all:4.1.68.Final": {},
+    "com.google.guava:failureaccess:1.0.1": {},
+    "com.google.guava:guava:31.0.1-jre": {},
+    "org.apache.commons:commons-lang3:3.12.0": {},
+    "commons-io:commons-io:2.11.0": {},
+    "commons-codec:commons-codec:1.15": {},
+    "com.mojang:brigadier:1.0.18": {},
+    "com.mojang:datafixerupper:5.0.28": {},
+    "com.google.code.gson:gson:2.8.9": {},
+    "com.mojang:authlib:3.3.39": {},
+    "org.apache.commons:commons-compress:1.21": {},
+    "org.apache.httpcomponents:httpclient:4.5.13": {},
+    "commons-logging:commons-logging:1.2": {},
+    "org.apache.httpcomponents:httpcore:4.4.14": {},
+    "it.unimi.dsi:fastutil:8.5.6": {},
+    "org.apache.logging.log4j:log4j-api:2.17.0": {},
+    "org.apache.logging.log4j:log4j-core:2.17.0": {},
+    "org.lwjgl:lwjgl:3.2.1": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl:3.2.2": {
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-jemalloc:3.2.1": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-jemalloc:3.2.2": {
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-openal:3.2.1": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-openal:3.2.2": {
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-opengl:3.2.1": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-opengl:3.2.2": {
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-glfw:3.2.1": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-glfw:3.2.2": {
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-stb:3.2.1": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-stb:3.2.2": {
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-tinyfd:3.2.1": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-tinyfd:3.2.2": {
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl:3.2.1:natives-macos": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl:3.2.2:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl:3.2.2:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-jemalloc:3.2.1:natives-macos": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-jemalloc:3.2.2:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-jemalloc:3.2.2:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-openal:3.2.1:natives-macos": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-openal:3.2.2:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-openal:3.2.2:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-opengl:3.2.1:natives-macos": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-opengl:3.2.2:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-opengl:3.2.2:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-glfw:3.2.1:natives-macos": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-glfw:3.2.2:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-glfw:3.2.2:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-stb:3.2.1:natives-macos": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-tinyfd:3.2.2:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-tinyfd:3.2.2:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-tinyfd:3.2.1:natives-macos": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-stb:3.2.2:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    "org.lwjgl:lwjgl-stb:3.2.2:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    "com.mojang:text2speech:1.13.9": {},
+    "com.mojang:text2speech:1.13.9:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    "com.mojang:text2speech:1.13.9:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    "ca.weblite:java-objc-bridge:1.1": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    }
+  },
+  "logging": {
+    "client": {
+      "argument": "-Dlog4j.configurationFile=${path}",
+      "file": {
+        "id": "client-1.12.xml",
+        "sha1": "bd65e7d2e3c237be76cfbef4c2405033d7f91521",
+        "size": 888,
+        "url": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
+      },
+      "type": "log4j2-xml"
+    }
+  },
+  "mainClass": "net.minecraft.client.main.Main",
+  "minimumLauncherVersion": 21,
+  "type": "snapshot"
+}

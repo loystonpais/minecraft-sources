@@ -1,0 +1,272 @@
+{
+  "assetIndex": {
+    "id": "1.8",
+    "sha1": "f6ad102bcaa53b1a58358f16e376d548d44933ec",
+    "size": 78494,
+    "totalSize": 114885064,
+    "url": "https://launchermeta.mojang.com/v1/packages/f6ad102bcaa53b1a58358f16e376d548d44933ec/1.8.json"
+  },
+  "assets": "1.8",
+  "complianceLevel": 0,
+  "downloads": {
+    "client": {
+      "sha1": "6f85d469a2f6e8d24cc71f1882eba1142ecc29bd",
+      "size": 8684210,
+      "url": "https://launcher.mojang.com/v1/objects/6f85d469a2f6e8d24cc71f1882eba1142ecc29bd/client.jar"
+    },
+    "server": {
+      "sha1": "5cb1aa4a4b26979405cea5a181bbe38b72a85add",
+      "size": 8550067,
+      "url": "https://launcher.mojang.com/v1/objects/5cb1aa4a4b26979405cea5a181bbe38b72a85add/server.jar"
+    },
+    "windows_server": {
+      "sha1": "51d9e27366cb9441327dd61808816083b8b64f91",
+      "size": 8944307,
+      "url": "https://launcher.mojang.com/v1/objects/51d9e27366cb9441327dd61808816083b8b64f91/windows_server.exe"
+    }
+  },
+  "id": "15w32a",
+  "javaVersion": {
+    "component": "jre-legacy",
+    "majorVersion": 8
+  },
+  "libraries": {
+    "com.mojang:netty:1.8.8": {},
+    "oshi-project:oshi-core:1.1": {},
+    "net.java.dev.jna:jna:3.4.0": {},
+    "net.java.dev.jna:platform:3.4.0": {},
+    "com.ibm.icu:icu4j-core-mojang:51.2": {},
+    "net.sf.jopt-simple:jopt-simple:4.6": {},
+    "com.paulscode:codecjorbis:20101023": {},
+    "com.paulscode:codecwav:20101023": {},
+    "com.paulscode:libraryjavasound:20101123": {},
+    "com.paulscode:librarylwjglopenal:20100824": {},
+    "com.paulscode:soundsystem:20120107": {},
+    "io.netty:netty-all:4.0.23.Final": {},
+    "com.google.guava:guava:17.0": {},
+    "org.apache.commons:commons-lang3:3.3.2": {},
+    "commons-io:commons-io:2.4": {},
+    "commons-codec:commons-codec:1.9": {},
+    "net.java.jinput:jinput:2.0.5": {},
+    "net.java.jutils:jutils:1.0.0": {},
+    "com.google.code.gson:gson:2.2.4": {},
+    "com.mojang:authlib:1.5.21": {},
+    "com.mojang:realms:1.7.24": {},
+    "org.apache.commons:commons-compress:1.8.1": {},
+    "org.apache.httpcomponents:httpclient:4.3.3": {},
+    "commons-logging:commons-logging:1.1.3": {},
+    "org.apache.httpcomponents:httpcore:4.3.2": {},
+    "org.apache.logging.log4j:log4j-api:2.0-beta9": {},
+    "org.apache.logging.log4j:log4j-core:2.0-beta9": {},
+    "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209": {
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209": {
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209": {
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209:natives-osx": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    "org.lwjgl.lwjgl:lwjgl:2.9.2-nightly-20140822": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.2-nightly-20140822": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822:natives-osx": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    "net.java.jinput:jinput-platform:2.0.5:natives-linux": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    "net.java.jinput:jinput-platform:2.0.5:natives-osx": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    "net.java.jinput:jinput-platform:2.0.5:natives-windows": {
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    }
+  },
+  "logging": {
+    "client": {
+      "argument": "-Dlog4j.configurationFile=${path}",
+      "file": {
+        "id": "client-1.7.xml",
+        "sha1": "50c9cc4af6d853d9fc137c84bcd153e2bd3a9a82",
+        "size": 966,
+        "url": "https://launcher.mojang.com/v1/objects/50c9cc4af6d853d9fc137c84bcd153e2bd3a9a82/client-1.7.xml"
+      },
+      "type": "log4j2-xml"
+    }
+  },
+  "mainClass": "net.minecraft.client.main.Main",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type}",
+  "minimumLauncherVersion": 14,
+  "type": "snapshot"
+}

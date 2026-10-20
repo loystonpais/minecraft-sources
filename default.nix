@@ -1,9 +1,21 @@
 {...}: let
-  inherit (builtins) fromJSON readFile;
+  inherit (builtins) fromJSON readFile listToAttrs;
 
   sources = {
+    mojang = let
+      minecraft = fromJSON (readFile ./mojang/minecraft.json);
+    in
+      minecraft
+      // {
+        versions = listToAttrs (map (vId: {
+            name = vId;
+            value = fromJSON (readFile (./mojang/versions + "/${vId}.json"));
+          })
+          minecraft.versions);
+      };
+
     libraries = fromJSON (readFile ./libraries.json);
-    mojang = fromJSON (readFile ./mojang.json);
+
     fabric = fromJSON (readFile ./fabric.json);
     quilt = fromJSON (readFile ./quilt.json);
     forge = fromJSON (readFile ./forge.json);
