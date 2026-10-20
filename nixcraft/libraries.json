@@ -7755,6 +7755,10 @@
     "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.10.7/fabric-loader-0.10.7.jar",
     "hash": "sha256-dMssJZkOn7vL2p4fWqGzqbu2n/unYyoZTRAQGLTdDqE="
   },
+  "net.fabricmc:fabric-loader:0.20.1": {
+    "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.20.1/fabric-loader-0.20.1.jar",
+    "hash": "sha256-0MWgguB0EKr/neerGWqmtCNgAocPm6OtXBJg/M5REK0="
+  },
   "org.quiltmc:hashed:24w05a": {
     "url": "https://maven.quiltmc.org/repository/release/org/quiltmc/hashed/24w05a/hashed-24w05a.jar",
     "hash": "sha256-/SRrr2H7BQtV6WWjVE2FQZEOVgqbYdUP1VL7CwThJSM="
