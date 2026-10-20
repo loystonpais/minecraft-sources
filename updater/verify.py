@@ -65,16 +65,16 @@ def verify_libraries(data: dict[str, Any]) -> None:
 
 
 def verify_mojang() -> None:
-    file_name = "mojang/minecraft.json"
-    minecraft_path = NIXCRAFT_DIR / "mojang" / "minecraft.json"
+    file_name = "mojang/meta.json"
+    meta_path = NIXCRAFT_DIR / "mojang" / "meta.json"
     versions_dir = NIXCRAFT_DIR / "mojang" / "versions"
 
-    if not minecraft_path.exists():
-        fail(file_name, f"Missing {minecraft_path}")
+    if not meta_path.exists():
+        fail(file_name, f"Missing {meta_path}")
     if not versions_dir.is_dir():
         fail(file_name, f"Missing versions directory {versions_dir}")
 
-    data = load_json(minecraft_path)
+    data = load_json(meta_path)
     assert_type(file_name, "root", data, dict)
     for expected_key in ["latest", "versions", "data_versions"]:
         if expected_key not in data:
@@ -321,7 +321,7 @@ def verify_all_nixcraft() -> bool:
 
     checks = [
         ("libraries.json", verify_libraries),
-        ("mojang/minecraft.json", lambda _: verify_mojang()),
+        ("mojang/meta.json", lambda _: verify_mojang()),
         ("fabric.json", lambda d: verify_modloader_fabric_quilt("fabric.json", d)),
         ("quilt.json", lambda d: verify_modloader_fabric_quilt("quilt.json", d)),
         ("forge.json", lambda d: verify_modloader_forge_neoforge("forge.json", d)),

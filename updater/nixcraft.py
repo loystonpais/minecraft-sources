@@ -131,7 +131,7 @@ def clean_mojang_version_data(raw_data: dict[str, Any]) -> dict[str, Any]:
 
 
 def build_mojang() -> None:
-    """Consolidates vanilla Minecraft data into nixcraft/mojang/minecraft.json and nixcraft/mojang/versions/."""
+    """Consolidates vanilla Minecraft data into nixcraft/mojang/meta.json and nixcraft/mojang/versions/."""
     logger.info("==> Building nixcraft/mojang/...")
     manifest_data = load_json(RAW_DIR / "mojang" / "version_manifest_v2.json") or {}
     versions_list = load_json(REPO_ROOT / "mojang" / "versions-list.json") or []
@@ -156,21 +156,21 @@ def build_mojang() -> None:
         else:
             logger.warning(f"Raw version file not found for {v_id} at {v_file}")
 
-    # Remove any obsolete nixcraft/mojang.json
-    legacy_file = NIXCRAFT_DIR / "mojang.json"
-    if legacy_file.exists():
-        legacy_file.unlink()
+    # Remove any obsolete files
+    for obsolete in [NIXCRAFT_DIR / "mojang.json", nixcraft_mojang_dir / "minecraft.json"]:
+        if obsolete.exists():
+            obsolete.unlink()
 
-    # Save nixcraft/mojang/minecraft.json
-    minecraft_meta = {
+    # Save nixcraft/mojang/meta.json
+    mojang_meta = {
         "latest": manifest_data.get("latest", {}),
         "versions": versions_list,
         "data_versions": data_versions,
     }
 
-    minecraft_dest = nixcraft_mojang_dir / "minecraft.json"
-    save_json(minecraft_dest, minecraft_meta)
-    logger.info(f"Saved {minecraft_dest} and {saved_count} version specs to {nixcraft_versions_dir}")
+    meta_dest = nixcraft_mojang_dir / "meta.json"
+    save_json(meta_dest, mojang_meta)
+    logger.info(f"Saved {meta_dest} and {saved_count} version specs to {nixcraft_versions_dir}")
 
     # Copy asset map using its exact real filename
     asset_src = REPO_ROOT / "mojang" / "asset-sha1-sha256-map.json"
