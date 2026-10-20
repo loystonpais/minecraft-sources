@@ -56,6 +56,4 @@ devenv.local.nix
 .coverage
 htmlcov/
 
-# Mojang raw versions cache
-raw/mojang/versions/
 
