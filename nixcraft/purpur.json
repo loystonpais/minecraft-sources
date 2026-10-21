@@ -44,9 +44,9 @@
   ],
   "builds": {
     "26.3": {
-      "build": 2652,
-      "url": "https://api.purpurmc.org/v2/purpur/26.3/2652/download",
-      "hash": "md5-u/XYcDvI7lqmxSUeG7yqeA=="
+      "build": 2653,
+      "url": "https://api.purpurmc.org/v2/purpur/26.3/2653/download",
+      "hash": "md5-wPlIckZquyaGWKjcd/M7aQ=="
     },
     "26.2": {
       "build": 2633,

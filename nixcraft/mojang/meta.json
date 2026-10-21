@@ -1,9 +1,10 @@
 {
   "latest": {
     "release": "26.3",
-    "snapshot": "26.4-snapshot-4"
+    "snapshot": "26.4-snapshot-5"
   },
   "versions": [
+    "26.4-snapshot-5",
     "26.4-snapshot-4",
     "26.4-snapshot-3",
     "26.4-snapshot-2",
@@ -925,6 +926,7 @@
     "rd-132211"
   ],
   "data_versions": {
+    "26.4-snapshot-5": 5125,
     "26.4-snapshot-4": 5124,
     "26.4-snapshot-3": 5122,
     "26.4-snapshot-2": 5120,

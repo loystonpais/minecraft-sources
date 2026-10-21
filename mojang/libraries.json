@@ -339,6 +339,10 @@
     "url": "https://libraries.minecraft.net/com/mojang/authlib/11.0.80/authlib-11.0.80.jar",
     "sha1": "3dd9dd63a0dc2a8ad27abe1e71a4c827cb41de71"
   },
+  "com.mojang:authlib:12.0.81": {
+    "url": "https://libraries.minecraft.net/com/mojang/authlib/12.0.81/authlib-12.0.81.jar",
+    "sha1": "7fac0f563667040e4d25a0c7f8714f8241c5e377"
+  },
   "com.mojang:authlib:2.0.26": {
     "url": "https://libraries.minecraft.net/com/mojang/authlib/2.0.26/authlib-2.0.26.jar",
     "sha1": "58d76f2a7f7ae4d5d79d74460a6d4eba0de7c116"

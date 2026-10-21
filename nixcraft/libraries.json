@@ -339,6 +339,10 @@
     "url": "https://libraries.minecraft.net/com/mojang/authlib/11.0.80/authlib-11.0.80.jar",
     "hash": "sha1-PdndY6DcKorSer4ecaTIJ8tB3nE="
   },
+  "com.mojang:authlib:12.0.81": {
+    "url": "https://libraries.minecraft.net/com/mojang/authlib/12.0.81/authlib-12.0.81.jar",
+    "hash": "sha1-f6wPVjZnBA5NJaDH+HFPgkHF43c="
+  },
   "com.mojang:authlib:2.0.26": {
     "url": "https://libraries.minecraft.net/com/mojang/authlib/2.0.26/authlib-2.0.26.jar",
     "hash": "sha1-WNdvKn965NXXnXRGCm1Oug3nwRY="
@@ -7758,6 +7762,10 @@
   "net.fabricmc:fabric-loader:0.20.1": {
     "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.20.1/fabric-loader-0.20.1.jar",
     "hash": "sha256-0MWgguB0EKr/neerGWqmtCNgAocPm6OtXBJg/M5REK0="
+  },
+  "net.fabricmc:intermediary:26.4-snapshot-5": {
+    "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/26.4-snapshot-5/intermediary-26.4-snapshot-5.jar",
+    "hash": "sha256-LgDFJ/HLesmWpZqSzLRpeNKfs9oEqj1LUhycc37jy3Q="
   },
   "org.quiltmc:hashed:24w05a": {
     "url": "https://maven.quiltmc.org/repository/release/org/quiltmc/hashed/24w05a/hashed-24w05a.jar",
