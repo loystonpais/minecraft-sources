@@ -12259,6 +12259,178 @@
     "url": "https://maven.minecraftforge.net/net/minecraftforge/eventbus/0.10.1/eventbus-0.10.1-service.jar",
     "hash": "sha1-GckKGyzn3NWbBFhUtrkB0epLMc0="
   },
+  "net.minecraftforge:forge:26.3-66.0.13:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.0.13/forge-26.3-66.0.13-installer.jar",
+    "hash": "sha1-8MdMlDW1tU4PDMl/E8HTm9fS1Js="
+  },
+  "net.minecraftforge:forge:1.20.4-49.2.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.2.0/forge-1.20.4-49.2.0-installer.jar",
+    "hash": "sha1-AWFbPjKb8jsSB94YtMbxTNiX/eU="
+  },
+  "net.minecraftforge:forge:1.20.6-50.2.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.6-50.2.0/forge-1.20.6-50.2.0-installer.jar",
+    "hash": "sha1-B35G3F45poAVcnXBRHOALHHyVbY="
+  },
+  "net.minecraftforge:forge:1.21.1-52.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.0/forge-1.21.1-52.1.0-installer.jar",
+    "hash": "sha1-+k+QBHwj5t9NK05kmux/1dHiCs0="
+  },
+  "net.minecraftforge:forge:1.21.3-53.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.3-53.1.0/forge-1.21.3-53.1.0-installer.jar",
+    "hash": "sha1-F/sO3UNYCMT5KDf6XHzvKzAD+VU="
+  },
+  "net.minecraftforge:forge:1.21.4-54.1.14:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.4-54.1.14/forge-1.21.4-54.1.14-installer.jar",
+    "hash": "sha1-U7v37m82StcrBqJRLl+e2Xex4w0="
+  },
+  "net.minecraftforge:forge:1.21.5-55.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.5-55.1.0/forge-1.21.5-55.1.0-installer.jar",
+    "hash": "sha1-3fTqtj/Y5vJwyXdGOXmWvqi2gy0="
+  },
+  "net.minecraftforge:forge:1.21.8-58.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.8-58.1.0/forge-1.21.8-58.1.0-installer.jar",
+    "hash": "sha1-wbgBppQZyvEs9iQ+KFI0NyJuZf0="
+  },
+  "net.minecraftforge:forge:1.21.10-60.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.10-60.1.0/forge-1.21.10-60.1.0-installer.jar",
+    "hash": "sha1-J+9kHPGG2mbct15i3Eay/aZEZ/0="
+  },
+  "net.minecraftforge:forge:1.21.11-61.2.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.2.0/forge-1.21.11-61.2.0-installer.jar",
+    "hash": "sha1-ymgvDVN8ZemhEuHnqzNwldSGKY8="
+  },
+  "net.minecraftforge:forge:26.1.2-64.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.1.0/forge-26.1.2-64.1.0-installer.jar",
+    "hash": "sha1-o3Gw1OXSub64spptkK2ljkw6Zqs="
+  },
+  "net.minecraftforge:forge:26.2-65.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.2-65.1.0/forge-26.2-65.1.0-installer.jar",
+    "hash": "sha1-KZT+jwIZMK+hbjucieEIkY1mgwU="
+  },
+  "net.minecraftforge:forge:1.20.1-47.4.10:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
+    "hash": "sha1-Zr/qmWO/pg2IuraydQ50qVg5JxU="
+  },
+  "net.minecraftforge:forge:1.19.4-45.4.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.4.0/forge-1.19.4-45.4.0-installer.jar",
+    "hash": "sha1-5PP9zScfg9enjsZZDRCCF1Y9IlM="
+  },
+  "net.minecraftforge:forge:1.15.2-31.2.57:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-installer.jar",
+    "hash": "sha1-hUCP/06f3O3EF/N4YYqKaHAmiRM="
+  },
+  "net.minecraftforge:forge:1.14.4-28.2.26:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-installer.jar",
+    "hash": "sha1-/766MVgzwyToxxCRt22MZV53jEE="
+  },
+  "net.minecraftforge:forge:26.1.1-63.0.2:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.1-63.0.2/forge-26.1.1-63.0.2-installer.jar",
+    "hash": "sha1-5irpksJ7uYmJ+6vHDrYnuEC80Wg="
+  },
+  "net.minecraftforge:forge:26.1-62.0.9:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1-62.0.9/forge-26.1-62.0.9-installer.jar",
+    "hash": "sha1-wFaxTA8RImoLagPtXidFIxA1NAQ="
+  },
+  "net.minecraftforge:forge:1.18.2-40.3.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.3.0/forge-1.18.2-40.3.0-installer.jar",
+    "hash": "sha1-0mfj29LfTmhJvbKoGqC5IMNU76Y="
+  },
+  "net.minecraftforge:forge:1.19.2-43.5.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.5.0/forge-1.19.2-43.5.0-installer.jar",
+    "hash": "sha1-CkWh2WOIQDxfFlVt+BFluk2WmHo="
+  },
+  "net.minecraftforge:forge:1.21.9-59.0.5:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.9-59.0.5/forge-1.21.9-59.0.5-installer.jar",
+    "hash": "sha1-+zOH3OHvWnHZn9RmUziPwGjEY4g="
+  },
+  "net.minecraftforge:forge:1.21.7-57.0.3:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.7-57.0.3/forge-1.21.7-57.0.3-installer.jar",
+    "hash": "sha1-7j+Y1I3zHKdGK9vG0JvB0jJzpFo="
+  },
+  "net.minecraftforge:forge:1.21.6-56.0.9:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.6-56.0.9/forge-1.21.6-56.0.9-installer.jar",
+    "hash": "sha1-hcVE5AFzDmQ+yWWF/PASQi6Q3WI="
+  },
+  "net.minecraftforge:forge:1.21-51.0.33:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21-51.0.33/forge-1.21-51.0.33-installer.jar",
+    "hash": "sha1-Ukmzw8o9miy4qNMh4+72fKZK+F8="
+  },
+  "net.minecraftforge:forge:1.16.5-36.2.34:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-installer.jar",
+    "hash": "sha1-qzBrZUxE1lnOadpdT4dZC2bckeg="
+  },
+  "net.minecraftforge:forge:1.20.3-49.0.2:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.3-49.0.2/forge-1.20.3-49.0.2-installer.jar",
+    "hash": "sha1-ZSKH8ZrtRK2SBjHGpiqaP/5i+4c="
+  },
+  "net.minecraftforge:forge:1.20.2-48.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.2-48.1.0/forge-1.20.2-48.1.0-installer.jar",
+    "hash": "sha1-4VV3ckzGZfj3aRMzw963PzFxA9g="
+  },
+  "net.minecraftforge:forge:1.20-46.0.14:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20-46.0.14/forge-1.20-46.0.14-installer.jar",
+    "hash": "sha1-OxbcIezzv/Z8ZOuyAVe1OEQ02Hc="
+  },
+  "net.minecraftforge:forge:1.19.3-44.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.3-44.1.0/forge-1.19.3-44.1.0-installer.jar",
+    "hash": "sha1-5SNgqYq5TcbOmq8CLygPFsUrtUc="
+  },
+  "net.minecraftforge:forge:1.19.1-42.0.9:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.1-42.0.9/forge-1.19.1-42.0.9-installer.jar",
+    "hash": "sha1-BXxTLlfvbKdIkKLMEssqvsKpyEc="
+  },
+  "net.minecraftforge:forge:1.19-41.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19-41.1.0/forge-1.19-41.1.0-installer.jar",
+    "hash": "sha1-LsCONKU3iOVQNum7RfC5lfIKNVQ="
+  },
+  "net.minecraftforge:forge:1.18.1-39.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.1-39.1.0/forge-1.18.1-39.1.0-installer.jar",
+    "hash": "sha1-dZUQrw4LmLFyF7R/yl1UiFLGTCc="
+  },
+  "net.minecraftforge:forge:1.13.2-25.0.223:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.13.2-25.0.223/forge-1.13.2-25.0.223-installer.jar",
+    "hash": "sha1-esTBIdutphZ0/aga67vMLP0/KM0="
+  },
+  "net.minecraftforge:forge:1.17.1-37.1.1:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.17.1-37.1.1/forge-1.17.1-37.1.1-installer.jar",
+    "hash": "sha1-NW24QuDzFtN/Vm36jgdCIww2sJQ="
+  },
+  "net.minecraftforge:forge:1.18-38.0.17:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.18-38.0.17/forge-1.18-38.0.17-installer.jar",
+    "hash": "sha1-fa3RKhZU2AH+HTrYELOp+CKKflc="
+  },
+  "net.minecraftforge:forge:1.16.4-35.1.4:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-installer.jar",
+    "hash": "sha1-51AU/5Slc2JDWbuMYACPlnKu9/U="
+  },
+  "net.minecraftforge:forge:1.16.3-34.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.3-34.1.0/forge-1.16.3-34.1.0-installer.jar",
+    "hash": "sha1-mKCv+fcvzxKCUImkEwd6nn2Xg8E="
+  },
+  "net.minecraftforge:forge:1.16.2-33.0.61:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.2-33.0.61/forge-1.16.2-33.0.61-installer.jar",
+    "hash": "sha1-YyE8DMUIVuE7UrPzKENgDmW2kXM="
+  },
+  "net.minecraftforge:forge:1.16.1-32.0.108:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-installer.jar",
+    "hash": "sha1-t/QEzHl3ceDoTpKM4/mPwxHPxMM="
+  },
+  "net.minecraftforge:forge:1.15.1-30.0.51:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.15.1-30.0.51/forge-1.15.1-30.0.51-installer.jar",
+    "hash": "sha1-8dOxsAr3iGivW/1zuai7cq2bcD0="
+  },
+  "net.minecraftforge:forge:1.15-29.0.4:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.15-29.0.4/forge-1.15-29.0.4-installer.jar",
+    "hash": "sha1-UIULs1Hz2Jc4YU3ehDKqEawq4RI="
+  },
+  "net.minecraftforge:forge:1.14.3-27.0.60:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.3-27.0.60/forge-1.14.3-27.0.60-installer.jar",
+    "hash": "sha1-j/LpCI91TEVm167hbNz2loXrj04="
+  },
+  "net.minecraftforge:forge:1.14.2-26.0.63:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.2-26.0.63/forge-1.14.2-26.0.63-installer.jar",
+    "hash": "sha1-y/T8WvTw4Z/IYYbmJJSvL4gfUIE="
+  },
   "net.neoforged.fancymodloader:earlydisplay:4.0.45": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.45/earlydisplay-4.0.45.jar",
     "hash": "sha1-3HqLE3AFTdDi1wwdtN30CSeTwRU="
@@ -12838,6 +13010,138 @@
   "net.fabricmc:sponge-mixin:0.13.1+mixin.0.8.5": {
     "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.13.1+mixin.0.8.5/sponge-mixin-0.13.1+mixin.0.8.5.jar",
     "hash": "sha1-YY9N/4YM8ta1GWBzsaX14KhZGss="
+  },
+  "net.neoforged:neoforge:26.3.0.95:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.95/neoforge-26.3.0.95-installer.jar",
+    "hash": "sha1-qEivrAZP/g4kS/fCE2+7/IYvnJc="
+  },
+  "net.neoforged:neoforge:21.1.264:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.264/neoforge-21.1.264-installer.jar",
+    "hash": "sha1-+AFgG6+n9ZVylTU5MOLLYdz93Gw="
+  },
+  "net.neoforged:neoforge:26.1.2.122:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.122/neoforge-26.1.2.122-installer.jar",
+    "hash": "sha1-XB2FrCHmvtUjdqAeYOCBsbAoZIE="
+  },
+  "net.neoforged:neoforge:20.4.253:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.4.253/neoforge-20.4.253-installer.jar",
+    "hash": "sha1-hppZKDHfLws4b2LGOPv0Ot8ywnk="
+  },
+  "net.neoforged:neoforge:21.3.100:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.3.100/neoforge-21.3.100-installer.jar",
+    "hash": "sha1-DORH7bEFjeKrZ0+pHLrZmzm+fL0="
+  },
+  "net.neoforged:neoforge:21.4.161:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.161/neoforge-21.4.161-installer.jar",
+    "hash": "sha1-6AdlNrIQ4F90tjssvZsWPv4W1jA="
+  },
+  "net.neoforged:neoforge:20.6.144:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.6.144/neoforge-20.6.144-installer.jar",
+    "hash": "sha1-Cecu69SevccCj6/XdW/adv5x6Xs="
+  },
+  "net.neoforged:neoforge:21.5.101:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.5.101/neoforge-21.5.101-installer.jar",
+    "hash": "sha1-HPII37jMqwAiX9mCMw7qWXL/dGo="
+  },
+  "net.neoforged:neoforge:21.11.48:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.11.48/neoforge-21.11.48-installer.jar",
+    "hash": "sha1-y+6F0b/Tm+wQLozhganRsnMZ61Q="
+  },
+  "net.neoforged:neoforge:21.8.57:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.8.57/neoforge-21.8.57-installer.jar",
+    "hash": "sha1-TW6MTHqHhiGpeb1vS25IXno+W4o="
+  },
+  "net.neoforged:neoforge:26.2.0.93:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.2.0.93/neoforge-26.2.0.93-installer.jar",
+    "hash": "sha1-lyBYKaAg/JOJ9QSnf1kLVBV8jd4="
+  },
+  "net.neoforged:neoforge:26.1.1.15-beta:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.1.15-beta/neoforge-26.1.1.15-beta-installer.jar",
+    "hash": "sha1-LBNypuxZ+Tk3eWrFSslwANkeJyw="
+  },
+  "net.neoforged:neoforge:26.1.0.19-beta:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.0.19-beta/neoforge-26.1.0.19-beta-installer.jar",
+    "hash": "sha1-fZ+Si400/Lsep7rTD2xISbq0rvc="
+  },
+  "net.neoforged:neoforge:26.1.0.0-alpha.15+pre-3:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.0.0-alpha.15+pre-3/neoforge-26.1.0.0-alpha.15+pre-3-installer.jar",
+    "hash": "sha1-ZG39hTYP93JvWFveRVGHAYaUgn4="
+  },
+  "net.neoforged:neoforge:26.1.0.0-alpha.14+snapshot-11:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.0.0-alpha.14+snapshot-11/neoforge-26.1.0.0-alpha.14+snapshot-11-installer.jar",
+    "hash": "sha1-xmHCiAxO/dt74tCWl3YHvwz6Ktg="
+  },
+  "net.neoforged:neoforge:26.1.0.0-alpha.13+snapshot-10:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.0.0-alpha.13+snapshot-10/neoforge-26.1.0.0-alpha.13+snapshot-10-installer.jar",
+    "hash": "sha1-S5I8kxIql0+5UW+apbiJeuUqnHU="
+  },
+  "net.neoforged:neoforge:26.1.0.0-alpha.12+snapshot-7:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.0.0-alpha.12+snapshot-7/neoforge-26.1.0.0-alpha.12+snapshot-7-installer.jar",
+    "hash": "sha1-pzyEYjg/v8soxZ3kn4yyVz7Y9yE="
+  },
+  "net.neoforged:neoforge:26.1.0.0-alpha.10+snapshot-6:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.0.0-alpha.10+snapshot-6/neoforge-26.1.0.0-alpha.10+snapshot-6-installer.jar",
+    "hash": "sha1-7xjujqiXldDhZXBTKpBqyrYPsJ0="
+  },
+  "net.neoforged:neoforge:26.1.0.0-alpha.8+snapshot-4:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.0.0-alpha.8+snapshot-4/neoforge-26.1.0.0-alpha.8+snapshot-4-installer.jar",
+    "hash": "sha1-Fxyvwm/aBNyvcUlfNp4ygMsuo5Y="
+  },
+  "net.neoforged:neoforge:26.1.0.0-alpha.7+snapshot-3:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.0.0-alpha.7+snapshot-3/neoforge-26.1.0.0-alpha.7+snapshot-3-installer.jar",
+    "hash": "sha1-Twbey+3twmHhNPYl+uTcMy7GGNA="
+  },
+  "net.neoforged:neoforge:26.1.0.0-alpha.6+snapshot-2:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.0.0-alpha.6+snapshot-2/neoforge-26.1.0.0-alpha.6+snapshot-2-installer.jar",
+    "hash": "sha1-1+FWkuXiWTfjJmUl6nrnoz1z0K8="
+  },
+  "net.neoforged:neoforge:26.1.0.0-alpha.4+snapshot-1:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.0.0-alpha.4+snapshot-1/neoforge-26.1.0.0-alpha.4+snapshot-1-installer.jar",
+    "hash": "sha1-+EFWQ7BnsnmgSvSULiqvgoAIm1g="
+  },
+  "net.neoforged:neoforge:21.10.64:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.10.64/neoforge-21.10.64-installer.jar",
+    "hash": "sha1-+/EJt+6bQBCMohun02VqFuEN8Pc="
+  },
+  "net.neoforged:neoforge:21.9.16-beta:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.9.16-beta/neoforge-21.9.16-beta-installer.jar",
+    "hash": "sha1-v6hwXsntTQMJMKqbtGMOb+WGinU="
+  },
+  "net.neoforged:neoforge:21.7.25-beta:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.7.25-beta/neoforge-21.7.25-beta-installer.jar",
+    "hash": "sha1-cUmLJZgU5GaEQ1RW724FFxlUbBk="
+  },
+  "net.neoforged:neoforge:21.6.20-beta:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.6.20-beta/neoforge-21.6.20-beta-installer.jar",
+    "hash": "sha1-/jv78rWARUZ6I/Wwqm0216BVlqo="
+  },
+  "net.neoforged:neoforge:0.25w14craftmine.5-beta:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/0.25w14craftmine.5-beta/neoforge-0.25w14craftmine.5-beta-installer.jar",
+    "hash": "sha1-oB8O/KM7nNSbkSmKK1k2iafH76c="
+  },
+  "net.neoforged:neoforge:20.2.93:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.2.93/neoforge-20.2.93-installer.jar",
+    "hash": "sha1-tIHhJbDT94APydYAMQCqf5E87kw="
+  },
+  "net.neoforged:neoforge:21.2.1-beta:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.2.1-beta/neoforge-21.2.1-beta-installer.jar",
+    "hash": "sha1-n3QNKzyCq3g9Vkv6vwZP1UtK6nQ="
+  },
+  "net.neoforged:neoforge:21.0.167:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.0.167/neoforge-21.0.167-installer.jar",
+    "hash": "sha1-XEqkwskcocCv5FJRcfdTAPZnWnM="
+  },
+  "net.neoforged:forge:1.20.1-47.1.106:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/forge/1.20.1-47.1.106/forge-1.20.1-47.1.106-installer.jar",
+    "hash": "sha1-DGB03WZIc4gljhu10qli1SCAoiw="
+  },
+  "net.neoforged:neoforge:20.5.21-beta:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.5.21-beta/neoforge-20.5.21-beta-installer.jar",
+    "hash": "sha1-IViUOB7nt09mg/Ra9tlXWTTh3ik="
+  },
+  "net.neoforged:neoforge:20.3.8-beta:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/20.3.8-beta/neoforge-20.3.8-beta-installer.jar",
+    "hash": "sha1-CBklSz31A5873Nf4Cxoe2zlbp4w="
   },
   "org.lwjgl:lwjgl-freetype-natives-linux:3.4.3": {
     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3/lwjgl-freetype-3.4.3-natives-linux.jar",
