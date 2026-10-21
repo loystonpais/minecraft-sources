@@ -72,7 +72,10 @@ class NeoForgeModloader(BaseModloader):
         libraries: dict[str, dict] = dict(existing_libraries)
 
         # 4. Fetch component spec for selected builds
-        pending_versions = [ver for ver in selected_versions if not (ver in loaders and loaders[ver].get("dependencies"))]
+        pending_versions = [
+            ver for ver in selected_versions
+            if not (ver in loaders and loaders[ver].get("dependencies") and "installer" in loaders[ver])
+        ]
 
         if pending_versions:
             from concurrent.futures import ThreadPoolExecutor
@@ -104,10 +107,29 @@ class NeoForgeModloader(BaseModloader):
                             entry["sha1"] = sha1
                         discovered_libs[name] = entry
 
+                installer_coord = None
+                for mf in spec.get("mavenFiles", []):
+                    mf_name = mf.get("name", "")
+                    dl = mf.get("downloads", {}).get("artifact", {})
+                    url = dl.get("url") or mf.get("url") or ""
+                    if mf_name.endswith(":installer") or "-installer.jar" in url:
+                        installer_coord = mf_name
+                        sha1 = dl.get("sha1") or mf.get("sha1")
+                        sha256 = dl.get("sha256") or mf.get("sha256")
+                        if url and (sha1 or sha256):
+                            entry = {"url": url}
+                            if sha256:
+                                entry["sha256"] = sha256
+                            if sha1:
+                                entry["sha1"] = sha1
+                            discovered_libs[mf_name] = entry
+                        break
+
                 res = {
                     "version": ver,
                     "dependencies": dep_names,
                     "mainClass": spec.get("mainClass"),
+                    "installer": installer_coord,
                     "minecraftArguments": spec.get("minecraftArguments"),
                 }
                 return ver, res, discovered_libs

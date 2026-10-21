@@ -208,6 +208,9 @@ def verify_modloader_forge_neoforge(file_name: str, data: dict[str, Any]) -> Non
         for c in l_info["dependencies"]:
             assert_type(file_name, f"loaders.{l_id}.dependencies[]", c, str)
 
+        if "installer" in l_info and l_info["installer"] is not None:
+            assert_type(file_name, f"loaders.{l_id}.installer", l_info["installer"], str)
+
 
 def verify_lwjgl(data: dict[str, Any]) -> None:
     file_name = "lwjgl.json"
