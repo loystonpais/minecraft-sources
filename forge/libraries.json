@@ -1974,5 +1974,853 @@
   "net.minecraftforge:forge:1.14.2-26.0.63:installer": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.2-26.0.63/forge-1.14.2-26.0.63-installer.jar",
     "sha1": "cbf4fc5af4f0e19fc86186e62494af2f881f5081"
+  },
+  "com.github.jponge:lzma-java:1.3": {
+    "url": "https://maven.minecraftforge.net/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar",
+    "sha1": "a25db9d4d385ccda4825ae1b47a7a61d86e595af"
+  },
+  "com.google.code.gson:gson:2.10.1": {
+    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+    "sha1": "b3add478d4382b78ea20b1671390a858002feb6c"
+  },
+  "com.nothome:javaxdelta:2.0.1": {
+    "url": "https://maven.minecraftforge.net/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar",
+    "sha1": "d4f5d077f1b15c6f67595015d69572303ad3f66d"
+  },
+  "de.siegmar:fastcsv:2.2.2": {
+    "url": "https://maven.minecraftforge.net/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar",
+    "sha1": "40562843510397296de200889d9ed5f3af155e52"
+  },
+  "net.minecraftforge:binarypatcher:1.3.4": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/binarypatcher/1.3.4/binarypatcher-1.3.4.jar",
+    "sha1": "62739687c274efb763805eff3db9acc738ca321c"
+  },
+  "net.minecraftforge:forge:26.3-66.0.13:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.0.13/forge-26.3-66.0.13-shim.jar",
+    "sha1": "0a27362a655704d6f0c0b312c582d515867e2efb"
+  },
+  "net.minecraftforge:hash-utils:0.2.3": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/hash-utils/0.2.3/hash-utils-0.2.3.jar",
+    "sha1": "d929552990be336b5cd7fbb67c7b25cdf263f5d2"
+  },
+  "net.minecraftforge:installertools:1.4.6": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.4.6/installertools-1.4.6.jar",
+    "sha1": "6cbb6511802e23a045dc1d69ce1412582eb5e2d6"
+  },
+  "net.minecraftforge:srgutils:0.6.2": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/srgutils/0.6.2/srgutils-0.6.2.jar",
+    "sha1": "e8e7d58835222461405514ab69fd6b29726e950d"
+  },
+  "net.minecraftforge:srgutils:0.6.6": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/srgutils/0.6.6/srgutils-0.6.6.jar",
+    "sha1": "e17ec4f1f08313c5b3d1753a57d4bb867b24fcee"
+  },
+  "net.sf.jopt-simple:jopt-simple:6.0-alpha-3": {
+    "url": "https://maven.minecraftforge.net/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar",
+    "sha1": "02ab1a73e1e22d2b73469362a0908a98644b681d"
+  },
+  "trove:trove:1.0.2": {
+    "url": "https://maven.minecraftforge.net/trove/trove/1.0.2/trove-1.0.2.jar",
+    "sha1": "112b40581ab9a4d3de4636d49985a7f686d181c8"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.20.4-20231207.112700@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.20.4-20231207.112700/mcp_config-1.20.4-20231207.112700.zip",
+    "sha1": "55d51be7dba2ea898d2213e4312f29f76a8788c6"
+  },
+  "net.minecraftforge:ForgeAutoRenamingTool:1.0.6": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/ForgeAutoRenamingTool/1.0.6/ForgeAutoRenamingTool-1.0.6.jar",
+    "sha1": "f0cb8d14326a36d7b2b6654d53974844619c8bec"
+  },
+  "net.minecraftforge:binarypatcher:1.2.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/binarypatcher/1.2.0/binarypatcher-1.2.0.jar",
+    "sha1": "e5fea8a667a3ebff4e94fb74467c99c02914e4bc"
+  },
+  "net.minecraftforge:forge:1.20.4-49.2.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.2.0/forge-1.20.4-49.2.0-shim.jar",
+    "sha1": "9f2a1a7379976e35eb685266c243e6d5a1bc0235"
+  },
+  "net.minecraftforge:installertools:1.4.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.4.0/installertools-1.4.0.jar",
+    "sha1": "4447724cfe7cdef8e6e9fa0dea7da8d94aa52734"
+  },
+  "net.minecraftforge:srgutils:0.5.1": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/srgutils/0.5.1/srgutils-0.5.1.jar",
+    "sha1": "2268068226f4fc241be0b4592758dc0fc8371837"
+  },
+  "net.minecraftforge:srgutils:0.5.6": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar",
+    "sha1": "4844e46a377eebd8bb4da594e6b487126790b18e"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.20.6-20240429.135109@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.20.6-20240429.135109/mcp_config-1.20.6-20240429.135109.zip",
+    "sha1": "db14042761483405ac981a8af6b8b09e49f3dfad"
+  },
+  "net.minecraftforge:forge:1.20.6-50.2.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.6-50.2.0/forge-1.20.6-50.2.0-shim.jar",
+    "sha1": "363f31c4063e68d4ede8457a23b410270237457f"
+  },
+  "net.minecraftforge:installertools:1.4.3": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.4.3/installertools-1.4.3.jar",
+    "sha1": "e37ea5710e86aee9df90cb60f918b5d35280428d"
+  },
+  "net.minecraftforge:srgutils:0.5.10": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/srgutils/0.5.10/srgutils-0.5.10.jar",
+    "sha1": "e17c35076be020c539ea4c83735f2b40f46a7848"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21.1-20240808.132146@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21.1-20240808.132146/mcp_config-1.21.1-20240808.132146.zip",
+    "sha1": "3ac99c5c67b601dc19eaf15966594749dedab49c"
+  },
+  "net.minecraftforge:forge:1.21.1-52.1.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.0/forge-1.21.1-52.1.0-shim.jar",
+    "sha1": "f3469ffa6aa4b1af0554a6aeeb65ea743e229fa4"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21.3-20241025.112443@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21.3-20241025.112443/mcp_config-1.21.3-20241025.112443.zip",
+    "sha1": "0bb43b40e545d1a9ed8e2c3881cc018768c52a77"
+  },
+  "net.minecraftforge:forge:1.21.3-53.1.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.3-53.1.0/forge-1.21.3-53.1.0-shim.jar",
+    "sha1": "229513879496c8af1849c6806af5a8243798ca2e"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21.4-20241203.143248@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21.4-20241203.143248/mcp_config-1.21.4-20241203.143248.zip",
+    "sha1": "918265462ff74177f5621dfef17ef96218e51390"
+  },
+  "net.minecraftforge:forge:1.21.4-54.1.14:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.4-54.1.14/forge-1.21.4-54.1.14-shim.jar",
+    "sha1": "898bb4fe273e7c857d2162e21942596179458fa1"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21.5-20250325.155543@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21.5-20250325.155543/mcp_config-1.21.5-20250325.155543.zip",
+    "sha1": "45bfb19bc6faaf9e24578ec05b65b5c597bbb8d6"
+  },
+  "net.minecraftforge:forge:1.21.5-55.1.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.5-55.1.0/forge-1.21.5-55.1.0-shim.jar",
+    "sha1": "80389b56f121e30ca2624fd8853957f7165d796e"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21.8-20250717.105350@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21.8-20250717.105350/mcp_config-1.21.8-20250717.105350.zip",
+    "sha1": "e2c959a10e48bf78cdf7abb9b14ee6cabbd2d7cd"
+  },
+  "net.minecraftforge:forge:1.21.8-58.1.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.8-58.1.0/forge-1.21.8-58.1.0-shim.jar",
+    "sha1": "8cdbbe08bae3d88ec29dc276c76948c06e01643a"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21.10-20251007.101210@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21.10-20251007.101210/mcp_config-1.21.10-20251007.101210.zip",
+    "sha1": "60ca5b7ac64b6b218a0faad26866d11e15d322e4"
+  },
+  "net.minecraftforge:forge:1.21.10-60.1.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.10-60.1.0/forge-1.21.10-60.1.0-shim.jar",
+    "sha1": "b6531a6b970b48a63676490492865dc95ee8e679"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21.11-20251223.124241@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21.11-20251223.124241/mcp_config-1.21.11-20251223.124241.zip",
+    "sha1": "22f0d9332cd01653f9dbdde9d262a4bb13c279c3"
+  },
+  "net.minecraftforge:binarypatcher:1.3.1": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/binarypatcher/1.3.1/binarypatcher-1.3.1.jar",
+    "sha1": "171fd4a353681485756695e74998109da68ebbd5"
+  },
+  "net.minecraftforge:forge:1.21.11-61.2.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.2.0/forge-1.21.11-61.2.0-shim.jar",
+    "sha1": "ecf6dca8b08a2440f6be98eb210f5a4942afb278"
+  },
+  "net.minecraftforge:srgutils:0.6.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/srgutils/0.6.5/srgutils-0.6.5.jar",
+    "sha1": "4bf1aed4812034795c5de4fc0913b4f0b977b6f2"
+  },
+  "net.minecraftforge:forge:26.1.2-64.1.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.1.0/forge-26.1.2-64.1.0-shim.jar",
+    "sha1": "00445501442b8ef016518a0b0fdf2b79fb7a4c5f"
+  },
+  "net.minecraftforge:installertools:1.4.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.4.5/installertools-1.4.5.jar",
+    "sha1": "b8ff6ef0bc2f92716f926675e13bb4904ce2cd12"
+  },
+  "net.minecraftforge:forge:26.2-65.1.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.2-65.1.0/forge-26.2-65.1.0-shim.jar",
+    "sha1": "e4194f4293dec5d6813b718cc8183ab7528f6b2b"
+  },
+  "com.google.code.findbugs:jsr305:3.0.2": {
+    "url": "https://maven.minecraftforge.net/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+    "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+  },
+  "com.google.errorprone:error_prone_annotations:2.1.3": {
+    "url": "https://maven.minecraftforge.net/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar",
+    "sha1": "39b109f2cd352b2d71b52a3b5a1a9850e1dc304b"
+  },
+  "com.google.guava:guava:25.1-jre": {
+    "url": "https://maven.minecraftforge.net/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar",
+    "sha1": "6c57e4b22b44e89e548b5c9f70f0c45fe10fb0b4"
+  },
+  "com.google.j2objc:j2objc-annotations:1.1": {
+    "url": "https://maven.minecraftforge.net/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
+    "sha1": "ed28ded51a8b1c6b112568def5f4b455e6809019"
+  },
+  "commons-io:commons-io:2.4": {
+    "url": "https://libraries.minecraft.net/commons-io/commons-io/2.4/commons-io-2.4.jar",
+    "sha1": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.20.1-20230612.114412@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip",
+    "sha1": "c7d29380ddb38becad7c0819b5b325e43bca23f0"
+  },
+  "net.minecraftforge:ForgeAutoRenamingTool:0.1.22:all": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar",
+    "sha1": "0b337aca253a6fe63f9c39d4e6272ca1b2e7cfd8"
+  },
+  "net.minecraftforge:binarypatcher:1.1.1": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar",
+    "sha1": "23176c4f9fd7a8db961dc0b2ec32ad97ab08513c"
+  },
+  "net.minecraftforge:fmlcore:1.20.1-47.4.10": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar",
+    "sha1": "94dae566be650566ea9115a1414ab76bfcf5a804"
+  },
+  "net.minecraftforge:forge:1.20.1-47.4.10:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar",
+    "sha1": "41747347bacead85302e07082073fb46c2f69361"
+  },
+  "net.minecraftforge:installertools:1.4.1": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar",
+    "sha1": "e28bc43bc9bef8a1620460938effc5b12684d825"
+  },
+  "net.minecraftforge:jarsplitter:1.1.4": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar",
+    "sha1": "57ce2d6564c1176b23a911ef57127ff3c45bffb3"
+  },
+  "net.minecraftforge:javafmllanguage:1.20.1-47.4.10": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar",
+    "sha1": "ccc533c7dd67e0983217197d7549c8b49e7ab453"
+  },
+  "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar",
+    "sha1": "e9a2879fe3612ea34b9728ec2633304a1e67d480"
+  },
+  "net.minecraftforge:mclanguage:1.20.1-47.4.10": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar",
+    "sha1": "ec5cefbbc65c67302b8fac317010faab85fa14b9"
+  },
+  "net.minecraftforge:srgutils:0.4.3": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar",
+    "sha1": "84aecb8fc78bd0dd7299bd9963ac9eb83bd00aad"
+  },
+  "net.minecraftforge:srgutils:0.4.9": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar",
+    "sha1": "7595dae3ad2554b1dac30ae3a9521bd026639e38"
+  },
+  "org.checkerframework:checker-qual:2.0.0": {
+    "url": "https://maven.minecraftforge.net/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar",
+    "sha1": "518929596ee3249127502a8573b2e008e2d51ed3"
+  },
+  "org.codehaus.mojo:animal-sniffer-annotations:1.14": {
+    "url": "https://maven.minecraftforge.net/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar",
+    "sha1": "775b7e22fb10026eed3f86e8dc556dfafe35f2d5"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.19.4-20230314.122934@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.19.4-20230314.122934/mcp_config-1.19.4-20230314.122934.zip",
+    "sha1": "ec1124a8985a183739a3b084030cb7ec461ee9d3"
+  },
+  "net.minecraftforge:fmlcore:1.19.4-45.4.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.19.4-45.4.0/fmlcore-1.19.4-45.4.0.jar",
+    "sha1": "997debba937ba7ce56e9a04e52804f4a710a79d4"
+  },
+  "net.minecraftforge:forge:1.19.4-45.4.0:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.4.0/forge-1.19.4-45.4.0-universal.jar",
+    "sha1": "164e5bbdbb4d007f0c10618c20925c49190dc3aa"
+  },
+  "net.minecraftforge:javafmllanguage:1.19.4-45.4.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.19.4-45.4.0/javafmllanguage-1.19.4-45.4.0.jar",
+    "sha1": "3b75f0094ceb2a9df941e18cac3f939396f868f8"
+  },
+  "net.minecraftforge:lowcodelanguage:1.19.4-45.4.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.19.4-45.4.0/lowcodelanguage-1.19.4-45.4.0.jar",
+    "sha1": "fb51777ce6e1781e684806aeaa4d65db34c1be98"
+  },
+  "net.minecraftforge:mclanguage:1.19.4-45.4.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.19.4-45.4.0/mclanguage-1.19.4-45.4.0.jar",
+    "sha1": "7a2240e5db30b6d03a0ace67f747ca35a165b866"
+  },
+  "com.google.guava:guava:20.0": {
+    "url": "https://maven.minecraftforge.net/com/google/guava/guava/20.0/guava-20.0.jar",
+    "sha1": "89507701249388e1ed5ddcf8c41f4ce1be7831ef"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.15.2-20200515.085601@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.15.2-20200515.085601/mcp_config-1.15.2-20200515.085601.zip",
+    "sha1": "5711d9b33408935d4484078dd1985c59de875ab6"
+  },
+  "net.md-5:SpecialSource:1.8.5": {
+    "url": "https://maven.minecraftforge.net/net/md-5/SpecialSource/1.8.5/SpecialSource-1.8.5.jar",
+    "sha1": "c670c493c436a885c872fa4810bc698628b95922"
+  },
+  "net.minecraftforge:binarypatcher:1.0.12": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/binarypatcher/1.0.12/binarypatcher-1.0.12.jar",
+    "sha1": "971ea098f83ef2e1b96c1b7849465bb79fd05838"
+  },
+  "net.minecraftforge:forge:1.15.2-31.2.57:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar",
+    "sha1": "66f52658566e4ffe3164bd8c03321b4b61374480"
+  },
+  "net.minecraftforge:installertools:1.1.4": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.1.4/installertools-1.1.4.jar",
+    "sha1": "ce2a64d84365374fc797f829e60321874d48145f"
+  },
+  "net.minecraftforge:jarsplitter:1.1.2": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/jarsplitter/1.1.2/jarsplitter-1.1.2.jar",
+    "sha1": "7d6c2c293883c220e7622087849b26a35b3318e5"
+  },
+  "net.sf.jopt-simple:jopt-simple:4.9": {
+    "url": "https://maven.minecraftforge.net/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar",
+    "sha1": "ee9e9eaa0a35360dcfeac129ff4923215fd65904"
+  },
+  "net.sf.opencsv:opencsv:2.3": {
+    "url": "https://maven.minecraftforge.net/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar",
+    "sha1": "c23708cdb9e80a144db433e23344a788a1fd6599"
+  },
+  "org.ow2.asm:asm-analysis:6.1.1": {
+    "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-analysis/6.1.1/asm-analysis-6.1.1.jar",
+    "sha1": "376d85732456ec4d2c4bc020ee152061c61f00b5"
+  },
+  "org.ow2.asm:asm-commons:6.1.1": {
+    "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-commons/6.1.1/asm-commons-6.1.1.jar",
+    "sha1": "70a7deee986e66c015cea1c9978f9654cc667020"
+  },
+  "org.ow2.asm:asm-tree:6.1.1": {
+    "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-tree/6.1.1/asm-tree-6.1.1.jar",
+    "sha1": "19fdc358e7bd3986b9867de508ce6cefa693dda6"
+  },
+  "org.ow2.asm:asm:6.1.1": {
+    "url": "https://maven.minecraftforge.net/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar",
+    "sha1": "264754515362d92acd39e8d40395f6b8dee7bc08"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.14.4-20190829.143755@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.14.4-20190829.143755/mcp_config-1.14.4-20190829.143755.zip",
+    "sha1": "1646ace86633cd91206fdba2e460a12a19e32505"
+  },
+  "net.minecraftforge:forge:1.14.4-28.2.26:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-universal.jar",
+    "sha1": "ee837d4c025c6bd25bb43cb5e2c05934a38b8810"
+  },
+  "de.oceanlabs.mcp:mcp_config:26.1.1-20260401.101545@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/26.1.1-20260401.101545/mcp_config-26.1.1-20260401.101545.zip",
+    "sha1": "45105755a0c5d3c87574665e1d9467349bed5892"
+  },
+  "net.minecraftforge:binarypatcher:1.3.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/binarypatcher/1.3.0/binarypatcher-1.3.0.jar",
+    "sha1": "e93e36aeda62ed14270c6c14a27faf0a85ed84e3"
+  },
+  "net.minecraftforge:forge:26.1.1-63.0.2:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.1-63.0.2/forge-26.1.1-63.0.2-shim.jar",
+    "sha1": "b75cb69ec7887a2a808e4ef75c9f8467f3c913cf"
+  },
+  "de.oceanlabs.mcp:mcp_config:26.1-20260326.105027@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/26.1-20260326.105027/mcp_config-26.1-20260326.105027.zip",
+    "sha1": "7173fa9302188b09bf1f28e1cb0297e86f9437d1"
+  },
+  "net.minecraftforge:forge:26.1-62.0.9:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1-62.0.9/forge-26.1-62.0.9-shim.jar",
+    "sha1": "3c79631ca3685f336be65933bd75afaa37f77c09"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.18.2-20220404.173914@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.18.2-20220404.173914/mcp_config-1.18.2-20220404.173914.zip",
+    "sha1": "ce7571bb8b3367a0368e4b94f6a182e1b523bb4a"
+  },
+  "net.minecraftforge:ForgeAutoRenamingTool:0.1.25:all": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/ForgeAutoRenamingTool/0.1.25/ForgeAutoRenamingTool-0.1.25-all.jar",
+    "sha1": "8a684615a1ea8799c0bcda1759838f79618d1b3a"
+  },
+  "net.minecraftforge:fmlcore:1.18.2-40.3.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.18.2-40.3.0/fmlcore-1.18.2-40.3.0.jar",
+    "sha1": "ed12aee1393d7eaa1d9249bc8b22bdb9de67a93b"
+  },
+  "net.minecraftforge:forge:1.18.2-40.3.0:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.3.0/forge-1.18.2-40.3.0-universal.jar",
+    "sha1": "438b6c49cead8781ff479bbdddba6d399809ac34"
+  },
+  "net.minecraftforge:javafmllanguage:1.18.2-40.3.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.18.2-40.3.0/javafmllanguage-1.18.2-40.3.0.jar",
+    "sha1": "a1a361bd6b2c3f4b12e4793bf39d9b655c3dadab"
+  },
+  "net.minecraftforge:lowcodelanguage:1.18.2-40.3.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.18.2-40.3.0/lowcodelanguage-1.18.2-40.3.0.jar",
+    "sha1": "aae72bcbbb6766a45b0416eb302d82c109581436"
+  },
+  "net.minecraftforge:mclanguage:1.18.2-40.3.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.18.2-40.3.0/mclanguage-1.18.2-40.3.0.jar",
+    "sha1": "e9215bd3137c1ae4b2c3655947757e1d899ea57d"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.19.2-20220805.130853@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.19.2-20220805.130853/mcp_config-1.19.2-20220805.130853.zip",
+    "sha1": "f825e1ca07c31b1b3046fc459ba8823eed535818"
+  },
+  "net.minecraftforge:fmlcore:1.19.2-43.5.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.19.2-43.5.0/fmlcore-1.19.2-43.5.0.jar",
+    "sha1": "222e1c483f50a0b8b1397e833049b51445cc7dfb"
+  },
+  "net.minecraftforge:forge:1.19.2-43.5.0:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.5.0/forge-1.19.2-43.5.0-universal.jar",
+    "sha1": "7fc3a3c63abf5ce2f1393da8e8baea7129497170"
+  },
+  "net.minecraftforge:javafmllanguage:1.19.2-43.5.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.19.2-43.5.0/javafmllanguage-1.19.2-43.5.0.jar",
+    "sha1": "127dd8c16243efb106d9c85717ca61eb55fbbfa3"
+  },
+  "net.minecraftforge:lowcodelanguage:1.19.2-43.5.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.19.2-43.5.0/lowcodelanguage-1.19.2-43.5.0.jar",
+    "sha1": "161b579c6f52a4441b04376763e7aedaf1a097f1"
+  },
+  "net.minecraftforge:mclanguage:1.19.2-43.5.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.19.2-43.5.0/mclanguage-1.19.2-43.5.0.jar",
+    "sha1": "6ca236cd5718398c2ba7abef7cc7f1f6e21dbc38"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21.9-20250930.103108@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21.9-20250930.103108/mcp_config-1.21.9-20250930.103108.zip",
+    "sha1": "5c164bb2ab12c7191969f76ec909fddc53c0e3dc"
+  },
+  "net.minecraftforge:forge:1.21.9-59.0.5:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.9-59.0.5/forge-1.21.9-59.0.5-shim.jar",
+    "sha1": "788301932bb0096a141eba7c77f3593ee494f7ba"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21.7-20250630.104312@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21.7-20250630.104312/mcp_config-1.21.7-20250630.104312.zip",
+    "sha1": "43e522cbf488c1d87a9ce991e463b875ccbbfe6d"
+  },
+  "net.minecraftforge:forge:1.21.7-57.0.3:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.7-57.0.3/forge-1.21.7-57.0.3-shim.jar",
+    "sha1": "dc9cc2685ddfa91b0f67fc41be8a1a6d172a3808"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21.6-20250618.020446@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21.6-20250618.020446/mcp_config-1.21.6-20250618.020446.zip",
+    "sha1": "68dcce5bdcd80deb3536c461a7359300406c06a8"
+  },
+  "net.minecraftforge:forge:1.21.6-56.0.9:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.6-56.0.9/forge-1.21.6-56.0.9-shim.jar",
+    "sha1": "17c5ad23e0b5b76b596857492ebee11eebf3f99f"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.21-20240613.102039@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.21-20240613.102039/mcp_config-1.21-20240613.102039.zip",
+    "sha1": "71678a2cd3ccf4cca704dbe76356d5a43befd2b4"
+  },
+  "net.minecraftforge:forge:1.21-51.0.33:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21-51.0.33/forge-1.21-51.0.33-shim.jar",
+    "sha1": "1f4999eff3acce1e02d6389377ff4fe7137376cc"
+  },
+  "com.google.code.gson:gson:2.8.7": {
+    "url": "https://maven.minecraftforge.net/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar",
+    "sha1": "69d9503ea0a40ee16f0bcdac7e3eaf83d0fa914a"
+  },
+  "com.opencsv:opencsv:4.4": {
+    "url": "https://maven.minecraftforge.net/com/opencsv/opencsv/4.4/opencsv-4.4.jar",
+    "sha1": "525932a1edf46c9ca75aa9c83d31dc180c186865"
+  },
+  "commons-beanutils:commons-beanutils:1.9.3": {
+    "url": "https://maven.minecraftforge.net/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar",
+    "sha1": "c845703de334ddc6b4b3cd26835458cb1cba1f3d"
+  },
+  "commons-collections:commons-collections:3.2.2": {
+    "url": "https://maven.minecraftforge.net/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+    "sha1": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5"
+  },
+  "commons-logging:commons-logging:1.2": {
+    "url": "https://libraries.minecraft.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+    "sha1": "4bfc12adfe4842bf07b657f0369c4cb522955686"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.16.5-20210115.111550@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.16.5-20210115.111550/mcp_config-1.16.5-20210115.111550.zip",
+    "sha1": "a81464c686be42933aacac7898f8c0d50edccf51"
+  },
+  "de.siegmar:fastcsv:2.0.0": {
+    "url": "https://maven.minecraftforge.net/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar",
+    "sha1": "b615f26c03edeac966618b93b9ee4f4eed50aae1"
+  },
+  "net.md-5:SpecialSource:1.10.0": {
+    "url": "https://maven.minecraftforge.net/net/md-5/SpecialSource/1.10.0/SpecialSource-1.10.0.jar",
+    "sha1": "125e752c57bbd1483ed7f26d90a17d0784d5db06"
+  },
+  "net.minecraftforge:forge:1.16.5-36.2.34:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-universal.jar",
+    "sha1": "24aa8afad1764e4ff18eea3071cbb54461943523"
+  },
+  "net.minecraftforge:installertools:1.2.6": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.2.6/installertools-1.2.6.jar",
+    "sha1": "21965826afe136f0d789858727317838e0435dbf"
+  },
+  "org.apache.commons:commons-collections4:4.2": {
+    "url": "https://maven.minecraftforge.net/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar",
+    "sha1": "54ebea0a5b653d3c680131e73fe807bb8f78c4ed"
+  },
+  "org.apache.commons:commons-text:1.3": {
+    "url": "https://maven.minecraftforge.net/org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+    "sha1": "9abf61708a66ab5e55f6169a200dbfc584b546d9"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.20.3-20231205.124940@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.20.3-20231205.124940/mcp_config-1.20.3-20231205.124940.zip",
+    "sha1": "e8db71f875ee7602cf05c1c955c4d998cf005ea9"
+  },
+  "net.minecraftforge:forge:1.20.3-49.0.2:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.3-49.0.2/forge-1.20.3-49.0.2-shim.jar",
+    "sha1": "712ed1b374433eec92b141a6b40e61fe099ba59e"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.20.2-20230921.100330@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.20.2-20230921.100330/mcp_config-1.20.2-20230921.100330.zip",
+    "sha1": "30705bf178904457e2105af20ed43a651a4515f1"
+  },
+  "net.md-5:SpecialSource:1.11.0": {
+    "url": "https://maven.minecraftforge.net/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0.jar",
+    "sha1": "43b84c4bb8d01cf90a29dfeec1c958a4b64baf46"
+  },
+  "net.minecraftforge:ForgeAutoRenamingTool:1.0.5:all": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/ForgeAutoRenamingTool/1.0.5/ForgeAutoRenamingTool-1.0.5-all.jar",
+    "sha1": "bef3018abb9cfcc0c970c84d25a660d3defdc559"
+  },
+  "net.minecraftforge:fmlcore:1.20.2-48.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.20.2-48.1.0/fmlcore-1.20.2-48.1.0.jar",
+    "sha1": "07a8d252b70bac3cde4ec0e82bd816fe0212551d"
+  },
+  "net.minecraftforge:forge:1.20.2-48.1.0:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.2-48.1.0/forge-1.20.2-48.1.0-universal.jar",
+    "sha1": "9e814538a7d75226cffea436cc94463d2983cc97"
+  },
+  "net.minecraftforge:installertools:1.3.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.3.0/installertools-1.3.0.jar",
+    "sha1": "248be3a2b70ecf8aca430d52cbbecd4d63b077cc"
+  },
+  "net.minecraftforge:javafmllanguage:1.20.2-48.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.20.2-48.1.0/javafmllanguage-1.20.2-48.1.0.jar",
+    "sha1": "d034c6f69f1f1cf324bdd7bbc66896e67990bbef"
+  },
+  "net.minecraftforge:lowcodelanguage:1.20.2-48.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.2-48.1.0/lowcodelanguage-1.20.2-48.1.0.jar",
+    "sha1": "0ac35e86aee5633ea200ae1607b4ca48b24cd845"
+  },
+  "net.minecraftforge:mclanguage:1.20.2-48.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.20.2-48.1.0/mclanguage-1.20.2-48.1.0.jar",
+    "sha1": "7ddb9ee7a72eb906db86ca9490f35be1789c2813"
+  },
+  "net.minecraftforge:srgutils:0.4.11": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/srgutils/0.4.11/srgutils-0.4.11.jar",
+    "sha1": "fbad1341ffdb47d276bbdc40ecb06da49e053e74"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.20-20230608.053357@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.20-20230608.053357/mcp_config-1.20-20230608.053357.zip",
+    "sha1": "f53fa90dce55181036f0efda49ac6cf051c86514"
+  },
+  "net.minecraftforge:fmlcore:1.20-46.0.14": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.20-46.0.14/fmlcore-1.20-46.0.14.jar",
+    "sha1": "9d768efd192cfba2ab8d351cb392859ccf691710"
+  },
+  "net.minecraftforge:forge:1.20-46.0.14:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20-46.0.14/forge-1.20-46.0.14-universal.jar",
+    "sha1": "da1470cd387eeabe2dbf63c6d4384b1a36c47195"
+  },
+  "net.minecraftforge:javafmllanguage:1.20-46.0.14": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.20-46.0.14/javafmllanguage-1.20-46.0.14.jar",
+    "sha1": "a6405744022dfa25d0b0b60fadee46538a162723"
+  },
+  "net.minecraftforge:lowcodelanguage:1.20-46.0.14": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20-46.0.14/lowcodelanguage-1.20-46.0.14.jar",
+    "sha1": "d85c3d3a835e85b26ebf1adf7604a180762119a7"
+  },
+  "net.minecraftforge:mclanguage:1.20-46.0.14": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.20-46.0.14/mclanguage-1.20-46.0.14.jar",
+    "sha1": "69e8fcee85250152d97775b0704885837b4b75fa"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.19.3-20221207.122022@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.19.3-20221207.122022/mcp_config-1.19.3-20221207.122022.zip",
+    "sha1": "b621f357dfe08655e75a99219a1bc87263779212"
+  },
+  "net.minecraftforge:fmlcore:1.19.3-44.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.19.3-44.1.0/fmlcore-1.19.3-44.1.0.jar",
+    "sha1": "058fdfab3b364e30d87b279c8803a612cc5b9e80"
+  },
+  "net.minecraftforge:forge:1.19.3-44.1.0:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.3-44.1.0/forge-1.19.3-44.1.0-universal.jar",
+    "sha1": "d0d6a5447b2c0b81443810702f0178c2927e13f7"
+  },
+  "net.minecraftforge:javafmllanguage:1.19.3-44.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.19.3-44.1.0/javafmllanguage-1.19.3-44.1.0.jar",
+    "sha1": "e0a9d17dab17f9c102e6adfc00961565a2b1e2c7"
+  },
+  "net.minecraftforge:lowcodelanguage:1.19.3-44.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.19.3-44.1.0/lowcodelanguage-1.19.3-44.1.0.jar",
+    "sha1": "08b73cc225c8f1add358e3284c709eef8430af51"
+  },
+  "net.minecraftforge:mclanguage:1.19.3-44.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.19.3-44.1.0/mclanguage-1.19.3-44.1.0.jar",
+    "sha1": "284cfed7c4c7cf5d6dfbb96d6f05697a762baf60"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.19.1-20220727.212338@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.19.1-20220727.212338/mcp_config-1.19.1-20220727.212338.zip",
+    "sha1": "918e3b593370b0a8842f3d4d4b4657999171f000"
+  },
+  "net.minecraftforge:fmlcore:1.19.1-42.0.9": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.19.1-42.0.9/fmlcore-1.19.1-42.0.9.jar",
+    "sha1": "c7df4ca58b76310c721b6f831ba9170e8e0129e9"
+  },
+  "net.minecraftforge:forge:1.19.1-42.0.9:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.1-42.0.9/forge-1.19.1-42.0.9-universal.jar",
+    "sha1": "09b9db0a54dad88c35ddcfff7bfc8f0ff52cac15"
+  },
+  "net.minecraftforge:javafmllanguage:1.19.1-42.0.9": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.19.1-42.0.9/javafmllanguage-1.19.1-42.0.9.jar",
+    "sha1": "072269c0f200d3433d5fbd62d81a7adecd22ca64"
+  },
+  "net.minecraftforge:lowcodelanguage:1.19.1-42.0.9": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.19.1-42.0.9/lowcodelanguage-1.19.1-42.0.9.jar",
+    "sha1": "adabe41626a0777f90cd5e7b52b77914aa81159a"
+  },
+  "net.minecraftforge:mclanguage:1.19.1-42.0.9": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.19.1-42.0.9/mclanguage-1.19.1-42.0.9.jar",
+    "sha1": "9f99a942431860fb009170eac2845211dfa6c627"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.19-20220607.102129@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.19-20220607.102129/mcp_config-1.19-20220607.102129.zip",
+    "sha1": "edaf7ebc143528e15720b7990fc9952489bcb040"
+  },
+  "net.minecraftforge:fmlcore:1.19-41.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.19-41.1.0/fmlcore-1.19-41.1.0.jar",
+    "sha1": "a11d8b3111ba256064745a6a79f7fee189751152"
+  },
+  "net.minecraftforge:forge:1.19-41.1.0:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19-41.1.0/forge-1.19-41.1.0-universal.jar",
+    "sha1": "1564e82a50cbd84ebbb9f2449cd346f95bff0600"
+  },
+  "net.minecraftforge:javafmllanguage:1.19-41.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.19-41.1.0/javafmllanguage-1.19-41.1.0.jar",
+    "sha1": "be32fef2bf3091b53308e5a1b1930169dd34136c"
+  },
+  "net.minecraftforge:lowcodelanguage:1.19-41.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.19-41.1.0/lowcodelanguage-1.19-41.1.0.jar",
+    "sha1": "887bff594c934cc4088c9c867db193b8537ee1f6"
+  },
+  "net.minecraftforge:mclanguage:1.19-41.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.19-41.1.0/mclanguage-1.19-41.1.0.jar",
+    "sha1": "48ae61dcde926300da0c051d88c072ef1dc71ebb"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.18.1-20211210.034407@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.18.1-20211210.034407/mcp_config-1.18.1-20211210.034407.zip",
+    "sha1": "dcc5145a9968a465a348a6765c96d390650bdcc9"
+  },
+  "net.minecraftforge:ForgeAutoRenamingTool:0.1.17:all": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/ForgeAutoRenamingTool/0.1.17/ForgeAutoRenamingTool-0.1.17-all.jar",
+    "sha1": "d6627b0a70cbc3e9c8e893479a471841e09c33c4"
+  },
+  "net.minecraftforge:fmlcore:1.18.1-39.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.18.1-39.1.0/fmlcore-1.18.1-39.1.0.jar",
+    "sha1": "ecca3060e7eb75bc250b8fc5d233f5d0eea20468"
+  },
+  "net.minecraftforge:forge:1.18.1-39.1.0:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.1-39.1.0/forge-1.18.1-39.1.0-universal.jar",
+    "sha1": "92b1b8fc300fe92556628605499324550f64e459"
+  },
+  "net.minecraftforge:installertools:1.2.10": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.2.10/installertools-1.2.10.jar",
+    "sha1": "479bea16094bd839ddfff36f6a8e815a4ba62fb6"
+  },
+  "net.minecraftforge:javafmllanguage:1.18.1-39.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.18.1-39.1.0/javafmllanguage-1.18.1-39.1.0.jar",
+    "sha1": "9c8c0c50674c3e92927672e05224cb7bedb41a78"
+  },
+  "net.minecraftforge:mclanguage:1.18.1-39.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.18.1-39.1.0/mclanguage-1.18.1-39.1.0.jar",
+    "sha1": "e63e7006188cd22acf52434ed6200264cbab9d26"
+  },
+  "net.minecraftforge:srgutils:0.4.7": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/srgutils/0.4.7/srgutils-0.4.7.jar",
+    "sha1": "fedbbae545eed2288d06e7e27abf4d12d9b58cb8"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.13.2-20190213.203750@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.13.2-20190213.203750/mcp_config-1.13.2-20190213.203750.zip",
+    "sha1": "b2e3d59e19521e1040e11d97db22d41bb9065a38"
+  },
+  "net.md-5:SpecialSource:1.8.3": {
+    "url": "https://maven.minecraftforge.net/net/md-5/SpecialSource/1.8.3/SpecialSource-1.8.3.jar",
+    "sha1": "9e8fa9e25bfcd93a3a52e1570d8ebf29d4a10799"
+  },
+  "net.minecraftforge:forge:1.13.2-25.0.223:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.13.2-25.0.223/forge-1.13.2-25.0.223-universal.jar",
+    "sha1": "55ec5d86e208a0f3b91e31c1c3f1ef960f7e41d1"
+  },
+  "net.minecraftforge:installertools:1.0.3": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.0.3/installertools-1.0.3.jar",
+    "sha1": "594cf5f164ba392cec0dfa9cabd6d7f47a3ca32a"
+  },
+  "net.minecraftforge:jarsplitter:1.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/jarsplitter/1.1.0/jarsplitter-1.1.0.jar",
+    "sha1": "2d26b5fc5b236ba4264dde3d6c3ffcadf03b2020"
+  },
+  "com.google.errorprone:error_prone_annotations:2.3.4": {
+    "url": "https://maven.minecraftforge.net/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar",
+    "sha1": "dac170e4594de319655ffb62f41cbd6dbb5e601e"
+  },
+  "com.google.guava:guava:30.1-android": {
+    "url": "https://maven.minecraftforge.net/com/google/guava/guava/30.1-android/guava-30.1-android.jar",
+    "sha1": "1e904cca24cdf3dc84d5fe4f73e12f1186e04380"
+  },
+  "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava": {
+    "url": "https://libraries.minecraft.net/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+    "sha1": "b421526c5f297295adef1c886e5246c39d4ac629"
+  },
+  "com.google.j2objc:j2objc-annotations:1.3": {
+    "url": "https://libraries.minecraft.net/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+    "sha1": "ba035118bc8bac37d7eff77700720999acd9986d"
+  },
+  "com.google.jimfs:jimfs:1.2": {
+    "url": "https://maven.minecraftforge.net/com/google/jimfs/jimfs/1.2/jimfs-1.2.jar",
+    "sha1": "48462eb319817c90c27d377341684b6b81372e08"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.17.1-20210706.113038@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.17.1-20210706.113038/mcp_config-1.17.1-20210706.113038.zip",
+    "sha1": "167aca7986a92c1cc87ad5d7d9588983f2e81f5e"
+  },
+  "net.minecraftforge.lex:vignette:0.2.0.16": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lex/vignette/0.2.0.16/vignette-0.2.0.16.jar",
+    "sha1": "322fd871ea5131c5b04d8b70d5b4c0d28fb8ea56"
+  },
+  "net.minecraftforge:fmlcore:1.17.1-37.1.1": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.17.1-37.1.1/fmlcore-1.17.1-37.1.1.jar",
+    "sha1": "7cb4a179d7404ca3846936742ae562f43f38db1a"
+  },
+  "net.minecraftforge:forge:1.17.1-37.1.1:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.17.1-37.1.1/forge-1.17.1-37.1.1-universal.jar",
+    "sha1": "82fd7860c2438fe9251b7a962999b0b2c8503a28"
+  },
+  "net.minecraftforge:installertools:1.2.7": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.2.7/installertools-1.2.7.jar",
+    "sha1": "0e126053b482aae705b02789d2915c2711c2782c"
+  },
+  "net.minecraftforge:javafmllanguage:1.17.1-37.1.1": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.17.1-37.1.1/javafmllanguage-1.17.1-37.1.1.jar",
+    "sha1": "f9646cd6a35efab2e595efef2858fcb325501be3"
+  },
+  "net.minecraftforge:mclanguage:1.17.1-37.1.1": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.17.1-37.1.1/mclanguage-1.17.1-37.1.1.jar",
+    "sha1": "5f79912fa14069175fd01a16fea8ee349433e9b6"
+  },
+  "org.cadixdev:atlas:0.2.2": {
+    "url": "https://maven.minecraftforge.net/org/cadixdev/atlas/0.2.2/atlas-0.2.2.jar",
+    "sha1": "aa0bb48af971dd001cb49f12faaace38e70645e7"
+  },
+  "org.cadixdev:bombe-asm:0.3.5": {
+    "url": "https://maven.minecraftforge.net/org/cadixdev/bombe-asm/0.3.5/bombe-asm-0.3.5.jar",
+    "sha1": "7ef158e447755a7e4a48af4a16b68689a6d0c563"
+  },
+  "org.cadixdev:bombe:0.3.5": {
+    "url": "https://maven.minecraftforge.net/org/cadixdev/bombe/0.3.5/bombe-0.3.5.jar",
+    "sha1": "b807cfa5451f3bc2621d0128a61e8464ba6acc50"
+  },
+  "org.cadixdev:lorenz-asm:0.5.7": {
+    "url": "https://maven.minecraftforge.net/org/cadixdev/lorenz-asm/0.5.7/lorenz-asm-0.5.7.jar",
+    "sha1": "6a4be07271a9532ab0cacab25573929a749dc72a"
+  },
+  "org.cadixdev:lorenz:0.5.7": {
+    "url": "https://maven.minecraftforge.net/org/cadixdev/lorenz/0.5.7/lorenz-0.5.7.jar",
+    "sha1": "68b615cec8ca89db6e55789b63046ccf363c8698"
+  },
+  "org.checkerframework:checker-compat-qual:2.5.5": {
+    "url": "https://maven.minecraftforge.net/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar",
+    "sha1": "435dc33e3019c9f019e15f01aa111de9d6b2b79c"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.18-20211130.085255@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.18-20211130.085255/mcp_config-1.18-20211130.085255.zip",
+    "sha1": "0630d060655ca299c90cf22208ccf02507800ae2"
+  },
+  "net.minecraftforge:fmlcore:1.18-38.0.17": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.18-38.0.17/fmlcore-1.18-38.0.17.jar",
+    "sha1": "b7e6e24486cdbf491a1d9e4e1431a766f5f46264"
+  },
+  "net.minecraftforge:forge:1.18-38.0.17:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.18-38.0.17/forge-1.18-38.0.17-universal.jar",
+    "sha1": "fd93cdf05359e8e8708f91d6f8ef06689ef492bc"
+  },
+  "net.minecraftforge:javafmllanguage:1.18-38.0.17": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.18-38.0.17/javafmllanguage-1.18-38.0.17.jar",
+    "sha1": "4c8e89d0cf0a007d9f2ebd17dc856e3826e47e51"
+  },
+  "net.minecraftforge:mclanguage:1.18-38.0.17": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.18-38.0.17/mclanguage-1.18-38.0.17.jar",
+    "sha1": "81c43fc8f88aff57795c8c0dd8be7ecfe3f4d3eb"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.16.4-20201102.104115@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.16.4-20201102.104115/mcp_config-1.16.4-20201102.104115.zip",
+    "sha1": "3a139e9c6864d75790c97d014d460c77977040cd"
+  },
+  "de.siegmar:fastcsv:1.0.2": {
+    "url": "https://maven.minecraftforge.net/de/siegmar/fastcsv/1.0.2/fastcsv-1.0.2.jar",
+    "sha1": "28df8e24cf973f7620816051fbd4b0ab8adde36e"
+  },
+  "net.minecraftforge:forge:1.16.4-35.1.4:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-universal.jar",
+    "sha1": "6654a34ccee89541186d13c1a3dd2a392ea3e47f"
+  },
+  "net.minecraftforge:installertools:1.1.11": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/installertools/1.1.11/installertools-1.1.11.jar",
+    "sha1": "dc21c749fc4b05fbd8e8d63bee3955b38239da38"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.16.3-20200911.084530@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.16.3-20200911.084530/mcp_config-1.16.3-20200911.084530.zip",
+    "sha1": "04d0077ffde6e095dbcc670978aaa5a236d30f17"
+  },
+  "net.minecraftforge:forge:1.16.3-34.1.0:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.3-34.1.0/forge-1.16.3-34.1.0-universal.jar",
+    "sha1": "9ff4ac7df3b3141545f9c48a5d16e3586967919b"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.16.2-20200812.004259@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.16.2-20200812.004259/mcp_config-1.16.2-20200812.004259.zip",
+    "sha1": "94ee233f211ed5e18ac9cfcf768b3fe176f79691"
+  },
+  "net.minecraftforge:forge:1.16.2-33.0.61:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.2-33.0.61/forge-1.16.2-33.0.61-universal.jar",
+    "sha1": "bb24c96a1e164c7dd9e17ff1002dd18b6d4658f7"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.16.1-20200625.160719@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.16.1-20200625.160719/mcp_config-1.16.1-20200625.160719.zip",
+    "sha1": "1b690668f83fb7f840017deccbe62e4ca82a7c0c"
+  },
+  "net.minecraftforge:forge:1.16.1-32.0.108:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-universal.jar",
+    "sha1": "5b041877ae68204ffa2043f8acd86a9b7388dd83"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.15.1-20191217.105819@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.15.1-20191217.105819/mcp_config-1.15.1-20191217.105819.zip",
+    "sha1": "cbbbd04f51748d2e80f8414da66081f6855910c1"
+  },
+  "net.minecraftforge:binarypatcher:1.0.7": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/binarypatcher/1.0.7/binarypatcher-1.0.7.jar",
+    "sha1": "8dd876716bcf14ea966c0481f7cac6c5522d550f"
+  },
+  "net.minecraftforge:forge:1.15.1-30.0.51:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.15.1-30.0.51/forge-1.15.1-30.0.51-universal.jar",
+    "sha1": "071baedf7ab32d9ef4e58b3b298b7bd37d2ff172"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.15-20191212.203412@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.15-20191212.203412/mcp_config-1.15-20191212.203412.zip",
+    "sha1": "4b19d38ec85d9b3b77173dcb155e23f9de15342b"
+  },
+  "net.minecraftforge:forge:1.15-29.0.4:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.15-29.0.4/forge-1.15-29.0.4-universal.jar",
+    "sha1": "b8a826a10e1e251a1574b595837257a6620c5f45"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.14.3-20190624.152911@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.14.3-20190624.152911/mcp_config-1.14.3-20190624.152911.zip",
+    "sha1": "f6dbabae3e7ee353a584b84a9575d627d2813738"
+  },
+  "net.minecraftforge:binarypatcher:1.0.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/binarypatcher/1.0.5/binarypatcher-1.0.5.jar",
+    "sha1": "0743c20fbbc17501da7c700e3241fbbd887d7a20"
+  },
+  "net.minecraftforge:forge:1.14.3-27.0.60:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.3-27.0.60/forge-1.14.3-27.0.60-universal.jar",
+    "sha1": "6971856befdd5bee74e6ad55cfb8e550a2e11e85"
+  },
+  "de.oceanlabs.mcp:mcp_config:1.14.2-20190603.175704@zip": {
+    "url": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_config/1.14.2-20190603.175704/mcp_config-1.14.2-20190603.175704.zip",
+    "sha1": "f38135cad3008e7adee758203ce1213448b00f2a"
+  },
+  "net.minecraftforge:forge:1.14.2-26.0.63:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.2-26.0.63/forge-1.14.2-26.0.63-universal.jar",
+    "sha1": "bbce35034dc4633f38a794edabeae873300cb628"
   }
 }
