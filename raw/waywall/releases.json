@@ -248,7 +248,7 @@
         "state": "uploaded",
         "size": 505892,
         "digest": "sha256:e899b803b1ea11f5b676b6bf5bb18d606c8fda7fd203af57c3d60d8e10c0bfdc",
-        "download_count": 20,
+        "download_count": 21,
         "created_at": "2026-10-12T04:36:09Z",
         "updated_at": "2026-10-12T04:36:10Z",
         "browser_download_url": "https://github.com/tesselslate/waywall/releases/download/0.2026.10.12b/waywall_0.5-1_amd64.deb"
