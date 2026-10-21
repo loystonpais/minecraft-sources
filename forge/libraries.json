@@ -1802,5 +1802,177 @@
   "net.minecraftforge:eventbus:0.10.1-service": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/eventbus/0.10.1/eventbus-0.10.1-service.jar",
     "sha1": "19c90a1b2ce7dcd59b045854b6b901d1ea4b31cd"
+  },
+  "net.minecraftforge:forge:26.3-66.0.13:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.0.13/forge-26.3-66.0.13-installer.jar",
+    "sha1": "f0c74c9435b5b54e0f0cc97f13c1d39bd7d2d49b"
+  },
+  "net.minecraftforge:forge:1.20.4-49.2.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.2.0/forge-1.20.4-49.2.0-installer.jar",
+    "sha1": "01615b3e329bf23b1207de18b4c6f14cd897fde5"
+  },
+  "net.minecraftforge:forge:1.20.6-50.2.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.6-50.2.0/forge-1.20.6-50.2.0-installer.jar",
+    "sha1": "077e46dc5e39a680157275c14473802c71f255b6"
+  },
+  "net.minecraftforge:forge:1.21.1-52.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.0/forge-1.21.1-52.1.0-installer.jar",
+    "sha1": "fa4f90047c23e6df4d2b4e649aec7fd5d1e20acd"
+  },
+  "net.minecraftforge:forge:1.21.3-53.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.3-53.1.0/forge-1.21.3-53.1.0-installer.jar",
+    "sha1": "17fb0edd435808c4f92837fa5c7cef2b3003f955"
+  },
+  "net.minecraftforge:forge:1.21.4-54.1.14:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.4-54.1.14/forge-1.21.4-54.1.14-installer.jar",
+    "sha1": "53bbf7ee6f364ad72b06a2512e5f9ed977b1e30d"
+  },
+  "net.minecraftforge:forge:1.21.5-55.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.5-55.1.0/forge-1.21.5-55.1.0-installer.jar",
+    "sha1": "ddf4eab63fd8e6f270c97746397996bea8b6832d"
+  },
+  "net.minecraftforge:forge:1.21.8-58.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.8-58.1.0/forge-1.21.8-58.1.0-installer.jar",
+    "sha1": "c1b801a69419caf12cf6243e28523437226e65fd"
+  },
+  "net.minecraftforge:forge:1.21.10-60.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.10-60.1.0/forge-1.21.10-60.1.0-installer.jar",
+    "sha1": "27ef641cf186da66dcb75e62dc46b2fda64467fd"
+  },
+  "net.minecraftforge:forge:1.21.11-61.2.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.2.0/forge-1.21.11-61.2.0-installer.jar",
+    "sha1": "ca682f0d537c65e9a112e1e7ab337095d486298f"
+  },
+  "net.minecraftforge:forge:26.1.2-64.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.1.0/forge-26.1.2-64.1.0-installer.jar",
+    "sha1": "a371b0d4e5d2b9beb8b29a6d90ada58e4c3a66ab"
+  },
+  "net.minecraftforge:forge:26.2-65.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.2-65.1.0/forge-26.2-65.1.0-installer.jar",
+    "sha1": "2994fe8f021930afa16e3b9c89e108918d668305"
+  },
+  "net.minecraftforge:forge:1.20.1-47.4.10:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
+    "sha1": "66bfea9963bfa60d88bab6b2750e74a958392715"
+  },
+  "net.minecraftforge:forge:1.19.4-45.4.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.4.0/forge-1.19.4-45.4.0-installer.jar",
+    "sha1": "e4f3fdcd271f83d7a78ec6590d108217563d2253"
+  },
+  "net.minecraftforge:forge:1.15.2-31.2.57:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-installer.jar",
+    "sha1": "85408fff4e9fdcedc417f378618a8a6870268913"
+  },
+  "net.minecraftforge:forge:1.14.4-28.2.26:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-installer.jar",
+    "sha1": "ffbeba315833c324e8c71091b76d8c655e778c41"
+  },
+  "net.minecraftforge:forge:26.1.1-63.0.2:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.1-63.0.2/forge-26.1.1-63.0.2-installer.jar",
+    "sha1": "e62ae992c27bb98989fbabc70eb627b840bcd168"
+  },
+  "net.minecraftforge:forge:26.1-62.0.9:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1-62.0.9/forge-26.1-62.0.9-installer.jar",
+    "sha1": "c056b14c0f11226a0b6a03ed5e27452310353404"
+  },
+  "net.minecraftforge:forge:1.18.2-40.3.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.3.0/forge-1.18.2-40.3.0-installer.jar",
+    "sha1": "d267e3dbd2df4e6849bdb2a81aa0b920c354efa6"
+  },
+  "net.minecraftforge:forge:1.19.2-43.5.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.5.0/forge-1.19.2-43.5.0-installer.jar",
+    "sha1": "0a45a1d96388403c5f16556df81165ba4d96987a"
+  },
+  "net.minecraftforge:forge:1.21.9-59.0.5:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.9-59.0.5/forge-1.21.9-59.0.5-installer.jar",
+    "sha1": "fb3387dce1ef5a71d99fd46653388fc068c46388"
+  },
+  "net.minecraftforge:forge:1.21.7-57.0.3:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.7-57.0.3/forge-1.21.7-57.0.3-installer.jar",
+    "sha1": "ee3f98d48df31ca7462bdbc6d09bc1d23273a45a"
+  },
+  "net.minecraftforge:forge:1.21.6-56.0.9:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.6-56.0.9/forge-1.21.6-56.0.9-installer.jar",
+    "sha1": "85c544e401730e643ec96585fcf012422e90dd62"
+  },
+  "net.minecraftforge:forge:1.21-51.0.33:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21-51.0.33/forge-1.21-51.0.33-installer.jar",
+    "sha1": "5249b3c3ca3d9a2cb8a8d321e3eef67ca64af85f"
+  },
+  "net.minecraftforge:forge:1.16.5-36.2.34:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-installer.jar",
+    "sha1": "ab306b654c44d659ce69da5d4f87590b66dc91e8"
+  },
+  "net.minecraftforge:forge:1.20.3-49.0.2:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.3-49.0.2/forge-1.20.3-49.0.2-installer.jar",
+    "sha1": "652287f19aed44ad920631c6a62a9a3ffe62fb87"
+  },
+  "net.minecraftforge:forge:1.20.2-48.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.2-48.1.0/forge-1.20.2-48.1.0-installer.jar",
+    "sha1": "e15577724cc665f8f7691333c3deb73f317103d8"
+  },
+  "net.minecraftforge:forge:1.20-46.0.14:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20-46.0.14/forge-1.20-46.0.14-installer.jar",
+    "sha1": "3b16dc21ecf3bff67c64ebb20157b5384434d877"
+  },
+  "net.minecraftforge:forge:1.19.3-44.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.3-44.1.0/forge-1.19.3-44.1.0-installer.jar",
+    "sha1": "e52360a98ab94dc6ce9aaf022f280f16c52bb547"
+  },
+  "net.minecraftforge:forge:1.19.1-42.0.9:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.1-42.0.9/forge-1.19.1-42.0.9-installer.jar",
+    "sha1": "057c532e57ef6ca74890a2cc12cb2abec2a9c847"
+  },
+  "net.minecraftforge:forge:1.19-41.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19-41.1.0/forge-1.19-41.1.0-installer.jar",
+    "sha1": "2ec08e34a53788e55036e9bb45f0b995f20a3554"
+  },
+  "net.minecraftforge:forge:1.18.1-39.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.1-39.1.0/forge-1.18.1-39.1.0-installer.jar",
+    "sha1": "759510af0e0b98b17217b47fca5d548852c64c27"
+  },
+  "net.minecraftforge:forge:1.13.2-25.0.223:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.13.2-25.0.223/forge-1.13.2-25.0.223-installer.jar",
+    "sha1": "7ac4c121dbada61674fda81aebbbcc2cfd3f28cd"
+  },
+  "net.minecraftforge:forge:1.17.1-37.1.1:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.17.1-37.1.1/forge-1.17.1-37.1.1-installer.jar",
+    "sha1": "356db842e0f316d37f566dfa8e0742230c36b094"
+  },
+  "net.minecraftforge:forge:1.18-38.0.17:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.18-38.0.17/forge-1.18-38.0.17-installer.jar",
+    "sha1": "7dadd12a1654d801fe1d3ad810b3a9f8228a7e57"
+  },
+  "net.minecraftforge:forge:1.16.4-35.1.4:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.4-35.1.4/forge-1.16.4-35.1.4-installer.jar",
+    "sha1": "e75014ff94a573624359bb8c60008f9672aef7f5"
+  },
+  "net.minecraftforge:forge:1.16.3-34.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.3-34.1.0/forge-1.16.3-34.1.0-installer.jar",
+    "sha1": "98a0aff9f72fcf12825089a413077a9e7d9783c1"
+  },
+  "net.minecraftforge:forge:1.16.2-33.0.61:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.2-33.0.61/forge-1.16.2-33.0.61-installer.jar",
+    "sha1": "63213c0cc50856e13b52b3f32843600e65b69173"
+  },
+  "net.minecraftforge:forge:1.16.1-32.0.108:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.1-32.0.108/forge-1.16.1-32.0.108-installer.jar",
+    "sha1": "b7f404cc797771e0e84e928ce3f98fc311cfc4c3"
+  },
+  "net.minecraftforge:forge:1.15.1-30.0.51:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.15.1-30.0.51/forge-1.15.1-30.0.51-installer.jar",
+    "sha1": "f1d3b1b00af78868af5bfd73b9a8bb72ad9b703d"
+  },
+  "net.minecraftforge:forge:1.15-29.0.4:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.15-29.0.4/forge-1.15-29.0.4-installer.jar",
+    "sha1": "50850bb351f3d89738614dde8432aa11ac2ae112"
+  },
+  "net.minecraftforge:forge:1.14.3-27.0.60:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.3-27.0.60/forge-1.14.3-27.0.60-installer.jar",
+    "sha1": "8ff2e9088f754c4566d7aee16cdcf69685eb8f4e"
+  },
+  "net.minecraftforge:forge:1.14.2-26.0.63:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.2-26.0.63/forge-1.14.2-26.0.63-installer.jar",
+    "sha1": "cbf4fc5af4f0e19fc86186e62494af2f881f5081"
   }
 }

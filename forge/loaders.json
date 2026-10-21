@@ -44,6 +44,7 @@
       "net.minecraftforge:forge-transformers:26.3-66.0.13"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:26.3-66.0.13:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 66.0.13 --fml.mcVersion 26.3"
   },
   "49.2.0": {
@@ -90,6 +91,7 @@
       "net.minecraftforge:mclanguage:1.20.4-49.2.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.20.4-49.2.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 49.2.0 --fml.mcVersion 1.20.4"
   },
   "50.2.0": {
@@ -146,6 +148,7 @@
       "net.minecraftforge:mclanguage:1.20.6-50.2.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.20.6-50.2.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 50.2.0 --fml.mcVersion 1.20.6"
   },
   "52.1.0": {
@@ -202,6 +205,7 @@
       "net.minecraftforge:mclanguage:1.21.1-52.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21.1-52.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 52.1.0 --fml.mcVersion 1.21.1"
   },
   "53.1.0": {
@@ -258,6 +262,7 @@
       "net.minecraftforge:mclanguage:1.21.3-53.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21.3-53.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 53.1.0 --fml.mcVersion 1.21.3"
   },
   "54.1.14": {
@@ -314,6 +319,7 @@
       "net.minecraftforge:mclanguage:1.21.4-54.1.14"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21.4-54.1.14:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 54.1.14 --fml.mcVersion 1.21.4"
   },
   "55.1.0": {
@@ -370,6 +376,7 @@
       "net.minecraftforge:mclanguage:1.21.5-55.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21.5-55.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 55.1.0 --fml.mcVersion 1.21.5"
   },
   "58.1.0": {
@@ -426,6 +433,7 @@
       "net.minecraftforge:mclanguage:1.21.8-58.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21.8-58.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 58.1.0 --fml.mcVersion 1.21.8"
   },
   "60.1.0": {
@@ -486,6 +494,7 @@
       "net.minecraftforge:forge-transformers:1.21.10-60.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21.10-60.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 60.1.0 --fml.mcVersion 1.21.10"
   },
   "61.2.0": {
@@ -545,6 +554,7 @@
       "net.minecraftforge:forge-transformers:1.21.11-61.2.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21.11-61.2.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 61.2.0 --fml.mcVersion 1.21.11"
   },
   "64.1.0": {
@@ -592,6 +602,7 @@
       "net.minecraftforge:forge-transformers:26.1.2-64.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:26.1.2-64.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 64.1.0 --fml.mcVersion 26.1.2"
   },
   "65.1.0": {
@@ -639,6 +650,7 @@
       "net.minecraftforge:forge-transformers:26.2-65.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:26.2-65.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 65.1.0 --fml.mcVersion 26.2"
   },
   "47.4.10": {
@@ -676,6 +688,7 @@
       "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.20.1-47.4.10:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 47.4.10 --fml.mcVersion 1.20.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230612.114412"
   },
   "45.4.0": {
@@ -713,6 +726,7 @@
       "net.minecraftforge:fmlloader:1.19.4-45.4.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.19.4-45.4.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 45.4.0 --fml.mcVersion 1.19.4 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230314.122934"
   },
   "31.2.57": {
@@ -742,6 +756,7 @@
       "net.sf.jopt-simple:jopt-simple:5.0.4"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.15.2-31.2.57:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 31.2.57 --fml.mcVersion 1.15.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20200515.085601"
   },
   "28.2.26": {
@@ -769,6 +784,7 @@
       "net.sf.jopt-simple:jopt-simple:5.0.4"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.14.4-28.2.26:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 28.2.26 --fml.mcVersion 1.14.4 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20190829.143755"
   },
   "63.0.2": {
@@ -816,6 +832,7 @@
       "net.minecraftforge:forge-transformers:26.1.1-63.0.2"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:26.1.1-63.0.2:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 63.0.2 --fml.mcVersion 26.1.1"
   },
   "62.0.9": {
@@ -863,6 +880,7 @@
       "net.minecraftforge:forge-transformers:26.1-62.0.9"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:26.1-62.0.9:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 62.0.9 --fml.mcVersion 26.1"
   },
   "14.23.5.2859": {
@@ -889,6 +907,7 @@
       "org.apache.maven:maven-artifact:3.5.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "40.3.0": {
@@ -926,6 +945,7 @@
       "net.minecraftforge:fmlloader:1.18.2-40.3.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.18.2-40.3.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 40.3.0 --fml.mcVersion 1.18.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220404.173914"
   },
   "43.5.0": {
@@ -963,6 +983,7 @@
       "net.minecraftforge:fmlloader:1.19.2-43.5.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.19.2-43.5.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 43.5.0 --fml.mcVersion 1.19.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220805.130853"
   },
   "59.0.5": {
@@ -1020,6 +1041,7 @@
       "net.minecraftforge:forge-transformers:1.21.9-59.0.5"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21.9-59.0.5:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 59.0.5 --fml.mcVersion 1.21.9"
   },
   "57.0.3": {
@@ -1076,6 +1098,7 @@
       "net.minecraftforge:mclanguage:1.21.7-57.0.3"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21.7-57.0.3:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 57.0.3 --fml.mcVersion 1.21.7"
   },
   "56.0.9": {
@@ -1132,6 +1155,7 @@
       "net.minecraftforge:mclanguage:1.21.6-56.0.9"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21.6-56.0.9:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 56.0.9 --fml.mcVersion 1.21.6"
   },
   "51.0.33": {
@@ -1188,6 +1212,7 @@
       "net.minecraftforge:mclanguage:1.21-51.0.33"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.21-51.0.33:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 51.0.33 --fml.mcVersion 1.21"
   },
   "36.2.34": {
@@ -1219,6 +1244,7 @@
       "net.minecraftforge:nashorn-core-compat:15.1.1.1"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.16.5-36.2.34:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 36.2.34 --fml.mcVersion 1.16.5 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20210115.111550"
   },
   "49.0.2": {
@@ -1264,6 +1290,7 @@
       "net.minecraftforge:mclanguage:1.20.3-49.0.2"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.20.3-49.0.2:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 49.0.2 --fml.mcVersion 1.20.3"
   },
   "48.1.0": {
@@ -1303,6 +1330,7 @@
       "net.minecraftforge:fmlearlydisplay:1.20.2-48.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.20.2-48.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeVersion 48.1.0 --fml.mcVersion 1.20.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230921.100330"
   },
   "46.0.14": {
@@ -1339,6 +1367,7 @@
       "net.minecraftforge:fmlloader:1.20-46.0.14"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.20-46.0.14:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 46.0.14 --fml.mcVersion 1.20 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230608.053357"
   },
   "44.1.0": {
@@ -1374,6 +1403,7 @@
       "net.minecraftforge:fmlloader:1.19.3-44.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.19.3-44.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 44.1.0 --fml.mcVersion 1.19.3 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20221207.122022"
   },
   "42.0.9": {
@@ -1409,6 +1439,7 @@
       "net.minecraftforge:fmlloader:1.19.1-42.0.9"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.19.1-42.0.9:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 42.0.9 --fml.mcVersion 1.19.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220727.212338"
   },
   "41.1.0": {
@@ -1442,6 +1473,7 @@
       "net.minecraftforge:fmlloader:1.19-41.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.19-41.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 41.1.0 --fml.mcVersion 1.19 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220607.102129"
   },
   "39.1.0": {
@@ -1478,6 +1510,7 @@
       "net.minecraftforge:fmlloader:1.18.1-39.1.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.18.1-39.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 39.1.0 --fml.mcVersion 1.18.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20211210.034407"
   },
   "25.0.223": {
@@ -1506,6 +1539,7 @@
       "net.sf.jopt-simple:jopt-simple:5.0.4"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.13.2-25.0.223:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 25.0.223 --fml.mcVersion 1.13.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20190213.203750"
   },
   "37.1.1": {
@@ -1542,6 +1576,7 @@
       "net.minecraftforge:fmlloader:1.17.1-37.1.1"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.17.1-37.1.1:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 37.1.1 --fml.mcVersion 1.17.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20210706.113038"
   },
   "38.0.17": {
@@ -1578,6 +1613,7 @@
       "net.minecraftforge:fmlloader:1.18-38.0.17"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.18-38.0.17:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 38.0.17 --fml.mcVersion 1.18 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20211130.085255"
   },
   "35.1.4": {
@@ -1607,6 +1643,7 @@
       "org.spongepowered:mixin:0.8.2"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.16.4-35.1.4:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 35.1.4 --fml.mcVersion 1.16.4 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20201102.104115"
   },
   "34.1.0": {
@@ -1636,6 +1673,7 @@
       "org.spongepowered:mixin:0.8.1"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.16.3-34.1.0:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 34.1.0 --fml.mcVersion 1.16.3 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20200911.084530"
   },
   "33.0.61": {
@@ -1665,6 +1703,7 @@
       "org.spongepowered:mixin:0.8"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.16.2-33.0.61:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 33.0.61 --fml.mcVersion 1.16.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20200812.004259"
   },
   "32.0.108": {
@@ -1694,6 +1733,7 @@
       "org.spongepowered:mixin:0.8"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.16.1-32.0.108:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 32.0.108 --fml.mcVersion 1.16.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20200625.160719"
   },
   "30.0.51": {
@@ -1720,6 +1760,7 @@
       "net.sf.jopt-simple:jopt-simple:5.0.4"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.15.1-30.0.51:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 30.0.51 --fml.mcVersion 1.15.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20191217.105819"
   },
   "29.0.4": {
@@ -1746,6 +1787,7 @@
       "net.sf.jopt-simple:jopt-simple:5.0.4"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.15-29.0.4:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 29.0.4 --fml.mcVersion 1.15 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20191212.203412"
   },
   "27.0.60": {
@@ -1773,6 +1815,7 @@
       "net.sf.jopt-simple:jopt-simple:5.0.4"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.14.3-27.0.60:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 27.0.60 --fml.mcVersion 1.14.3 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20190624.152911"
   },
   "26.0.63": {
@@ -1800,6 +1843,7 @@
       "net.sf.jopt-simple:jopt-simple:5.0.4"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+    "installer": "net.minecraftforge:forge:1.14.2-26.0.63:installer",
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 26.0.63 --fml.mcVersion 1.14.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20190603.175704"
   },
   "13.20.1.2588": {
@@ -1825,6 +1869,7 @@
       "net.sf.trove4j:trove4j:3.0.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "12.18.3.2511": {
@@ -1850,6 +1895,7 @@
       "net.sf.trove4j:trove4j:3.0.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "14.22.1.2478": {
@@ -1875,6 +1921,7 @@
       "net.sf.trove4j:trove4j:3.0.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "14.21.1.2387": {
@@ -1900,6 +1947,7 @@
       "net.sf.trove4j:trove4j:3.0.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "11.15.1.2318": {
@@ -1925,6 +1973,7 @@
       "net.sf.trove4j:trove4j:3.0.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "12.17.0.2317": {
@@ -1950,6 +1999,7 @@
       "net.sf.trove4j:trove4j:3.0.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "13.19.1.2189": {
@@ -1975,6 +2025,7 @@
       "net.sf.trove4j:trove4j:3.0.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "12.18.0.2000": {
@@ -2000,6 +2051,7 @@
       "net.sf.trove4j:trove4j:3.0.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "12.16.1.1887": {
@@ -2025,6 +2077,7 @@
       "net.sf.trove4j:trove4j:3.0.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "11.15.0.1655": {
@@ -2050,6 +2103,7 @@
       "net.sf.trove4j:trove4j:3.0.3"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "10.13.4.1614": {
@@ -2074,6 +2128,7 @@
       "org.apache.commons:commons-lang3:3.3.2"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "11.14.4.1563": {
@@ -2096,6 +2151,7 @@
       "lzma:lzma:0.0.1"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "9.11.1.1345": {
@@ -2109,6 +2165,7 @@
       "lzma:lzma:0.0.1"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "10.12.2.1161": {
@@ -2122,6 +2179,7 @@
       "lzma:lzma:0.0.1"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "10.12.2.1149": {
@@ -2137,6 +2195,7 @@
       "org.apache.commons:commons-lang3:3.2.1"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "9.11.0.878": {
@@ -2150,6 +2209,7 @@
       "lzma:lzma:0.0.1"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "9.10.1.871": {
@@ -2163,6 +2223,7 @@
       "lzma:lzma:0.0.1"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "8.9.0.775": {
@@ -2176,96 +2237,112 @@
       "lzma:lzma:0.0.1"
     ],
     "mainClass": "net.minecraft.launchwrapper.Launch",
+    "installer": null,
     "minecraftArguments": null
   },
   "7.8.1.738": {
     "version": "7.8.1.738",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "7.7.2.682": {
     "version": "7.7.2.682",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "7.7.0.598": {
     "version": "7.7.0.598",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "6.6.2.534": {
     "version": "6.6.2.534",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "6.5.0.489": {
     "version": "6.5.0.489",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "6.4.2.448": {
     "version": "6.4.2.448",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "6.3.0.378": {
     "version": "6.3.0.378",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "6.2.1.358": {
     "version": "6.2.1.358",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "6.0.1.355": {
     "version": "6.0.1.355",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "6.0.0.329": {
     "version": "6.0.0.329",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "4.3.5.318": {
     "version": "4.3.5.318",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "3.4.9.171": {
     "version": "3.4.9.171",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "2.0.0.68": {
     "version": "2.0.0.68",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "1.4.1.64": {
     "version": "1.4.1.64",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   },
   "1.3.4.29": {
     "version": "1.3.4.29",
     "dependencies": [],
     "mainClass": null,
+    "installer": null,
     "minecraftArguments": null
   }
 }
