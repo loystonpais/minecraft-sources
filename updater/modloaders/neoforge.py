@@ -78,10 +78,7 @@ class NeoForgeModloader(BaseModloader):
                 ver in loaders
                 and loaders[ver].get("dependencies")
                 and "installer" in loaders[ver]
-                and (
-                    not loaders[ver].get("installer")
-                    or any("installertools" in d for d in loaders[ver].get("dependencies", []))
-                )
+                and "installerDependencies" in loaders[ver]
             )
         ]
 
@@ -116,6 +113,7 @@ class NeoForgeModloader(BaseModloader):
                         discovered_libs[name] = entry
 
                 installer_coord = None
+                installer_deps = []
                 for mf in spec.get("mavenFiles", []):
                     mf_name = mf.get("name")
                     if not mf_name:
@@ -125,8 +123,8 @@ class NeoForgeModloader(BaseModloader):
                     is_installer = mf_name.endswith(":installer") or "-installer.jar" in url
                     if is_installer:
                         installer_coord = mf_name
-                    elif mf_name not in dep_names:
-                        dep_names.append(mf_name)
+                    elif mf_name not in installer_deps:
+                        installer_deps.append(mf_name)
 
                     sha1 = dl.get("sha1") or mf.get("sha1")
                     sha256 = dl.get("sha256") or mf.get("sha256")
@@ -143,6 +141,7 @@ class NeoForgeModloader(BaseModloader):
                     "dependencies": dep_names,
                     "mainClass": spec.get("mainClass"),
                     "installer": installer_coord,
+                    "installerDependencies": installer_deps,
                     "minecraftArguments": spec.get("minecraftArguments"),
                 }
                 return ver, res, discovered_libs
