@@ -2822,5 +2822,497 @@
   "net.minecraftforge:forge:1.14.2-26.0.63:universal": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.2-26.0.63/forge-1.14.2-26.0.63-universal.jar",
     "sha1": "bbce35034dc4633f38a794edabeae873300cb628"
+  },
+  "net.minecraftforge:forge:26.3-66.1.0:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.1.0/forge-26.3-66.1.0-universal.jar",
+    "sha1": "aed3e71afc72d8751b76ce8c4c27756692e56be4"
+  },
+  "net.minecraftforge:fmlcore:26.3-66.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/26.3-66.1.0/fmlcore-26.3-66.1.0.jar",
+    "sha1": "096caf795d48079ba1bbeeecdfda09b48b029af1"
+  },
+  "net.minecraftforge:fmlloader:26.3-66.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/26.3-66.1.0/fmlloader-26.3-66.1.0.jar",
+    "sha1": "a97d10ff11ccee40fe4d9b6b038ec4895e926a24"
+  },
+  "net.minecraftforge:fmlearlydisplay:26.3-66.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/26.3-66.1.0/fmlearlydisplay-26.3-66.1.0.jar",
+    "sha1": "d60cc2e5dca1738dd503669fb8cb97baf6ca6ae6"
+  },
+  "net.minecraftforge:javafmllanguage:26.3-66.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/26.3-66.1.0/javafmllanguage-26.3-66.1.0.jar",
+    "sha1": "9f218abffa3eb293b59b9d712f68250f83cef537"
+  },
+  "net.minecraftforge:lowcodelanguage:26.3-66.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/26.3-66.1.0/lowcodelanguage-26.3-66.1.0.jar",
+    "sha1": "a1039ec557e080f024ea992f0adeeb0b508d160b"
+  },
+  "net.minecraftforge:mclanguage:26.3-66.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/26.3-66.1.0/mclanguage-26.3-66.1.0.jar",
+    "sha1": "73b6654dc76ce5210034224ecb048068a4a2db80"
+  },
+  "net.minecraftforge:forge-transformers:26.3-66.1.0": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge-transformers/26.3-66.1.0/forge-transformers-26.3-66.1.0.jar",
+    "sha1": "b58c265ee1ab1634ee8b4154fdb92ba874556bcb"
+  },
+  "net.minecraftforge:forge:26.3-66.1.0:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.1.0/forge-26.3-66.1.0-installer.jar",
+    "sha1": "0325b11053e85ae08b19e73be00871e1a5ca3a55"
+  },
+  "net.minecraftforge:forge:26.3-66.1.0:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.1.0/forge-26.3-66.1.0-shim.jar",
+    "sha1": "1f92c900db798743569c368197b4c1461e1c322e"
+  },
+  "net.minecraftforge:forge:1.20.4-49.2.13:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.2.13/forge-1.20.4-49.2.13-universal.jar",
+    "sha1": "6acb4e40323c0355f0483a04127ef420d3352a72"
+  },
+  "net.minecraftforge:eventbus:6.2.33": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar",
+    "sha1": "3fae69cfa9c5095bcc25c0a8a3ed9b26c156f922"
+  },
+  "net.minecraftforge:fmlcore:1.20.4-49.2.13": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.20.4-49.2.13/fmlcore-1.20.4-49.2.13.jar",
+    "sha1": "3a4d2f5407296bfbcd99cab6e80bd84b0667980c"
+  },
+  "net.minecraftforge:fmlloader:1.20.4-49.2.13": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.4-49.2.13/fmlloader-1.20.4-49.2.13.jar",
+    "sha1": "53b9288b93fc8fccb434cb82d35c1c25bb4ea351"
+  },
+  "net.minecraftforge:fmlearlydisplay:1.20.4-49.2.13": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.4-49.2.13/fmlearlydisplay-1.20.4-49.2.13.jar",
+    "sha1": "e1729ade6bb87b6920f1af226400a386927592e9"
+  },
+  "net.minecraftforge:javafmllanguage:1.20.4-49.2.13": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.20.4-49.2.13/javafmllanguage-1.20.4-49.2.13.jar",
+    "sha1": "1a223fdc4c0fac30ae531ebd27bbc408b7b98a39"
+  },
+  "net.minecraftforge:lowcodelanguage:1.20.4-49.2.13": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.4-49.2.13/lowcodelanguage-1.20.4-49.2.13.jar",
+    "sha1": "d4a72da1145d22571d9ae2a55b8e2b0fc545f79f"
+  },
+  "net.minecraftforge:mclanguage:1.20.4-49.2.13": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.20.4-49.2.13/mclanguage-1.20.4-49.2.13.jar",
+    "sha1": "60c05596068a1680f56fcff7afcd37246b23fb12"
+  },
+  "net.minecraftforge:forge:1.20.4-49.2.13:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.2.13/forge-1.20.4-49.2.13-installer.jar",
+    "sha1": "425dfd59b887e2357c6d0b447e52b94d4b3953ac"
+  },
+  "net.minecraftforge:forge:1.20.4-49.2.13:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.2.13/forge-1.20.4-49.2.13-shim.jar",
+    "sha1": "beca4442e881d3410ce87ec35fd4ce2748eae310"
+  },
+  "net.minecraftforge:forge:1.20.6-50.2.14:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.6-50.2.14/forge-1.20.6-50.2.14-universal.jar",
+    "sha1": "a0976c5006442040facdf34a0f631fc98f65c6a2"
+  },
+  "net.minecraftforge:fmlcore:1.20.6-50.2.14": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.20.6-50.2.14/fmlcore-1.20.6-50.2.14.jar",
+    "sha1": "6a4407e1ca861bfd5c276ef24b7b35a3d64affb5"
+  },
+  "net.minecraftforge:fmlloader:1.20.6-50.2.14": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.6-50.2.14/fmlloader-1.20.6-50.2.14.jar",
+    "sha1": "02d6a7d3d446e739f2596565b2ae94efdf2c7923"
+  },
+  "net.minecraftforge:fmlearlydisplay:1.20.6-50.2.14": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.6-50.2.14/fmlearlydisplay-1.20.6-50.2.14.jar",
+    "sha1": "0aefbeb0f0f452a7e80b14062d1d7feacca5213c"
+  },
+  "net.minecraftforge:javafmllanguage:1.20.6-50.2.14": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.20.6-50.2.14/javafmllanguage-1.20.6-50.2.14.jar",
+    "sha1": "11536437475eea39e5f36bbc7b047fe971b3b27b"
+  },
+  "net.minecraftforge:lowcodelanguage:1.20.6-50.2.14": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.6-50.2.14/lowcodelanguage-1.20.6-50.2.14.jar",
+    "sha1": "72ac818741f18cadfba820ccd4fe76a9e2b38ed6"
+  },
+  "net.minecraftforge:mclanguage:1.20.6-50.2.14": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.20.6-50.2.14/mclanguage-1.20.6-50.2.14.jar",
+    "sha1": "90788de1f903025a1a12b65b9d366d6d99e74744"
+  },
+  "net.minecraftforge:forge:1.20.6-50.2.14:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.6-50.2.14/forge-1.20.6-50.2.14-installer.jar",
+    "sha1": "051824877e9f4e3000af79f2ff7306b48fd90cf5"
+  },
+  "net.minecraftforge:forge:1.20.6-50.2.14:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.6-50.2.14/forge-1.20.6-50.2.14-shim.jar",
+    "sha1": "130c81b1ad824c10abf9e49f8b1e3b1278ac9c4b"
+  },
+  "net.minecraftforge:forge:1.21.1-52.1.20:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.20/forge-1.21.1-52.1.20-universal.jar",
+    "sha1": "ab1be5668bbde6216799c1a37ee48803dedbbbc4"
+  },
+  "net.minecraftforge:fmlcore:1.21.1-52.1.20": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.21.1-52.1.20/fmlcore-1.21.1-52.1.20.jar",
+    "sha1": "05f307ba28082490133f1869e181896903660f81"
+  },
+  "net.minecraftforge:fmlloader:1.21.1-52.1.20": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.21.1-52.1.20/fmlloader-1.21.1-52.1.20.jar",
+    "sha1": "1f53340c6d0c43e3acb9379e767a104f06cb7e64"
+  },
+  "net.minecraftforge:fmlearlydisplay:1.21.1-52.1.20": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.21.1-52.1.20/fmlearlydisplay-1.21.1-52.1.20.jar",
+    "sha1": "40036709d2ef0d1d18aa210266b00c7be1da3e26"
+  },
+  "net.minecraftforge:javafmllanguage:1.21.1-52.1.20": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.21.1-52.1.20/javafmllanguage-1.21.1-52.1.20.jar",
+    "sha1": "d91d5705862bb7c6264827fb5a2a91309febd31b"
+  },
+  "net.minecraftforge:lowcodelanguage:1.21.1-52.1.20": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.21.1-52.1.20/lowcodelanguage-1.21.1-52.1.20.jar",
+    "sha1": "df3bfc62106ef7d770d4dd216437496be45d9cdb"
+  },
+  "net.minecraftforge:mclanguage:1.21.1-52.1.20": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.21.1-52.1.20/mclanguage-1.21.1-52.1.20.jar",
+    "sha1": "df16ceb5da75cb9bfff9fe95b2fe7cca19b7ccad"
+  },
+  "net.minecraftforge:forge:1.21.1-52.1.20:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.20/forge-1.21.1-52.1.20-installer.jar",
+    "sha1": "e8dad3b52d88cc33badf3597b9f5a502e53e89e4"
+  },
+  "net.minecraftforge:forge:1.21.1-52.1.20:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.20/forge-1.21.1-52.1.20-shim.jar",
+    "sha1": "bcd839382516e0e0fa43d0e9e55d01ffe29576a2"
+  },
+  "net.minecraftforge:forge:1.21.3-53.1.16:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.3-53.1.16/forge-1.21.3-53.1.16-universal.jar",
+    "sha1": "d984e0f1c730ea758b23107267888fd8e5f24d57"
+  },
+  "net.minecraftforge:fmlcore:1.21.3-53.1.16": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.21.3-53.1.16/fmlcore-1.21.3-53.1.16.jar",
+    "sha1": "058d76e321b9fffcaaf818f784e6085b12d246c3"
+  },
+  "net.minecraftforge:fmlloader:1.21.3-53.1.16": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.21.3-53.1.16/fmlloader-1.21.3-53.1.16.jar",
+    "sha1": "ee259499247549e926cefa6f781b9d4ca29eebfb"
+  },
+  "net.minecraftforge:fmlearlydisplay:1.21.3-53.1.16": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.21.3-53.1.16/fmlearlydisplay-1.21.3-53.1.16.jar",
+    "sha1": "b778bc342cae43c74af40c703a4ff9c4d2e1fe49"
+  },
+  "net.minecraftforge:javafmllanguage:1.21.3-53.1.16": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.21.3-53.1.16/javafmllanguage-1.21.3-53.1.16.jar",
+    "sha1": "f728b99ed7c21e941758f8300a2d4b6bd4316bcc"
+  },
+  "net.minecraftforge:lowcodelanguage:1.21.3-53.1.16": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.21.3-53.1.16/lowcodelanguage-1.21.3-53.1.16.jar",
+    "sha1": "1aecf7f4135038bd5e134097d7f8bd3ead8da329"
+  },
+  "net.minecraftforge:mclanguage:1.21.3-53.1.16": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.21.3-53.1.16/mclanguage-1.21.3-53.1.16.jar",
+    "sha1": "14c9c18ee5c350a411b5ec710c2dba6f3955fd68"
+  },
+  "net.minecraftforge:forge:1.21.3-53.1.16:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.3-53.1.16/forge-1.21.3-53.1.16-installer.jar",
+    "sha1": "85c7016e39cb2d5149f8fc1600c149caf7abb047"
+  },
+  "net.minecraftforge:forge:1.21.3-53.1.16:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.3-53.1.16/forge-1.21.3-53.1.16-shim.jar",
+    "sha1": "70eff79bcb8b83eca016abad3c63df9372ee657b"
+  },
+  "net.minecraftforge:forge:1.21.4-54.1.22:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.4-54.1.22/forge-1.21.4-54.1.22-universal.jar",
+    "sha1": "38e168d6e81613f50f1c8b3809a118c21b3f132b"
+  },
+  "net.minecraftforge:fmlcore:1.21.4-54.1.22": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.21.4-54.1.22/fmlcore-1.21.4-54.1.22.jar",
+    "sha1": "df58911e911ddc04bdeeba30f4d7b665f5a369d3"
+  },
+  "net.minecraftforge:fmlloader:1.21.4-54.1.22": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.21.4-54.1.22/fmlloader-1.21.4-54.1.22.jar",
+    "sha1": "13826d31a83e6ca02c57f67fa35526a1634c06fd"
+  },
+  "net.minecraftforge:fmlearlydisplay:1.21.4-54.1.22": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.21.4-54.1.22/fmlearlydisplay-1.21.4-54.1.22.jar",
+    "sha1": "bd0e99ce138b54487b10ccec516a0069c525ab33"
+  },
+  "net.minecraftforge:javafmllanguage:1.21.4-54.1.22": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.21.4-54.1.22/javafmllanguage-1.21.4-54.1.22.jar",
+    "sha1": "5ac33337c2dba9cb411d9b495b607698cce0df3a"
+  },
+  "net.minecraftforge:lowcodelanguage:1.21.4-54.1.22": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.21.4-54.1.22/lowcodelanguage-1.21.4-54.1.22.jar",
+    "sha1": "55235863565c9a024f2120c03c617ceb5fdbc5f8"
+  },
+  "net.minecraftforge:mclanguage:1.21.4-54.1.22": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.21.4-54.1.22/mclanguage-1.21.4-54.1.22.jar",
+    "sha1": "37a0f36c3591a326679cfd6d775e8ae4419c8c99"
+  },
+  "net.minecraftforge:forge:1.21.4-54.1.22:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.4-54.1.22/forge-1.21.4-54.1.22-installer.jar",
+    "sha1": "c445499201106cd56123029315a8e53228ea677b"
+  },
+  "net.minecraftforge:forge:1.21.4-54.1.22:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.4-54.1.22/forge-1.21.4-54.1.22-shim.jar",
+    "sha1": "9909a047f886d8c4ea48148aead72b1ca07545e5"
+  },
+  "net.minecraftforge:forge:1.21.5-55.1.18:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.5-55.1.18/forge-1.21.5-55.1.18-universal.jar",
+    "sha1": "9838be3b5f6c9582be0dd4e0b124a5cd47a9dfc0"
+  },
+  "net.minecraftforge:fmlcore:1.21.5-55.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.21.5-55.1.18/fmlcore-1.21.5-55.1.18.jar",
+    "sha1": "4268b6e7afab86113226704662670c7d0bf4d8f6"
+  },
+  "net.minecraftforge:fmlloader:1.21.5-55.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.21.5-55.1.18/fmlloader-1.21.5-55.1.18.jar",
+    "sha1": "4e875958f8bebcc2ecc317c41e143a229fdb2286"
+  },
+  "net.minecraftforge:fmlearlydisplay:1.21.5-55.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.21.5-55.1.18/fmlearlydisplay-1.21.5-55.1.18.jar",
+    "sha1": "f3afb67ebb1cea1b57b9154cc10b65d512ed45ba"
+  },
+  "net.minecraftforge:javafmllanguage:1.21.5-55.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.21.5-55.1.18/javafmllanguage-1.21.5-55.1.18.jar",
+    "sha1": "33c5f81db137ce86bcd0334211b0c5fa42de8f8e"
+  },
+  "net.minecraftforge:lowcodelanguage:1.21.5-55.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.21.5-55.1.18/lowcodelanguage-1.21.5-55.1.18.jar",
+    "sha1": "5b46f36d6f0e213b41c2e2f3639792758fef06e3"
+  },
+  "net.minecraftforge:mclanguage:1.21.5-55.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.21.5-55.1.18/mclanguage-1.21.5-55.1.18.jar",
+    "sha1": "b11f9cb22d5d3b4e10a81a48bd7f3c8280827743"
+  },
+  "net.minecraftforge:forge:1.21.5-55.1.18:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.5-55.1.18/forge-1.21.5-55.1.18-installer.jar",
+    "sha1": "f96f6aac412bb752de40ffeb7289e346c9ef8cd7"
+  },
+  "net.minecraftforge:forge:1.21.5-55.1.18:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.5-55.1.18/forge-1.21.5-55.1.18-shim.jar",
+    "sha1": "1acb305b5f0f36aee4cf1635de45d7d67b5b2b88"
+  },
+  "net.minecraftforge:forge:1.21.8-58.1.26:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.8-58.1.26/forge-1.21.8-58.1.26-universal.jar",
+    "sha1": "bdedd3eb776b80206bb9be1a93411fdad7ae28e0"
+  },
+  "net.minecraftforge:fmlcore:1.21.8-58.1.26": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.21.8-58.1.26/fmlcore-1.21.8-58.1.26.jar",
+    "sha1": "89e2eb165fe6eb86c4fc61b0c49c6fc9e9441373"
+  },
+  "net.minecraftforge:fmlloader:1.21.8-58.1.26": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.21.8-58.1.26/fmlloader-1.21.8-58.1.26.jar",
+    "sha1": "b7141d52c7a3eadb2fa9d5aee7c03021eda66f7a"
+  },
+  "net.minecraftforge:fmlearlydisplay:1.21.8-58.1.26": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.21.8-58.1.26/fmlearlydisplay-1.21.8-58.1.26.jar",
+    "sha1": "526294879df83ae5a0e82291f7e56ea2e64e7852"
+  },
+  "net.minecraftforge:javafmllanguage:1.21.8-58.1.26": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.21.8-58.1.26/javafmllanguage-1.21.8-58.1.26.jar",
+    "sha1": "601a1a8b0229c401222061c6f8fab5791a9edeef"
+  },
+  "net.minecraftforge:lowcodelanguage:1.21.8-58.1.26": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.21.8-58.1.26/lowcodelanguage-1.21.8-58.1.26.jar",
+    "sha1": "017c3ff0ccca99c8149ff101e3ee52cd2a77b5bb"
+  },
+  "net.minecraftforge:mclanguage:1.21.8-58.1.26": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.21.8-58.1.26/mclanguage-1.21.8-58.1.26.jar",
+    "sha1": "6d1c8b2583a76e1796f72cfdf727a99156fdd8a9"
+  },
+  "net.minecraftforge:forge-transformers:1.21.8-58.1.26": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge-transformers/1.21.8-58.1.26/forge-transformers-1.21.8-58.1.26.jar",
+    "sha1": "bd0280bd20d1805b441f424e9be5944b91b910e0"
+  },
+  "net.minecraftforge:forge:1.21.8-58.1.26:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.8-58.1.26/forge-1.21.8-58.1.26-installer.jar",
+    "sha1": "0b6c40f8a434391511df081bdc9def4451223a83"
+  },
+  "net.minecraftforge:forge:1.21.8-58.1.26:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.8-58.1.26/forge-1.21.8-58.1.26-shim.jar",
+    "sha1": "61ee721b807dda6aee7ce3148b5261cae647b8a6"
+  },
+  "net.minecraftforge:forge:1.21.10-60.1.18:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.10-60.1.18/forge-1.21.10-60.1.18-universal.jar",
+    "sha1": "0fd9a3ad6d7e518bb312604ff620c624a9bb7855"
+  },
+  "net.minecraftforge:fmlcore:1.21.10-60.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.21.10-60.1.18/fmlcore-1.21.10-60.1.18.jar",
+    "sha1": "51d8c9578e54688359febdf1157702e6a94e4207"
+  },
+  "net.minecraftforge:fmlloader:1.21.10-60.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.21.10-60.1.18/fmlloader-1.21.10-60.1.18.jar",
+    "sha1": "877bd5427a87ed2e0d4228d375e470d20613226e"
+  },
+  "net.minecraftforge:fmlearlydisplay:1.21.10-60.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.21.10-60.1.18/fmlearlydisplay-1.21.10-60.1.18.jar",
+    "sha1": "b5bfb959fc13583fb05d380d85a32c8638a3b129"
+  },
+  "net.minecraftforge:javafmllanguage:1.21.10-60.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.21.10-60.1.18/javafmllanguage-1.21.10-60.1.18.jar",
+    "sha1": "7798d5767486b4afa6b4ea112b34599f91c6d779"
+  },
+  "net.minecraftforge:lowcodelanguage:1.21.10-60.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.21.10-60.1.18/lowcodelanguage-1.21.10-60.1.18.jar",
+    "sha1": "16d479ff3a2d9e193884a1e4220eeaee9ce19344"
+  },
+  "net.minecraftforge:mclanguage:1.21.10-60.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.21.10-60.1.18/mclanguage-1.21.10-60.1.18.jar",
+    "sha1": "3fd0eed137d3f84550fd3500904c0d772b8dafa1"
+  },
+  "net.minecraftforge:forge-transformers:1.21.10-60.1.18": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge-transformers/1.21.10-60.1.18/forge-transformers-1.21.10-60.1.18.jar",
+    "sha1": "7d3fe61a9afa070f29d5f4d3437e2a2e9b88e1f5"
+  },
+  "net.minecraftforge:forge:1.21.10-60.1.18:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.10-60.1.18/forge-1.21.10-60.1.18-installer.jar",
+    "sha1": "95051482e9e500fc28a20a22c302e569b44d9d82"
+  },
+  "net.minecraftforge:forge:1.21.10-60.1.18:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.10-60.1.18/forge-1.21.10-60.1.18-shim.jar",
+    "sha1": "c48a971c1a665aacd1a60be2c5bbfe819addd187"
+  },
+  "net.minecraftforge:forge:1.21.11-61.2.4:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.2.4/forge-1.21.11-61.2.4-universal.jar",
+    "sha1": "d346fc838d53276e5a830915fc2872fea9437bc4"
+  },
+  "net.minecraftforge:fmlcore:1.21.11-61.2.4": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.21.11-61.2.4/fmlcore-1.21.11-61.2.4.jar",
+    "sha1": "383a0484f6357408ab44503b7c2e652316cab4dc"
+  },
+  "net.minecraftforge:fmlloader:1.21.11-61.2.4": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.21.11-61.2.4/fmlloader-1.21.11-61.2.4.jar",
+    "sha1": "07d6ec3d6b94ffa494ebe83a4d317788c026a8f7"
+  },
+  "net.minecraftforge:fmlearlydisplay:1.21.11-61.2.4": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.21.11-61.2.4/fmlearlydisplay-1.21.11-61.2.4.jar",
+    "sha1": "e3dceeb3ff5c9a1e2781f39cf6028e2ac39373d0"
+  },
+  "net.minecraftforge:javafmllanguage:1.21.11-61.2.4": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.21.11-61.2.4/javafmllanguage-1.21.11-61.2.4.jar",
+    "sha1": "a2cfebf38407da7ac9e7a68e672227c43ac0efef"
+  },
+  "net.minecraftforge:lowcodelanguage:1.21.11-61.2.4": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.21.11-61.2.4/lowcodelanguage-1.21.11-61.2.4.jar",
+    "sha1": "5f5ffeb510b86566a949de7c88b835dbbd4b24d9"
+  },
+  "net.minecraftforge:mclanguage:1.21.11-61.2.4": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.21.11-61.2.4/mclanguage-1.21.11-61.2.4.jar",
+    "sha1": "dc96b50bef84f83b5cdb68f14c1cd90dde9ce278"
+  },
+  "net.minecraftforge:forge-transformers:1.21.11-61.2.4": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge-transformers/1.21.11-61.2.4/forge-transformers-1.21.11-61.2.4.jar",
+    "sha1": "bf878dde80ed1cfd7f2997daa96e75c10b43072e"
+  },
+  "net.minecraftforge:forge:1.21.11-61.2.4:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.2.4/forge-1.21.11-61.2.4-installer.jar",
+    "sha1": "d110e0020d37995f8d7bf92fb6b90b0aa34ec4c2"
+  },
+  "net.minecraftforge:forge:1.21.11-61.2.4:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.2.4/forge-1.21.11-61.2.4-shim.jar",
+    "sha1": "4c92b25646243b1028382c4bde0d20dd7e7795e4"
+  },
+  "net.minecraftforge:forge:26.1.2-64.1.5:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.1.5/forge-26.1.2-64.1.5-universal.jar",
+    "sha1": "331b82ddfea0aae5dddc8781db97ddfe1ec3196d"
+  },
+  "net.minecraftforge:fmlcore:26.1.2-64.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/26.1.2-64.1.5/fmlcore-26.1.2-64.1.5.jar",
+    "sha1": "d8344b1216cbbcda9b4242e45a29d57229abd395"
+  },
+  "net.minecraftforge:fmlloader:26.1.2-64.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/26.1.2-64.1.5/fmlloader-26.1.2-64.1.5.jar",
+    "sha1": "5579b85cf0443b28c6f2b86c8064f528c8b0b496"
+  },
+  "net.minecraftforge:fmlearlydisplay:26.1.2-64.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/26.1.2-64.1.5/fmlearlydisplay-26.1.2-64.1.5.jar",
+    "sha1": "204886e12f7bfabbad10438f3b5683a127d76fc9"
+  },
+  "net.minecraftforge:javafmllanguage:26.1.2-64.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/26.1.2-64.1.5/javafmllanguage-26.1.2-64.1.5.jar",
+    "sha1": "2b6bcd5340f4c36f62124a4434aa788872876a65"
+  },
+  "net.minecraftforge:lowcodelanguage:26.1.2-64.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/26.1.2-64.1.5/lowcodelanguage-26.1.2-64.1.5.jar",
+    "sha1": "a0be3727c32a3f51028e607277d71cbcf3592090"
+  },
+  "net.minecraftforge:mclanguage:26.1.2-64.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/26.1.2-64.1.5/mclanguage-26.1.2-64.1.5.jar",
+    "sha1": "08c356048241d50d91542024cde84ba8b51dd71d"
+  },
+  "net.minecraftforge:forge-transformers:26.1.2-64.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge-transformers/26.1.2-64.1.5/forge-transformers-26.1.2-64.1.5.jar",
+    "sha1": "23447b34af5c2ac849e44342b2b116e1985a20a1"
+  },
+  "net.minecraftforge:forge:26.1.2-64.1.5:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.1.5/forge-26.1.2-64.1.5-installer.jar",
+    "sha1": "b24a1c0640b88579f5bb86f3d8ad37469c2c7b62"
+  },
+  "net.minecraftforge:forge:26.1.2-64.1.5:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.1.5/forge-26.1.2-64.1.5-shim.jar",
+    "sha1": "163d73187c62a11b130969dba9453d9f3a74ff53"
+  },
+  "net.minecraftforge:forge:26.2-65.1.5:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.2-65.1.5/forge-26.2-65.1.5-universal.jar",
+    "sha1": "0f335ff3ac159e956c5a4b28aa058b466f6f9027"
+  },
+  "net.minecraftforge:fmlcore:26.2-65.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/26.2-65.1.5/fmlcore-26.2-65.1.5.jar",
+    "sha1": "fd7a29145760075642fa021162d6cbc1165defc3"
+  },
+  "net.minecraftforge:fmlloader:26.2-65.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/26.2-65.1.5/fmlloader-26.2-65.1.5.jar",
+    "sha1": "7dcca1a4881aa8dd6a35ddeb472944ee39ae9d33"
+  },
+  "net.minecraftforge:fmlearlydisplay:26.2-65.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/26.2-65.1.5/fmlearlydisplay-26.2-65.1.5.jar",
+    "sha1": "62384f6924e549686f5bab7547973ca5edae4211"
+  },
+  "net.minecraftforge:javafmllanguage:26.2-65.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/26.2-65.1.5/javafmllanguage-26.2-65.1.5.jar",
+    "sha1": "ab741af00f5bbb9fb3e861ea5216371dae456393"
+  },
+  "net.minecraftforge:lowcodelanguage:26.2-65.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/26.2-65.1.5/lowcodelanguage-26.2-65.1.5.jar",
+    "sha1": "19e333ba56a2aea2ce4d5a31c17c0065ee137182"
+  },
+  "net.minecraftforge:mclanguage:26.2-65.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/26.2-65.1.5/mclanguage-26.2-65.1.5.jar",
+    "sha1": "08c356048241d50d91542024cde84ba8b51dd71d"
+  },
+  "net.minecraftforge:forge-transformers:26.2-65.1.5": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge-transformers/26.2-65.1.5/forge-transformers-26.2-65.1.5.jar",
+    "sha1": "387fb83eb09f99df5195a2022c491099452f2eb2"
+  },
+  "net.minecraftforge:forge:26.2-65.1.5:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.2-65.1.5/forge-26.2-65.1.5-installer.jar",
+    "sha1": "0746b1dc6d93abb4b84f3f924009591b6c85eb80"
+  },
+  "net.minecraftforge:forge:26.2-65.1.5:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.2-65.1.5/forge-26.2-65.1.5-shim.jar",
+    "sha1": "4abe655bf8aade87bc3235994438bc92fefe6d27"
+  },
+  "net.minecraftforge:fmlloader:1.20.1-47.4.28": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.1-47.4.28/fmlloader-1.20.1-47.4.28.jar",
+    "sha1": "ef60cc90bbcd259cb40881e459c49a7350ed2002"
+  },
+  "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.28": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.28/fmlearlydisplay-1.20.1-47.4.28.jar",
+    "sha1": "3dadce8bfe5d10799189cac6196ea1162a04b9ae"
+  },
+  "net.minecraftforge:forge:1.20.1-47.4.28:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.28/forge-1.20.1-47.4.28-installer.jar",
+    "sha1": "585dd6071897becaed3b09bff4c3d9559e0cbc75"
+  },
+  "net.minecraftforge:fmlcore:1.20.1-47.4.28": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.20.1-47.4.28/fmlcore-1.20.1-47.4.28.jar",
+    "sha1": "99808794b6f9f27ca527ad9db1203409fb8552f8"
+  },
+  "net.minecraftforge:forge:1.20.1-47.4.28:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.28/forge-1.20.1-47.4.28-universal.jar",
+    "sha1": "1c2208dc1db2a61ddb6d5dcbe8eae4fd44629e9d"
+  },
+  "net.minecraftforge:javafmllanguage:1.20.1-47.4.28": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.20.1-47.4.28/javafmllanguage-1.20.1-47.4.28.jar",
+    "sha1": "2f0765ea31561e9dfaf8eb8b54ac0548cd857559"
+  },
+  "net.minecraftforge:lowcodelanguage:1.20.1-47.4.28": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.1-47.4.28/lowcodelanguage-1.20.1-47.4.28.jar",
+    "sha1": "4e54a5f415a61888bd9c5d61b140ae5f86bf665f"
+  },
+  "net.minecraftforge:mclanguage:1.20.1-47.4.28": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.20.1-47.4.28/mclanguage-1.20.1-47.4.28.jar",
+    "sha1": "4d3efb7da0466927cc5b1e4487c3d3c33ba842d0"
   }
 }
