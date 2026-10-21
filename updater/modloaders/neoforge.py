@@ -74,7 +74,15 @@ class NeoForgeModloader(BaseModloader):
         # 4. Fetch component spec for selected builds
         pending_versions = [
             ver for ver in selected_versions
-            if not (ver in loaders and loaders[ver].get("dependencies") and "installer" in loaders[ver])
+            if not (
+                ver in loaders
+                and loaders[ver].get("dependencies")
+                and "installer" in loaders[ver]
+                and (
+                    not loaders[ver].get("installer")
+                    or any("installertools" in d for d in loaders[ver].get("dependencies", []))
+                )
+            )
         ]
 
         if pending_versions:
@@ -109,21 +117,26 @@ class NeoForgeModloader(BaseModloader):
 
                 installer_coord = None
                 for mf in spec.get("mavenFiles", []):
-                    mf_name = mf.get("name", "")
+                    mf_name = mf.get("name")
+                    if not mf_name:
+                        continue
                     dl = mf.get("downloads", {}).get("artifact", {})
                     url = dl.get("url") or mf.get("url") or ""
-                    if mf_name.endswith(":installer") or "-installer.jar" in url:
+                    is_installer = mf_name.endswith(":installer") or "-installer.jar" in url
+                    if is_installer:
                         installer_coord = mf_name
-                        sha1 = dl.get("sha1") or mf.get("sha1")
-                        sha256 = dl.get("sha256") or mf.get("sha256")
-                        if url and (sha1 or sha256):
-                            entry = {"url": url}
-                            if sha256:
-                                entry["sha256"] = sha256
-                            if sha1:
-                                entry["sha1"] = sha1
-                            discovered_libs[mf_name] = entry
-                        break
+                    elif mf_name not in dep_names:
+                        dep_names.append(mf_name)
+
+                    sha1 = dl.get("sha1") or mf.get("sha1")
+                    sha256 = dl.get("sha256") or mf.get("sha256")
+                    if url and (sha1 or sha256):
+                        entry = {"url": url}
+                        if sha256:
+                            entry["sha256"] = sha256
+                        if sha1:
+                            entry["sha1"] = sha1
+                        discovered_libs[mf_name] = entry
 
                 res = {
                     "version": ver,
