@@ -49,6 +49,27 @@ class MavenCoord:
 
 
 
+def get_maven_hash_from_jar_url(jar_url: str) -> tuple[str, str] | None:
+    """Gets an available checksum by probing sidecars for a fully-qualified JAR URL."""
+    candidates = [
+        ("sha256", f"{jar_url}.sha256", 64),
+        ("sha1", f"{jar_url}.sha1", 40),
+        ("md5", f"{jar_url}.md5", 32),
+    ]
+
+    for h_type, endpoint, expected_len in candidates:
+        try:
+            data = fetch_bytes(endpoint, delay=0.02, max_retries=2)
+            text = data.decode("utf-8").strip()
+            parts = text.split()
+            if parts and len(parts[0]) == expected_len:
+                return (h_type, parts[0].lower())
+        except Exception:
+            continue
+
+    return None
+
+
 def get_maven_hash(
     coord_str: str,
     base_url: str,

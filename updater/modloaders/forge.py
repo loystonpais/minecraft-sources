@@ -2,6 +2,58 @@ from collections import defaultdict
 from updater.modloaders.base import BaseModloader
 from updater.config import PRISM_META_BASE, save_json, load_json, logger
 from updater.fetch import fetch_json
+from updater.modloaders.maven import (
+    MavenCoord,
+    get_maven_hash,
+    get_maven_hash_from_jar_url,
+)
+
+
+FORGE_MAVEN_BASE = "https://maven.minecraftforge.net/"
+MINECRAFT_MAVEN_BASE = "https://libraries.minecraft.net/"
+CENTRAL_MAVEN_BASE = "https://repo.maven.apache.org/maven2/"
+
+
+def resolve_library_sidecar(name: str, lib_entry: dict, artifact_url: str | None):
+    """Resolve a missing Forge library hash from Maven checksum sidecars."""
+    try:
+        coord = MavenCoord.parse(name)
+    except ValueError:
+        return None
+
+    # Some metadata gives the full artifact URL; others only give its repository root.
+    if artifact_url and artifact_url.endswith(".jar"):
+        hash_result = get_maven_hash_from_jar_url(artifact_url)
+        if hash_result:
+            return artifact_url, hash_result
+
+    repository_urls = []
+    metadata_url = lib_entry.get("url")
+    if metadata_url and not metadata_url.endswith(".jar"):
+        repository_urls.append(metadata_url)
+
+    # Legacy Forge metadata often omits the repository. Minecraft and ordinary
+    # third-party artifacts are usually on libraries.minecraft.net; Forge and its
+    # Scala dependencies are usually on Forge Maven.
+    forge_artifact = (
+        coord.group.startswith(("net.minecraftforge", "org.scala-lang"))
+        or coord.group == "jline"
+    )
+    defaults = (
+        [FORGE_MAVEN_BASE, MINECRAFT_MAVEN_BASE, CENTRAL_MAVEN_BASE]
+        if forge_artifact
+        else [MINECRAFT_MAVEN_BASE, FORGE_MAVEN_BASE, CENTRAL_MAVEN_BASE]
+    )
+    for repository_url in defaults:
+        if repository_url not in repository_urls:
+            repository_urls.append(repository_url)
+
+    for repository_url in repository_urls:
+        hash_result = get_maven_hash(name, repository_url)
+        if hash_result:
+            return coord.jar_url(repository_url), hash_result
+
+    return None
 
 
 class ForgeModloader(BaseModloader):
@@ -72,14 +124,32 @@ class ForgeModloader(BaseModloader):
         libraries: dict[str, dict] = dict(existing_libraries)
 
         # 4. Fetch component spec for selected builds
+        def has_cached_library(coord: str) -> bool:
+            entry = libraries.get(coord, {})
+            return bool(
+                entry.get("url")
+                and any(entry.get(key) for key in ("sha256", "sha1", "md5", "hash"))
+            )
+
+        def has_complete_cached_loader(ver: str) -> bool:
+            loader = loaders.get(ver, {})
+            if not (
+                loader.get("dependencies")
+                and "installer" in loader
+                and "installerDependencies" in loader
+            ):
+                return False
+
+            required_libraries = list(loader.get("dependencies", []))
+            required_libraries.extend(loader.get("installerDependencies", []))
+            installer = loader.get("installer")
+            if installer:
+                required_libraries.append(installer)
+            return all(has_cached_library(coord) for coord in required_libraries)
+
         pending_versions = [
             ver for ver in selected_versions
-            if not (
-                ver in loaders
-                and loaders[ver].get("dependencies")
-                and "installer" in loaders[ver]
-                and "installerDependencies" in loaders[ver]
-            )
+            if not has_complete_cached_loader(ver)
         ]
 
         if pending_versions:
@@ -111,6 +181,14 @@ class ForgeModloader(BaseModloader):
                         if sha1:
                             entry["sha1"] = sha1
                         discovered_libs[name] = entry
+                    else:
+                        resolved = resolve_library_sidecar(name, lib_entry, url)
+                        if resolved:
+                            resolved_url, (hash_type, hash_value) = resolved
+                            discovered_libs[name] = {
+                                "url": resolved_url,
+                                hash_type: hash_value,
+                            }
 
                 installer_coord = None
                 installer_deps = []
