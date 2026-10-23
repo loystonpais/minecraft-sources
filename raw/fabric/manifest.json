@@ -4,7 +4,7 @@
     "build": 1,
     "maven": "net.fabricmc:fabric-loader:0.20.1",
     "version": "0.20.1",
-    "stable": false
+    "stable": true
   },
   {
     "separator": ".",
@@ -18,7 +18,7 @@
     "build": 5,
     "maven": "net.fabricmc:fabric-loader:0.19.5",
     "version": "0.19.5",
-    "stable": true
+    "stable": false
   },
   {
     "separator": ".",
