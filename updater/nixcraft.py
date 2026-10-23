@@ -1,4 +1,5 @@
 import base64
+import shlex
 import shutil
 from pathlib import Path
 from typing import Any
@@ -215,6 +216,25 @@ def build_fabric_and_quilt() -> None:
         logger.info(f"Saved {dest}")
 
 
+def parse_minecraft_arguments(arguments: str | None) -> dict[str, str] | None:
+    """Parses a Forge/NeoForge minecraftArguments string into flag/value pairs."""
+    if arguments is None:
+        return None
+
+    tokens = shlex.split(arguments)
+    if len(tokens) % 2:
+        raise ValueError(f"Unpaired minecraft argument: {tokens[-1]}")
+
+    parsed: dict[str, str] = {}
+    for key, value in zip(tokens[::2], tokens[1::2]):
+        if not key.startswith("--"):
+            raise ValueError(f"Expected minecraft argument flag, got {key!r}")
+        if key in parsed:
+            raise ValueError(f"Duplicate minecraft argument flag: {key}")
+        parsed[key] = value
+    return parsed
+
+
 def build_forge_and_neoforge() -> None:
     """Consolidates forge.json and neoforge.json with optimized game_versions and loaders."""
     for loader in ["forge", "neoforge"]:
@@ -238,11 +258,16 @@ def build_forge_and_neoforge() -> None:
             elif isinstance(items, str):
                 clean_game_versions[gv] = items
 
-        # 2. Clean loaders: strip redundant 'version' key inside the object
+        # 2. Clean loaders: strip redundant 'version' key and parse minecraft arguments.
         clean_loaders: dict[str, dict[str, Any]] = {}
         for l_ver, l_info in loaders_data.items():
             if isinstance(l_info, dict):
-                clean_loaders[l_ver] = {k: v for k, v in l_info.items() if k != "version"}
+                clean_info = {k: v for k, v in l_info.items() if k != "version"}
+                if "minecraftArguments" in clean_info:
+                    clean_info["minecraftArguments"] = parse_minecraft_arguments(
+                        clean_info["minecraftArguments"]
+                    )
+                clean_loaders[l_ver] = clean_info
             else:
                 clean_loaders[l_ver] = l_info
 

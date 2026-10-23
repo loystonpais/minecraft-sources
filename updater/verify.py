@@ -216,6 +216,13 @@ def verify_modloader_forge_neoforge(file_name: str, data: dict[str, Any]) -> Non
             for c in l_info["installerDependencies"]:
                 assert_type(file_name, f"loaders.{l_id}.installerDependencies[]", c, str)
 
+        minecraft_arguments = l_info.get("minecraftArguments")
+        if minecraft_arguments is not None:
+            assert_type(file_name, f"loaders.{l_id}.minecraftArguments", minecraft_arguments, dict)
+            for key, value in minecraft_arguments.items():
+                assert_type(file_name, f"loaders.{l_id}.minecraftArguments.{key}", key, str)
+                assert_type(file_name, f"loaders.{l_id}.minecraftArguments.{key}", value, str)
+
 
 def verify_lwjgl(data: dict[str, Any]) -> None:
     file_name = "lwjgl.json"
