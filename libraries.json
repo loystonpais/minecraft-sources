@@ -13759,6 +13759,122 @@
     "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.20.1-47.4.28/mclanguage-1.20.1-47.4.28.jar",
     "hash": "sha1-TT77faBGaSfMWx5Eh8PTwzuoQtA="
   },
+  "net.minecraftforge:forge:1.11.2-13.20.1.2588:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.11.2-13.20.1.2588/forge-1.11.2-13.20.1.2588-universal.jar",
+    "hash": "sha1-rNXSTD9YWQtqnabg4qoUvW3MUWY="
+  },
+  "org.ow2.asm:asm-all:5.0.3": {
+    "url": "https://libraries.minecraft.net/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
+    "hash": "sha1-QzNQi43Y7nKqTjmvpxOzp0V5t3M="
+  },
+  "jline:jline:2.13": {
+    "url": "https://maven.minecraftforge.net/jline/jline/2.13/jline-2.13.jar",
+    "hash": "sha1-LZUw0KJdr/r/2nw1A3sEa2J7sXE="
+  },
+  "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2": {
+    "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar",
+    "hash": "sha1-DlF8U6fprNaxZoxaNezLqjurmqw="
+  },
+  "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2": {
+    "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar",
+    "hash": "sha1-82GjKDRSxX+jDB7mlEiZXeI8YPc="
+  },
+  "net.minecraftforge:forge:1.10.2-12.18.3.2511:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.10.2-12.18.3.2511/forge-1.10.2-12.18.3.2511-universal.jar",
+    "hash": "sha1-dWDKBDIITxs02LNVNxuliJAAVEo="
+  },
+  "net.minecraftforge:forge:1.12.1-14.22.1.2478:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.1-14.22.1.2478/forge-1.12.1-14.22.1.2478-universal.jar",
+    "hash": "sha1-TTXG/j1QOYqMuEhWZW/6ckO6Pt8="
+  },
+  "org.ow2.asm:asm-all:5.2": {
+    "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar",
+    "hash": "sha1-LqSeCLh2u9M+CnznXI83HSnh8Qo="
+  },
+  "net.minecraftforge:forge:1.12-14.21.1.2387:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12-14.21.1.2387/forge-1.12-14.21.1.2387-universal.jar",
+    "hash": "sha1-nzP+zoIh4g2RZenh03hJRRHOnQY="
+  },
+  "net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar",
+    "hash": "sha1-vtphnEZa8pPmOVLdVzwTfBfApM0="
+  },
+  "net.minecraftforge:forge:1.9.4-12.17.0.2317-1.9.4:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.9.4-12.17.0.2317-1.9.4/forge-1.9.4-12.17.0.2317-1.9.4-universal.jar",
+    "hash": "sha1-xq0wZtim7EARoywXeH4UQN5hiFc="
+  },
+  "net.minecraftforge:forge:1.11-13.19.1.2189:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.11-13.19.1.2189/forge-1.11-13.19.1.2189-universal.jar",
+    "hash": "sha1-w5CUn7uX9I5wbKi/HEu+LjWnKJg="
+  },
+  "net.minecraftforge:forge:1.10-12.18.0.2000-1.10.0:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.10-12.18.0.2000-1.10.0/forge-1.10-12.18.0.2000-1.10.0-universal.jar",
+    "hash": "sha1-VYJTgiUd6PODCKMPE8HI1l3QaeY="
+  },
+  "net.minecraftforge:forge:1.9-12.16.1.1887:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.9-12.16.1.1887/forge-1.9-12.16.1.1887-universal.jar",
+    "hash": "sha1-L7l94kYqP7/zWtjePLguB1NXtlo="
+  },
+  "net.minecraftforge:forge:1.8.8-11.15.0.1655:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.8-11.15.0.1655/forge-1.8.8-11.15.0.1655-universal.jar",
+    "hash": "sha1-sI/Zx+Cjo+EgmQESCBJgcN4hnas="
+  },
+  "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar",
+    "hash": "sha1-Jf2X9yvspygRIlaTjgPoEFsbeMw="
+  },
+  "net.minecraftforge:forge:1.8-11.14.4.1563:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.8-11.14.4.1563/forge-1.8-11.14.4.1563-universal.jar",
+    "hash": "sha1-6i7Nk5wGPnU1UjZKIXHvt3BOlKc="
+  },
+  "net.minecraftforge:forge:1.6.4-9.11.1.1345:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.6.4-9.11.1.1345/forge-1.6.4-9.11.1.1345-universal.jar",
+    "hash": "sha1-652VTI0Ff6F2isqkCjW4ZK0FxYs="
+  },
+  "net.minecraft:launchwrapper:1.8": {
+    "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.8/launchwrapper-1.8.jar",
+    "hash": "sha1-1MCJWXfdfws/Vigc7lOmTUwMAyI="
+  },
+  "org.scala-lang:scala-library:2.10.2": {
+    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar",
+    "hash": "sha1-a6ZdEs0J1EEIMmLW9z0iV/7HxmM="
+  },
+  "org.scala-lang:scala-compiler:2.10.2": {
+    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-compiler/2.10.2/scala-compiler-2.10.2.jar",
+    "hash": "sha1-ZMixOAzFPWhQgj1uTnrphKpE75w="
+  },
+  "net.minecraftforge:forge:1.7.2-10.12.2.1161-mc172:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.7.2-10.12.2.1161-mc172/forge-1.7.2-10.12.2.1161-mc172-universal.jar",
+    "hash": "sha1-3GBb4cM0gnF3BB7CCzjvK4U9kY8="
+  },
+  "net.minecraft:launchwrapper:1.9": {
+    "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.9/launchwrapper-1.9.jar",
+    "hash": "sha1-EW8qrVsMaDU+vtZs1GNRfbZSL34="
+  },
+  "net.minecraftforge:forge:1.7.10_pre4-10.12.2.1149-prerelease:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.7.10_pre4-10.12.2.1149-prerelease/forge-1.7.10_pre4-10.12.2.1149-prerelease-universal.jar",
+    "hash": "sha1-GkdQYXsylu1jbd8IkKkksN46cxs="
+  },
+  "net.minecraftforge:forge:1.6.3-9.11.0.878:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.6.3-9.11.0.878/forge-1.6.3-9.11.0.878-universal.jar",
+    "hash": "sha1-V85fCHDPqcYBypdYYmlONSFweTA="
+  },
+  "net.minecraft:launchwrapper:1.7": {
+    "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.7/launchwrapper-1.7.jar",
+    "hash": "sha1-Pgl0/jXHHUkFwvoTAoGz4L3Ge7E="
+  },
+  "net.minecraftforge:forge:1.6.2-9.10.1.871:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.6.2-9.10.1.871/forge-1.6.2-9.10.1.871-universal.jar",
+    "hash": "sha1-RMJuFcNMML6eVKe8WI1diSoCT28="
+  },
+  "net.minecraft:launchwrapper:1.3": {
+    "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.3/launchwrapper-1.3.jar",
+    "hash": "sha1-eASbTMRhHoEqjS4nwIopXRXfH7o="
+  },
+  "net.minecraftforge:forge:1.6.1-8.9.0.775:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.6.1-8.9.0.775/forge-1.6.1-8.9.0.775-universal.jar",
+    "hash": "sha1-jwG0YS3EhlJKLUGSoimohbi/dvc="
+  },
   "net.neoforged.fancymodloader:earlydisplay:4.0.45": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.45/earlydisplay-4.0.45.jar",
     "hash": "sha1-3HqLE3AFTdDi1wwdtN30CSeTwRU="

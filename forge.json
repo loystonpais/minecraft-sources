@@ -230,7 +230,22 @@
         "org.ow2.asm:asm:9.6",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 45.4.0 --fml.mcVersion 1.19.4 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230314.122934"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "45.4.0",
+        "--fml.mcVersion": "1.19.4",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20230314.122934"
+      }
     },
     "31.2.57": {
       "dependencies": [
@@ -286,7 +301,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 31.2.57 --fml.mcVersion 1.15.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20200515.085601"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "31.2.57",
+        "--fml.mcVersion": "1.15.2",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20200515.085601"
+      }
     },
     "28.2.26": {
       "dependencies": [
@@ -340,7 +370,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 28.2.26 --fml.mcVersion 1.14.4 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20190829.143755"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "28.2.26",
+        "--fml.mcVersion": "1.14.4",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20190829.143755"
+      }
     },
     "63.0.2": {
       "dependencies": [
@@ -405,7 +450,21 @@
         "org.ow2.asm:asm:9.9.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 63.0.2 --fml.mcVersion 26.1.1"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "63.0.2",
+        "--fml.mcVersion": "26.1.1"
+      }
     },
     "62.0.9": {
       "dependencies": [
@@ -470,7 +529,21 @@
         "org.ow2.asm:asm:9.9.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 62.0.9 --fml.mcVersion 26.1"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "62.0.9",
+        "--fml.mcVersion": "26.1"
+      }
     },
     "14.23.5.2859": {
       "dependencies": [
@@ -571,7 +644,22 @@
         "org.ow2.asm:asm:9.6",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 40.3.0 --fml.mcVersion 1.18.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220404.173914"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "40.3.0",
+        "--fml.mcVersion": "1.18.2",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20220404.173914"
+      }
     },
     "43.5.0": {
       "dependencies": [
@@ -645,7 +733,22 @@
         "org.ow2.asm:asm:9.6",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 43.5.0 --fml.mcVersion 1.19.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220805.130853"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "43.5.0",
+        "--fml.mcVersion": "1.19.2",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20220805.130853"
+      }
     },
     "59.0.5": {
       "dependencies": [
@@ -725,7 +828,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 59.0.5 --fml.mcVersion 1.21.9"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "59.0.5",
+        "--fml.mcVersion": "1.21.9"
+      }
     },
     "57.0.3": {
       "dependencies": [
@@ -804,7 +921,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 57.0.3 --fml.mcVersion 1.21.7"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "57.0.3",
+        "--fml.mcVersion": "1.21.7"
+      }
     },
     "56.0.9": {
       "dependencies": [
@@ -883,7 +1014,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 56.0.9 --fml.mcVersion 1.21.6"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "56.0.9",
+        "--fml.mcVersion": "1.21.6"
+      }
     },
     "51.0.33": {
       "dependencies": [
@@ -962,7 +1107,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 51.0.33 --fml.mcVersion 1.21"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "51.0.33",
+        "--fml.mcVersion": "1.21"
+      }
     },
     "36.2.34": {
       "dependencies": [
@@ -1034,7 +1193,22 @@
         "org.ow2.asm:asm:9.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 36.2.34 --fml.mcVersion 1.16.5 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20210115.111550"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "36.2.34",
+        "--fml.mcVersion": "1.16.5",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20210115.111550"
+      }
     },
     "49.0.2": {
       "dependencies": [
@@ -1101,7 +1275,21 @@
         "org.ow2.asm:asm:9.6",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 49.0.2 --fml.mcVersion 1.20.3"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "49.0.2",
+        "--fml.mcVersion": "1.20.3"
+      }
     },
     "48.1.0": {
       "dependencies": [
@@ -1187,7 +1375,22 @@
         "org.ow2.asm:asm:9.5",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeVersion 48.1.0 --fml.mcVersion 1.20.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230921.100330"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeVersion": "48.1.0",
+        "--fml.mcVersion": "1.20.2",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20230921.100330"
+      }
     },
     "46.0.14": {
       "dependencies": [
@@ -1270,7 +1473,22 @@
         "org.ow2.asm:asm:9.3",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 46.0.14 --fml.mcVersion 1.20 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230608.053357"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "46.0.14",
+        "--fml.mcVersion": "1.20",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20230608.053357"
+      }
     },
     "44.1.0": {
       "dependencies": [
@@ -1352,7 +1570,22 @@
         "org.ow2.asm:asm:9.3",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 44.1.0 --fml.mcVersion 1.19.3 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20221207.122022"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "44.1.0",
+        "--fml.mcVersion": "1.19.3",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20221207.122022"
+      }
     },
     "42.0.9": {
       "dependencies": [
@@ -1434,7 +1667,22 @@
         "org.ow2.asm:asm:9.3",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 42.0.9 --fml.mcVersion 1.19.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220727.212338"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "42.0.9",
+        "--fml.mcVersion": "1.19.1",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20220727.212338"
+      }
     },
     "41.1.0": {
       "dependencies": [
@@ -1514,7 +1762,22 @@
         "org.ow2.asm:asm:9.3",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 41.1.0 --fml.mcVersion 1.19 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220607.102129"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "41.1.0",
+        "--fml.mcVersion": "1.19",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20220607.102129"
+      }
     },
     "39.1.0": {
       "dependencies": [
@@ -1595,7 +1858,22 @@
         "org.ow2.asm:asm:9.2",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 39.1.0 --fml.mcVersion 1.18.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20211210.034407"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "39.1.0",
+        "--fml.mcVersion": "1.18.1",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20211210.034407"
+      }
     },
     "25.0.223": {
       "dependencies": [
@@ -1650,7 +1928,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 25.0.223 --fml.mcVersion 1.13.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20190213.203750"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "25.0.223",
+        "--fml.mcVersion": "1.13.2",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20190213.203750"
+      }
     },
     "37.1.1": {
       "dependencies": [
@@ -1737,7 +2030,22 @@
         "org.ow2.asm:asm:9.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 37.1.1 --fml.mcVersion 1.17.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20210706.113038"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "37.1.1",
+        "--fml.mcVersion": "1.17.1",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20210706.113038"
+      }
     },
     "38.0.17": {
       "dependencies": [
@@ -1818,7 +2126,22 @@
         "org.ow2.asm:asm:9.2",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 38.0.17 --fml.mcVersion 1.18 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20211130.085255"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "38.0.17",
+        "--fml.mcVersion": "1.18",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20211130.085255"
+      }
     },
     "35.1.4": {
       "dependencies": [
@@ -1875,7 +2198,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 35.1.4 --fml.mcVersion 1.16.4 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20201102.104115"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "35.1.4",
+        "--fml.mcVersion": "1.16.4",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20201102.104115"
+      }
     },
     "34.1.0": {
       "dependencies": [
@@ -1932,7 +2270,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 34.1.0 --fml.mcVersion 1.16.3 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20200911.084530"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "34.1.0",
+        "--fml.mcVersion": "1.16.3",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20200911.084530"
+      }
     },
     "33.0.61": {
       "dependencies": [
@@ -1989,7 +2342,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 33.0.61 --fml.mcVersion 1.16.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20200812.004259"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "33.0.61",
+        "--fml.mcVersion": "1.16.2",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20200812.004259"
+      }
     },
     "32.0.108": {
       "dependencies": [
@@ -2046,7 +2414,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 32.0.108 --fml.mcVersion 1.16.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20200625.160719"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "32.0.108",
+        "--fml.mcVersion": "1.16.1",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20200625.160719"
+      }
     },
     "30.0.51": {
       "dependencies": [
@@ -2099,7 +2482,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 30.0.51 --fml.mcVersion 1.15.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20191217.105819"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "30.0.51",
+        "--fml.mcVersion": "1.15.1",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20191217.105819"
+      }
     },
     "29.0.4": {
       "dependencies": [
@@ -2152,7 +2550,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 29.0.4 --fml.mcVersion 1.15 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20191212.203412"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "29.0.4",
+        "--fml.mcVersion": "1.15",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20191212.203412"
+      }
     },
     "27.0.60": {
       "dependencies": [
@@ -2206,7 +2619,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 27.0.60 --fml.mcVersion 1.14.3 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20190624.152911"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "27.0.60",
+        "--fml.mcVersion": "1.14.3",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20190624.152911"
+      }
     },
     "26.0.63": {
       "dependencies": [
@@ -2260,7 +2688,22 @@
         "org.ow2.asm:asm:6.1.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget fmlclient --fml.forgeVersion 26.0.63 --fml.mcVersion 1.14.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20190603.175704"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "fmlclient",
+        "--fml.forgeVersion": "26.0.63",
+        "--fml.mcVersion": "1.14.2",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20190603.175704"
+      }
     },
     "13.20.1.2588": {
       "dependencies": [
@@ -2824,7 +3267,21 @@
         "org.ow2.asm:asm:9.10.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 66.1.0 --fml.mcVersion 26.3"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "66.1.0",
+        "--fml.mcVersion": "26.3"
+      }
     },
     "49.2.13": {
       "dependencies": [
@@ -2892,7 +3349,21 @@
         "org.ow2.asm:asm:9.6",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 49.2.13 --fml.mcVersion 1.20.4"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "49.2.13",
+        "--fml.mcVersion": "1.20.4"
+      }
     },
     "50.2.14": {
       "dependencies": [
@@ -2971,7 +3442,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 50.2.14 --fml.mcVersion 1.20.6"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "50.2.14",
+        "--fml.mcVersion": "1.20.6"
+      }
     },
     "52.1.20": {
       "dependencies": [
@@ -3050,7 +3535,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 52.1.20 --fml.mcVersion 1.21.1"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "52.1.20",
+        "--fml.mcVersion": "1.21.1"
+      }
     },
     "53.1.16": {
       "dependencies": [
@@ -3129,7 +3628,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 53.1.16 --fml.mcVersion 1.21.3"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "53.1.16",
+        "--fml.mcVersion": "1.21.3"
+      }
     },
     "54.1.22": {
       "dependencies": [
@@ -3208,7 +3721,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 54.1.22 --fml.mcVersion 1.21.4"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "54.1.22",
+        "--fml.mcVersion": "1.21.4"
+      }
     },
     "55.1.18": {
       "dependencies": [
@@ -3287,7 +3814,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 55.1.18 --fml.mcVersion 1.21.5"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "55.1.18",
+        "--fml.mcVersion": "1.21.5"
+      }
     },
     "58.1.26": {
       "dependencies": [
@@ -3367,7 +3908,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 58.1.26 --fml.mcVersion 1.21.8"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "58.1.26",
+        "--fml.mcVersion": "1.21.8"
+      }
     },
     "60.1.18": {
       "dependencies": [
@@ -3450,7 +4005,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 60.1.18 --fml.mcVersion 1.21.10"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "60.1.18",
+        "--fml.mcVersion": "1.21.10"
+      }
     },
     "61.2.4": {
       "dependencies": [
@@ -3532,7 +4101,21 @@
         "org.ow2.asm:asm:9.7",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 61.2.4 --fml.mcVersion 1.21.11"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "61.2.4",
+        "--fml.mcVersion": "1.21.11"
+      }
     },
     "64.1.5": {
       "dependencies": [
@@ -3597,7 +4180,21 @@
         "org.ow2.asm:asm:9.9.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 64.1.5 --fml.mcVersion 26.1.2"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "64.1.5",
+        "--fml.mcVersion": "26.1.2"
+      }
     },
     "65.1.5": {
       "dependencies": [
@@ -3662,7 +4259,21 @@
         "org.ow2.asm:asm:9.9.1",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 65.1.5 --fml.mcVersion 26.2"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forge_client",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.forgeVersion": "65.1.5",
+        "--fml.mcVersion": "26.2"
+      }
     },
     "47.4.28": {
       "dependencies": [
@@ -3737,7 +4348,22 @@
         "org.ow2.asm:asm:9.6",
         "trove:trove:1.0.2"
       ],
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forgeclient --fml.forgeVersion 47.4.28 --fml.mcVersion 1.20.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230612.114412"
+      "minecraftArguments": {
+        "--username": "${auth_player_name}",
+        "--version": "${version_name}",
+        "--gameDir": "${game_directory}",
+        "--assetsDir": "${assets_root}",
+        "--assetIndex": "${assets_index_name}",
+        "--uuid": "${auth_uuid}",
+        "--accessToken": "${auth_access_token}",
+        "--userType": "${user_type}",
+        "--versionType": "${version_type}",
+        "--launchTarget": "forgeclient",
+        "--fml.forgeVersion": "47.4.28",
+        "--fml.mcVersion": "1.20.1",
+        "--fml.forgeGroup": "net.minecraftforge",
+        "--fml.mcpVersion": "20230612.114412"
+      }
     }
   }
 }
