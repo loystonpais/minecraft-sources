@@ -68,7 +68,7 @@
         "state": "uploaded",
         "size": 580249,
         "digest": "sha256:e87982fccee752d5329db2f4bcc8e1c8e62c407d7b4c064de63b7274eeec0ff0",
-        "download_count": 30,
+        "download_count": 34,
         "created_at": "2026-10-12T04:36:10Z",
         "updated_at": "2026-10-12T04:36:10Z",
         "browser_download_url": "https://github.com/tesselslate/waywall/releases/download/0.2026.10.12b/waywall-0.5-1-x86_64.pkg.tar.zst"
@@ -140,7 +140,7 @@
         "state": "uploaded",
         "size": 558429,
         "digest": "sha256:50f7d818e33aabd52d425ef18c6c61c9a42040b64135e005a5c5d99113e9ab91",
-        "download_count": 58,
+        "download_count": 62,
         "created_at": "2026-10-12T04:36:10Z",
         "updated_at": "2026-10-12T04:36:11Z",
         "browser_download_url": "https://github.com/tesselslate/waywall/releases/download/0.2026.10.12b/waywall-0.5-1.fc42.x86_64.rpm"
@@ -212,7 +212,7 @@
         "state": "uploaded",
         "size": 473920,
         "digest": "sha256:d8fdc88dd2845e0cb1b202eed1738f4b517213633256660cffe34f8b12478988",
-        "download_count": 3,
+        "download_count": 5,
         "created_at": "2026-10-12T04:36:08Z",
         "updated_at": "2026-10-12T04:36:09Z",
         "browser_download_url": "https://github.com/tesselslate/waywall/releases/download/0.2026.10.12b/waywall-debug-0.5-1-x86_64.pkg.tar.zst"
@@ -248,7 +248,7 @@
         "state": "uploaded",
         "size": 505892,
         "digest": "sha256:e899b803b1ea11f5b676b6bf5bb18d606c8fda7fd203af57c3d60d8e10c0bfdc",
-        "download_count": 30,
+        "download_count": 32,
         "created_at": "2026-10-12T04:36:09Z",
         "updated_at": "2026-10-12T04:36:10Z",
         "browser_download_url": "https://github.com/tesselslate/waywall/releases/download/0.2026.10.12b/waywall_0.5-1_amd64.deb"

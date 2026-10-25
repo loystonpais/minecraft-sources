@@ -1518,5 +1518,13 @@
   "net.neoforged:neoform:1.20.3-20231205.165107@zip": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoform/1.20.3-20231205.165107/neoform-1.20.3-20231205.165107.zip",
     "sha1": "88efc93dca87914f70ef6b3ecc12db46edc64898"
+  },
+  "net.neoforged:neoforge:26.3.0.97:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.97/neoforge-26.3.0.97-installer.jar",
+    "sha1": "f13d35d8655721af3bb804fad99c0037f3f74937"
+  },
+  "net.neoforged:neoforge:26.3.0.97:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.97/neoforge-26.3.0.97-universal.jar",
+    "sha1": "8c3f173f5b9cebd823870df25dc22f5c49ffd477"
   }
 }
