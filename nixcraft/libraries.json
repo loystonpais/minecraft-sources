@@ -4740,7 +4740,7 @@
     "hash": "sha1-QetxhOqdVW8j4YtcuZytH4WB/AA="
   },
   "org.slf4j:slf4j-api:2.0.9": {
-    "url": "https://maven.neoforged.net/releases/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar",
+    "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar",
     "hash": "sha1-fPJyb9z7yGEPmnH7PtY5hx8xU0A="
   },
   "oshi-project:oshi-core:1.1": {
@@ -14890,6 +14890,30 @@
   "net.neoforged:neoforge:26.3.0.97:universal": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.97/neoforge-26.3.0.97-universal.jar",
     "hash": "sha1-jD8XP1uc69gjhw3yXcIvXEn/1Hc="
+  },
+  "net.neoforged:neoforge:26.3.0.99:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.99/neoforge-26.3.0.99-installer.jar",
+    "hash": "sha1-R9CRFk1Fg8koY/YhXrowfV4hNiE="
+  },
+  "net.neoforged:neoforge:26.3.0.99:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.99/neoforge-26.3.0.99-universal.jar",
+    "hash": "sha1-IVEX56Z5o4t1+ItdQlStr/1ZZFI="
+  },
+  "net.neoforged:neoforge:26.1.2.124:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.124/neoforge-26.1.2.124-installer.jar",
+    "hash": "sha1-6IgVEL42gWcZ7eKcliXlC4BU0+Q="
+  },
+  "net.neoforged:neoforge:26.1.2.124:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.124/neoforge-26.1.2.124-universal.jar",
+    "hash": "sha1-jaQWwlE15TzVbjbUyUZEcwc11yk="
+  },
+  "net.neoforged:neoforge:21.1.265:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-installer.jar",
+    "hash": "sha1-Jc4dNdYZzP0wgAdvpXWMGOEal3g="
+  },
+  "net.neoforged:neoforge:21.1.265:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-universal.jar",
+    "hash": "sha1-/QDdGbWX+696wUyb4d8b3RKVZgs="
   },
   "org.lwjgl:lwjgl-freetype-natives-linux:3.4.3": {
     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3/lwjgl-freetype-3.4.3-natives-linux.jar",
