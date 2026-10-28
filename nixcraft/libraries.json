@@ -7,6 +7,10 @@
     "url": "https://libraries.minecraft.net/at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1.jar",
     "hash": "sha1-9UHX+RD+PXbzj3mcUHxIzIGxLss="
   },
+  "at.yawk.lz4:lz4-java:1.12.1": {
+    "url": "https://libraries.minecraft.net/at/yawk/lz4/lz4-java/1.12.1/lz4-java-1.12.1.jar",
+    "hash": "sha1-9DjYmY9xe+jT13tx/sVr247EhZ4="
+  },
   "at.yawk.lz4:lz4-java:1.8.1": {
     "url": "https://libraries.minecraft.net/at/yawk/lz4/lz4-java/1.8.1/lz4-java-1.8.1.jar",
     "hash": "sha1-HzChgO4EzNUzOacWrsE8rmCgE7U="
@@ -38,6 +42,14 @@
   "com.fasterxml.jackson.core:jackson-databind:2.13.4.2": {
     "url": "https://libraries.minecraft.net/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar",
     "hash": "sha1-MlwGvf62KM+4DrqvGibMHrVYpYU="
+  },
+  "com.github.oshi:oshi-common:7.7.2": {
+    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-common/7.7.2/oshi-common-7.7.2.jar",
+    "hash": "sha1-Q5IHZhoWQnWphkSzzwQqqtOQc/c="
+  },
+  "com.github.oshi:oshi-core-ffm:7.7.2": {
+    "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core-ffm/7.7.2/oshi-core-ffm-7.7.2.jar",
+    "hash": "sha1-mS3aKKGxSS85riNj1J/YwyGi1cw="
   },
   "com.github.oshi:oshi-core:3.4.2": {
     "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/3.4.2/oshi-core-3.4.2.jar",
@@ -1447,6 +1459,10 @@
     "url": "https://libraries.minecraft.net/io/netty/netty-buffer/4.2.16.Final/netty-buffer-4.2.16.Final.jar",
     "hash": "sha1-BTl+9l3LYGcODg26SFRSKHOvMHA="
   },
+  "io.netty:netty-buffer:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-buffer/4.2.19.Final/netty-buffer-4.2.19.Final.jar",
+    "hash": "sha1-wA4SVs5PnE7USUe9hZa+AdWBQds="
+  },
   "io.netty:netty-buffer:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-buffer/4.2.7.Final/netty-buffer-4.2.7.Final.jar",
     "hash": "sha1-VVX/VhZDvy+EMPtXwkQDwO/hWZQ="
@@ -1463,6 +1479,10 @@
     "url": "https://libraries.minecraft.net/io/netty/netty-codec-base/4.2.16.Final/netty-codec-base-4.2.16.Final.jar",
     "hash": "sha1-AaAdRanvwijG10dSWEiwZeBla18="
   },
+  "io.netty:netty-codec-base:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-codec-base/4.2.19.Final/netty-codec-base-4.2.19.Final.jar",
+    "hash": "sha1-q8ZeLY/xgPj2i97624YfDgewpFc="
+  },
   "io.netty:netty-codec-base:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-codec-base/4.2.7.Final/netty-codec-base-4.2.7.Final.jar",
     "hash": "sha1-kV44Hrq88RXxx/9wMtVcSK+1AhA="
@@ -1478,6 +1498,10 @@
   "io.netty:netty-codec-compression:4.2.16.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-codec-compression/4.2.16.Final/netty-codec-compression-4.2.16.Final.jar",
     "hash": "sha1-vbvPzb4he5XBSgTfT8XTEhPVwnw="
+  },
+  "io.netty:netty-codec-compression:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-codec-compression/4.2.19.Final/netty-codec-compression-4.2.19.Final.jar",
+    "hash": "sha1-NDkscqgSaesu8bXxcf+dkwFBiN4="
   },
   "io.netty:netty-codec-compression:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-codec-compression/4.2.7.Final/netty-codec-compression-4.2.7.Final.jar",
@@ -1498,6 +1522,10 @@
   "io.netty:netty-codec-http:4.2.16.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-codec-http/4.2.16.Final/netty-codec-http-4.2.16.Final.jar",
     "hash": "sha1-teBxXfkAR+5aATjI9wT0PHUQCeQ="
+  },
+  "io.netty:netty-codec-http:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-codec-http/4.2.19.Final/netty-codec-http-4.2.19.Final.jar",
+    "hash": "sha1-FLyM21DO06TVHQni8fhp+0BGrH8="
   },
   "io.netty:netty-codec-http:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-codec-http/4.2.7.Final/netty-codec-http-4.2.7.Final.jar",
@@ -1555,6 +1583,10 @@
     "url": "https://libraries.minecraft.net/io/netty/netty-common/4.2.16.Final/netty-common-4.2.16.Final.jar",
     "hash": "sha1-wrx/paz6Kvx3fpRNhPCqZVWcyB4="
   },
+  "io.netty:netty-common:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-common/4.2.19.Final/netty-common-4.2.19.Final.jar",
+    "hash": "sha1-quFueT3ROmP8mpk1/xH6GdDeeIU="
+  },
   "io.netty:netty-common:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-common/4.2.7.Final/netty-common-4.2.7.Final.jar",
     "hash": "sha1-Eaow3yavT8oyOawZF/MDooDzAeE="
@@ -1590,6 +1622,10 @@
   "io.netty:netty-handler:4.2.16.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-handler/4.2.16.Final/netty-handler-4.2.16.Final.jar",
     "hash": "sha1-zIKHOuS20U7/5IB0Ctg43gmt1w0="
+  },
+  "io.netty:netty-handler:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-handler/4.2.19.Final/netty-handler-4.2.19.Final.jar",
+    "hash": "sha1-bPwTNKIws8TIMlQX+topkGdkhnI="
   },
   "io.netty:netty-handler:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-handler/4.2.7.Final/netty-handler-4.2.7.Final.jar",
@@ -1627,6 +1663,10 @@
     "url": "https://libraries.minecraft.net/io/netty/netty-resolver/4.2.16.Final/netty-resolver-4.2.16.Final.jar",
     "hash": "sha1-/OptZCc7WauRJ7aMFq6YrzRkITk="
   },
+  "io.netty:netty-resolver:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-resolver/4.2.19.Final/netty-resolver-4.2.19.Final.jar",
+    "hash": "sha1-WGiXZetPxxdqqn5ItTUMNFJtmIc="
+  },
   "io.netty:netty-resolver:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-resolver/4.2.7.Final/netty-resolver-4.2.7.Final.jar",
     "hash": "sha1-Xz5e+N4DmSzU+0aWDcAIXsGhKhI="
@@ -1663,6 +1703,10 @@
     "url": "https://libraries.minecraft.net/io/netty/netty-transport-classes-epoll/4.2.16.Final/netty-transport-classes-epoll-4.2.16.Final.jar",
     "hash": "sha1-z5DHuJLihLqfFUXc4XAWg2mzudY="
   },
+  "io.netty:netty-transport-classes-epoll:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-transport-classes-epoll/4.2.19.Final/netty-transport-classes-epoll-4.2.19.Final.jar",
+    "hash": "sha1-TF71IyyYprR4aq6mbPDJs/3TYpg="
+  },
   "io.netty:netty-transport-classes-epoll:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-transport-classes-epoll/4.2.7.Final/netty-transport-classes-epoll-4.2.7.Final.jar",
     "hash": "sha1-EHXAn0inju+dgZ+/2QlrkD/dNio="
@@ -1678,6 +1722,10 @@
   "io.netty:netty-transport-classes-kqueue:4.2.16.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-transport-classes-kqueue/4.2.16.Final/netty-transport-classes-kqueue-4.2.16.Final.jar",
     "hash": "sha1-D6K8+McWJlEPb64XP3gYIRe3D3o="
+  },
+  "io.netty:netty-transport-classes-kqueue:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-transport-classes-kqueue/4.2.19.Final/netty-transport-classes-kqueue-4.2.19.Final.jar",
+    "hash": "sha1-bcQf9Noz9rrdLg5Cm4GvaWF8IjM="
   },
   "io.netty:netty-transport-classes-kqueue:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-transport-classes-kqueue/4.2.7.Final/netty-transport-classes-kqueue-4.2.7.Final.jar",
@@ -1747,6 +1795,14 @@
     "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-epoll/4.2.16.Final/netty-transport-native-epoll-4.2.16.Final-linux-x86_64.jar",
     "hash": "sha1-Q5wk9cJ8Ig3rBCtC5ASNYG7et40="
   },
+  "io.netty:netty-transport-native-epoll:4.2.19.Final:linux-aarch_64": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-epoll/4.2.19.Final/netty-transport-native-epoll-4.2.19.Final-linux-aarch_64.jar",
+    "hash": "sha1-MfghJ+2FyP8Cy1HnGIgZf6EzTy4="
+  },
+  "io.netty:netty-transport-native-epoll:4.2.19.Final:linux-x86_64": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-epoll/4.2.19.Final/netty-transport-native-epoll-4.2.19.Final-linux-x86_64.jar",
+    "hash": "sha1-EggIWJmqlxinMnUDROgjUYszJf4="
+  },
   "io.netty:netty-transport-native-epoll:4.2.7.Final:linux-aarch_64": {
     "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-epoll/4.2.7.Final/netty-transport-native-epoll-4.2.7.Final-linux-aarch_64.jar",
     "hash": "sha1-mNAiUcmMjweiOsXqJ2V9ng71dhQ="
@@ -1778,6 +1834,14 @@
   "io.netty:netty-transport-native-kqueue:4.2.16.Final:osx-x86_64": {
     "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-kqueue/4.2.16.Final/netty-transport-native-kqueue-4.2.16.Final-osx-x86_64.jar",
     "hash": "sha1-3Z1BsGNVpqGBXZAu4Iemk6q4N1U="
+  },
+  "io.netty:netty-transport-native-kqueue:4.2.19.Final:osx-aarch_64": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-kqueue/4.2.19.Final/netty-transport-native-kqueue-4.2.19.Final-osx-aarch_64.jar",
+    "hash": "sha1-aaZ9FOFMGdXnTXDYSmXHrr4SUGo="
+  },
+  "io.netty:netty-transport-native-kqueue:4.2.19.Final:osx-x86_64": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-kqueue/4.2.19.Final/netty-transport-native-kqueue-4.2.19.Final-osx-x86_64.jar",
+    "hash": "sha1-D1SYxMk109ZO5XjFgR24Rh/rntc="
   },
   "io.netty:netty-transport-native-kqueue:4.2.7.Final:osx-aarch_64": {
     "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-kqueue/4.2.7.Final/netty-transport-native-kqueue-4.2.7.Final-osx-aarch_64.jar",
@@ -1819,6 +1883,10 @@
     "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-unix-common/4.2.16.Final/netty-transport-native-unix-common-4.2.16.Final.jar",
     "hash": "sha1-PPMjkPG4CviQrESqBpjC/1jCpNc="
   },
+  "io.netty:netty-transport-native-unix-common:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-unix-common/4.2.19.Final/netty-transport-native-unix-common-4.2.19.Final.jar",
+    "hash": "sha1-jKmEM9P/F5sqq39SahZDXLQkK34="
+  },
   "io.netty:netty-transport-native-unix-common:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-unix-common/4.2.7.Final/netty-transport-native-unix-common-4.2.7.Final.jar",
     "hash": "sha1-iZU/BCWep1As/7MTYw3VHgDmBmk="
@@ -1854,6 +1922,10 @@
   "io.netty:netty-transport:4.2.16.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-transport/4.2.16.Final/netty-transport-4.2.16.Final.jar",
     "hash": "sha1-roejvsUdUDR1oZ+9cYv3d/L8BsY="
+  },
+  "io.netty:netty-transport:4.2.19.Final": {
+    "url": "https://libraries.minecraft.net/io/netty/netty-transport/4.2.19.Final/netty-transport-4.2.19.Final.jar",
+    "hash": "sha1-UsIwbUtxz7/Ipqud4dCD0peMO4M="
   },
   "io.netty:netty-transport:4.2.7.Final": {
     "url": "https://libraries.minecraft.net/io/netty/netty-transport/4.2.7.Final/netty-transport-4.2.7.Final.jar",
@@ -1927,6 +1999,10 @@
     "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar",
     "hash": "sha1-pJNMRNJanYwt30IDr/0gMwyzQm8="
   },
+  "net.java.dev.jna:jna-platform:5.19.1": {
+    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.19.1/jna-platform-5.19.1.jar",
+    "hash": "sha1-0eVNkjHaXKP6cw1Slg3qpVVHVGg="
+  },
   "net.java.dev.jna:jna-platform:5.6.0": {
     "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.6.0/jna-platform-5.6.0.jar",
     "hash": "sha1-0YQk/7i7/QNtcbyqubVGhY8u+YY="
@@ -1974,6 +2050,10 @@
   "net.java.dev.jna:jna:5.17.0": {
     "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar",
     "hash": "sha1-M9EnNb74lEQHgPzmT5dY1CDHuuI="
+  },
+  "net.java.dev.jna:jna:5.19.1": {
+    "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.19.1/jna-5.19.1.jar",
+    "hash": "sha1-yjAwUs1hfBry4sjTRMmKcG+2MUM="
   },
   "net.java.dev.jna:jna:5.6.0": {
     "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.6.0/jna-5.6.0.jar",
@@ -4734,6 +4814,10 @@
   "org.slf4j:slf4j-api:2.0.17": {
     "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar",
     "hash": "sha1-2eWKycd3m6O/gUKv9sgwYXp/5g8="
+  },
+  "org.slf4j:slf4j-api:2.0.20": {
+    "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.20/slf4j-api-2.0.20.jar",
+    "hash": "sha1-f+qdkrpn6bPI8DUV+yArhqH+RPY="
   },
   "org.slf4j:slf4j-api:2.0.7": {
     "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar",
@@ -7765,6 +7849,10 @@
   },
   "net.fabricmc:intermediary:26.4-snapshot-5": {
     "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/26.4-snapshot-5/intermediary-26.4-snapshot-5.jar",
+    "hash": "sha256-LgDFJ/HLesmWpZqSzLRpeNKfs9oEqj1LUhycc37jy3Q="
+  },
+  "net.fabricmc:intermediary:26.4-snapshot-6": {
+    "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/26.4-snapshot-6/intermediary-26.4-snapshot-6.jar",
     "hash": "sha256-LgDFJ/HLesmWpZqSzLRpeNKfs9oEqj1LUhycc37jy3Q="
   },
   "org.quiltmc:hashed:24w05a": {

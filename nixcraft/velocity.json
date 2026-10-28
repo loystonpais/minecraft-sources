@@ -1,5 +1,6 @@
 {
   "versions": [
+    "4.3.1",
     "4.3.0",
     "4.2.1-SNAPSHOT",
     "4.2.0",
@@ -163,6 +164,12 @@
       "channel": "STABLE",
       "url": "https://fill-data.papermc.io/v1/objects/16e786af6b6c9c34e77f6229c8fd573b7b97a8394beb3575bfdfa0b34826cae3/velocity-1.0.10-245.jar",
       "hash": "sha256-FueGr2tsnDTnf2IpyP1XO3uXqDlL6zV1v9+gs0gmyuM="
+    },
+    "4.3.1": {
+      "build": 45,
+      "channel": "STABLE",
+      "url": "https://fill-data.papermc.io/v1/objects/0844bcabdcdb4f5b875906fd4c3365bc1bb76918e42bc595ed88ad195258dd75/velocity-4.3.1-45.jar",
+      "hash": "sha256-CES8q9zbT1uHWQb9TDNlvBu3aRjkK8WV7YitGVJY3XU="
     }
   }
 }

@@ -159,5 +159,12 @@
     "channel": "STABLE",
     "url": "https://fill-data.papermc.io/v1/objects/16e786af6b6c9c34e77f6229c8fd573b7b97a8394beb3575bfdfa0b34826cae3/velocity-1.0.10-245.jar",
     "sha256": "16e786af6b6c9c34e77f6229c8fd573b7b97a8394beb3575bfdfa0b34826cae3"
+  },
+  "4.3.1": {
+    "build": 45,
+    "time": "2026-10-27T20:55:56.418Z",
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/0844bcabdcdb4f5b875906fd4c3365bc1bb76918e42bc595ed88ad195258dd75/velocity-4.3.1-45.jar",
+    "sha256": "0844bcabdcdb4f5b875906fd4c3365bc1bb76918e42bc595ed88ad195258dd75"
   }
 }
