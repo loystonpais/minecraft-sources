@@ -68,7 +68,7 @@
         "state": "uploaded",
         "size": 580249,
         "digest": "sha256:e87982fccee752d5329db2f4bcc8e1c8e62c407d7b4c064de63b7274eeec0ff0",
-        "download_count": 44,
+        "download_count": 46,
         "created_at": "2026-10-12T04:36:10Z",
         "updated_at": "2026-10-12T04:36:10Z",
         "browser_download_url": "https://github.com/tesselslate/waywall/releases/download/0.2026.10.12b/waywall-0.5-1-x86_64.pkg.tar.zst"
