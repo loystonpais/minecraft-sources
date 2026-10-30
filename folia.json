@@ -16,10 +16,10 @@
   ],
   "builds": {
     "26.3": {
-      "build": 5,
+      "build": 6,
       "channel": "ALPHA",
-      "url": "https://fill-data.papermc.io/v1/objects/c105f6be9463b2da37568b620e81b9ab2f6a6ae771f8fff9caf7a1c0946b340a/folia-26.3-5.jar",
-      "hash": "sha256-wQX2vpRjsto3VotiDoG5qy9qaudx+P/5yvehwJRrNAo="
+      "url": "https://fill-data.papermc.io/v1/objects/3d0a694905ddd9ec956af52259d555274ab8d3191871296d7094c290b686920d/folia-26.3-6.jar",
+      "hash": "sha256-PQppSQXd2eyVavUiWdVVJ0q40xkYcSltcJTCkLaGkg0="
     },
     "26.2": {
       "build": 7,
