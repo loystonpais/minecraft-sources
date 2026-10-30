@@ -15003,6 +15003,14 @@
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-universal.jar",
     "hash": "sha1-/QDdGbWX+696wUyb4d8b3RKVZgs="
   },
+  "net.neoforged:neoforge:26.1.2.125:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.125/neoforge-26.1.2.125-installer.jar",
+    "hash": "sha1-H5RrZwj5qPnAdG11L4rnHneJDU8="
+  },
+  "net.neoforged:neoforge:26.1.2.125:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.125/neoforge-26.1.2.125-universal.jar",
+    "hash": "sha1-tNTC4Z5UaPiSr8AnZ+xw18NKjRQ="
+  },
   "org.lwjgl:lwjgl-freetype-natives-linux:3.4.3": {
     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3/lwjgl-freetype-3.4.3-natives-linux.jar",
     "hash": "sha1-OPJ8mg++AAv7OLKVwylE1pniRuk="
