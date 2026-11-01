@@ -10779,6 +10779,10 @@
     "url": "https://maven.quiltmc.org/repository/release/org/quiltmc/quilt-loader/0.31.0-beta.5/quilt-loader-0.31.0-beta.5.jar",
     "hash": "sha256-Idl3qS45WpiQNd+YEq2cBNjFn6XXefV8fSPdP2kOCvE="
   },
+  "org.quiltmc:quilt-loader:0.30.2": {
+    "url": "https://maven.quiltmc.org/repository/release/org/quiltmc/quilt-loader/0.30.2/quilt-loader-0.30.2.jar",
+    "hash": "sha256-JzAzseknk+h/SACwLG89ionhTLtxqAh6HwCIN/JKuUU="
+  },
   "io.github.zekerzhayard:ForgeWrapper:prism-2026-08-01": {
     "url": "https://files.prismlauncher.org/maven/io/github/zekerzhayard/ForgeWrapper/prism-2026-08-01/ForgeWrapper-prism-2026-08-01.jar",
     "hash": "sha1-hSt+WXSNoVEtQOOEB+rbHwAxqZY="
@@ -15014,6 +15018,14 @@
   "net.neoforged:neoforge:26.1.2.125:universal": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.125/neoforge-26.1.2.125-universal.jar",
     "hash": "sha1-tNTC4Z5UaPiSr8AnZ+xw18NKjRQ="
+  },
+  "net.neoforged:neoforge:26.3.0.100:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.100/neoforge-26.3.0.100-installer.jar",
+    "hash": "sha1-f1XBxt7c/esrX89GKw6KhCbRDNs="
+  },
+  "net.neoforged:neoforge:26.3.0.100:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.100/neoforge-26.3.0.100-universal.jar",
+    "hash": "sha1-46hjaLXjO+agNW7zagAFwUE5k+E="
   },
   "org.lwjgl:lwjgl-freetype-natives-linux:3.4.3": {
     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3/lwjgl-freetype-3.4.3-natives-linux.jar",
