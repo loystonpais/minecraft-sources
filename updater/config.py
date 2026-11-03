@@ -47,3 +47,11 @@ def save_json(path: Path, data: Any, indent: int | None = None) -> None:
     with path.open("w", encoding="utf-8") as f:
         json.dump(data, f, indent=indent, ensure_ascii=False)
         f.write("\n")
+
+
+def get_mojang_version_order() -> dict[str, int]:
+    """Loads mojang/versions-list.json to provide canonical Minecraft version ordering (newest first)."""
+    mojang_list_file = REPO_ROOT / "mojang" / "versions-list.json"
+    mojang_list = load_json(mojang_list_file) or []
+    return {v: i for i, v in enumerate(mojang_list)}
+

@@ -1,6 +1,12 @@
 from collections import defaultdict
 from updater.modloaders.base import BaseModloader
-from updater.config import PRISM_META_BASE, save_json, load_json, logger
+from updater.config import (
+    PRISM_META_BASE,
+    save_json,
+    load_json,
+    logger,
+    get_mojang_version_order,
+)
 from updater.fetch import fetch_json
 
 
@@ -52,12 +58,19 @@ class NeoForgeModloader(BaseModloader):
                 "sha256": v.get("sha256"),
             })
 
-        save_json(self.output_dir / "versions.json", dict(by_game_version))
-        logger.info(f"Saved NeoForge versions for {len(by_game_version)} MC versions to {self.output_dir / 'versions.json'}")
+        # Sort by Minecraft version chronologically (newest first)
+        mc_order = get_mojang_version_order()
+        sorted_game_version = {
+            mc: by_game_version[mc]
+            for mc in sorted(by_game_version.keys(), key=lambda v: mc_order.get(v, 999999))
+        }
+
+        save_json(self.output_dir / "versions.json", sorted_game_version)
+        logger.info(f"Saved NeoForge versions for {len(sorted_game_version)} MC versions to {self.output_dir / 'versions.json'}")
 
         # 2. Pick recommended build (or latest if no recommended) per MC version
         selected_versions: list[str] = []
-        for mc_ver, v_list in by_game_version.items():
+        for mc_ver, v_list in sorted_game_version.items():
             rec = next((v for v in v_list if v.get("recommended")), None)
             selected = rec if rec else v_list[0]
             selected_versions.append(selected["version"])
@@ -153,8 +166,11 @@ class NeoForgeModloader(BaseModloader):
                 loaders[ver] = res
                 libraries.update(discovered_libs)
 
-        save_json(loaders_file, loaders)
-        logger.info(f"Saved {len(loaders)} loader versions to {loaders_file}")
+        # Prune unselected/stale loader builds and keep strictly in chronological order
+        pruned_loaders = {ver: loaders[ver] for ver in selected_versions if ver in loaders}
+        save_json(loaders_file, pruned_loaders)
+        logger.info(f"Saved {len(pruned_loaders)} loader versions to {loaders_file}")
 
-        save_json(libraries_file, libraries)
-        logger.info(f"Saved {len(libraries)} libraries to {libraries_file}")
+        sorted_libraries = dict(sorted(libraries.items()))
+        save_json(libraries_file, sorted_libraries)
+        logger.info(f"Saved {len(sorted_libraries)} libraries to {libraries_file}")

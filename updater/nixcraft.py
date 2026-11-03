@@ -3,7 +3,14 @@ import shlex
 import shutil
 from pathlib import Path
 from typing import Any
-from updater.config import REPO_ROOT, RAW_DIR, save_json, load_json, logger
+from updater.config import (
+    REPO_ROOT,
+    RAW_DIR,
+    save_json,
+    load_json,
+    logger,
+    get_mojang_version_order,
+)
 
 NIXCRAFT_DIR = REPO_ROOT / "nixcraft"
 # Modloader & dependency sources that contribute to libraries.json
@@ -237,6 +244,8 @@ def parse_minecraft_arguments(arguments: str | None) -> dict[str, str] | None:
 
 def build_forge_and_neoforge() -> None:
     """Consolidates forge.json and neoforge.json with optimized game_versions and loaders."""
+    mc_order = get_mojang_version_order()
+
     for loader in ["forge", "neoforge"]:
         logger.info(f"==> Building nixcraft/{loader}.json...")
         by_game_version = load_json(REPO_ROOT / loader / "versions.json") or {}
@@ -258,9 +267,18 @@ def build_forge_and_neoforge() -> None:
             elif isinstance(items, str):
                 clean_game_versions[gv] = items
 
-        # 2. Clean loaders: strip redundant 'version' key and parse minecraft arguments.
+        # Sort game_versions chronologically by Minecraft version (newest first)
+        sorted_game_versions = {
+            gv: clean_game_versions[gv]
+            for gv in sorted(clean_game_versions.keys(), key=lambda v: mc_order.get(v, 999999))
+        }
+
+        # 2. Clean loaders: strictly keep only the pinned loader for each game version in chronological order
         clean_loaders: dict[str, dict[str, Any]] = {}
-        for l_ver, l_info in loaders_data.items():
+        for l_ver in sorted_game_versions.values():
+            l_info = loaders_data.get(l_ver)
+            if not l_info:
+                continue
             if isinstance(l_info, dict):
                 clean_info = {k: v for k, v in l_info.items() if k != "version"}
                 if "minecraftArguments" in clean_info:
@@ -273,7 +291,7 @@ def build_forge_and_neoforge() -> None:
 
         consolidated = {
             "versions": list(clean_loaders.keys()),
-            "game_versions": clean_game_versions,
+            "game_versions": sorted_game_versions,
             "loaders": clean_loaders,
         }
 
