@@ -1,10 +1,10 @@
 {
   "26.3": {
-    "build": 238,
-    "time": "2026-11-02T23:56:14Z",
+    "build": 239,
+    "time": "2026-11-03T22:50:53Z",
     "channel": "STABLE",
-    "url": "https://fill-data.papermc.io/v1/objects/989f93c29d5b61fe52804f834ea6b3a0a5775d05412e238ec78107197a6b5be6/paper-26.3-238.jar",
-    "sha256": "989f93c29d5b61fe52804f834ea6b3a0a5775d05412e238ec78107197a6b5be6"
+    "url": "https://fill-data.papermc.io/v1/objects/216f5547ece4124f8b49ceff19bbd0e8a244ee985d7fa9a810ecdeb6d3840415/paper-26.3-239.jar",
+    "sha256": "216f5547ece4124f8b49ceff19bbd0e8a244ee985d7fa9a810ecdeb6d3840415"
   },
   "26.3-rc-3": {
     "build": 1,
