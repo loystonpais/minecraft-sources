@@ -71,10 +71,10 @@
   ],
   "builds": {
     "26.3": {
-      "build": 239,
+      "build": 242,
       "channel": "STABLE",
-      "url": "https://fill-data.papermc.io/v1/objects/216f5547ece4124f8b49ceff19bbd0e8a244ee985d7fa9a810ecdeb6d3840415/paper-26.3-239.jar",
-      "hash": "sha256-IW9VR+zkEk+LSc7/GbvQ6KJE7phdf6moEOzettOEBBU="
+      "url": "https://fill-data.papermc.io/v1/objects/fc704a4510a2744bab90a6770336b202038e60333e37f24af8027ee948935d20/paper-26.3-242.jar",
+      "hash": "sha256-/HBKRRCidEurkKZ3AzayAgOOYDM+N/JK+AJ+6UiTXSA="
     },
     "26.3-rc-3": {
       "build": 1,
