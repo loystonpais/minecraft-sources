@@ -10787,6 +10787,10 @@
     "url": "https://maven.quiltmc.org/repository/release/org/quiltmc/quilt-loader/0.30.2/quilt-loader-0.30.2.jar",
     "hash": "sha256-JzAzseknk+h/SACwLG89ionhTLtxqAh6HwCIN/JKuUU="
   },
+  "org.quiltmc:quilt-loader:0.31.0-beta.6": {
+    "url": "https://maven.quiltmc.org/repository/release/org/quiltmc/quilt-loader/0.31.0-beta.6/quilt-loader-0.31.0-beta.6.jar",
+    "hash": "sha256-8Uv41exBvokvFhUm0rxQnvP37qQYTOAtBxuBj+Vqte4="
+  },
   "com.electronwill.night-config:core:3.6.0": {
     "url": "https://maven.minecraftforge.net/com/electronwill/night-config/core/3.6.0/core-3.6.0.jar",
     "hash": "sha1-BBLy7fDvbMkXirOHUa9OUH9BO+8="
