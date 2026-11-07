@@ -1,5 +1,5 @@
 from updater.config import REPO_ROOT, RAW_DIR, save_json, load_json, logger
-from updater.fetch import fetch_json, fetch_stream_sha256
+from updater.fetch import fetch_json, fetch_stream_sha256, fetch_server_jar_metadata
 
 PURPUR_API_BASE = "https://api.purpurmc.org/v2"
 
@@ -41,9 +41,9 @@ def update_purpur() -> None:
 
             latest_build_num = int(latest_build_str)
 
-            # Check if existing build is already up to date
+            # Check if existing build is already up to date and has server metadata
             existing = updated_builds.get(ver)
-            if existing and existing.get("build") == latest_build_num and existing.get("md5"):
+            if existing and existing.get("build") == latest_build_num and existing.get("md5") and "server" in existing:
                 logger.info(f"[{idx}/{total_versions}] Purpur {ver} -> build {latest_build_num} (already cached)")
                 continue
 
@@ -53,12 +53,26 @@ def update_purpur() -> None:
             md5 = build_info.get("md5")
 
             download_url = f"{PURPUR_API_BASE}/purpur/{ver}/{latest_build_num}/download"
-            updated_builds[ver] = {
+            entry = {
                 "build": latest_build_num,
                 "time": build_info.get("timestamp"),
                 "md5": md5,
                 "url": download_url,
             }
+
+            if existing and existing.get("build") == latest_build_num and "server" in existing:
+                entry["server"] = existing["server"]
+            else:
+                # Fast path: check Paper builds cache since Purpur tracks Paper's Minecraft versions exactly
+                paper_builds = load_json(REPO_ROOT / "paper" / "builds.json") or {}
+                if ver in paper_builds and "server" in paper_builds[ver]:
+                    entry["server"] = paper_builds[ver]["server"]
+                else:
+                    server_meta = fetch_server_jar_metadata(download_url)
+                    if server_meta:
+                        entry["server"] = server_meta
+
+            updated_builds[ver] = entry
             logger.info(f"[{idx}/{total_versions}] Purpur {ver} -> build {latest_build_num} (md5: {md5})")
         except Exception as e:
             logger.error(f"[{idx}/{total_versions}] Error fetching Purpur {ver}: {e}")

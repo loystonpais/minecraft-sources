@@ -1,5 +1,5 @@
 from updater.config import REPO_ROOT, RAW_DIR, save_json, load_json, logger
-from updater.fetch import fetch_json
+from updater.fetch import fetch_json, fetch_server_jar_metadata
 
 PAPERMC_API_BASE = "https://fill.papermc.io/v3"
 
@@ -48,14 +48,32 @@ def update_papermc_project(project_id: str) -> None:
     total_versions = len(all_versions)
     for idx, ver in enumerate(all_versions, 1):
         try:
-            builds_url = f"{PAPERMC_API_BASE}/projects/{project_id}/versions/{ver}/builds"
-            builds_data = fetch_json(builds_url, delay=0.05)
-            if not builds_data:
+            cached = existing_builds.get(ver)
+            # Lightweight check: get version metadata (contains build numbers and support status)
+            ver_url = f"{PAPERMC_API_BASE}/projects/{project_id}/versions/{ver}"
+            ver_data = fetch_json(ver_url, delay=0.03)
+            build_nums = ver_data.get("builds", [])
+            if not build_nums:
                 logger.warning(f"[{idx}/{total_versions}] No builds found for {project_id} {ver}")
                 continue
 
-            # Upstream builds list has highest build id first, or we can sort by id
-            latest_build = max(builds_data, key=lambda b: b["id"])
+            latest_build_id = build_nums[0] if isinstance(build_nums[0], int) else max(build_nums)
+
+            # If this build is already cached with server metadata (if applicable), skip network requests!
+            needs_server = project_id in ("paper", "folia")
+            if (
+                cached
+                and cached.get("build") == latest_build_id
+                and cached.get("sha256")
+                and (not needs_server or "server" in cached)
+            ):
+                updated_builds[ver] = cached
+                logger.info(f"[{idx}/{total_versions}] {project_id} {ver} -> build {latest_build_id} (already cached)")
+                continue
+
+            # Only fetch detailed build payload if build changed or is new
+            build_detail_url = f"{PAPERMC_API_BASE}/projects/{project_id}/versions/{ver}/builds/{latest_build_id}"
+            latest_build = fetch_json(build_detail_url, delay=0.05)
             build_id = latest_build["id"]
 
             downloads = latest_build.get("downloads", {})
@@ -68,13 +86,22 @@ def update_papermc_project(project_id: str) -> None:
                 logger.warning(f"[{idx}/{total_versions}] Incomplete download info for {project_id} {ver} build {build_id}")
                 continue
 
-            updated_builds[ver] = {
+            entry = {
                 "build": build_id,
                 "time": latest_build.get("time"),
                 "channel": latest_build.get("channel"),
                 "url": url,
                 "sha256": sha256,
             }
+
+            if cached and cached.get("build") == build_id and "server" in cached:
+                entry["server"] = cached["server"]
+            elif needs_server:
+                server_meta = fetch_server_jar_metadata(url)
+                if server_meta:
+                    entry["server"] = server_meta
+
+            updated_builds[ver] = entry
             logger.info(f"[{idx}/{total_versions}] {project_id} {ver} -> build {build_id}")
         except Exception as e:
             logger.error(f"[{idx}/{total_versions}] Error fetching builds for {project_id} {ver}: {e}")

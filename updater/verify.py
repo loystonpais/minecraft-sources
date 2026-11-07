@@ -269,6 +269,15 @@ def verify_server(file_name: str, data: dict[str, Any]) -> None:
             fail(file_name, f"Missing 'hash' in builds.{ver}")
         assert_sri(file_name, f"builds.{ver}.hash", info["hash"])
 
+        if "server" in info:
+            srv = info["server"]
+            assert_type(file_name, f"builds.{ver}.server", srv, dict)
+            for s_key in ["url", "hash", "filename"]:
+                if s_key not in srv:
+                    fail(file_name, f"Missing '{s_key}' in builds.{ver}.server")
+                assert_type(file_name, f"builds.{ver}.server.{s_key}", srv[s_key], str)
+            assert_sri(file_name, f"builds.{ver}.server.hash", srv["hash"])
+
 
 def verify_asset_map(data: dict[str, Any]) -> None:
     file_name = "asset-sha1-sha256-map.json"

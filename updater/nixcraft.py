@@ -378,6 +378,13 @@ def build_servers() -> None:
                     entry["hash"] = hex_to_sri(entry.pop("md5"), "md5")
                 elif "sha1" in entry:
                     entry["hash"] = hex_to_sri(entry.pop("sha1"), "sha1")
+
+            if "server" in entry and isinstance(entry["server"], dict):
+                server_dict = dict(entry["server"])
+                if "hash" not in server_dict and "sha256" in server_dict:
+                    server_dict["hash"] = hex_to_sri(server_dict.pop("sha256"), "sha256")
+                entry["server"] = server_dict
+
             sri_builds[ver] = entry
 
         # Fall back to builds keys if versions-list.json is missing
