@@ -44,208 +44,413 @@
   ],
   "builds": {
     "26.3": {
-      "build": 2656,
-      "url": "https://api.purpurmc.org/v2/purpur/26.3/2656/download",
-      "hash": "md5-79SHsFj+LmuvkP1l7SoiFw=="
+      "build": 2657,
+      "url": "https://api.purpurmc.org/v2/purpur/26.3/2657/download",
+      "server": {
+        "filename": "mojang_26.3.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/33680f5f2ac32864d6d7cf5e56a705fdb3e05f4c/server.jar",
+        "hash": "sha256-0FLxTXoXNzT7pVNxHltXAWLi8qMTJn7jGiG5daZ5vmQ="
+      },
+      "hash": "md5-ksTjzpTmQTwsybG7WRgVmw=="
     },
     "26.2": {
       "build": 2633,
       "url": "https://api.purpurmc.org/v2/purpur/26.2/2633/download",
+      "server": {
+        "filename": "mojang_26.2.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/823e2250d24b3ddac457a60c92a6a941943fcd6a/server.jar",
+        "hash": "sha256-zazfsliY3l5LSw5d3MJyL3cGfkZgVwnC2IbAAOu2PsU="
+      },
       "hash": "md5-PzyTPy1RivmFccdGH6QieA=="
     },
     "26.1.2": {
       "build": 2592,
       "url": "https://api.purpurmc.org/v2/purpur/26.1.2/2592/download",
+      "server": {
+        "filename": "mojang_26.1.2.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/97ccd4c0ed3f81bbb7bfacddd1090b0c56f9bc51/server.jar",
+        "hash": "sha256-zUfnw4Mo9kdo/Revj82LIklrQLY9T/7oHnGuBZ/ty0I="
+      },
       "hash": "md5-DQGpvKvV4yseXl1IkB8fFw=="
     },
     "1.21.11": {
       "build": 2568,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.11/2568/download",
+      "server": {
+        "filename": "mojang_1.21.11.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar",
+        "hash": "sha256-+DuOCThlgG+THH40quQbF31MB2M1Jj3RJMddbWXdFyY="
+      },
       "hash": "md5-uNVALvjji/YMq8bu3bP6GA=="
     },
     "1.21.10": {
       "build": 2535,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.10/2535/download",
+      "server": {
+        "filename": "mojang_1.21.10.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/95495a7f485eedd84ce928cef5e223b757d2f764/server.jar",
+        "hash": "sha256-W7ZNxHN5kD6PKIvWpLJ26IkHXFwPTAtxTpWNg1wYdOc="
+      },
       "hash": "md5-1Irgw17uXcoeR23V3Czi6g=="
     },
     "1.21.9": {
       "build": 2505,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.9/2505/download",
+      "server": {
+        "filename": "mojang_1.21.9.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/11e54c2081420a4d49db3007e66c80a22579ff2a/server.jar",
+        "hash": "sha256-68UWGrzVdSPBSgTOEI8LZx2g0NdKKJJrGafROeurrzE="
+      },
       "hash": "md5-Tn942E1i+Z6pYTvjPWKXyQ=="
     },
     "1.21.8": {
       "build": 2497,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.8/2497/download",
+      "server": {
+        "filename": "mojang_1.21.8.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/6bce4ef400e4efaa63a13d5e6f6b500be969ef81/server.jar",
+        "hash": "sha256-I0nZqPDUvixA52kokO9GpLBwFeeVWwdUYNAnk75/u+c="
+      },
       "hash": "md5-uLKAJSX1uF+YavSaxLCVqg=="
     },
     "1.21.7": {
       "build": 2477,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.7/2477/download",
+      "server": {
+        "filename": "mojang_1.21.7.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/05e4b48fbc01f0385adb74bcff9751d34552486c/server.jar",
+        "hash": "sha256-uVW4912BHMMmF5RyF0lBNY7q+XpomZ7hGczThzNQxO4="
+      },
       "hash": "md5-NmmUxiA88Ak2JVovPdqvpA=="
     },
     "1.21.6": {
       "build": 2465,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.6/2465/download",
+      "server": {
+        "filename": "mojang_1.21.6.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/6e64dcabba3c01a7271b4fa6bd898483b794c59b/server.jar",
+        "hash": "sha256-CKvzhMSK+56CIUStipkWZIKFeZQ4kmnibGoExskdkXE="
+      },
       "hash": "md5-Qfvr+nO7WI2QnZgp/P6gGg=="
     },
     "1.21.5": {
       "build": 2450,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.5/2450/download",
+      "server": {
+        "filename": "mojang_1.21.5.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar",
+        "hash": "sha256-rnaB2tziG2tAF9KOfrVn2GtsEAppaZlPVAueVPgS3Ck="
+      },
       "hash": "md5-k+B2ne32jhbCkdvh0M8XfQ=="
     },
     "1.21.4": {
       "build": 2416,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.4/2416/download",
+      "server": {
+        "filename": "mojang_1.21.4.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/4707d00eb834b446575d89a61a11b5d548d8c001/server.jar",
+        "hash": "sha256-EGaXCwnpxnGERXIpHEqHHMGsK4WDi/cAT6DneOEPE1g="
+      },
       "hash": "md5-44MrRu+koqVtMbx84m328A=="
     },
     "1.21.3": {
       "build": 2358,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.3/2358/download",
+      "server": {
+        "filename": "mojang_1.21.3.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/45810d238246d90e811d896f87b14695b7fb6839/server.jar",
+        "hash": "sha256-4VO4mwLAg5zfXowdV8gN1Co//7gMYIF2MggMBBv4r7U="
+      },
       "hash": "md5-chLnEIH24VYNmwmiqjFqTw=="
     },
     "1.21.1": {
       "build": 2329,
       "url": "https://api.purpurmc.org/v2/purpur/1.21.1/2329/download",
+      "server": {
+        "filename": "mojang_1.21.1.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar",
+        "hash": "sha256-47xVaT6TzaAYjy5grqKBE/xkfF6FoV+j0bNHNJIxtLs="
+      },
       "hash": "md5-3AAmRiysdshpM1/rQziKdg=="
     },
     "1.21": {
       "build": 2284,
       "url": "https://api.purpurmc.org/v2/purpur/1.21/2284/download",
+      "server": {
+        "filename": "mojang_1.21.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar",
+        "hash": "sha256-yWOU2ob52fnvfKLS7h8vCYDCm3qlyUtDwCxQQ1289T8="
+      },
       "hash": "md5-rbD+BuJvfq77E1mylCJFvg=="
     },
     "1.20.6": {
       "build": 2233,
       "url": "https://api.purpurmc.org/v2/purpur/1.20.6/2233/download",
+      "server": {
+        "filename": "mojang_1.20.6.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/145ff0858209bcfc164859ba735d4199aafa1eea/server.jar",
+        "hash": "sha256-xtAdAYynguUG8OxgZS1H/VZQeL6RIrYlwWgbyGwpx+w="
+      },
       "hash": "md5-1O9oNLJU2smPetizsQvaVA=="
     },
     "1.20.4": {
       "build": 2176,
       "url": "https://api.purpurmc.org/v2/purpur/1.20.4/2176/download",
+      "server": {
+        "filename": "mojang_1.20.4.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar",
+        "hash": "sha256-wD+m852qad30E8llo6gwhNt0anoTjOU1ppMpO1Ry02M="
+      },
       "hash": "md5-x1OSI4WwaIUwbAs2ponJfw=="
     },
     "1.20.2": {
       "build": 2095,
       "url": "https://api.purpurmc.org/v2/purpur/1.20.2/2095/download",
+      "server": {
+        "filename": "mojang_1.20.2.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/5b868151bd02b41319f54c8d4061b8cae84e665c/server.jar",
+        "hash": "sha256-Ha7kg4VprUbkHwpvRZaExQDH8mhTVqQM+36DjW546ug="
+      },
       "hash": "md5-YWaoL+ard0eafqkZL7uoXQ=="
     },
     "1.20.1": {
       "build": 2062,
       "url": "https://api.purpurmc.org/v2/purpur/1.20.1/2062/download",
+      "server": {
+        "filename": "mojang_1.20.1.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar",
+        "hash": "sha256-Ovc6ncWhAuOBR5RjYN0n1NcLrnBVv5HPIVHNXRIbeeA="
+      },
       "hash": "md5-Wbv/cMw5TAU6cbrMxCgGOw=="
     },
     "1.20": {
       "build": 1990,
       "url": "https://api.purpurmc.org/v2/purpur/1.20/1990/download",
+      "server": {
+        "filename": "mojang_1.20.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/15c777e2cfe0556eef19aab534b186c0c6f277e1/server.jar",
+        "hash": "sha256-/0HFQs7Bgs50UIpeQhlOD0AJNB3nXwp793DRjPcB1Ws="
+      },
       "hash": "md5-ZoH7WdiPX/aElpA041ItLA=="
     },
     "1.19.4": {
       "build": 1985,
       "url": "https://api.purpurmc.org/v2/purpur/1.19.4/1985/download",
+      "server": {
+        "filename": "mojang_1.19.4.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar",
+        "hash": "sha256-pSShDaVQdBeFyMOg+zkEfxBrDHws+iVegnjLbxq+P1M="
+      },
       "hash": "md5-n8F76c1e60FG0dBl1hWn7A=="
     },
     "1.19.3": {
       "build": 1933,
       "url": "https://api.purpurmc.org/v2/purpur/1.19.3/1933/download",
+      "server": {
+        "filename": "mojang_1.19.3.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar",
+        "hash": "sha256-Tr060UJRKVPQGTrjodGjDIlpB958aHgJdxUfbMefHhs="
+      },
       "hash": "md5-2KNMpdx+uG8nMNElZ6RogQ=="
     },
     "1.19.2": {
       "build": 1858,
       "url": "https://api.purpurmc.org/v2/purpur/1.19.2/1858/download",
+      "server": {
+        "filename": "mojang_1.19.2.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar",
+        "hash": "sha256-smcnBp719hxwSt2aN4rJDj0nH9eHbAvT3Pvp/QvsTZY="
+      },
       "hash": "md5-hqmrIrsP5EV2HrFqq4zzCg=="
     },
     "1.19.1": {
       "build": 1751,
       "url": "https://api.purpurmc.org/v2/purpur/1.19.1/1751/download",
+      "server": {
+        "filename": "mojang_1.19.1.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/8399e1211e95faa421c1507b322dbeae86d604df/server.jar",
+        "hash": "sha256-8VuTwlrHNDro2254g6l/EXd7qu6STno8eu7YJrFVsjM="
+      },
       "hash": "md5-stIwY0byNMIXgFQsNnn+cw=="
     },
     "1.19": {
       "build": 1735,
       "url": "https://api.purpurmc.org/v2/purpur/1.19/1735/download",
+      "server": {
+        "filename": "mojang_1.19.jar",
+        "url": "https://piston-data.mojang.com/v1/objects/e00c4052dac1d59a1188b2aa9d5a87113aaf1122/server.jar",
+        "hash": "sha256-3u/QVvDPicPX/UjQP1aopzlDWG6MBh/avQ/ZLTLO0rI="
+      },
       "hash": "md5-QR9QTUrPSFWywb+p9Settw=="
     },
     "1.18.2": {
       "build": 1632,
       "url": "https://api.purpurmc.org/v2/purpur/1.18.2/1632/download",
+      "server": {
+        "filename": "mojang_1.18.2.jar",
+        "url": "https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar",
+        "hash": "sha256-V76dHjWqkc/fokattjoOoRqUYIHgRk0IvD02ZRcYo0M="
+      },
       "hash": "md5-ZSpSnQatbEM09aRGye7k5g=="
     },
     "1.18.1": {
       "build": 1566,
       "url": "https://api.purpurmc.org/v2/purpur/1.18.1/1566/download",
+      "server": {
+        "filename": "mojang_1.18.1.jar",
+        "url": "https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar",
+        "hash": "sha256-680SCtgUgLlopUjfb/uDuIB16VGVyP9j1GHJ3031298="
+      },
       "hash": "md5-/NpN4CZEPbtykkMzxP/i9g=="
     },
     "1.18": {
       "build": 1433,
       "url": "https://api.purpurmc.org/v2/purpur/1.18/1433/download",
+      "server": {
+        "filename": "mojang_1.18.jar",
+        "url": "https://launcher.mojang.com/v1/objects/3cf24a8694aca6267883b17d934efacc5e44440d/server.jar",
+        "hash": "sha256-hBftzrRxs4pZps4mDzqhR56VJko461YoO98k7Jhkfm8="
+      },
       "hash": "md5-EsKfmucnJvCN0xMvzk4ksw=="
     },
     "1.17.1": {
       "build": 1428,
       "url": "https://api.purpurmc.org/v2/purpur/1.17.1/1428/download",
+      "server": {
+        "filename": "mojang_1.17.1.jar",
+        "url": "https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar",
+        "hash": "sha256-6MIRtBMXqfWngMmKiVkuy3LrOabkddSsllflvJ/69V8="
+      },
       "hash": "md5-wC7RvpBaD9YLSrTNCfCZZw=="
     },
     "1.17": {
       "build": 1255,
       "url": "https://api.purpurmc.org/v2/purpur/1.17/1255/download",
+      "server": {
+        "filename": "mojang_1.17.jar",
+        "url": "https://launcher.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e/server.jar",
+        "hash": "sha256-ezkNjZ9rVkmyJtgmhq7H8RvZqkQwu1yskHL/0y88H0s="
+      },
       "hash": "md5-5z+1NIgmxHwmfJWIvVqATQ=="
     },
     "1.16.5": {
       "build": 1171,
       "url": "https://api.purpurmc.org/v2/purpur/1.16.5/1171/download",
+      "server": {
+        "filename": "mojang_1.16.5.jar",
+        "url": "https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar",
+        "hash": "sha256-WPMpx9JpZSb5SEcKpv0LRVRQObZMt1AV5kwSGUs3PaY="
+      },
       "hash": "md5-Ulx6qS5s74IMMIpg9UpDyg=="
     },
     "1.16.4": {
       "build": 956,
       "url": "https://api.purpurmc.org/v2/purpur/1.16.4/956/download",
+      "server": {
+        "filename": "mojang_1.16.4.jar",
+        "url": "https://launcher.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3d7cd/server.jar",
+        "hash": "sha256-RE0w2QOh70ibZze7nQIUlPryNDTKhWj9cs4uPUCzJQY="
+      },
       "hash": "md5-9pacy7DfSQqdHu/x17uVBw=="
     },
     "1.16.3": {
       "build": 808,
       "url": "https://api.purpurmc.org/v2/purpur/1.16.3/808/download",
+      "server": {
+        "filename": "mojang_1.16.3.jar",
+        "url": "https://launcher.mojang.com/v1/objects/f02f4473dbf152c23d7d484952121db0b36698cb/server.jar",
+        "hash": "sha256-MuRQ50wIGuwG3Put+lupqhx/NwvYaeZYyuwMMAT3rVs="
+      },
       "hash": "md5-dEYY7+TUe/z1x3cfL8qRAg=="
     },
     "1.16.2": {
       "build": 750,
       "url": "https://api.purpurmc.org/v2/purpur/1.16.2/750/download",
+      "server": {
+        "filename": "mojang_1.16.2.jar",
+        "url": "https://launcher.mojang.com/v1/objects/c5f6fb23c3876461d46ec380421e42b289789530/server.jar",
+        "hash": "sha256-KQLtP/hOT4EKLAYgxrbfnD74SIsnLGEnTV6sJDOHbzk="
+      },
       "hash": "md5-oF/H2ufq8cOeUEazNS8Q5Q=="
     },
     "1.16.1": {
       "build": 710,
       "url": "https://api.purpurmc.org/v2/purpur/1.16.1/710/download",
+      "server": {
+        "filename": "mojang_1.16.1.jar",
+        "url": "https://launcher.mojang.com/v1/objects/a412fd69db1f81db3f511c1463fd304675244077/server.jar",
+        "hash": "sha256-J4LVR3JLw//A726XsnkOdcHfiSQfnUZFtYxwb15sk1s="
+      },
       "hash": "md5-czjWlr320sBPqww6aNmtag=="
     },
     "1.15.2": {
       "build": 606,
       "url": "https://api.purpurmc.org/v2/purpur/1.15.2/606/download",
+      "server": {
+        "filename": "mojang_1.15.2.jar",
+        "url": "https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar",
+        "hash": "sha256-gM+G3CAE7GotwBg9HHWprzugZp98My5CR6+x12+2foo="
+      },
       "hash": "md5-CKJoihEl31fjMZFlfMiGZg=="
     },
     "1.15.1": {
       "build": 397,
       "url": "https://api.purpurmc.org/v2/purpur/1.15.1/397/download",
+      "server": {
+        "filename": "mojang_1.15.1.jar",
+        "url": "https://launcher.mojang.com/v1/objects/4d1826eebac84847c71a77f9349cc22afd0cf0a1/server.jar",
+        "hash": "sha256-oMBiaGvuWpLWCALKdNGYVISBgCGTpw3abV/n7LcgeZM="
+      },
       "hash": "md5-cecqK8MDwFtrTCnBF3fJgA=="
     },
     "1.15": {
       "build": 346,
       "url": "https://api.purpurmc.org/v2/purpur/1.15/346/download",
+      "server": {
+        "filename": "mojang_1.15.jar",
+        "url": "https://launcher.mojang.com/v1/objects/e9f105b3c5c7e85c7b445249a93362a22f62442d/server.jar",
+        "hash": "sha256-4P4XSSY7XsIRs1i1mLRueHZFv/qEEUFPDIEqkr3HDIQ="
+      },
       "hash": "md5-OgY/sScfu5sCpA9cstXe/A=="
     },
     "1.14.4": {
       "build": 337,
       "url": "https://api.purpurmc.org/v2/purpur/1.14.4/337/download",
+      "server": {
+        "filename": "mojang_1.14.4.jar",
+        "url": "https://launcher.mojang.com/v1/objects/3dc3d84a581f14691199cf6831b71ed1296a9fdf/server.jar",
+        "hash": "sha256-Xs3tqzpuEpMhpERJDQpGfCXqcCokqZzr47au1B+PVyk="
+      },
       "hash": "md5-r10Hx2IF4kQiBYYMMIf+aA=="
     },
     "1.14.3": {
       "build": 202,
       "url": "https://api.purpurmc.org/v2/purpur/1.14.3/202/download",
+      "server": {
+        "filename": "mojang_1.14.3.jar",
+        "url": "https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar",
+        "hash": "sha256-lCJW8L/sQPIzGxsMVdemg7hu5A5R+lAKKqds8fEEGzg="
+      },
       "hash": "md5-PQoPIFErCn5+zuEzmXn0ng=="
     },
     "1.14.2": {
       "build": 126,
       "url": "https://api.purpurmc.org/v2/purpur/1.14.2/126/download",
+      "server": {
+        "filename": "mojang_1.14.2.jar",
+        "url": "https://launcher.mojang.com/v1/objects/808be3869e2ca6b62378f9f4b33c946621620019/server.jar",
+        "hash": "sha256-tH/YUVWud8K8WeYqIVMQxNzofH3991iDhZc/og/0ZVs="
+      },
       "hash": "md5-erSjua5zfqhvDDzzWFhCAw=="
     },
     "1.14.1": {
       "build": 63,
       "url": "https://api.purpurmc.org/v2/purpur/1.14.1/63/download",
+      "server": {
+        "filename": "mojang_1.14.1.jar",
+        "url": "https://launcher.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar",
+        "hash": "sha256-+CLwtzC34fBfyoQkimhzQAusTKRJ/2dipVyrPWix8D4="
+      },
       "hash": "md5-/n93BS8ue205bichwCGTKw=="
     }
   }
