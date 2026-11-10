@@ -71,15 +71,15 @@
   ],
   "builds": {
     "26.3": {
-      "build": 245,
+      "build": 246,
       "channel": "STABLE",
-      "url": "https://fill-data.papermc.io/v1/objects/192d277ea1ce29b2df3933dd488521d4555cc82be864ea8df811fe536e8aed43/paper-26.3-245.jar",
+      "url": "https://fill-data.papermc.io/v1/objects/d158542561e440c4026be7ccb32f551ee88313864792f38ea0ce5d1b88f1b27c/paper-26.3-246.jar",
       "server": {
         "filename": "mojang_26.3.jar",
         "url": "https://piston-data.mojang.com/v1/objects/33680f5f2ac32864d6d7cf5e56a705fdb3e05f4c/server.jar",
         "hash": "sha256-0FLxTXoXNzT7pVNxHltXAWLi8qMTJn7jGiG5daZ5vmQ="
       },
-      "hash": "sha256-GS0nfqHOKbLfOTPdSIUh1FVcyCvoZOqN+BH+U26K7UM="
+      "hash": "sha256-0VhUJWHkQMQCa+fMsy9VHuiDE4ZHkvOOoM5dG4jxsnw="
     },
     "26.3-rc-3": {
       "build": 1,
