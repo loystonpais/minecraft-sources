@@ -1,6 +1,12 @@
 {
   "26.3": [
     {
+      "version": "26.3.0.102",
+      "releaseTime": "2026-11-09T17:39:05.790713+00:00",
+      "recommended": false,
+      "sha256": "2df8fdc8c48c2291089dcc146fba332b81711582bc93631c096a307e0a73cf47"
+    },
+    {
       "version": "26.3.0.101",
       "releaseTime": "2026-11-01T15:46:22.639895+00:00",
       "recommended": false,
