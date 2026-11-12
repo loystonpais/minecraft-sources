@@ -1,9 +1,9 @@
 {
   "26.3": {
-    "build": 2657,
-    "time": 1794019498859,
-    "md5": "92c4e3ce94e6413c2cc9b1bb5918159b",
-    "url": "https://api.purpurmc.org/v2/purpur/26.3/2657/download",
+    "build": 2658,
+    "time": 1794455508533,
+    "md5": "54eae68933789d1f984d7ba29fe4b01d",
+    "url": "https://api.purpurmc.org/v2/purpur/26.3/2658/download",
     "server": {
       "filename": "mojang_26.3.jar",
       "sha256": "d052f14d7a173734fba553711e5b570162e2f2a313267ee31a21b975a679be64",
