@@ -1,9 +1,15 @@
 {
   "26.3": [
     {
+      "version": "66.1.8",
+      "releaseTime": "2026-11-12T21:27:00+00:00",
+      "recommended": true,
+      "sha256": "ea1325ab269e4dd1034ac9090c3b25c38d55cc9cdc9bc4d70a6e7f077398f1bd"
+    },
+    {
       "version": "66.1.5",
       "releaseTime": "2026-11-02T22:23:05+00:00",
-      "recommended": true,
+      "recommended": false,
       "sha256": "be39e452d5c3aacda96758deaa659934393513334df0941fe8da11697c52cdc8"
     },
     {

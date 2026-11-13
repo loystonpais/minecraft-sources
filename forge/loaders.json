@@ -1,9 +1,9 @@
 {
-  "66.1.5": {
-    "version": "66.1.5",
+  "66.1.8": {
+    "version": "66.1.8",
     "dependencies": [
       "io.github.zekerzhayard:ForgeWrapper:prism-2026-08-01",
-      "net.minecraftforge:forge:26.3-66.1.5:universal",
+      "net.minecraftforge:forge:26.3-66.1.8:universal",
       "net.minecraftforge:JarJarFileSystems:0.4.2",
       "net.minecraftforge:roimfs:1.0.0",
       "com.google.guava:guava:33.6.0-jre",
@@ -35,24 +35,24 @@
       "io.github.llamalad7:mixinextras-forge:0.5.4",
       "net.minecraftforge:JarJarSelector:0.4.2",
       "net.minecraftforge:JarJarMetadata:0.4.2",
-      "net.minecraftforge:fmlcore:26.3-66.1.5",
-      "net.minecraftforge:fmlloader:26.3-66.1.5",
-      "net.minecraftforge:fmlearlydisplay:26.3-66.1.5",
-      "net.minecraftforge:javafmllanguage:26.3-66.1.5",
-      "net.minecraftforge:lowcodelanguage:26.3-66.1.5",
-      "net.minecraftforge:mclanguage:26.3-66.1.5",
-      "net.minecraftforge:forge-transformers:26.3-66.1.5"
+      "net.minecraftforge:fmlcore:26.3-66.1.8",
+      "net.minecraftforge:fmlloader:26.3-66.1.8",
+      "net.minecraftforge:fmlearlydisplay:26.3-66.1.8",
+      "net.minecraftforge:javafmllanguage:26.3-66.1.8",
+      "net.minecraftforge:lowcodelanguage:26.3-66.1.8",
+      "net.minecraftforge:mclanguage:26.3-66.1.8",
+      "net.minecraftforge:forge-transformers:26.3-66.1.8"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
-    "installer": "net.minecraftforge:forge:26.3-66.1.5:installer",
+    "installer": "net.minecraftforge:forge:26.3-66.1.8:installer",
     "installerDependencies": [
       "com.github.jponge:lzma-java:1.3",
       "com.google.code.gson:gson:2.10.1",
       "com.nothome:javaxdelta:2.0.1",
       "de.siegmar:fastcsv:2.2.2",
       "net.minecraftforge:binarypatcher:1.3.4",
-      "net.minecraftforge:forge:26.3-66.1.5:shim",
-      "net.minecraftforge:forge:26.3-66.1.5:universal",
+      "net.minecraftforge:forge:26.3-66.1.8:shim",
+      "net.minecraftforge:forge:26.3-66.1.8:universal",
       "net.minecraftforge:hash-utils:0.2.3",
       "net.minecraftforge:installertools:1.4.6",
       "net.minecraftforge:srgutils:0.6.2",
@@ -63,7 +63,7 @@
       "org.ow2.asm:asm:9.10.1",
       "trove:trove:1.0.2"
     ],
-    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 66.1.5 --fml.mcVersion 26.3"
+    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --launchTarget forge_client --fml.forgeGroup net.minecraftforge --fml.forgeVersion 66.1.8 --fml.mcVersion 26.3"
   },
   "65.1.5": {
     "version": "65.1.5",
