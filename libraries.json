@@ -11851,6 +11851,10 @@
     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/26.3-66.1.5/fmlcore-26.3-66.1.5.jar",
     "hash": "sha1-Lp9QwOJDTlm8jefXgAy8hOsvd/0="
   },
+  "net.minecraftforge:fmlcore:26.3-66.1.8": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/26.3-66.1.8/fmlcore-26.3-66.1.8.jar",
+    "hash": "sha1-2CizT8HAMRfaaxpDHIOxLCZSe3c="
+  },
   "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar",
     "hash": "sha1-omL6GeZfZDquIQtCdbU77gU6p2U="
@@ -11990,6 +11994,10 @@
   "net.minecraftforge:fmlearlydisplay:26.3-66.1.5": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/26.3-66.1.5/fmlearlydisplay-26.3-66.1.5.jar",
     "hash": "sha1-AwyHj91gWwd7YCUMO/rctWtgG8Q="
+  },
+  "net.minecraftforge:fmlearlydisplay:26.3-66.1.8": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/26.3-66.1.8/fmlearlydisplay-26.3-66.1.8.jar",
+    "hash": "sha1-rnMbHvkyMQ43YUHflp02cbfdC2E="
   },
   "net.minecraftforge:fmlloader:1.17.1-37.1.1": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.17.1-37.1.1/fmlloader-1.17.1-37.1.1.jar",
@@ -12171,6 +12179,10 @@
     "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/26.3-66.1.5/fmlloader-26.3-66.1.5.jar",
     "hash": "sha1-P76DP4q7je1s7SpRd3jvxSriwrk="
   },
+  "net.minecraftforge:fmlloader:26.3-66.1.8": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/26.3-66.1.8/fmlloader-26.3-66.1.8.jar",
+    "hash": "sha1-a7DU0cChykhYSuh3N4irWWPgh58="
+  },
   "net.minecraftforge:forge-transformers:1.21.10-60.1.0": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/forge-transformers/1.21.10-60.1.0/forge-transformers-1.21.10-60.1.0.jar",
     "hash": "sha1-Af2zQnb/toY/3aeu+05EIQTCo6M="
@@ -12230,6 +12242,10 @@
   "net.minecraftforge:forge-transformers:26.3-66.1.5": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/forge-transformers/26.3-66.1.5/forge-transformers-26.3-66.1.5.jar",
     "hash": "sha1-+KOxQtmlHDZCOPgDBw2E6Ko+2SQ="
+  },
+  "net.minecraftforge:forge-transformers:26.3-66.1.8": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge-transformers/26.3-66.1.8/forge-transformers-26.3-66.1.8.jar",
+    "hash": "sha1-OFNy2MQKAxZNwMtnvOzui+l/DRM="
   },
   "net.minecraftforge:forge:1.10-12.18.0.2000-1.10.0:universal": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.10-12.18.0.2000-1.10.0/forge-1.10-12.18.0.2000-1.10.0-universal.jar",
@@ -12939,6 +12955,18 @@
     "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.1.5/forge-26.3-66.1.5-universal.jar",
     "hash": "sha1-sIjjIHnGqhvlBCfc7hEox93FTP0="
   },
+  "net.minecraftforge:forge:26.3-66.1.8:installer": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.1.8/forge-26.3-66.1.8-installer.jar",
+    "hash": "sha1-DgIMPhgnpINsKsGol7I7jEec6do="
+  },
+  "net.minecraftforge:forge:26.3-66.1.8:shim": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.1.8/forge-26.3-66.1.8-shim.jar",
+    "hash": "sha1-RHYN0q9Qu4diDFs07yFYjaE3SRY="
+  },
+  "net.minecraftforge:forge:26.3-66.1.8:universal": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.1.8/forge-26.3-66.1.8-universal.jar",
+    "hash": "sha1-+7L6LumRcp+bVJ0HhqZ55tjRYJI="
+  },
   "net.minecraftforge:forgespi:0.13.0": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/forgespi/0.13.0/forgespi-0.13.0.jar",
     "hash": "sha1-JiM0S6jNs+LgoWvlnB/CKtJfKYE="
@@ -13251,6 +13279,10 @@
     "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/26.3-66.1.5/javafmllanguage-26.3-66.1.5.jar",
     "hash": "sha1-o16/bVhUm7QOtc5RgT9LBUacECg="
   },
+  "net.minecraftforge:javafmllanguage:26.3-66.1.8": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/26.3-66.1.8/javafmllanguage-26.3-66.1.8.jar",
+    "hash": "sha1-37TAJ7MuoEf9AuWMsEQn/jeBGuw="
+  },
   "net.minecraftforge:lowcodelanguage:1.18.2-40.3.0": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.18.2-40.3.0/lowcodelanguage-1.18.2-40.3.0.jar",
     "hash": "sha1-qucry7tnZqRbBBbrMC2CwQlYFDY="
@@ -13418,6 +13450,10 @@
   "net.minecraftforge:lowcodelanguage:26.3-66.1.5": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/26.3-66.1.5/lowcodelanguage-26.3-66.1.5.jar",
     "hash": "sha1-swP0c6/WXxlpG+uDQWP9VvR3z3o="
+  },
+  "net.minecraftforge:lowcodelanguage:26.3-66.1.8": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/26.3-66.1.8/lowcodelanguage-26.3-66.1.8.jar",
+    "hash": "sha1-uvXzqjjJb4MzFCG4yFvyt/gcCQk="
   },
   "net.minecraftforge:mclanguage:1.17.1-37.1.1": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.17.1-37.1.1/mclanguage-1.17.1-37.1.1.jar",
@@ -13598,6 +13634,10 @@
   "net.minecraftforge:mclanguage:26.3-66.1.5": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/26.3-66.1.5/mclanguage-26.3-66.1.5.jar",
     "hash": "sha1-UGbpKIisqegZfuKAXZZqpPPrweU="
+  },
+  "net.minecraftforge:mclanguage:26.3-66.1.8": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/26.3-66.1.8/mclanguage-26.3-66.1.8.jar",
+    "hash": "sha1-z1Nt1DverqZWtq6xIoGntzU3Zx8="
   },
   "net.minecraftforge:mergetool-api:1.0": {
     "url": "https://maven.minecraftforge.net/net/minecraftforge/mergetool-api/1.0/mergetool-api-1.0.jar",
@@ -14707,6 +14747,14 @@
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-universal.jar",
     "hash": "sha1-/QDdGbWX+696wUyb4d8b3RKVZgs="
   },
+  "net.neoforged:neoforge:21.1.266:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.266/neoforge-21.1.266-installer.jar",
+    "hash": "sha1-ki5smhGBRFcsKvoK0LBZZxvnODc="
+  },
+  "net.neoforged:neoforge:21.1.266:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.266/neoforge-21.1.266-universal.jar",
+    "hash": "sha1-0C+gqUC+juph0VaofoXKPRDiHvc="
+  },
   "net.neoforged:neoforge:21.10.64:installer": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.10.64/neoforge-21.10.64-installer.jar",
     "hash": "sha1-+/EJt+6bQBCMohun02VqFuEN8Pc="
@@ -14938,6 +14986,14 @@
   "net.neoforged:neoforge:26.3.0.102:universal": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.102/neoforge-26.3.0.102-universal.jar",
     "hash": "sha1-0xaf88vNX1DmvPK9uqLX0aqsmf0="
+  },
+  "net.neoforged:neoforge:26.3.0.103:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.103/neoforge-26.3.0.103-installer.jar",
+    "hash": "sha1-Bf7RGfZJhcA/sj4/Th0NZMejeD8="
+  },
+  "net.neoforged:neoforge:26.3.0.103:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.103/neoforge-26.3.0.103-universal.jar",
+    "hash": "sha1-fwnp9mzL8TVw7zy18/9nojHU1nA="
   },
   "net.neoforged:neoforge:26.3.0.95:installer": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.95/neoforge-26.3.0.95-installer.jar",
