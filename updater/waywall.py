@@ -45,7 +45,20 @@ def update_waywall() -> None:
 
     # 1. Fetch raw releases
     logger.info(f"Fetching Waywall releases from {WAYWALL_RELEASES_URL}...")
-    releases_data = fetch_json(WAYWALL_RELEASES_URL)
+    try:
+        releases_data = fetch_json(WAYWALL_RELEASES_URL, max_retries=1)
+    except Exception as e:
+        logger.warning(f"Could not fetch Waywall releases; keeping existing Waywall data: {e}")
+        return
+
+    if not isinstance(releases_data, list):
+        logger.warning("Unexpected Waywall releases response; keeping existing Waywall data")
+        return
+
+    # Download counts change constantly and are not needed for source metadata.
+    for release in releases_data:
+        for asset in release.get("assets", []):
+            asset.pop("download_count", None)
     save_json(WAYWALL_RAW_DIR / "releases.json", releases_data)
 
     existing_releases_file = WAYWALL_DOMAIN_DIR / "releases.json"
