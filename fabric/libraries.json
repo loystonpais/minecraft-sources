@@ -2954,5 +2954,13 @@
   "net.fabricmc:intermediary:26.4-snapshot-8": {
     "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/26.4-snapshot-8/intermediary-26.4-snapshot-8.jar",
     "sha256": "2e00c527f1cb7ac996a59a92ccb46978d29fb3da04aa3d4b521c9c737ee3cb74"
+  },
+  "net.fabricmc:intermediary:26.4-snapshot-10": {
+    "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/26.4-snapshot-10/intermediary-26.4-snapshot-10.jar",
+    "sha256": "2e00c527f1cb7ac996a59a92ccb46978d29fb3da04aa3d4b521c9c737ee3cb74"
+  },
+  "net.fabricmc:intermediary:26.4-snapshot-9": {
+    "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/26.4-snapshot-9/intermediary-26.4-snapshot-9.jar",
+    "sha256": "2e00c527f1cb7ac996a59a92ccb46978d29fb3da04aa3d4b521c9c737ee3cb74"
   }
 }

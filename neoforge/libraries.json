@@ -1215,6 +1215,14 @@
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.109/neoforge-26.3.0.109-universal.jar",
     "sha1": "aa48a2a5215dac3bf26b2f7808d0f301ebc1323a"
   },
+  "net.neoforged:neoforge:26.3.0.113:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.113/neoforge-26.3.0.113-installer.jar",
+    "sha1": "c2120db0022ef2dcb51e93922405e113e07ff468"
+  },
+  "net.neoforged:neoforge:26.3.0.113:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.113/neoforge-26.3.0.113-universal.jar",
+    "sha1": "7aef686b46a81426526f936f11c15b11962a3877"
+  },
   "net.neoforged:neoforge:26.3.0.95:installer": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.95/neoforge-26.3.0.95-installer.jar",
     "sha1": "a848afac064ffe0e244bf7c2136fbbfc862f9c97"
@@ -1440,7 +1448,7 @@
     "sha1": "d0ddcc708ddf527a3454c941b7b9225cc83a15ff"
   },
   "org.jspecify:jspecify:1.0.1": {
-    "url": "https://maven.neoforged.net/releases/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar",
+    "url": "https://libraries.minecraft.net/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar",
     "sha1": "3d60fd98eb8ade73004f4195c37b6317e02cf3d7"
   },
   "org.lwjgl:lwjgl-sdl:3.4.3": {

@@ -1,4 +1,14 @@
 {
+  "26.4-snapshot-10": {
+    "dependencies": [
+      "net.fabricmc:intermediary:26.4-snapshot-10"
+    ]
+  },
+  "26.4-snapshot-9": {
+    "dependencies": [
+      "net.fabricmc:intermediary:26.4-snapshot-9"
+    ]
+  },
   "26.4-snapshot-8": {
     "dependencies": [
       "net.fabricmc:intermediary:26.4-snapshot-8"
