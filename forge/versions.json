@@ -1,9 +1,15 @@
 {
   "26.3": [
     {
+      "version": "66.1.9",
+      "releaseTime": "2026-11-18T21:10:31+00:00",
+      "recommended": true,
+      "sha256": "1fff0050ed47d6ee283beafab8d4a5182377af05db8d219bef14003dad135e75"
+    },
+    {
       "version": "66.1.8",
       "releaseTime": "2026-11-12T21:27:00+00:00",
-      "recommended": true,
+      "recommended": false,
       "sha256": "ea1325ab269e4dd1034ac9090c3b25c38d55cc9cdc9bc4d70a6e7f077398f1bd"
     },
     {
@@ -28151,6 +28157,236 @@
       "sha256": "a5185e2e9bef7c83d6ad09ade543dd5399e17aec684f5753ccd067c490a0fe11"
     }
   ],
+  "1.4.6": [
+    {
+      "version": "6.5.0.489",
+      "releaseTime": "2012-12-27T23:17:08+00:00",
+      "recommended": false,
+      "sha256": "1749ea9889cfb4adb0e929e1d72ccc7fa863c1d39a08c5fa367a0e7d6c359f69"
+    },
+    {
+      "version": "6.5.0.488",
+      "releaseTime": "2012-12-27T21:24:56+00:00",
+      "recommended": false,
+      "sha256": "28266bb225676e134222c21483be609a3c513fa7ea5391bcdcaf9cf1e3765158"
+    },
+    {
+      "version": "6.5.0.487",
+      "releaseTime": "2012-12-27T14:56:32+00:00",
+      "recommended": false,
+      "sha256": "617fbdff984e194fd41f2351e46fb2514c701e23f50302a28049b1b09c83dc65"
+    },
+    {
+      "version": "6.5.0.486",
+      "releaseTime": "2012-12-25T23:32:22+00:00",
+      "recommended": false,
+      "sha256": "f7b8dd6aa2f5ed1ca13ecb776ae381056fe7cd9f8048b4d643f996403306b284"
+    },
+    {
+      "version": "6.5.0.484",
+      "releaseTime": "2012-12-25T23:08:44+00:00",
+      "recommended": false,
+      "sha256": "f2e3f4b892040616656f9518b4904f6cab300bd06e1a46fc65b60c12ac5eefa9"
+    },
+    {
+      "version": "6.5.0.483",
+      "releaseTime": "2012-12-25T20:16:10+00:00",
+      "recommended": false,
+      "sha256": "38976eb6e464e123e91110ea9d7a0431ed60376a538e6317815435506dfbeb04"
+    },
+    {
+      "version": "6.5.0.482",
+      "releaseTime": "2012-12-25T17:20:24+00:00",
+      "recommended": false,
+      "sha256": "bc3fe00e88d75c9fdfe463d2a30300249397f252daf512009bd05d28bdabb0e4"
+    },
+    {
+      "version": "6.5.0.481",
+      "releaseTime": "2012-12-24T10:18:58+00:00",
+      "recommended": false,
+      "sha256": "e33de1a0cce1e27d3a475a4f0b8183d0a6a2125ecad6e5496113d3d0682b1832"
+    },
+    {
+      "version": "6.5.0.480",
+      "releaseTime": "2012-12-24T02:58:50+00:00",
+      "recommended": false,
+      "sha256": "6ffcad56d252d4f75e4f12f5e65b4af1561ee362026e6b4bccf4c4af9e445280"
+    },
+    {
+      "version": "6.5.0.479",
+      "releaseTime": "2012-12-24T02:42:26+00:00",
+      "recommended": false,
+      "sha256": "9ea34a03ee8a554ec67dc2b92055565d9ee8d7d12d327bcfab35b7a60a435075"
+    },
+    {
+      "version": "6.5.0.478",
+      "releaseTime": "2012-12-24T02:33:06+00:00",
+      "recommended": false,
+      "sha256": "2fa76b75a09ad0a779f83c25b954aace0ecb7b1beb916287fe6e2984265ff991"
+    },
+    {
+      "version": "6.5.0.477",
+      "releaseTime": "2012-12-24T00:40:32+00:00",
+      "recommended": false,
+      "sha256": "8b340d106a43329e5b01cef06c825ad5ed5219e8761d99110496edf38fd1ca53"
+    },
+    {
+      "version": "6.5.0.476",
+      "releaseTime": "2012-12-24T00:34:20+00:00",
+      "recommended": false,
+      "sha256": "ce72931e2bd1a1d10e650c787096d1def913025b283c57f16764d25da11f7895"
+    },
+    {
+      "version": "6.5.0.475",
+      "releaseTime": "2012-12-23T22:54:44+00:00",
+      "recommended": false,
+      "sha256": "40eb96e0e5c674d141ea72af2c248a04b7bec8beb880cda3b0298ac5760cb45b"
+    },
+    {
+      "version": "6.5.0.474",
+      "releaseTime": "2012-12-23T13:37:12+00:00",
+      "recommended": false,
+      "sha256": "288817c92944611e7e81a7e03aa7797743d09b46abb2eb342a79a6b1fd349180"
+    },
+    {
+      "version": "6.5.0.473",
+      "releaseTime": "2012-12-22T05:13:46+00:00",
+      "recommended": false,
+      "sha256": "7b829664271f946ea1d6e698bc24631f1f714e81b59676be6ccfded80912be44"
+    },
+    {
+      "version": "6.5.0.472",
+      "releaseTime": "2012-12-21T13:51:46+00:00",
+      "recommended": false,
+      "sha256": "4f6a323f4f8e08f459a6c7efdf800fa6d885dcc11954ce2cfb14d6c402700455"
+    },
+    {
+      "version": "6.5.0.471",
+      "releaseTime": "2012-12-21T07:29:44+00:00",
+      "recommended": false,
+      "sha256": "2ad744a71ea0e72ba674ed3bd985c2f2418b3fa8e0e1ce064c8060d5b5584449"
+    },
+    {
+      "version": "6.5.0.470",
+      "releaseTime": "2012-12-21T01:20:06+00:00",
+      "recommended": false,
+      "sha256": "e6ae66ec307197a29afe73bfae6a85ef76094e8c98e73d51d19e9ab218a7dc62"
+    },
+    {
+      "version": "6.5.0.469",
+      "releaseTime": "2012-12-20T23:53:48+00:00",
+      "recommended": false,
+      "sha256": "b11b21e966f21c1ab022b41f1eb09896dbb86611da5e891b1c63d3839e813fe0"
+    },
+    {
+      "version": "6.5.0.468",
+      "releaseTime": "2012-12-20T19:45:14+00:00",
+      "recommended": false,
+      "sha256": "0fbd96ad4da1b01841fcee85e19a60ed9dd844ecae954ce37c4c1e152d40cea3"
+    },
+    {
+      "version": "6.5.0.467",
+      "releaseTime": "2012-12-20T16:07:14+00:00",
+      "recommended": false,
+      "sha256": "abe3e19efaf4984f838ef96900a1eb16e426a15aef998fef86033d419b70b930"
+    },
+    {
+      "version": "6.5.0.466",
+      "releaseTime": "2012-12-20T08:55:54+00:00",
+      "recommended": false,
+      "sha256": "578d956161cacea087b9bb24e7e0d70bdc78c04e58ec47db97c44768ec56d8d2"
+    },
+    {
+      "version": "6.5.0.465",
+      "releaseTime": "2012-12-20T06:55:52+00:00",
+      "recommended": false,
+      "sha256": "84731d3e8ac0b8076bc06b59f273166b880d2b06c30f80a134d8c4bd0a521395"
+    },
+    {
+      "version": "6.5.0.464",
+      "releaseTime": "2012-12-20T06:29:08+00:00",
+      "recommended": false,
+      "sha256": "97e1fee76c47983c2490ed50fd2b043ecb0681ddb7eaadbe05d621d5b1bb4c64"
+    },
+    {
+      "version": "6.5.0.463",
+      "releaseTime": "2012-12-19T14:47:42+00:00",
+      "recommended": false,
+      "sha256": "7fbb1b485edbae3da6d32068a04d6462ad58a11cc6a1814c0a9a7edd921a18a5"
+    },
+    {
+      "version": "6.5.0.462",
+      "releaseTime": "2012-12-18T20:22:02+00:00",
+      "recommended": false,
+      "sha256": "0146a74107a3d4f1b9e48a5823150fc03c8703aa6692fb56d2b13c90eecda96e"
+    },
+    {
+      "version": "6.5.0.461",
+      "releaseTime": "2012-12-18T20:15:42+00:00",
+      "recommended": false,
+      "sha256": "92a2f0dad13b411d1b6bb518035158ab893aac134bffd109ed0722aa72fc0ca5"
+    },
+    {
+      "version": "6.5.0.460",
+      "releaseTime": "2012-12-18T16:45:26+00:00",
+      "recommended": false,
+      "sha256": "d5b15630a292b955448a3a9acda5cf8b2c265cec4bb9f4a3ad8645f0f266a64f"
+    },
+    {
+      "version": "6.5.0.459",
+      "releaseTime": "2012-12-18T16:06:36+00:00",
+      "recommended": false,
+      "sha256": "ec92853d0f7b3afb096de585e2f1e4eb005bdfceb7135fb35661999b06308c56"
+    },
+    {
+      "version": "6.5.0.458",
+      "releaseTime": "2012-12-18T15:13:42+00:00",
+      "recommended": false,
+      "sha256": "0d7d4791ec6819f3a7d99f8e78c9dc4f5eb88c07ee4977aca2fd3cc038eaa3cb"
+    },
+    {
+      "version": "6.5.0.457",
+      "releaseTime": "2012-12-18T12:23:28+00:00",
+      "recommended": false,
+      "sha256": "da125677629e6b3e7cccef1ab38db35525507ed97a00a13c766126f8d38b2607"
+    },
+    {
+      "version": "6.5.0.456",
+      "releaseTime": "2012-12-18T11:37:00+00:00",
+      "recommended": false,
+      "sha256": "e3973baff227141296a4e90db7f81ba462bea824d674a1a0541c9cc740a9b2da"
+    },
+    {
+      "version": "6.5.0.455",
+      "releaseTime": "2012-12-18T09:05:42+00:00",
+      "recommended": false,
+      "sha256": "d5e1f494c02babc3af13c5eb203c7e5dfbcd8482a321a84e0a61717742ff2935"
+    },
+    {
+      "version": "6.5.0.454",
+      "releaseTime": "2012-12-18T07:59:58+00:00",
+      "recommended": false,
+      "sha256": "e4554e5da718912bbd6437371b6c0a45006fb701ab468c4686fc1b6cb20c1fad"
+    },
+    {
+      "version": "6.5.0.453",
+      "releaseTime": "2012-12-18T07:25:04+00:00",
+      "recommended": false,
+      "sha256": "f550850053fc2f922ad8355c704a0969b87fb2ac25ab9f3b3987dd7e3b5f6360"
+    },
+    {
+      "version": "6.5.0.452",
+      "releaseTime": "2012-12-18T06:33:42+00:00",
+      "recommended": false,
+      "sha256": "986c369de1e61695c55638de815e6e6a6effdb4c0b39958f0efce760493dfc0b"
+    },
+    {
+      "version": "6.5.0.451",
+      "releaseTime": "2012-12-18T01:35:54+00:00",
+      "recommended": false,
+      "sha256": "cd93617813848ab5b79fb8df1479f7891dedd2d8dba74b40c3b9b4fe3bf66469"
+    }
+  ],
   "1.4.5": [
     {
       "version": "6.4.2.448",
@@ -28475,236 +28711,6 @@
       "releaseTime": "2012-11-16T15:47:20+00:00",
       "recommended": false,
       "sha256": "03a7e64eac958eb30386831c1a7ddfb3b093a8e599e5afdffaf2a7108c45efe0"
-    }
-  ],
-  "1.4.6": [
-    {
-      "version": "6.5.0.489",
-      "releaseTime": "2012-12-27T23:17:08+00:00",
-      "recommended": false,
-      "sha256": "1749ea9889cfb4adb0e929e1d72ccc7fa863c1d39a08c5fa367a0e7d6c359f69"
-    },
-    {
-      "version": "6.5.0.488",
-      "releaseTime": "2012-12-27T21:24:56+00:00",
-      "recommended": false,
-      "sha256": "28266bb225676e134222c21483be609a3c513fa7ea5391bcdcaf9cf1e3765158"
-    },
-    {
-      "version": "6.5.0.487",
-      "releaseTime": "2012-12-27T14:56:32+00:00",
-      "recommended": false,
-      "sha256": "617fbdff984e194fd41f2351e46fb2514c701e23f50302a28049b1b09c83dc65"
-    },
-    {
-      "version": "6.5.0.486",
-      "releaseTime": "2012-12-25T23:32:22+00:00",
-      "recommended": false,
-      "sha256": "f7b8dd6aa2f5ed1ca13ecb776ae381056fe7cd9f8048b4d643f996403306b284"
-    },
-    {
-      "version": "6.5.0.484",
-      "releaseTime": "2012-12-25T23:08:44+00:00",
-      "recommended": false,
-      "sha256": "f2e3f4b892040616656f9518b4904f6cab300bd06e1a46fc65b60c12ac5eefa9"
-    },
-    {
-      "version": "6.5.0.483",
-      "releaseTime": "2012-12-25T20:16:10+00:00",
-      "recommended": false,
-      "sha256": "38976eb6e464e123e91110ea9d7a0431ed60376a538e6317815435506dfbeb04"
-    },
-    {
-      "version": "6.5.0.482",
-      "releaseTime": "2012-12-25T17:20:24+00:00",
-      "recommended": false,
-      "sha256": "bc3fe00e88d75c9fdfe463d2a30300249397f252daf512009bd05d28bdabb0e4"
-    },
-    {
-      "version": "6.5.0.481",
-      "releaseTime": "2012-12-24T10:18:58+00:00",
-      "recommended": false,
-      "sha256": "e33de1a0cce1e27d3a475a4f0b8183d0a6a2125ecad6e5496113d3d0682b1832"
-    },
-    {
-      "version": "6.5.0.480",
-      "releaseTime": "2012-12-24T02:58:50+00:00",
-      "recommended": false,
-      "sha256": "6ffcad56d252d4f75e4f12f5e65b4af1561ee362026e6b4bccf4c4af9e445280"
-    },
-    {
-      "version": "6.5.0.479",
-      "releaseTime": "2012-12-24T02:42:26+00:00",
-      "recommended": false,
-      "sha256": "9ea34a03ee8a554ec67dc2b92055565d9ee8d7d12d327bcfab35b7a60a435075"
-    },
-    {
-      "version": "6.5.0.478",
-      "releaseTime": "2012-12-24T02:33:06+00:00",
-      "recommended": false,
-      "sha256": "2fa76b75a09ad0a779f83c25b954aace0ecb7b1beb916287fe6e2984265ff991"
-    },
-    {
-      "version": "6.5.0.477",
-      "releaseTime": "2012-12-24T00:40:32+00:00",
-      "recommended": false,
-      "sha256": "8b340d106a43329e5b01cef06c825ad5ed5219e8761d99110496edf38fd1ca53"
-    },
-    {
-      "version": "6.5.0.476",
-      "releaseTime": "2012-12-24T00:34:20+00:00",
-      "recommended": false,
-      "sha256": "ce72931e2bd1a1d10e650c787096d1def913025b283c57f16764d25da11f7895"
-    },
-    {
-      "version": "6.5.0.475",
-      "releaseTime": "2012-12-23T22:54:44+00:00",
-      "recommended": false,
-      "sha256": "40eb96e0e5c674d141ea72af2c248a04b7bec8beb880cda3b0298ac5760cb45b"
-    },
-    {
-      "version": "6.5.0.474",
-      "releaseTime": "2012-12-23T13:37:12+00:00",
-      "recommended": false,
-      "sha256": "288817c92944611e7e81a7e03aa7797743d09b46abb2eb342a79a6b1fd349180"
-    },
-    {
-      "version": "6.5.0.473",
-      "releaseTime": "2012-12-22T05:13:46+00:00",
-      "recommended": false,
-      "sha256": "7b829664271f946ea1d6e698bc24631f1f714e81b59676be6ccfded80912be44"
-    },
-    {
-      "version": "6.5.0.472",
-      "releaseTime": "2012-12-21T13:51:46+00:00",
-      "recommended": false,
-      "sha256": "4f6a323f4f8e08f459a6c7efdf800fa6d885dcc11954ce2cfb14d6c402700455"
-    },
-    {
-      "version": "6.5.0.471",
-      "releaseTime": "2012-12-21T07:29:44+00:00",
-      "recommended": false,
-      "sha256": "2ad744a71ea0e72ba674ed3bd985c2f2418b3fa8e0e1ce064c8060d5b5584449"
-    },
-    {
-      "version": "6.5.0.470",
-      "releaseTime": "2012-12-21T01:20:06+00:00",
-      "recommended": false,
-      "sha256": "e6ae66ec307197a29afe73bfae6a85ef76094e8c98e73d51d19e9ab218a7dc62"
-    },
-    {
-      "version": "6.5.0.469",
-      "releaseTime": "2012-12-20T23:53:48+00:00",
-      "recommended": false,
-      "sha256": "b11b21e966f21c1ab022b41f1eb09896dbb86611da5e891b1c63d3839e813fe0"
-    },
-    {
-      "version": "6.5.0.468",
-      "releaseTime": "2012-12-20T19:45:14+00:00",
-      "recommended": false,
-      "sha256": "0fbd96ad4da1b01841fcee85e19a60ed9dd844ecae954ce37c4c1e152d40cea3"
-    },
-    {
-      "version": "6.5.0.467",
-      "releaseTime": "2012-12-20T16:07:14+00:00",
-      "recommended": false,
-      "sha256": "abe3e19efaf4984f838ef96900a1eb16e426a15aef998fef86033d419b70b930"
-    },
-    {
-      "version": "6.5.0.466",
-      "releaseTime": "2012-12-20T08:55:54+00:00",
-      "recommended": false,
-      "sha256": "578d956161cacea087b9bb24e7e0d70bdc78c04e58ec47db97c44768ec56d8d2"
-    },
-    {
-      "version": "6.5.0.465",
-      "releaseTime": "2012-12-20T06:55:52+00:00",
-      "recommended": false,
-      "sha256": "84731d3e8ac0b8076bc06b59f273166b880d2b06c30f80a134d8c4bd0a521395"
-    },
-    {
-      "version": "6.5.0.464",
-      "releaseTime": "2012-12-20T06:29:08+00:00",
-      "recommended": false,
-      "sha256": "97e1fee76c47983c2490ed50fd2b043ecb0681ddb7eaadbe05d621d5b1bb4c64"
-    },
-    {
-      "version": "6.5.0.463",
-      "releaseTime": "2012-12-19T14:47:42+00:00",
-      "recommended": false,
-      "sha256": "7fbb1b485edbae3da6d32068a04d6462ad58a11cc6a1814c0a9a7edd921a18a5"
-    },
-    {
-      "version": "6.5.0.462",
-      "releaseTime": "2012-12-18T20:22:02+00:00",
-      "recommended": false,
-      "sha256": "0146a74107a3d4f1b9e48a5823150fc03c8703aa6692fb56d2b13c90eecda96e"
-    },
-    {
-      "version": "6.5.0.461",
-      "releaseTime": "2012-12-18T20:15:42+00:00",
-      "recommended": false,
-      "sha256": "92a2f0dad13b411d1b6bb518035158ab893aac134bffd109ed0722aa72fc0ca5"
-    },
-    {
-      "version": "6.5.0.460",
-      "releaseTime": "2012-12-18T16:45:26+00:00",
-      "recommended": false,
-      "sha256": "d5b15630a292b955448a3a9acda5cf8b2c265cec4bb9f4a3ad8645f0f266a64f"
-    },
-    {
-      "version": "6.5.0.459",
-      "releaseTime": "2012-12-18T16:06:36+00:00",
-      "recommended": false,
-      "sha256": "ec92853d0f7b3afb096de585e2f1e4eb005bdfceb7135fb35661999b06308c56"
-    },
-    {
-      "version": "6.5.0.458",
-      "releaseTime": "2012-12-18T15:13:42+00:00",
-      "recommended": false,
-      "sha256": "0d7d4791ec6819f3a7d99f8e78c9dc4f5eb88c07ee4977aca2fd3cc038eaa3cb"
-    },
-    {
-      "version": "6.5.0.457",
-      "releaseTime": "2012-12-18T12:23:28+00:00",
-      "recommended": false,
-      "sha256": "da125677629e6b3e7cccef1ab38db35525507ed97a00a13c766126f8d38b2607"
-    },
-    {
-      "version": "6.5.0.456",
-      "releaseTime": "2012-12-18T11:37:00+00:00",
-      "recommended": false,
-      "sha256": "e3973baff227141296a4e90db7f81ba462bea824d674a1a0541c9cc740a9b2da"
-    },
-    {
-      "version": "6.5.0.455",
-      "releaseTime": "2012-12-18T09:05:42+00:00",
-      "recommended": false,
-      "sha256": "d5e1f494c02babc3af13c5eb203c7e5dfbcd8482a321a84e0a61717742ff2935"
-    },
-    {
-      "version": "6.5.0.454",
-      "releaseTime": "2012-12-18T07:59:58+00:00",
-      "recommended": false,
-      "sha256": "e4554e5da718912bbd6437371b6c0a45006fb701ab468c4686fc1b6cb20c1fad"
-    },
-    {
-      "version": "6.5.0.453",
-      "releaseTime": "2012-12-18T07:25:04+00:00",
-      "recommended": false,
-      "sha256": "f550850053fc2f922ad8355c704a0969b87fb2ac25ab9f3b3987dd7e3b5f6360"
-    },
-    {
-      "version": "6.5.0.452",
-      "releaseTime": "2012-12-18T06:33:42+00:00",
-      "recommended": false,
-      "sha256": "986c369de1e61695c55638de815e6e6a6effdb4c0b39958f0efce760493dfc0b"
-    },
-    {
-      "version": "6.5.0.451",
-      "releaseTime": "2012-12-18T01:35:54+00:00",
-      "recommended": false,
-      "sha256": "cd93617813848ab5b79fb8df1479f7891dedd2d8dba74b40c3b9b4fe3bf66469"
     }
   ],
   "1.4.4": [
