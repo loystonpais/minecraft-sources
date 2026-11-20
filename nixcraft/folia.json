@@ -16,15 +16,15 @@
   ],
   "builds": {
     "26.3": {
-      "build": 25,
+      "build": 26,
       "channel": "STABLE",
-      "url": "https://fill-data.papermc.io/v1/objects/c7e3d9302f08afa5e258c91981b4f55fd3108fd886aaa7e7234b7a8c15a9b85c/folia-26.3-25.jar",
+      "url": "https://fill-data.papermc.io/v1/objects/99263358903dbc44d4a90d45b5fbb7dfdce532154734489be89a3a94088063dc/folia-26.3-26.jar",
       "server": {
         "filename": "mojang_26.3.jar",
         "url": "https://piston-data.mojang.com/v1/objects/33680f5f2ac32864d6d7cf5e56a705fdb3e05f4c/server.jar",
         "hash": "sha256-0FLxTXoXNzT7pVNxHltXAWLi8qMTJn7jGiG5daZ5vmQ="
       },
-      "hash": "sha256-x+PZMC8Ir6XiWMkZgbT1X9MQj9iGqqfnI0t6jBWpuFw="
+      "hash": "sha256-mSYzWJA9vETUqQ1Ftfu339zlMhVHNEib6Jo6lAiAY9w="
     },
     "26.2": {
       "build": 7,

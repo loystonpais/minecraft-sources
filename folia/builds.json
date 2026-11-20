@@ -1,10 +1,10 @@
 {
   "26.3": {
-    "build": 25,
-    "time": "2026-11-19T01:09:23Z",
+    "build": 26,
+    "time": "2026-11-19T04:43:55Z",
     "channel": "STABLE",
-    "url": "https://fill-data.papermc.io/v1/objects/c7e3d9302f08afa5e258c91981b4f55fd3108fd886aaa7e7234b7a8c15a9b85c/folia-26.3-25.jar",
-    "sha256": "c7e3d9302f08afa5e258c91981b4f55fd3108fd886aaa7e7234b7a8c15a9b85c",
+    "url": "https://fill-data.papermc.io/v1/objects/99263358903dbc44d4a90d45b5fbb7dfdce532154734489be89a3a94088063dc/folia-26.3-26.jar",
+    "sha256": "99263358903dbc44d4a90d45b5fbb7dfdce532154734489be89a3a94088063dc",
     "server": {
       "filename": "mojang_26.3.jar",
       "sha256": "d052f14d7a173734fba553711e5b570162e2f2a313267ee31a21b975a679be64",
