@@ -295,6 +295,10 @@
     "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
     "sha1": "5f66cc9f59b8efaa942155a3d5a30599bf6640dd"
   },
+  "net.fabricmc:sponge-mixin:0.17.5+mixin.0.8.7": {
+    "url": "https://maven.neoforged.net/releases/net/fabricmc/sponge-mixin/0.17.5+mixin.0.8.7/sponge-mixin-0.17.5+mixin.0.8.7.jar",
+    "sha1": "0cef8519a91129d0c21fa03bb9378f0e8ca810e5"
+  },
   "net.jodah:typetools:0.6.3": {
     "url": "https://maven.neoforged.net/releases/net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
     "sha1": "a01aaa6ddaea9ec07ec4f209487b7a46a526283a"
@@ -463,6 +467,10 @@
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/12.0.12/earlydisplay-12.0.12.jar",
     "sha1": "08437387fd35033b1ea0d3fac7cc28ced4efdc6b"
   },
+  "net.neoforged.fancymodloader:earlydisplay:12.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/12.0.16/earlydisplay-12.0.16.jar",
+    "sha1": "efa2e56115d22853d10524874a7bbb64555c2a28"
+  },
   "net.neoforged.fancymodloader:earlydisplay:2.0.17": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/2.0.17/earlydisplay-2.0.17.jar",
     "sha1": "d6af13e1290e79c7e4501a097cdd1bd50531f5f3"
@@ -586,6 +594,10 @@
   "net.neoforged.fancymodloader:loader:12.0.12": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/12.0.12/loader-12.0.12.jar",
     "sha1": "f097a25d6289aa0b289e7cdb6de83a5c8c72f77e"
+  },
+  "net.neoforged.fancymodloader:loader:12.0.16": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/12.0.16/loader-12.0.16.jar",
+    "sha1": "edbb2ee8211a867215970bc15ae9c354fa56dc09"
   },
   "net.neoforged.fancymodloader:loader:2.0.17": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/2.0.17/loader-2.0.17.jar",
@@ -1159,6 +1171,14 @@
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.127/neoforge-26.1.2.127-universal.jar",
     "sha1": "98379145758536f80799b7b77e4d0dc9019f1c68"
   },
+  "net.neoforged:neoforge:26.1.2.128:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.128/neoforge-26.1.2.128-installer.jar",
+    "sha1": "37945a56423065c8679a0b415ff3acdb9f328052"
+  },
+  "net.neoforged:neoforge:26.1.2.128:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.128/neoforge-26.1.2.128-universal.jar",
+    "sha1": "004450fc25eb86a74c379cc71d294e8b62d0b7e7"
+  },
   "net.neoforged:neoforge:26.2.0.93:installer": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.2.0.93/neoforge-26.2.0.93-installer.jar",
     "sha1": "97205829a020fc9389f504a77f590b54157c8dde"
@@ -1222,6 +1242,14 @@
   "net.neoforged:neoforge:26.3.0.113:universal": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.113/neoforge-26.3.0.113-universal.jar",
     "sha1": "7aef686b46a81426526f936f11c15b11962a3877"
+  },
+  "net.neoforged:neoforge:26.3.0.115:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.115/neoforge-26.3.0.115-installer.jar",
+    "sha1": "0a096663e7e11717b695f8fdab463f37327bfa72"
+  },
+  "net.neoforged:neoforge:26.3.0.115:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.115/neoforge-26.3.0.115-universal.jar",
+    "sha1": "e3b5ff81f585f0d6fcdd9d7343b7115fa6401a12"
   },
   "net.neoforged:neoforge:26.3.0.95:installer": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.95/neoforge-26.3.0.95-installer.jar",

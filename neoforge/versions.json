@@ -1,6 +1,18 @@
 {
   "26.3": [
     {
+      "version": "26.3.0.115",
+      "releaseTime": "2026-11-20T08:49:30.994238+00:00",
+      "recommended": false,
+      "sha256": "5fd66b9a6e30a1fc2a4dd0fcf7591da2cf6faeec7c26344c8c2f410af96ebc07"
+    },
+    {
+      "version": "26.3.0.114",
+      "releaseTime": "2026-11-20T06:44:05.592626+00:00",
+      "recommended": false,
+      "sha256": "64fd9858a4a05a5431229df8121c93b7d07035ac36e4d83e896a3bd904da574a"
+    },
+    {
       "version": "26.3.0.113",
       "releaseTime": "2026-11-17T23:48:01.072744+00:00",
       "recommended": false,
@@ -1222,6 +1234,12 @@
     }
   ],
   "26.1.2": [
+    {
+      "version": "26.1.2.128",
+      "releaseTime": "2026-11-20T06:50:30.005512+00:00",
+      "recommended": false,
+      "sha256": "eabeb7f3e06870395be6dff43d1c25e392c7b72a24b04338a472e8dc324687a5"
+    },
     {
       "version": "26.1.2.127",
       "releaseTime": "2026-11-17T03:28:36.727881+00:00",
