@@ -2,7 +2,7 @@
   "versions": [
     "26.3.0.115",
     "26.2.0.95",
-    "26.1.2.128",
+    "26.1.2.129",
     "26.1.1.15-beta",
     "26.1.0.19-beta",
     "26.1.0.0-alpha.15+pre-3",
@@ -37,7 +37,7 @@
   "game_versions": {
     "26.3": "26.3.0.115",
     "26.2": "26.2.0.95",
-    "26.1.2": "26.1.2.128",
+    "26.1.2": "26.1.2.129",
     "26.1.1": "26.1.1.15-beta",
     "26.1": "26.1.0.19-beta",
     "26.1-pre-3": "26.1.0.0-alpha.15+pre-3",
@@ -228,7 +228,7 @@
         "--fml.neoFormVersion": "2"
       }
     },
-    "26.1.2.128": {
+    "26.1.2.129": {
       "dependencies": [
         "io.github.zekerzhayard:ForgeWrapper:prism-2026-08-01",
         "net.neoforged.fancymodloader:earlydisplay:11.0.15",
@@ -259,7 +259,7 @@
         "org.codehaus.plexus:plexus-utils:3.5.1"
       ],
       "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
-      "installer": "net.neoforged:neoforge:26.1.2.128:installer",
+      "installer": "net.neoforged:neoforge:26.1.2.129:installer",
       "installerDependencies": [
         "net.neoforged.fancymodloader:earlydisplay:11.0.15",
         "net.neoforged.fancymodloader:loader:11.0.15",
@@ -290,7 +290,7 @@
         "com.google.j2objc:j2objc-annotations:3.1",
         "org.codehaus.plexus:plexus-utils:3.5.1",
         "net.neoforged.installertools:installertools:4.0.12:fatjar",
-        "net.neoforged:neoforge:26.1.2.128:universal"
+        "net.neoforged:neoforge:26.1.2.129:universal"
       ],
       "minecraftArguments": {
         "--username": "${auth_player_name}",
@@ -302,7 +302,7 @@
         "--accessToken": "${auth_access_token}",
         "--userType": "${user_type}",
         "--versionType": "${version_type}",
-        "--fml.neoForgeVersion": "26.1.2.128",
+        "--fml.neoForgeVersion": "26.1.2.129",
         "--fml.mcVersion": "26.1.2",
         "--fml.neoFormVersion": "1"
       }

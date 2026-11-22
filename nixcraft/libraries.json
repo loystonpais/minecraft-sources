@@ -15039,6 +15039,14 @@
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.128/neoforge-26.1.2.128-universal.jar",
     "hash": "sha1-AERQ/CXrhqdMN5zHHSlOi2LQt+c="
   },
+  "net.neoforged:neoforge:26.1.2.129:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.129/neoforge-26.1.2.129-installer.jar",
+    "hash": "sha1-BLuAfnde5aSsEXl3xvem4Hdf0ew="
+  },
+  "net.neoforged:neoforge:26.1.2.129:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.129/neoforge-26.1.2.129-universal.jar",
+    "hash": "sha1-Yl2CRrp45FV7beg4NCcQjvVs8x4="
+  },
   "net.neoforged:neoforge:26.2.0.93:installer": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.2.0.93/neoforge-26.2.0.93-installer.jar",
     "hash": "sha1-lyBYKaAg/JOJ9QSnf1kLVBV8jd4="

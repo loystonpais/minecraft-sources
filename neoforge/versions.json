@@ -1235,6 +1235,12 @@
   ],
   "26.1.2": [
     {
+      "version": "26.1.2.129",
+      "releaseTime": "2026-11-21T11:17:39.411183+00:00",
+      "recommended": false,
+      "sha256": "69079efc83632a231d855d8bb29ff2986957b8a19f6f7b0be8ae8e098c5795bc"
+    },
+    {
       "version": "26.1.2.128",
       "releaseTime": "2026-11-20T06:50:30.005512+00:00",
       "recommended": false,
