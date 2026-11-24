@@ -1,10 +1,10 @@
 {
   "26.3": {
-    "build": 258,
-    "time": "2026-11-22T12:09:08Z",
+    "build": 259,
+    "time": "2026-11-23T10:00:22Z",
     "channel": "STABLE",
-    "url": "https://fill-data.papermc.io/v1/objects/c5df5fb9f6155e48380c67c6e2b2dc2581b7db1a4b665d2c3818057b7efb6692/paper-26.3-258.jar",
-    "sha256": "c5df5fb9f6155e48380c67c6e2b2dc2581b7db1a4b665d2c3818057b7efb6692",
+    "url": "https://fill-data.papermc.io/v1/objects/5efbc6ce4b8e128bfa77fa0d3e79132dfeaaab827abe0f87dd930535e5e489fd/paper-26.3-259.jar",
+    "sha256": "5efbc6ce4b8e128bfa77fa0d3e79132dfeaaab827abe0f87dd930535e5e489fd",
     "server": {
       "filename": "mojang_26.3.jar",
       "sha256": "d052f14d7a173734fba553711e5b570162e2f2a313267ee31a21b975a679be64",

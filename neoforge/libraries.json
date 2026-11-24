@@ -471,6 +471,10 @@
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/12.0.16/earlydisplay-12.0.16.jar",
     "sha1": "efa2e56115d22853d10524874a7bbb64555c2a28"
   },
+  "net.neoforged.fancymodloader:earlydisplay:12.0.17": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/12.0.17/earlydisplay-12.0.17.jar",
+    "sha1": "acee53efe1ca73e298f81588531767142d210370"
+  },
   "net.neoforged.fancymodloader:earlydisplay:2.0.17": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/2.0.17/earlydisplay-2.0.17.jar",
     "sha1": "d6af13e1290e79c7e4501a097cdd1bd50531f5f3"
@@ -598,6 +602,10 @@
   "net.neoforged.fancymodloader:loader:12.0.16": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/12.0.16/loader-12.0.16.jar",
     "sha1": "edbb2ee8211a867215970bc15ae9c354fa56dc09"
+  },
+  "net.neoforged.fancymodloader:loader:12.0.17": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/12.0.17/loader-12.0.17.jar",
+    "sha1": "839a0248253c0799f3816070abf5e2949383b45a"
   },
   "net.neoforged.fancymodloader:loader:2.0.17": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/2.0.17/loader-2.0.17.jar",
@@ -1258,6 +1266,14 @@
   "net.neoforged:neoforge:26.3.0.115:universal": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.115/neoforge-26.3.0.115-universal.jar",
     "sha1": "e3b5ff81f585f0d6fcdd9d7343b7115fa6401a12"
+  },
+  "net.neoforged:neoforge:26.3.0.117:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.117/neoforge-26.3.0.117-installer.jar",
+    "sha1": "b6e870a716fbe39cba0a0aedf693a5f79e7447bd"
+  },
+  "net.neoforged:neoforge:26.3.0.117:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.117/neoforge-26.3.0.117-universal.jar",
+    "sha1": "b63b92cf92a6df1373cf97a6429fdb0e783031b3"
   },
   "net.neoforged:neoforge:26.3.0.95:installer": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.95/neoforge-26.3.0.95-installer.jar",
