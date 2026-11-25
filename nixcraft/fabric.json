@@ -2313,6 +2313,9 @@
     }
   },
   "mappings": {
+    "26.4-pre-1": [
+      "net.fabricmc:intermediary:26.4-pre-1"
+    ],
     "26.4-snapshot-10": [
       "net.fabricmc:intermediary:26.4-snapshot-10"
     ],

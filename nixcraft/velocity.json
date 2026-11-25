@@ -173,10 +173,10 @@
       "hash": "sha256-CES8q9zbT1uHWQb9TDNlvBu3aRjkK8WV7YitGVJY3XU="
     },
     "4.3.2-SNAPSHOT": {
-      "build": 50,
+      "build": 51,
       "channel": "BETA",
-      "url": "https://fill-data.papermc.io/v1/objects/3d3934f3343743392d404d9faad6d70fb2ed1cce82833923dc63f96cca72df9a/velocity-4.3.2-SNAPSHOT-50.jar",
-      "hash": "sha256-PTk08zQ3QzktQE2fqtbXD7LtHM6Cgzkj3GP5bMpy35o="
+      "url": "https://fill-data.papermc.io/v1/objects/553875309c8b8a144689e5e16ab96023085bea1ad6bbf285fe6ae03b94abbc09/velocity-4.3.2-SNAPSHOT-51.jar",
+      "hash": "sha256-VTh1MJyLihRGieXharlgIwhb6hrWu/KF/mrgO5SrvAk="
     }
   }
 }

@@ -119,6 +119,10 @@
     "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar",
     "sha1": "efc0e34ede4e3204eaefb84a00e55e8c86634382"
   },
+  "com.google.code.gson:gson:2.15.0": {
+    "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.15.0/gson-2.15.0.jar",
+    "sha1": "3c8f3903bd90f774de74f126be756bbc1408abcb"
+  },
   "com.google.code.gson:gson:2.2.2": {
     "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar",
     "sha1": "1f96456ca233dec780aa224bff076d8e8bca3908"
@@ -198,6 +202,10 @@
   "com.google.guava:guava:33.6.0-jre": {
     "url": "https://libraries.minecraft.net/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar",
     "sha1": "c376b13067cc99a5774403530953f7b05a91e218"
+  },
+  "com.google.guava:guava:33.8.0-jre": {
+    "url": "https://libraries.minecraft.net/com/google/guava/guava/33.8.0-jre/guava-33.8.0-jre.jar",
+    "sha1": "bb3b79346325315062192205fa6636dd5873151f"
   },
   "com.ibm.icu:icu4j-core-mojang:51.2": {
     "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
@@ -358,6 +366,10 @@
   "com.mojang:authlib:12.0.82": {
     "url": "https://libraries.minecraft.net/com/mojang/authlib/12.0.82/authlib-12.0.82.jar",
     "sha1": "93399b2668d84d171c07b8eb99bd118823285fc2"
+  },
+  "com.mojang:authlib:13.0.85": {
+    "url": "https://libraries.minecraft.net/com/mojang/authlib/13.0.85/authlib-13.0.85.jar",
+    "sha1": "5ceeb61aaf1ee92d3c019711a6d9755535b9aa22"
   },
   "com.mojang:authlib:2.0.26": {
     "url": "https://libraries.minecraft.net/com/mojang/authlib/2.0.26/authlib-2.0.26.jar",
@@ -1327,6 +1339,10 @@
     "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar",
     "sha1": "6b3eb4beb7058c2a638f5f17bcb388649fd339dd"
   },
+  "commons-codec:commons-codec:1.23.0": {
+    "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.23.0/commons-codec-1.23.0.jar",
+    "sha1": "11adf2daaeb941e80599a3e8010d63aed995f509"
+  },
   "commons-codec:commons-codec:1.9": {
     "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.9/commons-codec-1.9.jar",
     "sha1": "9ce04e34240f674bc72680f8b843b1457383161a"
@@ -1350,6 +1366,10 @@
   "commons-io:commons-io:2.20.0": {
     "url": "https://libraries.minecraft.net/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar",
     "sha1": "36f3474daec2849c149e877614e7f979b2082cd2"
+  },
+  "commons-io:commons-io:2.22.0": {
+    "url": "https://libraries.minecraft.net/commons-io/commons-io/2.22.0/commons-io-2.22.0.jar",
+    "sha1": "5b1e18bc0ad651ed878029d83f88d9c8189fd51e"
   },
   "commons-io:commons-io:2.4": {
     "url": "https://libraries.minecraft.net/commons-io/commons-io/2.4/commons-io-2.4.jar",
@@ -1959,6 +1979,10 @@
     "url": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/8.5.18/fastutil-8.5.18.jar",
     "sha1": "a6cff377eecc19c2037bf31568a6d7106b50ba1f"
   },
+  "it.unimi.dsi:fastutil:8.5.19": {
+    "url": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/8.5.19/fastutil-8.5.19.jar",
+    "sha1": "34847c23d75288da05c8027eb4475dfffdef1600"
+  },
   "it.unimi.dsi:fastutil:8.5.6": {
     "url": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar",
     "sha1": "76f95700418a68fbc4ac050525261f05dc681ca1"
@@ -2199,6 +2223,10 @@
     "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar",
     "sha1": "65897b3e5731220962e659e001904af3c3cbeba9"
   },
+  "org.apache.commons:commons-lang3:3.22.0": {
+    "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.22.0/commons-lang3-3.22.0.jar",
+    "sha1": "fda38d1637719132fa12b5b96ea99958fc7150e7"
+  },
   "org.apache.commons:commons-lang3:3.3.2": {
     "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar",
     "sha1": "90a3822c38ec8c996e84c16a3477ef632cbc87a3"
@@ -2366,6 +2394,10 @@
   "org.jspecify:jspecify:1.0.0": {
     "url": "https://libraries.minecraft.net/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar",
     "sha1": "7425a601c1c7ec76645a78d22b8c6a627edee507"
+  },
+  "org.jspecify:jspecify:1.0.1": {
+    "url": "https://libraries.minecraft.net/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar",
+    "sha1": "3d60fd98eb8ade73004f4195c37b6317e02cf3d7"
   },
   "org.lwjgl.lwjgl:lwjgl-platform:2.9.0:natives-linux": {
     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.0/lwjgl-platform-2.9.0-natives-linux.jar",
@@ -2666,6 +2698,30 @@
   "org.lwjgl:lwjgl-freetype:3.4.3": {
     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3/lwjgl-freetype-3.4.3.jar",
     "sha1": "d2b12961d44f92860fb1ab501f9c69b7a2975236"
+  },
+  "org.lwjgl:lwjgl-freetype:3.4.3-mojang-2.15.0": {
+    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3-mojang-2.15.0/lwjgl-freetype-3.4.3-mojang-2.15.0.jar",
+    "sha1": "134bc57b83e78a7f954a0f078093e319739d42ea"
+  },
+  "org.lwjgl:lwjgl-freetype:3.4.3-mojang-2.15.0:natives-linux": {
+    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3-mojang-2.15.0/lwjgl-freetype-3.4.3-mojang-2.15.0-natives-linux.jar",
+    "sha1": "f20ae220999240d484896d839694b02c2a655608"
+  },
+  "org.lwjgl:lwjgl-freetype:3.4.3-mojang-2.15.0:natives-macos": {
+    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3-mojang-2.15.0/lwjgl-freetype-3.4.3-mojang-2.15.0-natives-macos.jar",
+    "sha1": "6a46815640d9ce43533200986a330642a96e9590"
+  },
+  "org.lwjgl:lwjgl-freetype:3.4.3-mojang-2.15.0:natives-macos-arm64": {
+    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3-mojang-2.15.0/lwjgl-freetype-3.4.3-mojang-2.15.0-natives-macos-arm64.jar",
+    "sha1": "95ef1d3420179187f0b5e1ba947329b539e73412"
+  },
+  "org.lwjgl:lwjgl-freetype:3.4.3-mojang-2.15.0:natives-windows": {
+    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3-mojang-2.15.0/lwjgl-freetype-3.4.3-mojang-2.15.0-natives-windows.jar",
+    "sha1": "f85d0f5acaa594f9e93d657f8feff85d6a427b6a"
+  },
+  "org.lwjgl:lwjgl-freetype:3.4.3-mojang-2.15.0:natives-windows-arm64": {
+    "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3-mojang-2.15.0/lwjgl-freetype-3.4.3-mojang-2.15.0-natives-windows-arm64.jar",
+    "sha1": "5f475c76490bb368f235017985d8d9dc6b5b5121"
   },
   "org.lwjgl:lwjgl-freetype:3.4.3:natives-linux": {
     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-freetype/3.4.3/lwjgl-freetype-3.4.3-natives-linux.jar",

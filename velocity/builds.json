@@ -168,10 +168,10 @@
     "sha256": "0844bcabdcdb4f5b875906fd4c3365bc1bb76918e42bc595ed88ad195258dd75"
   },
   "4.3.2-SNAPSHOT": {
-    "build": 50,
-    "time": "2026-11-17T13:59:56.712Z",
+    "build": 51,
+    "time": "2026-11-24T09:55:19.571Z",
     "channel": "BETA",
-    "url": "https://fill-data.papermc.io/v1/objects/3d3934f3343743392d404d9faad6d70fb2ed1cce82833923dc63f96cca72df9a/velocity-4.3.2-SNAPSHOT-50.jar",
-    "sha256": "3d3934f3343743392d404d9faad6d70fb2ed1cce82833923dc63f96cca72df9a"
+    "url": "https://fill-data.papermc.io/v1/objects/553875309c8b8a144689e5e16ab96023085bea1ad6bbf285fe6ae03b94abbc09/velocity-4.3.2-SNAPSHOT-51.jar",
+    "sha256": "553875309c8b8a144689e5e16ab96023085bea1ad6bbf285fe6ae03b94abbc09"
   }
 }
