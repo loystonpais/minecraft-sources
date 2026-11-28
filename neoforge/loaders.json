@@ -2098,8 +2098,8 @@
     ],
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --fml.neoForgeVersion 21.2.1-beta --fml.fmlVersion 4.0.29 --fml.mcVersion 1.21.2 --fml.neoFormVersion 20241022.151510 --launchTarget forgeclient"
   },
-  "21.1.267": {
-    "version": "21.1.267",
+  "21.1.268": {
+    "version": "21.1.268",
     "dependencies": [
       "io.github.zekerzhayard:ForgeWrapper:prism-2026-08-01",
       "net.neoforged.fancymodloader:earlydisplay:4.0.45",
@@ -2148,7 +2148,7 @@
       "org.jline:jline-terminal:3.20.0"
     ],
     "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
-    "installer": "net.neoforged:neoforge:21.1.267:installer",
+    "installer": "net.neoforged:neoforge:21.1.268:installer",
     "installerDependencies": [
       "net.neoforged.fancymodloader:earlydisplay:4.0.45",
       "net.neoforged.fancymodloader:loader:4.0.45",
@@ -2216,9 +2216,9 @@
       "commons-logging:commons-logging:1.2",
       "commons-collections:commons-collections:3.2.2",
       "net.neoforged.installertools:jarsplitter:2.1.2",
-      "net.neoforged:neoforge:21.1.267:universal"
+      "net.neoforged:neoforge:21.1.268:universal"
     ],
-    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --fml.neoForgeVersion 21.1.267 --fml.fmlVersion 4.0.45 --fml.mcVersion 1.21.1 --fml.neoFormVersion 20240808.144430 --launchTarget forgeclient"
+    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type} --fml.neoForgeVersion 21.1.268 --fml.fmlVersion 4.0.45 --fml.mcVersion 1.21.1 --fml.neoFormVersion 20240808.144430 --launchTarget forgeclient"
   },
   "21.0.167": {
     "version": "21.0.167",

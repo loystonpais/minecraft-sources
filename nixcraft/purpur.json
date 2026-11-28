@@ -44,14 +44,14 @@
   ],
   "builds": {
     "26.3": {
-      "build": 2660,
-      "url": "https://api.purpurmc.org/v2/purpur/26.3/2660/download",
+      "build": 2661,
+      "url": "https://api.purpurmc.org/v2/purpur/26.3/2661/download",
       "server": {
         "filename": "mojang_26.3.jar",
         "url": "https://piston-data.mojang.com/v1/objects/33680f5f2ac32864d6d7cf5e56a705fdb3e05f4c/server.jar",
         "hash": "sha256-0FLxTXoXNzT7pVNxHltXAWLi8qMTJn7jGiG5daZ5vmQ="
       },
-      "hash": "md5-6GJ5/HOHI8XkBkF4h/eqMw=="
+      "hash": "md5-VVvyc/7Iin0JEsTekYsfPw=="
     },
     "26.2": {
       "build": 2633,

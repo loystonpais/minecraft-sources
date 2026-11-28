@@ -7935,6 +7935,10 @@
     "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/26.4-pre-1/intermediary-26.4-pre-1.jar",
     "hash": "sha256-LgDFJ/HLesmWpZqSzLRpeNKfs9oEqj1LUhycc37jy3Q="
   },
+  "net.fabricmc:intermediary:26.4-pre-2": {
+    "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/26.4-pre-2/intermediary-26.4-pre-2.jar",
+    "hash": "sha256-LgDFJ/HLesmWpZqSzLRpeNKfs9oEqj1LUhycc37jy3Q="
+  },
   "org.quiltmc:hashed:24w05a": {
     "url": "https://maven.quiltmc.org/repository/release/org/quiltmc/hashed/24w05a/hashed-24w05a.jar",
     "hash": "sha256-9oZ6kyzWTM0XY+mzDKceyTxsHhLreul+/zUUzhhNTxo="
@@ -14886,6 +14890,14 @@
   "net.neoforged:neoforge:21.1.267:universal": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.267/neoforge-21.1.267-universal.jar",
     "hash": "sha1-u5YGXard9xsk9Q9zOfeKPY3W8zU="
+  },
+  "net.neoforged:neoforge:21.1.268:installer": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.268/neoforge-21.1.268-installer.jar",
+    "hash": "sha1-YW++MyF+3RLnp0sCZBdu+oMaHN0="
+  },
+  "net.neoforged:neoforge:21.1.268:universal": {
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.268/neoforge-21.1.268-universal.jar",
+    "hash": "sha1-8+PnYSkcqmQnQELN3DymVFehohQ="
   },
   "net.neoforged:neoforge:21.10.64:installer": {
     "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.10.64/neoforge-21.10.64-installer.jar",

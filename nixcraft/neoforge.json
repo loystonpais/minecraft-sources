@@ -25,7 +25,7 @@
     "21.4.161",
     "21.3.100",
     "21.2.1-beta",
-    "21.1.267",
+    "21.1.268",
     "21.0.167",
     "20.6.144",
     "20.5.21-beta",
@@ -60,7 +60,7 @@
     "1.21.4": "21.4.161",
     "1.21.3": "21.3.100",
     "1.21.2": "21.2.1-beta",
-    "1.21.1": "21.1.267",
+    "1.21.1": "21.1.268",
     "1.21": "21.0.167",
     "1.20.6": "20.6.144",
     "1.20.5": "20.5.21-beta",
@@ -2485,7 +2485,7 @@
         "--launchTarget": "forgeclient"
       }
     },
-    "21.1.267": {
+    "21.1.268": {
       "dependencies": [
         "io.github.zekerzhayard:ForgeWrapper:prism-2026-08-01",
         "net.neoforged.fancymodloader:earlydisplay:4.0.45",
@@ -2534,7 +2534,7 @@
         "org.jline:jline-terminal:3.20.0"
       ],
       "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
-      "installer": "net.neoforged:neoforge:21.1.267:installer",
+      "installer": "net.neoforged:neoforge:21.1.268:installer",
       "installerDependencies": [
         "net.neoforged.fancymodloader:earlydisplay:4.0.45",
         "net.neoforged.fancymodloader:loader:4.0.45",
@@ -2602,7 +2602,7 @@
         "commons-logging:commons-logging:1.2",
         "commons-collections:commons-collections:3.2.2",
         "net.neoforged.installertools:jarsplitter:2.1.2",
-        "net.neoforged:neoforge:21.1.267:universal"
+        "net.neoforged:neoforge:21.1.268:universal"
       ],
       "minecraftArguments": {
         "--username": "${auth_player_name}",
@@ -2614,7 +2614,7 @@
         "--accessToken": "${auth_access_token}",
         "--userType": "${user_type}",
         "--versionType": "${version_type}",
-        "--fml.neoForgeVersion": "21.1.267",
+        "--fml.neoForgeVersion": "21.1.268",
         "--fml.fmlVersion": "4.0.45",
         "--fml.mcVersion": "1.21.1",
         "--fml.neoFormVersion": "20240808.144430",
